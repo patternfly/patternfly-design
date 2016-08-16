@@ -4,15 +4,15 @@
 ![Image of standard heat map](heat-map-callout.png)
 
 1. **Block:**
-* Each block is a square that represents an object in the a data set.  
-* All blocks should be the same size. The size of blocks are based on the number of blocks in the heat map.
-* Blocks are ordered by the attribute status. The object whose attribute is at the highest percentage will be placed in the top-left corner of the map. The remaining object blocks are presented in a descending order (from top-bottom, left-right) by order of percentage.
-* The user should be able to click on a block in the heat map to get more detailed information about the object.  Design alternatives will be added in a future version of this pattern.
+  * Each block is a square that represents an object in the a data set.  
+  * All blocks should be the same size. The size of blocks are based on the number of blocks in the heat map.
+  * Blocks are ordered by the attribute status. The object whose attribute is at the highest percentage will be placed in the top-left corner of the map. The remaining object blocks are presented in a descending order (from top-bottom, left-right) by order of percentage.
+  * The user should be able to click on a block in the heat map to get more detailed information about the object.  Design alternatives will be added in a future version of this pattern.
 
 2. **Block Fill:** (optional)**:** Choose a fill color that best reflects the attribute being represented.
-* Colors should be based on the PatternFly [color palette](https://www.patternfly.org/styles/color-palette/)
-* Colors ranges should be relevant to a particular attribute. 			
-* Status thresholds can be represented by the following colors:			
+  * Colors should be based on the PatternFly [color palette](https://www.patternfly.org/styles/color-palette/)
+  * Colors ranges should be relevant to a particular attribute. 			
+  * Status thresholds can be represented by the following colors:			
   * Critical range: Red (#CC0000)		
   * Warning range: Orange (#EC7A08)		
   * Trending to Warning: Yellow (#F9D67A)			
