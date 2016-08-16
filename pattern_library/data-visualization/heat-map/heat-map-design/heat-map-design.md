@@ -1,7 +1,11 @@
 #Heat Map
 
 ##Standard Heat Map
+<<<<<<< HEAD
 ![Image of standard heat map](heat-map-callout1.png)
+=======
+![Image of standard heat map](card1.png)
+>>>>>>> eaa4e1f... heat map docs
 
 1. **Block:**
 * Each block is a square that represents an object in the a data set.  
