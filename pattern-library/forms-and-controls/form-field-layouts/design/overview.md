@@ -20,8 +20,8 @@ A consistent left edge, along with close proximity of label and input, offers ea
 ![Top Aligned Labels Viewport Recommendations](top-aligned-viewport.png)
 
 * Desktop
-⋅⋅* Full screen (content, detail views)
-⋅⋅* Short dialogs & wizard screens (not too tall)
+..* Full screen (content, detail views)
+..* Short dialogs & wizard screens (not too tall)
 
 ### Pros
 * Offers the most horizontal area for long labels, relative to the other options. 
