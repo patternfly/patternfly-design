@@ -20,8 +20,8 @@ A consistent left edge, along with close proximity of label and input, offers ea
 ![Top Aligned Labels Viewport Recommendations](top-aligned-viewport.png)
 
 * Desktop
-..* Full screen (content, detail views)
-..* Short dialogs & wizard screens (not too tall)
+  * Full screen (content, detail views)
+  * Short dialogs & wizard screens (not too tall)
 
 ### Pros
 * Offers the most horizontal area for long labels, relative to the other options. 
@@ -45,12 +45,12 @@ The ragged left edge makes scanning for context difficult, although the proximit
 ![Right Aligned Labels Viewport Recommendations](right-aligned-viewport.png)
 
 * Desktop
-..* Suitable for modal dialogues and wizards.
-..* Full screen views: Ensure that there is sufficient margin to the left of the form labels to accommodate most labels. 
+  * Suitable for modal dialogues and wizards.
+  * Full screen views: Ensure that there is sufficient margin to the left of the form labels to accommodate most labels. 
 * Tablet
-..* Ensure that there is sufficient margin to the left of the form labels to accommodate most labels.  
+  * Ensure that there is sufficient margin to the left of the form labels to accommodate most labels.  
 * Mobile
-..* To accommodate mobile viewports, right-aligned labels should be responsive by adjusting to a top-aligned layout. 
+  * To accommodate mobile viewports, right-aligned labels should be responsive by adjusting to a top-aligned layout. 
 
 ### Pros 
 * Good for layouts with more horizontal space than vertical. 
@@ -79,10 +79,10 @@ The strong vertical edge helps users to scan for context, although the distance 
 ![Right Aligned Labels Viewport Recommendations](right-aligned-viewport.png)
 
 * Desktop
-..* Preferable for modals and wizards.
-..* Full screen views: User needs to be able to make the visual connection between the label and the input; ensure that there isn’t too much space between these elements.
+  * Preferable for modals and wizards.
+  * Full screen views: User needs to be able to make the visual connection between the label and the input; ensure that there isn’t too much space between these elements.
 * Mobile
-..* To accommodate mobile viewports, left-aligned labels should be responsive by adjusting to a top-aligned layout. 
+  * To accommodate mobile viewports, left-aligned labels should be responsive by adjusting to a top-aligned layout. 
 
 ### Pros 
 * Distance between labels and inputs might slow users down. Good for unfamiliar content or forms in which well considered responses are necessary. 
