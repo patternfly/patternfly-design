@@ -26,6 +26,6 @@ It is recommended that an inline notification get presented, at the top of the m
 * The notification message should describe the error(s) and offer guidance for resolution. It might also include a count of the number of error(s). A total count is useful for long forms where individual field errors might be outside of the user’s current view. 
 * Once form errors are resolved and submitted, the inline (error) notification should be replaced with a confirmation message. 
 
-See [inline notifications](https://www.patternfly.org/widgets/#progress)for more information.
+See [inline notifications](https://www.patternfly.org/widgets/#progress) for more information.
 
 
