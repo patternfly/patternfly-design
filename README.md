@@ -10,6 +10,6 @@ Designing with Git
 
 We understand that many designers may not be familiar with Git, and so have prepared a set of instructions that outline a workflow using the Git GUI tool [SourceTree](http://www.sourcetreeapp.com). This tool is not necessary to contribute, but we feel that it provides a good starting point for beginners, and is robust enough to be useful for more advanced use-cases as well.
 
-#### [First time setup](documentation/setup.md)
+#### [First time setup](https://github.com/patternfly/patternfly-design/wiki/Git-Setup)
 
-#### [Contribution workflow](documentation/contribution.md)
+#### [Contribution workflow](https://github.com/patternfly/patternfly-design/wiki/Contribution-Workflow)

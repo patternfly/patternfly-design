@@ -1,7 +1,7 @@
 # Timeline
 
 ## Timeline
-![Image of standard timeline](timeline-callout.png)
+![Image of standard timeline](img/timeline-callout.png)
 
 1. **Horizontal Axis Labels**: The horizontal axis labels display time
 1. **Vertical Axis Labels**: The vertical axes labels represent the event type being displayed in that row.  The label can optionally include the total number of event indicators in the specified timeline.
@@ -29,6 +29,6 @@
 
 
 ## Timeline Hover
-![Image of timeline hover](timeline-hover.png)
+![Image of timeline hover](img/timeline-hover.png)
 
 1. **Tooltip**: Tooltips should include the event type, name of the object as well as the date and time the event occurred.

@@ -9,4 +9,4 @@ The most common use case for a timeline is to show a timeline of events associat
 ## Examples
 
 ### Timeline
-![Image of card title](timeline.png)
+![Image of card title](img/timeline.png)
