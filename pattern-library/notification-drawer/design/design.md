@@ -1,12 +1,12 @@
-#Notification Drawer
+# Notification Drawer
 
-##Toast Notification
-![Image of standard Toast Notification](toast.png)
+## Toast Notification
+![Image of standard Toast Notification](img/toast.png)
 
 1. **Toast Notification:** The drawer should utilize the current [Toast Notification](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/api). The notification shows the title and an optional content-relevant icon.
 
-##Notification Drawer
-![Image of standard Notification Drawer](tray.png)
+## Notification Drawer
+![Image of standard Notification Drawer](img/tray.png)
 
 1. **Icon:** Displays visual differentiator when new or unread notifications are present. Clicking on the icon will slide out a drawer and dismiss the toast notification. Clicking on the icon again will close the drawer.
 2. **Drawer Title:** Title of Drawer.
@@ -18,14 +18,14 @@
 8. **Row Actions:** Clicking on the [Kabob](https://www.patternfly.org/pattern-library/widgets/#kebabs) menu will reveal a drop down containing actions for that item.
 9. **Infinite Scroll:** Infinite scroll reduces need to identify time range on accordion tab. Allows for free-range historical search of notifications.
 
-##Expand Behavior (optional)
+## Expand Behavior (optional)
 The notification drawer has the ability to expand in order to view additional details regarding an event. The expand drawer functionality is optional. Use of this feature will depend on the amount of information available.
 
 1. **Collapsed Drawer:** The expand icon is in the top left corner of the notification drawer and is shown as a link to expand the drawer.
 2. **Expanded Drawer:** Individual rows may include additional information when in the expanded state. The collapse icon is in the top left corner of the notification drawer and is shown as a link. All other notification drawer features should remain the same as the collapsed view.
 
-###Collapsed Drawer
-![Image of Collapsed Notification Drawer](collapsed.png)
+### Collapsed Drawer
+![Image of Collapsed Notification Drawer](img/collapsed.png)
 
-###Expanded Drawer
-![Image of Expanded Notification Drawer](expanded.png)
+### Expanded Drawer
+![Image of Expanded Notification Drawer](img/expanded.png)
