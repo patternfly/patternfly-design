@@ -13,3 +13,5 @@ We understand that many designers may not be familiar with Git, and so have prep
 #### [First time setup](https://github.com/patternfly/patternfly-design/wiki/Git-Setup)
 
 #### [Contribution workflow](https://github.com/patternfly/patternfly-design/wiki/Contribution-Workflow)
+
+#### [Working with multiple branches](https://github.com/patternfly/patternfly-design/wiki/Multiple-Branches)
