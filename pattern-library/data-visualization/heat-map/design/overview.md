@@ -1,6 +1,6 @@
-#Heat Map
+# Heat Map
 
-##Overview
+## Overview
 
 A heat map is a visualization of objects as blocks in a grid. The blocks are colored to represent an attribute of the object, such as utilization rate. Using color allows the user to quickly access high level information for each object.  
 
@@ -12,10 +12,10 @@ The most common use case for a heat map are:
 * Users need to quickly assess the utilization rate of objects in a data set. Colored blocks, indicating utilization percentages, provide "at a glance" status which aids in troubleshooting.
 * Users need to scan the status of each object in a data set.
 
-##Examples
+## Examples
 
-###Heat Map
+### Heat Map
 ![Image of card title](img/heat-map.png)
 
-###Heat Map Variations
+### Heat Map Variations
 ![Image of card title](img/heat-map-hover.png)
