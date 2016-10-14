@@ -1,4 +1,4 @@
-It is recommended to use horizontal navigation when you want to provide access to global navigation of an application at the top of every page. This horizontal navigation pattern will support up to three levels of navigation.
+It is recommended to use horizontal navigation when you want to provide access to global navigation of an application at the top of every page. When using this pattern with the [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/api), it is recommended to use the sticky horizontal navigation so that the navigation and notification drawer stick to the top of the page on scroll. This horizontal navigation pattern will support up to three levels of navigation.
 
 The top level (primary) navigation should always be exposed. Secondary and tertiary levels can either be persistent or hidden within drop-down menus. The latter provides less visibility to lower-level categories but saves vertical screen space.
 
