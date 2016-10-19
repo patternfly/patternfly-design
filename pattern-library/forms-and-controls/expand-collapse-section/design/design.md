@@ -1,4 +1,4 @@
-# Collapse/Expand Section (Advanced Options)
+# Expand/Collapse Section
 
 ## Collapsed Section
 ![Image of collapsed section](img/advancedoptions_example1.png)

@@ -1,4 +1,4 @@
-# Collapse/Expand Section (Advanced Options)
+# Expand/Collapse Section
 
 ## Overview
 
