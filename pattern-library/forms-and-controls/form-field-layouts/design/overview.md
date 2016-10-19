@@ -7,7 +7,7 @@ Users enter data into form field inputs. Labels are always provided for input fi
 ## Top Aligned Labels
 A consistent left edge, along with close proximity of label and input, offers ease of use for both scanning and form completion. The possible disadvantage to this layout is the vertical screen real estate it requires.
 
-![Top Aligned Labels](img/top-aligned-label.png)
+![Top Aligned Labels](img/top-aligned-labels.png)
 
 ### Use Cases
 * The ability to complete the form quickly is a high priority.
@@ -17,7 +17,7 @@ A consistent left edge, along with close proximity of label and input, offers ea
 * Only a few form fields need to be presented.
 
 ### Ideal for the Following Viewports
-![Top Aligned Labels Viewport Recommendations](top-aligned-viewport.png)
+![Top Aligned Labels Viewport Recommendations](img/top-aligned-viewport.png)
 
 * Desktop
   * Full screen (content, detail views)
@@ -42,7 +42,7 @@ The ragged left edge makes scanning for context difficult, although the proximit
 * Completing the form quickly is a priority, but using the “top-aligned” format is not a viable solution.
 
 ### Ideal for the Following Viewports
-![Right Aligned Labels Viewport Recommendations](right-aligned-viewport.png)
+![Right Aligned Labels Viewport Recommendations](img/right-aligned-viewport.png)
 
 * Desktop
   * Suitable for modal dialogues and wizards.
@@ -76,7 +76,7 @@ The strong vertical edge helps users to scan for context, although the distance 
 * It’s more important that the user pay close attention to the form material, rather than completing it quickly.
 
 ### Ideal for the Following Viewports
-![Right Aligned Labels Viewport Recommendations](right-aligned-viewport.png)
+![Right Aligned Labels Viewport Recommendations](img/right-aligned-viewport.png)
 
 * Desktop
   * Preferable for modals and wizards.

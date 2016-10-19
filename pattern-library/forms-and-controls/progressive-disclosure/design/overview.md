@@ -1,4 +1,4 @@
-# Conditional Hidden Fields Based on User Selection
+# Progressive Disclosure
 
 ## Overview
 
@@ -6,13 +6,14 @@ This pattern uses progressive disclosure to hide and show fields based on a part
 
 ## Description
 
-The pattern addresses three examples of conditional fields:
+The pattern includes three examples:
 
-1. [Single level conditional fields](#single_level)
+* [Single Level](#single_level)
 
-1. [Conditional fields with drop-down menu](#drop_down)
+* [Multi Level](#multi_level)
 
-1. [Multi level conditional fields](#multi_level)
+* [Drop-down Menu](#drop_down)
+
 
 ## Examples
 
