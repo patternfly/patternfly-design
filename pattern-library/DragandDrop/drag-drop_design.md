@@ -5,7 +5,7 @@
 ![Image of Drag and Drop in a Vertical List](vertical_list.png)
 
 1. **Handle Icon:**
-  * When a user hovers over a row or selects a row, the handle icon should appear and match the visual style.
+  * When a user hovers over a row or selects a row, the handle icon should appear.
   * The icon placement is to the far left of the row. If checkboxes are being used for multi-select, the handle icon should be to the left of the checkboxes.
 
 2. **Cursor Change:**
@@ -17,7 +17,7 @@
   * When an item is being moved, the order numbers should not change to reflect the move until the item has been successfully dropped in a new location.
 
 4. **Toolbar:**
-  * When a PatternFly toolbar (some combination of filter, sort, find, views and action buttons) is being used, it should not include sorting.
+  * When a PatternFly [Toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/#_) (some combination of filter, sort, find, views and action buttons) is being used, it should not include sorting.
   * Users will sort manually with the drag and drop functionality.
 
 
@@ -50,12 +50,12 @@
   * Multiple rows can be selected in order by holding the shift key and selecting.
   * Multiple rows can be selected out of order by holding the ctrl key and selecting.
   * For MacOS, multiple rows can be selected out of order by holding the command key instead.
-* **Drag initiated:**  The item being dragged should “pop up” and be shown in focus with a larger hole left behind. The hole should be visually indicated.
+* **Drag initiated:**  The item being dragged should “pop up” and be shown in focus with a larger slot left behind. The slot should be visually indicated.
   * If more than one item is being moved at once, a tool tip should indicate the number of items being moved.
-* **Hover over accepted target:** The closed fist cursor should move with the item as it is dragged and the empty grey hole should move to indicate where the item will be placed when dropped.
-* **Hover over denied target:** An icon should appear next to the cursor to signify an invalid drop target and the empty grey hole should remain at the original location where the item was selected.
-* **Drop over accepted target:** The item should replace the grey hole and if part of a sequence, the order numbers should change to reflect the new order of items.
-  * If dragging multiple items, the items will be placed consecutively where the hole was indicated.
+* **Hover over accepted target:** The closed fist cursor should move with the item as it is dragged and the empty grey slot should move to indicate where the item will be placed when dropped.
+* **Hover over denied target:** An icon should appear next to the cursor to signify an invalid drop target and the empty grey slot should remain at the original location where the item was selected.
+* **Drop over accepted target:** The item should occupy the slot and if part of a sequence, the order numbers should change to reflect the new order of items.
+  * If dragging multiple items, the items will be placed consecutively where the slot was indicated.
 * **Drop over denied target:** The item should be returned to its original location.
 
 
