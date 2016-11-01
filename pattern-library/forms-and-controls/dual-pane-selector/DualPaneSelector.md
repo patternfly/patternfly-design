@@ -68,6 +68,7 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ## Deep thoughts in Liz's Corner
 ![Default State](oneclick.png)
+
 1. **One-Click Move**
   - Upon hover a right or left arrow appears along with the highlight.
   - Clicking the arrow moves it to the corresponding pane.
