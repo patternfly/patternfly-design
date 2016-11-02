@@ -1,6 +1,6 @@
 # Dual Pane Selector
 
-Dual Pane Selectors allow users to visually compare available and selected items and move items between those states.  They are best used when more than 30 items appear in a list or if there is a specific applicable use case. Lists under 30 items should consider using the [Bootstrap Multiple Select widget](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select).
+Dual Pane Selectors allow users to visually compare available and selected items and move items between those states.  They are best used when more than 30 items appear in a list, a many to many data model is needed or if there is a specific applicable use case. Lists under 30 items should consider using the [Bootstrap Multiple Select widget](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select).
 
 ## Default State
 ![Selecting Items](1.png)
@@ -37,7 +37,7 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ![Selecting Items](2.png)
 ![Select All](3.png)
-
+![Select All](4.png)
 1. **Hover Highlight**
   - Standard highlight should exist on hover.
 
@@ -54,14 +54,14 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 
 ## Bulk Moving
-![Select All](4.png)
+![Empty State](5.png)
 
 1. **Select All**
   - When Select All is clicked, all items are highlighted following the above highlight and move rules.
   - Clicking the box again will deselect all.
 
 ## Empty State on Selection Pane
-![Empty State](5.png)
+![Empty State](6.png)
 
 1. **Initial Pane is Empty**
   - When all items are selected and removed from the first state pane an Empty State message should be shown letting the users know there are no other items available for selection.
