@@ -39,6 +39,6 @@ In an effort to bring further consistency to button interaction patterns we are 
   1. Buttons within a modal:
    - Refer to the [Modal Widget](https://www.patternfly.org/pattern-library/widgets/#modal) and the guidelines above when formatting buttons in a modal.
   1. Buttons within a wizard:
-  - Refer to the [Wizard Pattern](https://www.patternfly.org/pattern-library/communication/wizard/#/_design) and the guidelines above when formatting buttons in a wizard.
+   - Refer to the [Wizard Pattern](https://www.patternfly.org/pattern-library/communication/wizard/#/_design) and the guidelines above when formatting buttons in a wizard.
   1. Buttons within a form:
-  - Refer to the [Form Pattern](https://www.patternfly.org/pattern-library/forms-and-controls/forms/#_) and the guidelines above when formatting buttons in a form.
+   - Refer to the [Form Pattern](https://www.patternfly.org/pattern-library/forms-and-controls/forms/#_) and the guidelines above when formatting buttons in a form.
