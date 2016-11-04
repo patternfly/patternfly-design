@@ -7,7 +7,7 @@ The Notification Drawer is a content delivery system such as events, tasks, and 
 Jump to [Vertical Navigation](https://www.patternfly.org/pattern-library/communication/notification-drawer/#/example-overview-1) or [Horizontal Navigation](https://www.patternfly.org/pattern-library/communication/notification-drawer/#/example-overview-2).
 
 ## Vertical Navigation
-![Image of Vertical Nav Notification Drawer](img/Patternfly-ToastNotification-Tray-06-11-2016.jpg)
+![Image of Vertical Nav Notification Drawer](img/notification-drawer-example.jpg)
 
 ## Horizontal Navigation
-![Image of Horizontal Nav Notification Drawer](img/Patternfly-ToastNotification-Tray-Horizontal.jpg)
+![Image of Horizontal Nav Notification Drawer](img/notification-drawer-example-horizontal.jpg)
