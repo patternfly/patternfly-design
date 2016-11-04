@@ -1,10 +1,10 @@
 # Truncation
 
-##### Instances where text might need to be truncated:
+##### Instances where text might need to be truncated.
 
   1. Whenever the string overflows the container and you don't want the text to overflow to multiples lines. A few examples include:
-  	a. Page titles that show object/host names
-    b. Table or list view cells that contain long strings or lots of data and that have some method to view the full text
+    1. Page titles that show object/host names
+    1. Table or list view cells that contain long strings or lots of data and that have some method to view the full text
 
 ##### Whether to design for truncating strings at the beginning, end, or in the middle requires a bit of research.
 
@@ -17,7 +17,7 @@
   2. In any container holding a string, if there is not sufficient room for the full spelling or hyphenation of a word, abbreviate the text according to the English abbreviation rules [actually, should be according to our rules too].  Do not truncate text in column headings.
   3. Indicate truncated text with an ellipsis (…).  If the text is part of a link, the ellipsis should be part of the link as well.
   4. Leave no fewer than 4 characters when truncating text, and preferably leave enough characters to give a fair idea of what the string says.  For example, don't truncate demo1.internal-el6.satellite to de...
-  5. Ensure that there is at least one method for the user to view the entire string.  Options include: tooltips (useful for less than 150 characters or so), expanding rows, overlays, others?
-  6. For UI text (as opposed to user-generated text), ensure that the truncation does not make an awkward word (i.e. "associate" truncating to "ass...")
+  5. Ensure that there is at least one method for the user to view the entire string.  We recommend the use of a [toolip](https://www.patternfly.org/pattern-library/widgets/#tooltip) (useful for less than 150 characters or so), but other options include: expanding rows and overlays.
+  6. For UI text (as opposed to user-generated text), keep in mind that some truncation could cause awkward words (i.e. "associate" truncating to "ass...") Attempt to avoid these scenarios, if possible.
   7. If possible, ensure that truncation does not happen after punctuation, because then it is difficult to differentiate which is the ellipsis and which is part of the name.  For example, don't truncate demo1.internal-el6.satellite to demo1….
   8. If a table column is resizable, the truncated text should adjust accordingly, and continue to follow the preceding guidelines.
