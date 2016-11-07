@@ -1,20 +1,6 @@
-## Default Horizontal Masthead Design
+## Masthead Design
 
-![Masthead Horizontal Annotations](img/masthead-horizontal_annotations.png)
-
-The Default Horizontal Masthead Design is the recommended masthead for apps utilizing horizontal navigation.
-
-1. **Logo Area**: The logo area contains the application product name image file, in the form of a sized SVG graphic
-
-## Horizontal Masthead Design Variation
-
-![Masthead Horizontal Variation Annotations](img/masthead-horizontalvariation-annotations.png)
-
-If your app requires additional branding within the Masthead, use the Horizontal Masthead variation. This allows the use of an icon within the Masthead.
-
-1. **Additional Branding**: If using an icon, it must be the product icon
-2. **Logo Area**: The logo area contains the application product name image file, in the form of a sized SVG graphic
-
+There are two options for the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) design, one short option to save space and one tall option to accommodate for larger product logos. The short masthead option is recommended when using horizontal navigation.
 
 ## Single-Level Menu Bar
 

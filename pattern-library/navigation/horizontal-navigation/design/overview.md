@@ -10,17 +10,7 @@ Consider using [vertical navigation](http://www.patternfly.org/pattern-library/n
 
 Jump to [Masthead Design](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-1), [Standard Horizontal Navigation](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-2), or [Navbar Variations](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-3)
 
-## Masthead Design
-
-For horizontal navigation, we recommend the masthead design be small in height to reduce vertical real estate, accommodating for the navigation. The logo area is in the left corner and contains the application product name image file, in the form of a sized SVG graphic. However, if additional rebranding capabilities are desired, there is an option for a taller masthead which will include a product logo.
-
-### Option 1
-![Masthead Horizontal](img/masthead-horizontal.png)
-
-### Option 2
-![Masthead Horizontal Variation](img/masthead-horizontalvariation.png)
-
-Standard Horizontal Navigation
+## Standard Horizontal Navigation
 ![Standard Horizontal Navigation](img/standard-horizontal navigation.png)
 
 [View full page example](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/horizontal-navigation.html)
