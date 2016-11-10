@@ -2,7 +2,7 @@
 
 ##Vertical Lists
 
-![Image of Drag and Drop in a Vertical List](vertical_list.png)
+![Image of Drag and Drop in a Vertical List](img/vertical_list.png)
 
 1. **Handle Icon:**
   * When a user hovers over a row or selects a row, the handle icon should appear.
@@ -25,7 +25,7 @@
 
 ##Horizontal Lists
 
-  ![Image of Drag and Drop in a Horizontal List](horizontal_list.png)
+  ![Image of Drag and Drop in a Horizontal List](img/horizontal_list.png)
 
 1. **Handle Icon:**
   * The handle icon should not be used when applying drag and drop to horizontal lists, card views, or dashboards.
@@ -40,7 +40,7 @@
 
 ##Drag and Drop Interactions
 
-  ![Image of Drag and Drop Example](interactions.png)
+  ![Image of Drag and Drop Example](img/interactions.png)
 
 * **Hover:** When a user hovers over the draggable area of an item, the cursor changes to an open hand.  
 * **Click:** When a user clicks and holds to drag an item, the cursor changes to a closed fist and the item selection is visually indicated.
