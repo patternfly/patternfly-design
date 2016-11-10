@@ -1,7 +1,9 @@
 # List View
 
 ## Standard List View
+
 ![List view](img/list-view-callout.png)
+
 1. **Data Toolbar:** The Data Toolbar pattern may include filter, sort, actions, find and change view type.
 1. **Row:**
   - If drill down behavior is supported, clicking on an item will link to the appropriate page.
