@@ -7,9 +7,11 @@ There are two options for the masthead design, one short option to save space an
 ## Short Option
 ![Image of short masthead](img/masthead_02.png)
 
+The short design is recommended when using [Horizontal Navigation](https://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#_) in order to reduce the vertical real estate. The hamburger menu should only be visible in the top left corner when the primary navigation is no longer visible with smaller viewport sizes.
+
 ## Tall Option
 ![Image of tall masthead](img/masthead_01.png)
 
-For [Horizontal Navigation](https://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#_), we recommend the shorter design to reduce vertical real estate, accommodating for the navigation. However, if additional rebranding capabilities are desired, there is an option for a taller masthead which will include a product logo.
+The tall design is recommended when using [Vertical Navigation](https://www.patternfly.org/pattern-library/navigation/vertical-navigation/#_). The hamburger menu should always be visible in the top left corner in this case.
 
-For [Vertical Navigation](https://www.patternfly.org/pattern-library/navigation/vertical-navigation/#_), we recommend the taller design, with the hamburger menu always visible in the top left corner.
+The tall design should always be used when rebranding capabilities are desired, regardless of the navigation type.
