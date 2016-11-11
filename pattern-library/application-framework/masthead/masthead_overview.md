@@ -1,7 +1,6 @@
 # Masthead
 
 ## Overview
-
 There are two options for the masthead design, one short option to save space and one tall option to accommodate for larger product logos. The order of information remains consistent regardless of whether you are using the tall or the short masthead design.
 
 ## Short Option
