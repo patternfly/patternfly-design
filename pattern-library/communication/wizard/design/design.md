@@ -29,7 +29,7 @@ In the example above, the back button is disabled since this shows the first sub
 
 1. **Main Steps:** The last step in the wizard can be a Review step that shows a summary of the information selected and/or set in the previous steps of the wizard. A Review step is optional but can provide a place to show a summary of the settings the user has gone through. Exact wording of the step and sub-steps can change depending on what makes sense for the particular task. Review along with Summary and Progress are only suggestions.
 1. **Completion Button:** Once all required information has been provided, the Next button becomes the Completion button with wording that makes sense for the particular task. For wizards that do not remain open while the particular task is being processed, the Completion button would close the wizard. On the last step of the wizard, there is no Next button.
-Progress Indicator: If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and Completion buttons should be disabled. The Cancel button can be enabled if cancelling the process is supported by the wizard.
+1. **Progress Indicator:** If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and Completion buttons should be disabled. The Cancel button can be enabled if cancelling the process is supported by the wizard.
 
 ## Completion Page
 
