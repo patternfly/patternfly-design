@@ -16,15 +16,38 @@
 1. **Filtering** (optional): User can see results of simple filters here. Results include the item and results count, list of active filters (with ability to remove individual filters), and button to clear all filters.
 1. **Bulk Item Actions:** Bulk item action buttons are activated when multiple rows are selected. Some actions are available as both a table action and a bulk item action. The number of rows selected is shown near the table action buttons.
 
-  ## Empty State
+## Empty State
 
-  ![Table view empty state](img/empty-state-callout.png)
+![Table view empty state](img/empty-state-callout.png)
 
 1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
 
+## Pagination - Select All
+
+![paginationselect all](img/pagination_design.png)
+
+1. **Single/Multi Select:**  you can still select all items within a single page by selecting the checkbox in the column headers.
+
+2. **Selection Info:**  will stay persistent in the top right, whether there are none or all items selected.  User always has the ability to select all items within table.
+
+3. **Footer:**  includes pagination elements/controls. This includes a place to modify number of items shown per page.
+
+4. **Item Number:**  area showing number of items being shown on a given page out of total number of items within table.
+
+5. **Page Selection:**  user can also jump to a specific page as well is jump to first, previous, next and last page in table.
+
+## Pagination - Clear All
+
+![paginationclearall](img/pagination_design2.png)
+
+1. When any or all items are selected, user can clear selection.
+
+## Scrolling
+
+If using a scroll bar within data tables, it must be located in between the header and the footer.  The footer will also remain sticky.
+
 ## What’s not covered in the current design but will be covered in future sprints:
 
-- Pagination
 - Column customization
 - Simple Sort
 - Ability to expand and collapse rows to give user the option to view more details on each item
