@@ -6,7 +6,12 @@ Jump to [Examples](https://www.patternfly.org/pattern-library/communication/inli
 
 ## Examples
 
+![Inline Notification examples](img/inline-notifications-html.png)
+
 ## Variations
 
+![Inline Notification variation examples](img/inline-notifications-html2.png)
+
 ## In Context
+
 ![Inline Notification below a primary navigation bar](img/inline-notifications-context.png)
