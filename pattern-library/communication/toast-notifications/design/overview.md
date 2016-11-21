@@ -8,7 +8,12 @@ Jump to [Examples](https://www.patternfly.org/pattern-library/communication/toas
 
 ## Examples
 
+![Toast notification](img/toast-html.png)
+
 ## With Max-Width
 
+![Toast notification with max width set](img/toast-html2.png)
+
 ## In Context
+
 ![Toast notification in context](img/example-toast.png)
