@@ -34,6 +34,6 @@ The masthead contains the following items from left to right:
   In smaller viewport sizes, the hamburger menu should list all primary navigation items, followed by all items from the masthead. Masthead items should be listed based on their order in the masthead from left to right. For instance, based on the example images, the hamburger menu would be the following from top to bottom: Category 1, Category 2, Category 3, Shopping Cart, Notifications, Help, User. Any masthead options that have a dropdown should be displayed consistently with standard secondary navigation items.
 
 * **Masthead Icons:**
-  The expand caret should be visible to the right side of any icon that has multiple options displayed in a menu. For cases where clicking the icon will launch an action directly (for example, the notification drawer), the carrot should not be used.
+  The expand caret should be visible to the right side of any icon that has multiple options displayed in a menu. For cases where clicking the icon will launch an action directly (for example, the notification drawer), the caret should not be used. It should be visually indicated when a user hovers or selects an icon from the Masthead.  
 
 ![Image of masthead with dropdown options](img/masthead_dropdowns.png)
