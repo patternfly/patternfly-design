@@ -15,4 +15,8 @@
 
   * From the [Login Page](https://www.patternfly.org/pattern-library/application-framework/login-page/#_), a label reading "Language" should sit to the left of a standard [Combobox](https://www.patternfly.org/pattern-library/widgets/#bootstrap-combobox) for the language selection.
 
-  ![Language Selector on Login Page](img/v2_language_1.png)
+  ![Language Selector on Login Page](img/language_05.png)
+
+  * The visual treatment of the Language Selector displayed on the Login Page should be consistent with the selector displayed under the Masthead dropdown.
+
+  ![Language Selector Combobox](img/v2_language_1.png)
