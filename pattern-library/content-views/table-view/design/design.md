@@ -26,15 +26,11 @@
 
 ![paginationselect all](img/pagination_design.png)
 
-1. **Single/Multi Select:**  you can still select all items within a single page by selecting the checkbox in the column headers.
-
-2. **Selection Info:**  will stay persistent in the top right, whether there are none or all items selected.  User always has the ability to select all items within table.
-
-3. **Footer:**  includes pagination elements/controls. This includes a place to modify number of items shown per page.
-
-4. **Item Number:**  area showing number of items being shown on a given page out of total number of items within table.
-
-5. **Page Selection:**  user can also jump to a specific page as well is jump to first, previous, next and last page in table.
+1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
+2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
+3. **Footer:**  The footer has pagination elements and controls including a place to modify number of items shown per page (*optional*)
+4. **Item Number:**  This area shows the number of items on the page out of the total number of item in the entire table.
+5. **Page Selection:**  You can jump to a specific page or jump to the first, pervious, next or last page of the table.
 
 ## Pagination - Clear All
 
@@ -42,9 +38,6 @@
 
 1. When any or all items are selected, user can clear selection.
 
-## Scrolling
-
-If using a scroll bar within data tables, it must be located in between the header and the footer.  The footer will also remain sticky.
 
 ## What’s not covered in the current design but will be covered in future sprints:
 
@@ -53,3 +46,4 @@ If using a scroll bar within data tables, it must be located in between the head
 - Ability to expand and collapse rows to give user the option to view more details on each item
 - Multi Column Sort
 - Stick Column Headers
+- Mobile Design
