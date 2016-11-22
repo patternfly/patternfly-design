@@ -28,7 +28,7 @@
 
 1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
 2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
-3. **Footer:**  The footer has pagination elements and controls including a place to modify number of items shown per page (*optional*)
+3. **Footer** (optional):  The footer has pagination elements and controls including a place to modify number of items shown per page 
 4. **Item Number:**  This area shows the number of items on the page out of the total number of item in the entire table.
 5. **Page Selection:**  You can jump to a specific page or jump to the first, pervious, next or last page of the table.
 
