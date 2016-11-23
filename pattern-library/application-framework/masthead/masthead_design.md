@@ -6,12 +6,12 @@ While there are two options for the masthead design, the order of information re
 
 The masthead contains the following items from left to right:
   1. **Hamburger Menu:** The hamburger icon acts as a way for the user to open and close the vertical navigation panel. When using vertical navigation, we recommend always having the hamburger icon visible. When using horizontal navigation, the hamburger menu is only required on mobile devices.
-  2. **Logo (optional):** When using the tall masthead design, there is space for a product logo to be placed to the left of the product title for additional branding.
+  2. **Logo** (optional): When using the tall masthead design, there is space for a product logo to be placed to the left of the product title for additional branding.
   3. **Application Title:** The logo area is in the left corner and contains the application product name image file, in the form of a sized SVG graphic.
-  4. **Product Specific Icons (optional):**
+  4. **Product Specific Icons** (optional):
     * Some product may have additional requirements for the masthead. For example, a shopping cart or a mechanism to switch/ launch additional applications.  
     * Any additional icons should be placed to the left of the user, help, and notifications icons.
-  5. **Notifications Icon (optional):**
+  5. **Notifications Icon** (optional):
     * If notifications or messages are being used, the bell icon should be placed to the left of the help icon. The bell icon is used for opening and closing the notification drawer. Jump to the [Notification Drawer](https://www.patternfly.org/pattern-library/communication/notification-drawer/#/api) pattern for additional details.
   6. **Help Icon:**
     * The pficon-help icon should always be placed directly to the left of the user icon.
