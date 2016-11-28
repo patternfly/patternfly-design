@@ -8,11 +8,11 @@ In-line Edit can be used in conjunction with a List View or a Table view to allo
 
 * Items can be added to the top of a list or a table by including an **Add** or **Create** action.  
 
-## In-Line Edit for List view
+## In-Line Edit for List View
 
 ![Image of List View](img/List_Edit_00.png)
 
-## In-Line Edit for Table view
+## In-Line Edit for Table View
 
 ![Image of List View](img/Table_00.png)
 
