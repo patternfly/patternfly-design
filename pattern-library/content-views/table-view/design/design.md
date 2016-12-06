@@ -3,7 +3,7 @@
 ## Table States
 ![Table with a single row selected](img/table-callout1.png)
 
-1. **Data Toolbar:** This version of the Table View is using a Data Toolbar with filter and actions. Item count is also included in the toolbar on the right hand side.
+1. **Toolbar:** This version of the Table View is using a ![Toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) with filter and actions. Item count is also included in the toolbar on the right hand side.
 1. **Sorting:** Organize data by sorting columns. All columns are sortable, simply click on the column header to sort via info found in that column.
   - Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
 1. **Select Row(s):** Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously.
