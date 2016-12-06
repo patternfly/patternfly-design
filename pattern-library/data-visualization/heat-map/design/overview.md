@@ -1,7 +1,5 @@
 # Heat Map
 
-## Overview
-
 A heat map is a visualization of objects as blocks in a grid. The blocks are colored to represent an attribute of the object, such as utilization rate. Using color allows the user to quickly access high level information for each object.  
 
 When heat map items become so small that they can no longer be meaningfully distinguished,  (differs by screen size/resolution) each section of tiny squares begins to act as a single unit grouped together by color. Hovering over a section displays a tooltip with a summary of the items in the section such as their count and which legend entry they represent.
