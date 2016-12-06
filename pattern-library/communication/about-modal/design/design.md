@@ -1,6 +1,5 @@
 # About Modal
 
-## Description
 
 ![About modal with callouts](img/about-modal-callouts.png)
 
