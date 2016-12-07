@@ -18,5 +18,5 @@ script:
 after_success:
   - ls -la
   - ./script/status.js
-  - ls -la
+  - tree publish
   - ./script/publish-ghpages.sh -t publish
