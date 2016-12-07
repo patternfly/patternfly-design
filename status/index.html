@@ -2,23 +2,44 @@
 <head>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly-additions.css">
+  <style>
+  .pf-design-table {
+    width: auto;margin: auto;
+  }
+  .pf-design-table__row {
+    text-align: center;
+  }
+  .pf-design-table__row--missing {
+    background-color: #ffe6e6;
+  }
+  .pf-design-table__icon {
+    vertical-align: middle;
+    line-height: 1.5;
+  }
+  .pf-design-table__icon--present {
+    color: #2d7623;
+  }
+  .pf-design-table__icon--missing {
+    color: #a30000;
+  }
+  </style>
 </head>
 <body>
-  <table class="table table-striped table-bordered">
+  <table class="table table-striped pf-design-table" >
       <tbody>
         <tr><th colspan="4"><h2>application-framework</h2></th></tr>
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>masthead</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -26,39 +47,39 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>design</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>discovery</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>usability-testing</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -66,51 +87,51 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>aggregate-status-card</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>trend-card</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>utilization-bar-card</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>utilization-trend-card</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -118,75 +139,75 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>about-modal</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>empty-state</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>inline-notifications</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>notification-drawer</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>toast-notifications</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>wizard</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -194,27 +215,27 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>card-view</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>table-view</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -222,15 +243,15 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>dashboard-layout</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -238,123 +259,123 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>area-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>bar-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>bullet-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>donut-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>heat-map</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>line-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>pie-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>sparkline</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>timeline</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>utilization-bar-chart</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -362,111 +383,111 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>date-picker</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>drag-and-drop</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>errors-and-validation</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>expand-collapse-section</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>form-field-layouts</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
           <tr>
             <td>inline-edit</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>input-controls</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>language-selector</td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
           <tr>
             <td>progressive-disclosure</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
           </tr>
       </tbody>
       <tbody>
@@ -474,15 +495,15 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
           <tr>
             <td>horizontal-navigation</td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="fa fa-check" style="color: #2d7623"></span>
-              </td>
-              <td>
-                  <span class="pficon pficon-close" style="color: #a30000"></span>
-              </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row">
+                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                </td>
+                <td class="pf-design-table__row pf-design-table__row--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
           </tr>
       </tbody>
   </table>
