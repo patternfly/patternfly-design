@@ -17,4 +17,4 @@ script:
   - './script/status.js'
 
 after_success:
-  - ./scripts/publish-ghpages.sh -t publish
+  - ./script/publish-ghpages.sh -t publish
