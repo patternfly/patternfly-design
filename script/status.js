@@ -62,11 +62,7 @@ readdir('pattern-library')
   })
 })
 .flatMap(function(html) {
-  return Rx.Observable.onErrorResumeNext(
-    mkdir('./publish'),
-    mkdir('./publish/status'),
-    writeFile('./publish/status/index.html', html)
-  )
+  return writeFile('./publish/status/index.html', html);
 })
 .subscribe(function() {
   console.log('Generated the status page');
