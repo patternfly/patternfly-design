@@ -8,6 +8,7 @@ var Rx = require('rx'),
     readdir = Rx.Observable.fromNodeCallback(fs.readdir),
     readFile = Rx.Observable.fromNodeCallback(fs.readFile),
     writeFile = Rx.Observable.fromNodeCallback(fs.writeFile),
+    mkdir = Rx.Observable.fromNodeCallback(fs.mkdir),
     exists = Rx.Observable.fromCallback(fs.exists),
     filesToCheck = Rx.Observable.from(['design/design.md', 'design/overview.md', 'site.md']);
 
@@ -61,7 +62,11 @@ readdir('pattern-library')
   })
 })
 .flatMap(function(html) {
-  return writeFile('./publish/status.html', html);
+  return Rx.Observable.onErrorResumeNext(
+    mkdir('./publish'),
+    mkdir('./publish/status'),
+    writeFile('./publish/status/index.html', html)
+  )
 })
 .subscribe(function() {
   // patternsToHtml(families)
