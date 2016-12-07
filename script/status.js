@@ -23,7 +23,7 @@ readdir('pattern-library')
   }
 })
 .flatMap(function(family) {
-  return readdir('pattern-library/'+family.name)
+  return readdir(path.join('pattern-library/', family.name))
   .flatMap(function(patternNames) {
     return patternNames;
   })
