@@ -13,7 +13,7 @@ before_install:
   - 'git checkout -B $TRAVIS_BRANCH' # Reconcile detached HEAD
 
 script:
-  - 'npm install'
+  - 'npm test'
 
 after_success:
   - mkdir -p publish/status
