@@ -69,17 +69,7 @@ readdir('pattern-library')
   )
 })
 .subscribe(function() {
-  // patternsToHtml(families)
+  console.log('Generated the status page');
 }, function(error) {
-  console.error(error.stack || error);
+  throw error;
 });
-
-// function patternsToHtml(families) {
-//   families.forEach(function(family) {
-//     family.patterns.forEach(function(pattern) {
-//       pattern.files.forEach(function(file) {
-//         console.log(family.name, pattern.name, file.name, file.exists);
-//       })
-//     })
-//   })
-// }
