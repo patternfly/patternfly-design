@@ -133,8 +133,8 @@ cloneSite () {
 }
 
 copySite () {
-  echo rsync -q -rav --delete --exclude .git ${SITE_FOLDER} github.io
-  rsync -q -rav --delete --exclude .git ${SITE_FOLDER}/ github.io/
+  echo rsync -rav --delete --exclude .git ${SITE_FOLDER} github.io
+  rsync -rav --delete --exclude .git ${SITE_FOLDER}/ github.io/
   if $BOWER_WEB_FILES_ONLY; then
     find ${SITE_FOLDER}/components -type f -not -regex ".*/.*\.\(html\|js\|css\|less\|otf\|eot\|svg\|ttf\|woff\|woff2\)" -print0 | xargs -0 rm
   fi
