@@ -16,5 +16,7 @@ script:
   - 'npm install'
 
 after_success:
+  - ls -la
   - ./script/status.js
+  - ls -la
   - ./script/publish-ghpages.sh -t publish
