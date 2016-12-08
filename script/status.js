@@ -11,6 +11,14 @@ var Rx = require('rx'),
     mkdir = Rx.Observable.fromNodeCallback(fs.mkdir),
     exists = Rx.Observable.fromCallback(fs.exists);
 
+handlebars.registerHelper('eachInMap', function ( map, block ) {
+  var out = '';
+  Array.from(map.keys()).map(function(key) {
+    out += block.fn({key: key, value: map.get(key)});
+  });
+  return out;
+} );
+
 patternWalk.observable
 .toArray()
 .flatMap(function(families) {
