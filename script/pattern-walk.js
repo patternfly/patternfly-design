@@ -6,6 +6,7 @@ var Rx = require('rx'),
     path = require('path'),
     readdir = Rx.Observable.fromNodeCallback(fs.readdir),
     readFile = Rx.Observable.fromNodeCallback(fs.readFile),
+    stat = Rx.Observable.fromNodeCallback(fs.stat),
     exists = Rx.Observable.fromCallback(fs.exists),
     patternFiles = new Map([
       ['design', {
@@ -26,9 +27,21 @@ var familyObservable = readdir('pattern-library')
 .flatMap(function(familyNames) {
   return familyNames;
 })
-.map(function(familyName) {
+.flatMap(function(familyName) {
+  return stat(path.join('pattern-library/', familyName))
+  .map(function(stats) {
+    return {
+      familyName: familyName,
+      stats: stats
+    };
+  });
+})
+.filter(function(familyStats) {
+  return familyStats.stats.isDirectory();
+})
+.map(function(familyStats) {
   return {
-    name: familyName,
+    name: familyStats.familyName,
     patterns: []
   }
 })
