@@ -15,7 +15,7 @@
 
 1. **Caret Icon:** When expanded, the caret icon will be facing down.
 
-2. **Additional fields:** Will be shown under the divider line when section is expanded.
+2. **Additional Fields:** Will be shown under the divider line when section is expanded.
 
 ## Keyboard Accessibility
 
