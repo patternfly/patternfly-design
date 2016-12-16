@@ -2,7 +2,7 @@
 
 ## Form Text Fields
 
-![form-modal](img/form-modal.png)
+![Form in a modal](img/form-modal.png)
 
 1. **Field Labels:** Do not include a colon at the end. Visit the Capitalization section of Terminology and Wording for information regarding capitalization.
 1. **Primary Input Field:** This field gets focused when the modal appears. The initial primary input field is usually the first input field which is required.
@@ -17,17 +17,17 @@
 
 ## Validation
 
-![form-validation-callout](img/form-validation.png)
+![Form with an error](img/form-validation.png)
 
 1. **Form Level Validation** (optional): When the user submits the form, the entire page/modal is reloaded with indications of validation errors for each error via an inline notification. This notification is located at the top of the page, describes what the error is and preferably, offers guidance about how to fix the error. Additionally, if possible, you may want to inform the user the number of error(s) that have occurred, particularly if some of the errors are beyond the user’s current view.
   - Depending on application constraints, dynamic (on the fly) dismissal of errors would be ideal as it provides a visual cue that the user has corrected the error.
-1. ** Level Validation:** In addition to the optional inline notification, the erroneous fields are indicated with a red outline with a message below the field describing the error and/or how to fix the issue.
+1. **Field Level Validation:** In addition to the optional inline notification, the erroneous fields are indicated with a red outline with a message below the field describing the error and/or how to fix the issue.
   - Ensure validation is relevant to the field.
   - Messages should be specific and offer solutions.
 
   ## Operational Behavior
 
-  ![form-validation-description-callout](img/form-operational-behavior.png)
+  ![Form with callouts](img/form-operational-behavior.png)
 
   The modal operation happens with the modal still open. Clicking the affirmative button starts the operation. If the operation completes successfully, the modal is closed.
 
@@ -35,6 +35,19 @@
   - The modal should be designed in a manner to proactively designate space for the spinner to avoid reflow. The small spinner recommended as it is more conservative on space.
 1. While operation is happening, everything in the modal is disabled, except the Cancel button.
 1. Clicking the Cancel button during the operation cancels the operation and keeps the modal open.
+
+## Required Fields
+
+![Form with all fields required](img/form-required-fields.png)
+
+1. **Required field:** Required fields should be denoted with an * (asterisk) symbol.
+  - Due to responsiveness issues, we do not recommend labeling optional fields with "(optional)"
+1. Forms with a mixture of required and optional fields should include this explanation.
+
+  ![Form with all fields required](img/form-all-fields-required.png)
+
+1. Forms in which all fields are required should include this explanation.
+1. Forms in which all fields are optional should include this explanation.
 
 ### What’s not covered in the current design but will be covered in future sprints:
 
