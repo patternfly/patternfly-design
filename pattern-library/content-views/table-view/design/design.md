@@ -10,6 +10,7 @@
   - Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
 1. **Hover State:** When the user hovers over a row, that row will be lightly highlighted and outlined. This helps the user to isolate the row, especially when clicking on items in the row.
 1. **Inline Actions:** Inline actions can be performed within a single row to manipulate the data. The most common 1-2 (max) actions are shown as a button with additional actions, if any, available via a dropdown menu. These actions should use words rather than icons for clarity.
+  * Please reference [Kebab Menu](http://www.patternfly.org/pattern-library/widgets/#kebabs)
 1. **Row Shading:** Use alternating row colors to help the user read the content of the table more easily.
 ![Table with a all rows selected](img/table-callout2.png)
 1. **Select All Rows:** Selecting the checkbox in the header row selects all rows on the page. The total number of rows selected is shown near the table action buttons.
@@ -28,9 +29,10 @@
 
 1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
 2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
-3. **Footer** (optional):  The footer has pagination elements and controls including a place to modify number of items shown per page 
-4. **Item Number:**  This area shows the number of items on the page out of the total number of item in the entire table.
-5. **Page Selection:**  You can jump to a specific page or jump to the first, pervious, next or last page of the table.
+3. **Footer** (optional):  The footer has pagination elements and controls.
+  * Option to modify number of items to show per page. It's recommended that the default number be less than 25 require minimal scrolling and to remain easy to consume.
+  * **Item Number:**  This area shows the number of items on the page out of the total number of item in the entire table.
+  * **Page Selection:**  You can jump to a specific page or jump to the first, previous, next or last page of the table.
 
 ## Pagination - Clear All
 
