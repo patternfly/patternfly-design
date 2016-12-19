@@ -4,4 +4,9 @@ The timepicker allows a user to select a time. The most common use case is selec
 
 ## Example
 
+### Closed Timepicker
 ![Timepicker](img/timepicker-html.png)
+
+
+### Open Timepicker
+![Timepicker](img/timepicker-html2.png)
