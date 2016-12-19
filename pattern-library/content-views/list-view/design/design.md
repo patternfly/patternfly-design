@@ -4,7 +4,7 @@
 
 ![List view](img/list-view-callout.png)
 
-1. **Data Toolbar:** The Data Toolbar pattern may include filter, sort, actions, find and change view type.
+1. **Toolbar:** The [Toolbar](https://www.patternfly.org/pattern-library/forms-and-controls/toolbar) pattern may include Filter, Sort, Actions, [Find](https://www.patternfly.org/pattern-library/forms-and-controls/find) and Change View.
 1. **Row:**
   - If drill down behavior is supported, clicking on an item will link to the appropriate page.
   - Each item in List View should have the same layout
