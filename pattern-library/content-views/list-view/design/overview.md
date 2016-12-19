@@ -2,7 +2,7 @@
 
 A List View displays data in rows. Each row displays the same set of attributes, although not necessarily displayed in columns, and the attributes may wrap. The List View omits column headers and other visual noise, making it a cleaner visualization than a data table.
 
-Jump to [Standard List View](https://www.patternfly.org/pattern-library/content-views/list-view/#/standard), [List View with Expanding Rows](https://www.patternfly.org/pattern-library/content-views/list-view/#/expanding-rows) or [Row Variation Examples](https://www.patternfly.org/pattern-library/content-views/list-view/#/row-variations)
+Jump to [Standard List View](#standard-list-view), [List View with Expanding Rows](#list-view-with-expanding-rows) or [Row Variation Examples](#row-variation-examples)
 
 ## Standard List View
 
