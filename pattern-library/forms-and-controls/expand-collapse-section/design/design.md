@@ -3,8 +3,7 @@
 ## Collapsed Section
 ![Image of collapsed section](img/advancedoptions_example1.png)
 
-1. **Caret Icon:** The caret icon indicates that you can expand or collapse the section. By default, the advanced section is collapsed.
-<br>**Label:** The collapse / expand section displays text as a blue link. The "Show" text explains that clicking on the text will expand the area.
+1. **Caret Icon and Label:** The caret icon indicates that you can expand or collapse the section. By default, the advanced section is collapsed. The collapse / expand section displays text as a blue link. The "Show" text explains that clicking on the text will expand the area.
 
 2. **Divider Line:** The divider line is used to divide the two distinct sections.
 <br><br>
@@ -13,7 +12,6 @@
 ## Expanded Section
 ![Image of expanded section](img/advancedoptions_example2.png)
 
-1. **Caret Icon:** When expanded, the caret icon will be facing down.
-<br>**Label:** The "Hide" text explains that clicking on the text will collapse the area.
+1. **Caret Icon and Label:** When expanded, the caret icon will be facing down. The "Hide" text explains that clicking on the text will collapse the area.
 
 2. **Additional Fields:** Will be shown under the divider line when section is expanded.
