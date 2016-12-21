@@ -17,8 +17,3 @@
 <br>**Label:** The "Hide" text explains that clicking on the text will collapse the area.
 
 2. **Additional Fields:** Will be shown under the divider line when section is expanded.
-
-## Keyboard Accessibility
-
-* Users should be able to use the keyboard to navigate to the control (i.e., it should gain focus) and press enter to activate the control.
-* Tooltips are also a requirement for accessibility.
