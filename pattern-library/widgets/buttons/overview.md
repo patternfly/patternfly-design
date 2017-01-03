@@ -19,7 +19,5 @@ Buttons communicate an action that the user can take when they interact with the
   1. **Buttons within a Form:**
    - Refer to the [Form Pattern](https://www.patternfly.org/pattern-library/forms-and-controls/forms/#_) and the guidelines above when formatting buttons in a form.
 
-
+## Button Types and Sizes
 ![Button Sizing](img/button-sizing.png)
-
-![Button Sizing](img/button-colors.png)
