@@ -1,7 +1,0 @@
-# Application Selector
-
-The Application Selector should be used inside applications that have more than one interface available. This widget makes it easier for the user to switch between different user interfaces without logging out. If available, this selector should be accessible from the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) using the Selector icon detailed in the Design tab.
-
-![Application Selector Icon](img/ApplicationSelector-01.png)
-
-![Application Selector Dropdown](img/ApplicationSelector-02.png)
