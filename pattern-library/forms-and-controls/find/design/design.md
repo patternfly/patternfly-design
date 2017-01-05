@@ -4,7 +4,7 @@
 
 ![Find field](img/find-callout.png)
 
-1. **Trigger Button:** Clicking on the button triggers the entire find tool to drop down.
+1. **Icon:** Clicking on the icon triggers the entire find tool to drop down.
 1. **Text Entry Field:** The user’s query is entered here. When possible, results should be updated as the user types, or after they press the enter key.
 1. **Position and Results Count:** The first number shows the position of the currently focused result. The second number shows the total number of matching objects.
 1. **Previous and Next Result:** These buttons change focus to the previous or next result.
