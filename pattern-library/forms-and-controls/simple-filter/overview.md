@@ -7,3 +7,5 @@ Filter is often displayed as a component of the Data Toolbar.
 
 ## Examples
 ![Image of filter](img/filter.png)
+
+![Image of filter](img/full_view.png)
