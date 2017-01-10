@@ -1,11 +1,11 @@
 
-Buttons communicate an action that the user can take when they interact with them. There are a number of types of buttons than can be used and depending on the use case, it is recommended to make use of the following examples.
+Buttons communicate an action that the user can take when they interact with them. There are a number of types of buttons that can be used and depending on the use case, PatternFly recommends to make use of the following examples.
 
 ## Usage Examples
 
   1. **Close Button:**
-    - If closing a modal, follow the [Modal Widget](https://www.patternfly.org/pattern-library/widgets/#modal) guidelines.
-    - If referring to closing another type of view use "Close" as a secondary button.
+    - For modal dialogs, follow the [Modal Widget](https://www.patternfly.org/pattern-library/widgets/#modal) guidelines.
+    - When referring to closing another type of view use "Close" as a secondary button.
   1. **Delete Button:**
    - "Delete" should be used in a secondary button unless you have a limited use case where the Delete action is a highly destructive action. In that case, use the destructive button. Ideally, a delete button would be followed up with a confirmation modal for the user to confirm this action.
   1. **Cancel Button:**
