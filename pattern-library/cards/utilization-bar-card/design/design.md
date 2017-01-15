@@ -1,10 +1,9 @@
 # Utilization Bar Card
 
-## Description
 ![Title of image](img/utilization-bar-callout.png)
 
   1. **Title:**
-    - Define a title for the card. See [Dashboard Cards](https://www.patternfly.org/pattern-library/dashboard/dashboard-card) for more information.
+    - Define a title for the card. 
 
   1. **Utilization Bar Chart:**
     - See [Utilization Bar Chart](https://www.patternfly.org/pattern-library/data-visualization/utilization-bar-chart/) for more information about the chart’s appearance and behavior.
