@@ -1,7 +1,5 @@
 # Form Field Layouts
 
-## Overview
-
 Users enter data into form field inputs. Labels are always provided for input fields to help users understand what information is being requested of them. The orientation of the label to the input field is flexible to support a variety of use cases. This pattern has recommendations for three variations. In the case of multi column forms, it’s mostly best practice to avoid their use. The main problem is that using multiple columns within forms could cause the potential for users to interpret the fields inconsistently.
 
 ## Top Aligned Labels
