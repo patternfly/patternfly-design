@@ -6,6 +6,5 @@ This pattern should NOT be used when:
 - Compensating for bad design and relying on it to explain a graphic or word choice.
 - The information displayed by the popover is necessary to read.
 
-## Example
 
-![Field level help](img/field-level-help-html.png)
+![Field level help](img/field-level-help.png)
