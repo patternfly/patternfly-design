@@ -1,6 +1,5 @@
 # Bar Chart
 
-## Vertical Bar Chart
 ![#vertical-bar-chart-callout-1](img/vertical-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:**
@@ -26,7 +25,6 @@
   1. **Legend:** It is recommended to include a legend to define the colors on the chart. On the bar chart, the legend may be located left aligned and underneath the chart or left aligned and to the right of the chart.
     - **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
 
-## Horizontal Bar Chart
 ![#horizontal-bar-chart-callout-1](img/horizontal-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:** Horizontal axis labels display values.
