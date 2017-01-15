@@ -6,7 +6,7 @@ Jump to [Standard List View](#standard-list-view), [List View with Expanding Row
 
 ## Standard List View
 
-![List view](img/list-view-html.png)
+![List view](img/standard-list-view.png)
 
 [View full page example](https://www.patternfly.org/pattern-library/content-views/list-view/list-view.html#_)
 
@@ -25,10 +25,10 @@ Simple expansion supports a single expansion state to expose more detail for a s
 
 Compound expansion supports multiple expansion panels to examine multiple attributes of the selected row.
 
-![List view with compound row expansion](img/list-view-compound-expansion-example.png)
+![List view with compound row expansion](img/list-view-compound-expansion.png)
 
 ## Row Variation Examples
 
 The following row variations provide some examples of how you might visualize content within a row. You are not limited to these layouts. You may need to adjust the visualizations to best fit your application’s needs. Each row within a list view should have a consistent layout. Do not mix and match.
 
-![List view row variations](img/list-view-html2.png)
+![List view row variations](img/list-view-variations.png)
