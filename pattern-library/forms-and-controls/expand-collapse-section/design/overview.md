@@ -1,6 +1,6 @@
 # Expand/Collapse Section
 
-This pattern defines how you might collapse and expand additional fields in a form that are not commonly used.
+The expand/collapse section identifies how to approach additional fields in a form that are not commonly used.
 
 ### Collapsed
 ![Image of collapsed section](img/advanced-options-collapsed.png)
