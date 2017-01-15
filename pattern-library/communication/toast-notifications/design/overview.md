@@ -6,13 +6,8 @@ Toast notifications should be transient and stay on the screen for 8 seconds, so
 
 Jump to [Examples](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-1), [With Max-Width](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-2) or [In Context](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-3)
 
-## Examples
+![Toast notification](img/toast-notification.png)
 
-![Toast notification](img/toast-html.png)
-
-## With Max-Width
-
-![Toast notification with max width set](img/toast-html2.png)
 
 ## In Context
 
