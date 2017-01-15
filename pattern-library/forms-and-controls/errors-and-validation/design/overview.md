@@ -1,7 +1,5 @@
 # Errors and Validation
 
-## Overview
-
 If a form field submission results in an error, it must be indicated to the user. Errors are always presented on individual form fields, they might also be indicated with an inline notification.
 
 * Text input fields with validation errors are indicated with a red border around the input box and a Field Error Message below the field describing the error.
@@ -26,4 +24,4 @@ It is recommended that an inline notification get presented, at the top of the m
 * The notification message should describe the error(s) and offer guidance for resolution. It might also include a count of the number of error(s). A total count is useful for long forms where individual field errors might be outside of the user’s current view.
 * Once form errors are resolved and submitted, the inline (error) notification should be replaced with a confirmation message.
 
-See [inline notifications](https://www.patternfly.org/widgets/#progress) for more information.
+See [Inline Notifications](https://www.patternfly.org/widgets/#progress) for more information.
