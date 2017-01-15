@@ -1,13 +1,9 @@
 # Expand/Collapse Section
 
-## Overview
-
 This pattern defines how you might collapse and expand additional fields in a form that are not commonly used.
 
-## Examples
+### Collapsed
+![Image of collapsed section](img/advanced-options-collapsed.png)
 
-### Collapsed Section
-![Image of collapsed section](img/advancedoptions_description1.png)
-
-### Expanded Section
-![Image of expanded section](img/advancedoptions_description2.png)
+### Expanded
+![Image of expanded section](img/advanced-options-expanded.png)
