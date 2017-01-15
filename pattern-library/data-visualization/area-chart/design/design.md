@@ -1,6 +1,5 @@
 # Area Chart
 
-## Single Area Chart
 ![#callout-1](img/single-area-chart-callout.png)
 
   1. **Axis Lines:**
