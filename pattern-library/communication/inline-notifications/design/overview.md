@@ -1,4 +1,4 @@
-#Inline Notifications
+# Inline Notifications
 
 Inline notifications are used to notify a user of the status of an action during a task flow. It is recommended that inline notifications are shown at the top of the main content area.
 
