@@ -9,7 +9,7 @@ The masthead contains the following items from left to right:
   2. **Logo** (optional): When using the tall masthead design, there is space for a product logo to be placed to the left of the product title for additional branding.
   3. **Application Title:** The logo area is in the left corner and contains the application product name image file, in the form of a sized SVG graphic.
   4. **Product Specific Icons** (optional):
-    * Some product may have additional requirements for the masthead. For example, a shopping cart or a mechanism to switch/ launch additional applications.  
+    * Some products may have additional requirements for the masthead. For example, a shopping cart may be needed or an [Application Selector]((https://www.patternfly.org/pattern-library/application-framework/application-selector/#/api) ) to switch/ launch additional interfaces.  
     * Any additional icons should be placed to the left of the user, help, and notifications icons.
   5. **Notifications Icon** (optional):
     * If notifications or messages are being used, the bell icon should be placed to the left of the help icon. The bell icon is used for opening and closing the notification drawer. Jump to the [Notification Drawer](https://www.patternfly.org/pattern-library/communication/notification-drawer/#/api) pattern for additional details.
@@ -22,7 +22,7 @@ The masthead contains the following items from left to right:
     * The username of the current logged in user should be listed to the right of the pficon-user icon and should always be in the top right corner of the masthead.
     * The dropdown arrow should appear to the right of the name to indicate additional options below.
     * The dropdown items may vary based on the user settings and permissions available, but this section should always include a "Logout" option at the bottom of the dropdown list.
-    * If a language selector exists, it should appear in this dropdown menu as well.
+    * If a [Language Selector](https://www.patternfly.org/pattern-library/forms-and-controls/language-selector/#/api) exists, it should appear in this dropdown menu as well.
 
 
 ## General Considerations
