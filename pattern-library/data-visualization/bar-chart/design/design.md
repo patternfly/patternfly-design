@@ -25,6 +25,8 @@
   1. **Legend:** It is recommended to include a legend to define the colors on the chart. On the bar chart, the legend may be located left aligned and underneath the chart or left aligned and to the right of the chart.
     - **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
 
+  1. **Stacked Bar** (optional): The first series name is represented by the topmost stacked bar, and the last series name is represented by the bottommost stacked bar. This order should not be reversed.
+
 ![#horizontal-bar-chart-callout-1](img/horizontal-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:** Horizontal axis labels display values.
@@ -48,3 +50,5 @@
 
   1. **Legend:** It is recommended to include a legend to define the colors on the chart. On the bar chart, the legend may be located left aligned and underneath the chart or left aligned and to the right of the chart.
       - **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
+
+  1. **Stacked Bar** (optional): The first series name is represented by the leftmost stacked bar, and the last series name is represented by the rightmost stacked bar. This order should not be reversed.
