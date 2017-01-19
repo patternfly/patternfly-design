@@ -23,8 +23,6 @@
     - Specific data points may be represented by dots on the line portion of the area chart.
     - To help the user see which point they are hovering, the dot expands and a vertical line is displayed. In addition, a tooltip should appear with the associated values for that specific point in time.
 
-  1. **Chart Title:**
-    - Provide a title that describes the chart.
+  1. **Chart Title:** Provide a title that describes the chart.
 
-  1. **Legend** (optional)**:**
-    - Provide a legend that associates the individual data point with a color mapping. It may be used to provide more detailed information in support of the chart title. Position the legend below, or to the right of the chart.
+  1. **Legend** (optional): Provide a legend that associates the individual data point with a color mapping. It may be used to provide more detailed information in support of the chart title. Position the legend below, or to the right of the chart.
