@@ -70,7 +70,7 @@ var familyObservable = readdir('pattern-library')
       .flatMap(function(fileExists) {
         file.exists = fileExists;
         if (fileExists) {
-          return exec(`git log --pretty=format:%cd -n 1 --date=iso ${file.path}`)
+          return exec(`git log --format=%aD -n 1 ${file.path}`)
           .flatMap(function(stdout) {
             let date = new Date(stdout[0]);
             let delta = now - date.getTime();
