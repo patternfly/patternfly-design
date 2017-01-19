@@ -15,6 +15,12 @@
   .pf-design-table__icon {
     line-height: 1.66666667;
   }
+  .pf-design-table__icon--new {
+    color: #40199a;
+  }
+  .pf-design-table__icon--changed {
+    color: #f5c12e;
+  }
   .pf-design-table__icon--present {
     color: #2d7623;
   }
@@ -35,7 +41,15 @@
             {{#eachInMap files }}
               {{#if value.exists}}
                 <td class="pf-design-table__row">
-                  <span class="fa fa-check pf-design-table__icon pf-design-table__icon--present"></span>
+                  {{#if value.changed.isChanged}}
+                    {{#if value.changed.isNew}}
+                      <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed.dateFormatted }}"></span>
+                    {{else}}
+                      <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed.dateFormatted }}"></span>
+                    {{/if}}
+                  {{else}}
+                    <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--present" title="Last modified on {{ value.changed.dateFormatted }}"</span>
+                  {{/if}}
                 </td>
                 {{else}}
                 <td class="pf-design-table__row pf-design-table__row--missing">

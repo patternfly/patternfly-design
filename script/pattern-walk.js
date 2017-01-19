@@ -4,10 +4,12 @@
 var Rx = require('rx'),
     fs = require('fs'),
     path = require('path'),
+    dateFormat = require('dateformat'),
     readdir = Rx.Observable.fromNodeCallback(fs.readdir),
     readFile = Rx.Observable.fromNodeCallback(fs.readFile),
     stat = Rx.Observable.fromNodeCallback(fs.stat),
     exists = Rx.Observable.fromCallback(fs.exists),
+    exec = Rx.Observable.fromNodeCallback(require('child_process').exec),
     patternFiles = new Map([
       ['design', {
         name: 'design.md',
@@ -57,6 +59,7 @@ var familyObservable = readdir('pattern-library')
     }
     family.patterns.push(pattern);
     return Rx.Observable.from(patternFiles).flatMap(function(entry) {
+      var now = new Date().getTime();
       var key = entry[0], fileToCheck = entry[1];
       var file = {
         patternFile: fileToCheck,
@@ -64,8 +67,33 @@ var familyObservable = readdir('pattern-library')
       }
       pattern.files.set(key, file);
       return exists(file.path)
-      .map(function(fileExists) {
+      .flatMap(function(fileExists) {
         file.exists = fileExists;
+        if (fileExists) {
+          return stat(file.path)
+          .flatMap(function(fileStats) {
+            let delta = now - fileStats.mtime.getTime();
+            file.changed = {};
+            file.changed.isChanged = delta < 7*24*3600*1000;
+            file.changed.dateFormatted = dateFormat(fileStats.mtime, 'dddd, mmmm dS')
+            file.changed.cssClass = 'changed';
+            if (file.changed.isChanged) {
+              return exec(`git log --format=%aD ${file.path} | tail -1`)
+              .map(function (stdout) {
+                let createdDate = new Date(stdout[0])
+                let delta = now - createdDate.getTime();
+                file.changed.isNew = delta < 7*24*3600*1000;
+                if (file.changed.isNew) {
+                  file.changed.cssClass = 'new';
+                }
+              });
+            } else {
+              return Rx.Observable.from([]);
+            }
+          });
+        } else {
+          return Rx.Observable.from([]);
+        }
       })
     })
   })
