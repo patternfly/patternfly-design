@@ -2,8 +2,8 @@
 
 The most common use case for a donut chart are:
 - Show progress completion as a percentage.
-- Show utilization for an object (e.g. network, CPU, storage, etc.) as a percentage.
-- Show the relationship of a set of values to a whole (design and specs for this use case are not addressed at this time, TBD.).
+- Show utilization for an object as a percentage.
+- Show the relationship of a set of values to a whole.
 
 Jump to [Utilization](#utilization), [Relationship of a Set of Values to a Whole](#relationship-of-a-set-of-values-to-a-whole) or [Small Donut Chart](#small-donut-chart)
 

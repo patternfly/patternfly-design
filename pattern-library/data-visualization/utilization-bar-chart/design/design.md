@@ -13,7 +13,6 @@
 
   1. **Tooltip:** It is recommend that the percentage is displayed on hover.
 
-  1. **Warning Threshold Indicator** (optional):
-    - If a warning threshold exists, that may be visually indicated on the chart. 75% is the typical default value for a warning threshold but some products may have configurable thresholds (design not currently shown, visuals are still TBD).
+  1. **Warning Threshold Indicator** (optional): If a warning threshold exists, that may be visually indicated on the chart. 75% is the typical default value for a warning threshold but some products may have configurable thresholds (design not currently shown, visuals are still TBD).
 
   1. **Error Threshold Indicator** (optional): If an error threshold exists, that may be visually indicated on the chart. 90% is the typical default value for an error threshold but some products may have configurable thresholds (design not currently shown, visuals are still TBD).
