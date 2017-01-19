@@ -6,14 +6,13 @@ When heat map items become so small that they can no longer be meaningfully dist
 
 Clicking on the section takes the user to the content view for that item type, filtered to show the items in the clicked section. Whether a single block or group is selected is determined by the size of individual blocks.
 
-The most common use case for a heat map are:
+The most common use cases for a heat map are:
 * Users need to quickly assess the utilization rate of objects in a data set. Colored blocks, indicating utilization percentages, provide "at a glance" status which aids in troubleshooting.
 * Users need to scan the status of each object in a data set.
 
-## Examples
 
-### Heat Map
+## Heat Map
 ![Image of card title](img/heat-map.png)
 
-### Heat Map Variations
+## Heat Map Variations
 ![Image of card title](img/heat-map-hover.png)
