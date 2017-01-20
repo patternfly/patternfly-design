@@ -105,6 +105,20 @@ var familyObservable = readdir('pattern-library')
     return family;
   })
 })
+.toArray()
+.flatMap(function(families) {
+  families.sort(function compare(famA, famB) {
+    if (famA.name < famB.name) {
+      return -1;
+    }
+    if (famA.name > famB.name) {
+      return 1;
+    }
+    // must be equal
+    return 0;
+  })
+  return families;
+})
 
 module.exports = {
   observable: familyObservable,
