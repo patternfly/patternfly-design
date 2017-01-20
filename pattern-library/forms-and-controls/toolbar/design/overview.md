@@ -11,14 +11,22 @@ These controls may be used either together or individually, and may be substitut
 
 ## Examples
 
-### With all components
+### With All Components
 
 ![Toolbar with several active filters](img/toolbar-example.png)
 
-### Without Filtering
+### With Alternate Filter
 
-![Toolbar pattern with callouts](img/toolbar-layout3.png)
+![Toolbar pattern with callouts](img/toolbar-example2.png)
 
 ### Without Find and Change View
 
-![Toolbar pattern with callouts](img/toolbar-layout4.png)
+![Toolbar pattern with callouts](img/toolbar-example3.png)
+
+### Without Change View
+
+![Toolbar pattern with callouts](img/toolbar-example4.png)
+
+### Without Filter
+
+![Toolbar pattern with callouts](img/toolbar-example5.png)
