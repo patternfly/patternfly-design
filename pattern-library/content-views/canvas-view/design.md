@@ -2,20 +2,33 @@
 
 ![Canvas Layout](img/Canvas-03.png)
 
-  1. **Toolbox:** All items that can be dragged onto the canvas are available in the Toolbox. The toolbox can be Left-aligned or top-aligned depending on the use case.
-  2. **Item-Level Actions:**  Item-level actions are left-aligned and apply to the individual items that are dragged onto the canvas, for example edit, copy, and remove item.
-  3. **Canvas Items:** Canvas items are things that have been dragged from the toolbox onto the canvas. In some cases items can be ordered or connected to represent a particular flow of information.
-  4. **Canvas:** A grid based background should cover the working area of the Canvas View. Objects can be placed on the canvas to create a workflow.
-  5. **General Canvas Actions** (optional): All actions that are right aligned on the toolbar, such as the zooming actions, will apply to the canvas itself rather than specific canvas items.
-  6. **Properties Panel** (optional): For cases where users can view or edit item properties, a panel should be presented on the right side of the canvas. It should be clear which item properties are being displayed and users should have the ability to collapse the properties panel.
+  1. **Editor Toolbar:**  The Editor Toolbar includes a mechanism to open and close the Toolbox as well as actions pertaining to the items on the canvas. The Toolbar can also optionally include zoom/pan actions, find, and view types.
+  2. **Canvas:** A grid based background should cover the working area of the Canvas View. Objects can be placed on the canvas to create a workflow.
+  3. **Toolbox:**
+    * All items that can be dragged onto the canvas are available in the Toolbox.
+    * The toolbox can be Left-aligned or top-aligned depending on the use case.
+  4. **Canvas Items:** Canvas items are things that have been dragged from the toolbox onto the canvas. In some cases items can be ordered or connected to represent a particular flow of information.
+  5. **Properties Panel** (optional):
+    * Users may need to view or edit the properties of individual canvas items.
+    * When a user selects an item to view the properties, a panel should appear on the right side of the canvas.
+    * It should be clear which item properties are being displayed and users should have the ability to hide or collapse the properties panel as needed.
 
+## Example of Left-aligned Toolbox with Fly-out Menus
+![Canvas Example with Top-aligned Toolbox](img/Canvas-06.png)
 
-## Example with Top-aligned Toolbox
-A top-aligned toolbox is recommended for cases where toolbox items require additional classification or filtering.
+1. **Toolbar:** If more than one type of toolbox must exist, a button group may be used in the Editor Toolbar to open and close one toolbox at a time.
+2. **Toolbox:** With left-aligned toolboxes, fly-out menus can be used as needed for scalability.  
+
+## Example of Top-aligned Toolbox
 ![Canvas Example with Top-aligned Toolbox](img/Canvas-04.png)
+
+1. **Toolbox:** With top-aligned toolboxes, tabs and scroll capability can be used as needed for scalability.
+2. **Canvas Items:** When a user clicks on a canvas item, the selected state should be visually indicated. For cases where users will often act on a single item at one time, displaying a menu of item actions on hover is recommended. 
 
 ## Zooming and Panning on the Canvas
 Implementing the pan and zoom functionality is optional, but is recommended for any canvas view that has the potential for becoming overcrowded with canvas items.
+
+![Canvas Example with Zooming and Panning](img/Canvas-05.png)
 
 ### Zooming
 * The fa-minus and fa-plus icons should be used as the action buttons for zooming in and out of the canvas.
@@ -27,5 +40,3 @@ Implementing the pan and zoom functionality is optional, but is recommended for 
 * Clicking and dragging on the canvas background when the cursor is in the all-scroll state will pan the canvas.
 * When the canvas is not zoomed out all the way, hovering over the canvas background will change the mouse pointer to “cursor:all-scroll”.
 * When it is zoomed out all the way, the cursor property will be set to “cursor: default”.
-
-![Canvas Example with Zooming and Panning](img/Canvas-05.png)
