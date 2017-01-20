@@ -69,7 +69,9 @@ var familyObservable = readdir('pattern-library')
       return exists(file.path)
       .flatMap(function(fileExists) {
         file.exists = fileExists;
+        file.cssClass = 'missing'
         if (fileExists) {
+          file.cssClass = 'present'
           return exec(`git log --format=%aD -n 1 ${file.path}`)
           .flatMap(function(stdout) {
             let date = new Date(stdout[0]);
@@ -78,11 +80,15 @@ var familyObservable = readdir('pattern-library')
             file.changed.isChanged = delta < 7*24*3600*1000;
             file.changed.dateFormatted = dateFormat(date, 'dddd, mmmm dS')
             if (file.changed.isChanged) {
+              file.cssClass = 'changed'
               return exec(`git log --format=%aD ${file.path} | tail -1`)
               .map(function (stdout) {
                 let date = new Date(stdout[0]);
                 let delta = now - date.getTime();
                 file.changed.isNew = delta < 7*24*3600*1000;
+                if (file.changed.isNew) {
+                  file.cssClass = 'new'
+                }
               });
             } else {
               return Rx.Observable.from([]);

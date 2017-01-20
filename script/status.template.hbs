@@ -6,17 +6,26 @@
   .pf-design-table {
     width: auto;margin: auto;
   }
-  .pf-design-table__row {
+  .pf-design-table__cell {
     text-align: center;
   }
-  .pf-design-table__row--missing {
+  .pf-design-table__cell--new {
+    /*background-color: #bee1f4;*/
+  }
+  .pf-design-table__cell--changed {
+    /*background-color: #f9d67a;*/
+  }
+  .pf-design-table__cell--present {
+    /*background-color: #c8eb79;*/
+  }
+  .pf-design-table__cell--missing {
     background-color: #ffe6e6;
   }
   .pf-design-table__icon {
     line-height: 1.66666667;
   }
   .pf-design-table__icon--new {
-    color: #40199a;
+    color: #00659c;
   }
   .pf-design-table__icon--changed {
     color: #b58100;
@@ -50,23 +59,17 @@
           <tr>
             <td>{{name}}</td>
             {{#eachInMap files }}
+              <td class="pf-design-table__cell pf-design-table__cell--{{ value.cssClass }}">
               {{#if value.exists}}
-                <td class="pf-design-table__row">
-                  {{#if value.changed.isChanged}}
-                    {{#if value.changed.isNew}}
-                      <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed.dateFormatted }}"></span>
-                    {{else}}
-                      <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed.dateFormatted }}"></span>
-                    {{/if}}
-                  {{else}}
-                    <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present" title="Last modified on {{ value.changed.dateFormatted }}"</span>
-                  {{/if}}
-                </td>
+                {{#if value.changed.isChanged}}
+                  <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--{{ value.cssClass }}" title="{{ value.cssClass }}: Last modified on {{ value.changed.dateFormatted }}"></span>
                 {{else}}
-                <td class="pf-design-table__row pf-design-table__row--missing">
-                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
-                </td>
+                  <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--{{ value.cssClass }}" title="{{ value.cssClass }}: Last modified on {{ value.changed.dateFormatted }}"></span>
+                {{/if}}
+              {{else}}
+                <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
               {{/if}}
+              </td>
             {{/eachInMap}}
           </tr>
         {{/each}}
