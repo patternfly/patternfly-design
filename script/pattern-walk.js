@@ -77,16 +77,12 @@ var familyObservable = readdir('pattern-library')
             file.changed = {};
             file.changed.isChanged = delta < 7*24*3600*1000;
             file.changed.dateFormatted = dateFormat(date, 'dddd, mmmm dS')
-            file.changed.cssClass = 'changed';
             if (file.changed.isChanged) {
               return exec(`git log --format=%aD ${file.path} | tail -1`)
               .map(function (stdout) {
                 let date = new Date(stdout[0]);
                 let delta = now - date.getTime();
                 file.changed.isNew = delta < 7*24*3600*1000;
-                if (file.changed.isNew) {
-                  file.changed.cssClass = 'new';
-                }
               });
             } else {
               return Rx.Observable.from([]);

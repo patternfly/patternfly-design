@@ -19,7 +19,7 @@
     color: #40199a;
   }
   .pf-design-table__icon--changed {
-    color: #f5c12e;
+    color: #b58100;
   }
   .pf-design-table__icon--present {
     color: #2d7623;
@@ -31,6 +31,17 @@
 </head>
 <body>
   <table class="table table-striped pf-design-table" >
+    <tbody>
+      <tr><th colspan="4"><h2>File status indicators</h2></th></tr>
+      <tr></tr>
+      <tr><td colspan="4">
+        <span><span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--new"></span> File is present and created within the past week</span><br>
+        <span><span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--changed"></span> File is present and modified within the past week</span><br>
+        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present"></span> File is present</span><br>
+        <span><span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span> File is missing</span><br>
+      </td></tr>
+    </tbody>
+
     {{#each families}}
       <tbody>
         <tr><th colspan="4"><h2>{{name}}</h2></th></tr>
@@ -43,12 +54,12 @@
                 <td class="pf-design-table__row">
                   {{#if value.changed.isChanged}}
                     {{#if value.changed.isNew}}
-                      <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed.dateFormatted }}"></span>
+                      <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed.dateFormatted }}"></span>
                     {{else}}
-                      <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed.dateFormatted }}"></span>
+                      <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed.dateFormatted }}"></span>
                     {{/if}}
                   {{else}}
-                    <span class="fa fa-file-text pf-design-table__icon pf-design-table__icon--present" title="Last modified on {{ value.changed.dateFormatted }}"</span>
+                    <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present" title="Last modified on {{ value.changed.dateFormatted }}"</span>
                   {{/if}}
                 </td>
                 {{else}}
