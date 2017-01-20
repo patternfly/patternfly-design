@@ -9,9 +9,8 @@ The Toolbar pattern sits above a content view such as a [List View](https://www.
 
 These controls may be used either together or individually, and may be substituted for other components. The Toolbar pattern should be used any time controls are needed for a content view.
 
-## Examples
 
-### With All Components
+### Toolbar With All Components
 
 ![Toolbar with several active filters](img/toolbar-example.png)
 
