@@ -10,23 +10,42 @@
   - Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
 1. **Hover State:** When the user hovers over a row, that row will be lightly highlighted and outlined. This helps the user to isolate the row, especially when clicking on items in the row.
 1. **Inline Actions:** Inline actions can be performed within a single row to manipulate the data. The most common 1-2 (max) actions are shown as a button with additional actions, if any, available via a dropdown menu. These actions should use words rather than icons for clarity.
+  * Please reference [Kebab Menu](http://www.patternfly.org/pattern-library/widgets/#kebabs)
 1. **Row Shading:** Use alternating row colors to help the user read the content of the table more easily.
 ![Table with a all rows selected](img/table-callout2.png)
 1. **Select All Rows:** Selecting the checkbox in the header row selects all rows on the page. The total number of rows selected is shown near the table action buttons.
 1. **Filtering** (optional): User can see results of simple filters here. Results include the item and results count, list of active filters (with ability to remove individual filters), and button to clear all filters.
 1. **Bulk Item Actions:** Bulk item action buttons are activated when multiple rows are selected. Some actions are available as both a table action and a bulk item action. The number of rows selected is shown near the table action buttons.
 
-  ## Empty State
+## Empty State
 
-  ![Table view empty state](img/empty-state-callout.png)
+![Table view empty state](img/empty-state-callout.png)
 
 1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
 
+## Pagination - Select All
+
+![paginationselect all](img/pagination_design.png)
+
+1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
+2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
+3. **Footer** (optional):  The footer has pagination elements and controls.
+  * Option to modify number of items to show per page. It's recommended that the default number be less than 25 require minimal scrolling and to remain easy to consume.
+  * **Item Number:**  This area shows the number of items on the page out of the total number of item in the entire table.
+  * **Page Selection:**  You can jump to a specific page or jump to the first, previous, next or last page of the table.
+
+## Pagination - Clear All
+
+![paginationclearall](img/pagination_design2.png)
+
+1. When any or all items are selected, user can clear selection.
+
+
 ## What’s not covered in the current design but will be covered in future sprints:
 
-- Pagination
 - Column customization
 - Simple Sort
 - Ability to expand and collapse rows to give user the option to view more details on each item
 - Multi Column Sort
 - Stick Column Headers
+- Mobile Design

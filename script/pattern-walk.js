@@ -4,10 +4,12 @@
 var Rx = require('rx'),
     fs = require('fs'),
     path = require('path'),
+    dateFormat = require('dateformat'),
     readdir = Rx.Observable.fromNodeCallback(fs.readdir),
     readFile = Rx.Observable.fromNodeCallback(fs.readFile),
     stat = Rx.Observable.fromNodeCallback(fs.stat),
     exists = Rx.Observable.fromCallback(fs.exists),
+    exec = Rx.Observable.fromNodeCallback(require('child_process').exec),
     patternFiles = new Map([
       ['design', {
         name: 'design.md',
@@ -57,6 +59,7 @@ var familyObservable = readdir('pattern-library')
     }
     family.patterns.push(pattern);
     return Rx.Observable.from(patternFiles).flatMap(function(entry) {
+      var now = new Date().getTime();
       var key = entry[0], fileToCheck = entry[1];
       var file = {
         patternFile: fileToCheck,
@@ -64,8 +67,36 @@ var familyObservable = readdir('pattern-library')
       }
       pattern.files.set(key, file);
       return exists(file.path)
-      .map(function(fileExists) {
+      .flatMap(function(fileExists) {
         file.exists = fileExists;
+        file.cssClass = 'missing'
+        if (fileExists) {
+          file.cssClass = 'present'
+          return exec(`git log --format=%aD -n 1 ${file.path}`)
+          .flatMap(function(stdout) {
+            let date = new Date(stdout[0]);
+            let delta = now - date.getTime();
+            file.changed = {};
+            file.changed.isChanged = delta < 7*24*3600*1000;
+            file.changed.dateFormatted = dateFormat(date, 'dddd, mmmm dS')
+            if (file.changed.isChanged) {
+              file.cssClass = 'changed'
+              return exec(`git log --format=%aD ${file.path} | tail -1`)
+              .map(function (stdout) {
+                let date = new Date(stdout[0]);
+                let delta = now - date.getTime();
+                file.changed.isNew = delta < 7*24*3600*1000;
+                if (file.changed.isNew) {
+                  file.cssClass = 'new'
+                }
+              });
+            } else {
+              return Rx.Observable.from([]);
+            }
+          });
+        } else {
+          return Rx.Observable.from([]);
+        }
       })
     })
   })
@@ -73,6 +104,20 @@ var familyObservable = readdir('pattern-library')
   .map(function() {
     return family;
   })
+})
+.toArray()
+.flatMap(function(families) {
+  families.sort(function compare(famA, famB) {
+    if (famA.name < famB.name) {
+      return -1;
+    }
+    if (famA.name > famB.name) {
+      return 1;
+    }
+    // must be equal
+    return 0;
+  })
+  return families;
 })
 
 module.exports = {

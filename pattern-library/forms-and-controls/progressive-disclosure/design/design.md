@@ -1,6 +1,6 @@
 # Progressive Disclosure
 
-![Image of single level conditional fields](img/conditionalfields_ex1_description.png)
+![Image of single level conditional fields](img/progressive-disclosure-callout.png)
 
 1. **Parent Control:** This control either shows or hides fields based on whether or not it’s selected.
 
