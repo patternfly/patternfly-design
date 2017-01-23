@@ -57,22 +57,21 @@
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
         {{#each patterns}}
           <tr>
-            <td>{{name}}</td>
+            <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/{{../name}}/{{name}}">{{name}}</a></td>
             {{#eachInMap files }}
-              <td class="pf-design-table__cell pf-design-table__cell--{{ value.cssClass }}">
-              {{#if value.exists}}
-                {{#if value.changed.isChanged}}
-                  {{#if value.changed.isNew}}
-                    <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed.dateFormatted }}"></span>
-                  {{else}}
-                    <span class="fa fa-star pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed.dateFormatted }}"></span>
-                  {{/if}}
-                {{else}}
-                  <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present" title="Present: Last modified on {{ value.changed.dateFormatted }}"></span>
-                {{/if}}
-              {{else}}
+              <td class="pf-design-table__cell pf-design-table__cell--{{ value.status }}">
+              {{#compare value.status "==" "new"}}
+                <span class="fa fa-star pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed }}"></span>
+              {{/compare}}
+              {{#compare value.status "==" "changed"}}
+                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed }}"></span>
+              {{/compare}}
+              {{#compare value.status "==" "present"}}
+                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present" title="Present: Last modified on {{ value.changed }}"></span>
+              {{/compare}}
+              {{#compare value.status "==" "missing"}}
                 <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
-              {{/if}}
+              {{/compare}}
               </td>
             {{/eachInMap}}
           </tr>
