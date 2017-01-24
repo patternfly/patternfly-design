@@ -31,3 +31,7 @@
 - Multi Column Sort
 - Stick Column Headers
 - Mobile Design
+
+## Additional Notes about Behavior
+
+- **Pagination:** Table view supports pagination. See [Pagination](https://github.com/patternfly/patternfly-design/tree/master/pattern-library/navigation/pagination/design) for more details.
