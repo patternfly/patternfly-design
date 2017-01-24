@@ -23,22 +23,19 @@
 ### Single Select
 ![Pagination Select 3](img/pagination_selection_3.png)
 
-1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
-2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
+1. Select single items by checking the box on the left of each item row.
 
 ### Multi-Select
 ![Pagination Select 4](img/pagination_selection_4.png)
 
-1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
-2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
+1. Select all items within a single page by selecting the checkbox in the column header.
 
 ### Select All
 ![Pagination Select 5](img/pagination_selection_5.png)
 
-1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
-2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
+1. Select all items within the table by clicking Select All link.
 
 ### Clear All
 ![Pagination Select 6](img/pagination_selection_6.png)
 
-1. When any or all items are selected, user can clear selection.
+1. Clear any selected items by clicking Clear All link.
