@@ -1,6 +1,14 @@
 # Pagination
 
-## footer call outs
+## Pagination Elements
+
+1. Number of items on a page
+2. Items currently displayed
+3. Current page / navigate to specific page
+4. Total number of pages
+5. Navigate to the next or previous page
+6. Navigate to the first or last page
+
 
 1. **Sinsdfsdfect:**  Ysdfsdfw.
 2. **Selesdfsdffo:**  Selectsdfsdfble.
