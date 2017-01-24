@@ -28,7 +28,7 @@
 ### Multi-Select
 ![Pagination Select 4](img/pagination_selection_4.png)
 
-1. Select all items within a single page by selecting the checkbox in the column header.
+1. Select all items within a single page by checking the box in the column header.
 
 ### Select All
 ![Pagination Select 5](img/pagination_selection_5.png)
