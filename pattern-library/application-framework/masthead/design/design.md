@@ -14,7 +14,7 @@ The masthead contains the following items from left to right:
   5. **Notifications Icon** (optional):
     * If notifications or messages are being used, the bell icon should be placed to the left of the Application Launcher icon. The bell icon is used for opening and closing the notification drawer. Jump to the [Notification Drawer](https://www.patternfly.org/pattern-library/communication/notification-drawer/#/api) pattern for additional details.
   6. **Application Launcher Icon** (optional):
-    * If additional interfaces are available via an app selection panel, the "fa-th" icon from the Font Awesome icon library should be placed to the left of the help icon. Jump to the [Application Launcher](https://www.patternfly.org/pattern-library/application-framework/application-launcher/#/api) pattern for additional details.
+    * If additional interfaces are available via an app selection panel, the "fa-th" icon from the Font Awesome icon library should be placed to the left of the help icon. Jump to the [Launcher](http://www.patternfly.org/pattern-library/application-framework/launcher/#/api) pattern for additional details.
   7. **Help Icon:**
     * The pficon-help icon should always be placed directly to the left of the user icon.
     * The dropdown arrow should appear to the right of the icon to indicate additional options below.
