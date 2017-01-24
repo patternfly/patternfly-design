@@ -2,7 +2,7 @@
 
 ## Pagination Elements
 
-![paginationselect all](img/pagination_callouts.png)
+![Pagination Callouts](img/pagination_callouts.png)
 
 1. Number of items on a page
   * Includes option to modify the number of items displayed. It is recommended that the default number be less than 25 in order to minimize scrolling.
@@ -14,13 +14,18 @@
 
 ## Pagination - Selection Pattern
 
-![paginationselect all](img/pagination_design.png)
+### Default View
+![Pagination Select 1](img/pagination_selection1.png)
 
 1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
 2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
 
 ## Pagination - Clear All
 
-![paginationclearall](img/pagination_design2.png)
+![Pagination Select 2](img/pagination_selection2.png)
+![Pagination Select 3](img/pagination_selection3.png)
+![Pagination Select 4](img/pagination_selection4.png)
+![Pagination Select 5](img/pagination_selection5.png)
+![Pagination Select 6](img/pagination_selection6.png)
 
 1. When any or all items are selected, user can clear selection.

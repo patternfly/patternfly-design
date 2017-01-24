@@ -6,4 +6,4 @@ This pattern defines how pagination behaves within content views. Pagination is 
 
 ## Pagination - Table View
 
-![pagination overview](img/pagination_overview.png)
+![Pagination Overview](img/pagination_overview.png)
