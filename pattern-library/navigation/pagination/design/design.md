@@ -15,17 +15,24 @@
 ## Pagination - Selection Pattern
 
 ### Default View
-![Pagination Select 1](img/pagination_selection1.png)
+![Pagination Select 1](img/pagination_selection_1.png)
 
 1. **Single/Multi Select:**  You can still select all items within a single page by selecting the checkbox in the column headers. Select single items by checking the box on the left of each item row.
 2. **Selection Info:**  Selection info is located in the top right and is persistent, whether there are none or all items are selected.  User always has the ability to select all items within table.
 
-## Pagination - Clear All
+### Defasdfew
+![Pagination Select 2](img/pagination_selection_2.png)
 
-![Pagination Select 2](img/pagination_selection2.png)
-![Pagination Select 3](img/pagination_selection3.png)
-![Pagination Select 4](img/pagination_selection4.png)
-![Pagination Select 5](img/pagination_selection5.png)
-![Pagination Select 6](img/pagination_selection6.png)
+### Defasdfew
+![Pagination Select 3](img/pagination_selection_3.png)
+
+### Defasdfew
+![Pagination Select 4](img/pagination_selection_4.png)
+
+### Defasdfew
+![Pagination Select 5](img/pagination_selection_5.png)
+
+### Clear All
+![Pagination Select 6](img/pagination_selection_6.png)
 
 1. When any or all items are selected, user can clear selection.
