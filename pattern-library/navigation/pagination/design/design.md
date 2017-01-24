@@ -7,10 +7,10 @@
 1. Number of items on a page
   * Includes option to modify the number of items displayed. It is recommended that the default number be less than 25 in order to minimize scrolling.
 2. Items currently displayed
-3. Current page / navigate to specific page
-4. Total number of pages
-5. Navigate to the next or previous page
-6. Navigate to the first or last page
+3. Navigate to the previous or first page
+4. Current page / navigate to specific page
+5. Total number of pages
+6. Navigate to the next or last page
 
 ## Pagination - Selection Pattern
 
