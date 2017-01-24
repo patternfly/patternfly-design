@@ -2,6 +2,8 @@
 
 ## Pagination Elements
 
+![paginationselect all](img/pagination_callouts.png)
+
 1. Number of items on a page
 2. Items currently displayed
 3. Current page / navigate to specific page
@@ -9,11 +11,7 @@
 5. Navigate to the next or previous page
 6. Navigate to the first or last page
 
-
-1. **Sinsdfsdfect:**  Ysdfsdfw.
-2. **Selesdfsdffo:**  Selectsdfsdfble.
-
-## Pagination - Select All
+## Pagination - Selection Pattern
 
 ![paginationselect all](img/pagination_design.png)
 
@@ -29,7 +27,3 @@
 ![paginationclearall](img/pagination_design2.png)
 
 1. When any or all items are selected, user can clear selection.
-
-## rando
-
-![paginationclearall](img/table-example.png)
