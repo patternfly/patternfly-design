@@ -72,14 +72,14 @@ var familyObservable = readdir('pattern-library')
           file.status = 'present'
           return exec(`git log --format=%aD -n 1 ${file.path}`)
           .flatMap(function(stdout) {
-            let date = new Date(stdout[0]);
-            file.changed = dateFormat(date, 'dddd, mmmm dS')
-            if (now - date.getTime() < 7*24*3600*1000) {
+            file.dateChanged = new Date(stdout[0]);
+            file.dateChangedFormatted = dateFormat(file.dateChanged, 'dddd, mmmm dS')
+            if (now - file.dateChanged.getTime() < 7*24*3600*1000) {
               file.status = 'changed'
               return exec(`git log --format=%aD ${file.path} | tail -1`)
               .map(function (stdout) {
-                let date = new Date(stdout[0]);
-                if (now - date.getTime() < 7*24*3600*1000) {
+                file.dateCreated = new Date(stdout[0]);
+                if (now - file.dateCreated.getTime() < 7*24*3600*1000) {
                   file.status = 'new'
                 }
               });
