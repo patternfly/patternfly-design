@@ -36,18 +36,30 @@
   .pf-design-table__icon--missing {
     color: #a30000;
   }
+  .pf-design-table__days-slider {
+    display: flex;
+  }
+  .pf-design-table__days-output {
+    font-size: 100%;
+    padding: 3px;
+    flex-shrink: 0;
+  }
   </style>
 </head>
 <body>
   <table class="table table-striped pf-design-table" >
-    <tbody>
+    <tbody class="pf-design-table__legend">
       <tr><th colspan="4"><h2>File status indicators</h2></th></tr>
       <tr></tr>
       <tr><td colspan="4">
-        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created < week</span><br>
-        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified < week</span><br>
+        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created < <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified < <span class="days">7</span> days</span><br>
         <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present"></span> Present</span><br>
         <span><span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span> Missing</span><br>
+        <span class="pf-design-table__days-slider">
+          <input id="daysSlider" type="range" min="1" value="7" max="100" step="1"/>
+          <output class="pf-design-table__days-output" for="daysSlider" id="daysOutput">50 days</output>
+        </span>
       </td></tr>
     </tbody>
 
@@ -159,14 +171,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -183,14 +195,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -234,14 +246,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/communication/about-modal">about-modal</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 22:16:55 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 22:16:55 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
@@ -259,14 +271,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -282,14 +294,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/communication/inline-notifications">inline-notifications</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Wed Dec 07 2016 03:12:10 GMT+0000 (UTC)"
+                      data-created="Wed Dec 07 2016 03:14:23 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 21:01:07 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 21:01:07 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
@@ -306,7 +318,7 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/communication/notification-drawer">notification-drawer</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 18:37:21 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
@@ -314,7 +326,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -355,14 +367,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -382,14 +394,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/content-views/card-view">card-view</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 14:04:02 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 14:04:02 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -407,14 +419,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -431,14 +443,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -493,7 +505,7 @@
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -517,7 +529,7 @@
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Wed Jan 18 2017 14:07:32 GMT+0000 (UTC)"
                       title="Last modified on Wednesday, January 18th">
                 </span>
@@ -534,14 +546,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/bullet-chart">bullet-chart</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 15:54:20 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 15:54:20 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -549,7 +561,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -558,14 +570,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/donut-chart">donut-chart</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 21:13:51 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 15:54:20 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -582,14 +594,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/heat-map">heat-map</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -597,7 +609,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -606,14 +618,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/line-chart">line-chart</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -630,14 +642,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/pie-chart">pie-chart</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 21:13:51 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -678,14 +690,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/timeline">timeline</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -693,7 +705,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -702,14 +714,14 @@
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/data-visualization/utilization-bar-chart">utilization-bar-chart</a></td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 18:19:56 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--changed">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-created="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       data-changed="Thu Jan 19 2017 21:13:51 GMT+0000 (UTC)"
                       title="Last modified on Thursday, January 19th">
                 </span>
@@ -755,14 +767,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -785,7 +797,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -809,7 +821,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -853,7 +865,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -875,7 +887,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -917,7 +929,7 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -963,14 +975,14 @@
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
               <td class="pf-design-table__cell pf-design-table__cell--present">
                 <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                       data-created=""
-                      data-changed="Sun Jan 15 2017 18:26:38 GMT+0000 (UTC)"
+                      data-changed="Sun Jan 15 2017 18:29:29 GMT+0000 (UTC)"
                       title="Last modified on Sunday, January 15th">
                 </span>
               </td>
@@ -1021,29 +1033,43 @@
       </tbody>
   </table>
   <script defer>
-    let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
-    let now = new Date().getTime();
     function getQueryStringValue (key) {
       return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
     }
-    for (var i = 0; i < nodeList.length; i++) {
-      let icon = nodeList[i];
-      let changedDate = new Date(icon.dataset.changed).getTime();
-      let createdDate = new Date(icon.dataset.created).getTime();
-      let days = getQueryStringValue('days') || 7;
-      let changed = now - changedDate < days*24*3600*1000;
-      let created = now - createdDate < days*24*3600*1000;
-      if (created) {
-        icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
-        icon.classList.add('fa-star', 'pf-design-table__icon--new');
-      } else if (changed) {
-        icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
-        icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
-      } else {
-        icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
-        icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
+    function changeDays(days) {
+      console.log(`Updating icons for ${days} days.`)
+      let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
+      let now = new Date().getTime();
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        let changedDate = new Date(icon.dataset.changed).getTime();
+        let createdDate = new Date(icon.dataset.created).getTime();
+        let daysList = document.querySelectorAll('.pf-design-table__legend .days');
+        for (let j = 0; i < daysList.length; i++) {
+          let daysSpan = daysList[i];
+          daysSpan.innerText = days;
+        }
+        document.getElementById('daysSlider').value = days;
+        document.getElementById('daysOutput').value = days + ' days';
+        let changed = now - changedDate < days*24*3600*1000;
+        let created = now - createdDate < days*24*3600*1000;
+        if (created) {
+          icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
+          icon.classList.add('fa-star', 'pf-design-table__icon--new');
+        } else if (changed) {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
+        } else {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
+        }
       }
     }
+    let days = getQueryStringValue('days') || 7;
+    changeDays(days);
+    document.getElementById('daysSlider').addEventListener("input", function() {
+      changeDays(this.value);
+    });
   </script>
 </body>
 </html>
