@@ -4,12 +4,11 @@
 
 This pattern defines how pagination behaves within the table, list, and card content views.
 
-The persistent elements related to pagination would be found below the content. This includes:
+Pagination is found below the content. Pagination is optional. When present, it includes:
 
-* See the number of items on a page and total number of pages
-* See how many pages of data there is.
-* View which page you are on (current location)
-* Modify how many pages are being displayed.
-* Skip to the next or previous page.
-* Skip multiple pages.
-* Navigate to the first/last page.
+* Number of items on a page
+* Items currently displayed
+* Current page / navigate to specific page
+* Total number of pages
+* Navigate to the next or previous page
+* Navigate to the first or last page
