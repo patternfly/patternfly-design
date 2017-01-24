@@ -21,7 +21,7 @@
 
 ![Table view empty state](img/empty-state-callout.png)
 
-1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
+10. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
 
 ## What’s not covered in the current design but will be covered in future sprints:
 
