@@ -11,4 +11,4 @@ The table pattern should **NOT** be used if:
 
 ## Default Table
 
-![Default Table](img/table-example.png)
+![Default Table](img/table-overview.png)

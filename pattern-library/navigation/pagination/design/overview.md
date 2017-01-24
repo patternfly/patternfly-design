@@ -2,9 +2,9 @@
 
 ## Overview
 
-This pattern defines how pagination behaves within content views, which includes tables, list, and card views.
+This pattern defines how pagination behaves within the table, list, and card content views.
 
-The persistent elements related to pagination would be found on the bottom of the table.  This includes:
+The persistent elements related to pagination would be found below the content. This includes:
 
 * See the number of items on a page and total number of pages
 * See how many pages of data there is.
@@ -13,5 +13,3 @@ The persistent elements related to pagination would be found on the bottom of th
 * Skip to the next or previous page.
 * Skip multiple pages.
 * Navigate to the first/last page.
-
-Selection info will be shown in the top right of the table. This pattern addresses the ability to select all items across multiple pages in addition to selecting all items on a page.

@@ -21,3 +21,7 @@
 ![paginationclearall](img/pagination_design2.png)
 
 1. When any or all items are selected, user can clear selection.
+
+##rando
+
+![paginationclearall](img/table-example.png)
