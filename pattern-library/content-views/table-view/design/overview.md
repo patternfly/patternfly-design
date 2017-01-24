@@ -8,3 +8,7 @@ The table pattern should **NOT** be used if:
 
 - Users need to find patterns within a data set. Consider a line chart or a bar chart.
 - Users need to browse the data set without knowing exactly what to look for. Consider using a [List View](https://www.patternfly.org/pattern-library/content-views/list-view/#/api).
+
+## Default Table
+
+![Default Table](img/table-example.png)
