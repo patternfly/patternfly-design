@@ -3,7 +3,7 @@
 ![Canvas Layout](img/Canvas-03.png)
 
   1. **Editor Toolbar:**  The Editor Toolbar includes a mechanism to open and close the Toolbox as well as actions pertaining to the items on the canvas. The Toolbar can also optionally include zoom/pan actions, find, and view types.
-  2. **Canvas:** A grid based background should cover the working area of the Canvas View. Objects can be placed on the canvas to create a workflow.
+  2. **Canvas:** A grid based background should cover the working area of the Canvas View. Users can drag items from the toolbox, onto the canvas and arrange the items as needed.
   3. **Toolbox:**
     * All items that can be dragged onto the canvas are available in the Toolbox.
     * The toolbox can be Left-aligned or top-aligned depending on the use case.
@@ -23,7 +23,7 @@
 ![Canvas Example with Top-aligned Toolbox](img/Canvas-04.png)
 
 1. **Toolbox:** With top-aligned toolboxes, tabs and scroll capability can be used as needed for scalability.
-2. **Canvas Items:** When a user clicks on a canvas item, the selected state should be visually indicated. For cases where users will often act on a single item at one time, displaying a menu of item actions on hover is recommended. 
+2. **Canvas Items:** When a user clicks on a canvas item, the selected state should be visually indicated. For cases where multiple actions are available, a contextual menu of canvas item actions is recommended on hover.
 
 ## Zooming and Panning on the Canvas
 Implementing the pan and zoom functionality is optional, but is recommended for any canvas view that has the potential for becoming overcrowded with canvas items.
