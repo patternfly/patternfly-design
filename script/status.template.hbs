@@ -43,8 +43,8 @@
       <tr><th colspan="4"><h2>File status indicators</h2></th></tr>
       <tr></tr>
       <tr><td colspan="4">
-        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created < <span class="days">7</span> days</span><br>
-        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified < <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created within <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified within <span class="days">7</span> days</span><br>
         <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present"></span> Present</span><br>
         <span><span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span> Missing</span><br>
         <span class="pf-design-table__days-slider">
@@ -67,7 +67,7 @@
                   <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
                 </td>
               {{else}}
-                <td class="pf-design-table__cell">
+                <td class="pf-design-table__cell pf-design-table__cell--present">
                   <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
                         data-created="{{ value.dateCreated }}"
                         data-changed="{{ value.dateChanged }}"
@@ -85,8 +85,21 @@
     function getQueryStringValue (key) {
       return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
     }
+    function findMaxDays() {
+      let nodeList = document.querySelectorAll('.pf-design-table__cell--present .pf-design-table__icon')
+      let now = new Date().getTime();
+      let maxDays = 0;
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        let createdDate = new Date(icon.dataset.created).getTime();
+        let days = (now - createdDate) / 1000 / 3600 / 24;
+        maxDays = Math.max(days, maxDays);
+      }
+      maxDays = Math.min(365, maxDays);
+      document.getElementById('daysSlider').setAttribute('max', maxDays + 1);
+    };
+    findMaxDays();
     function changeDays(days) {
-      console.log(`Updating icons for ${days} days.`)
       let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
       let now = new Date().getTime();
       for (let i = 0; i < nodeList.length; i++) {
@@ -114,7 +127,7 @@
         }
       }
     }
-    let days = getQueryStringValue('days') || 7;
+    let days = getQueryStringValue('days') || 30;
     changeDays(days);
     document.getElementById('daysSlider').addEventListener("input", function() {
       changeDays(this.value);
