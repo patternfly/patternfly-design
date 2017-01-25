@@ -2,7 +2,7 @@
 
 ## Overview
 
-This pattern defines how pagination behaves within content views. When present, it is consistent across all three content views.
+This pattern defines how pagination behaves within content views. When present, pagination is consistent across all three content views.
 
 * Pagination is found below the content.
 * Pagination is optional.
