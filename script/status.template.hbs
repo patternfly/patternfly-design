@@ -9,15 +9,6 @@
   .pf-design-table__cell {
     text-align: center;
   }
-  .pf-design-table__cell--new {
-    /*background-color: #bee1f4;*/
-  }
-  .pf-design-table__cell--changed {
-    /*background-color: #f9d67a;*/
-  }
-  .pf-design-table__cell--present {
-    /*background-color: #c8eb79;*/
-  }
   .pf-design-table__cell--missing {
     background-color: #ffe6e6;
   }
@@ -36,48 +27,111 @@
   .pf-design-table__icon--missing {
     color: #a30000;
   }
+  .pf-design-table__days-slider {
+    display: flex;
+  }
+  .pf-design-table__days-output {
+    font-size: 100%;
+    padding: 3px;
+    flex-shrink: 0;
+  }
   </style>
 </head>
 <body>
   <table class="table table-striped pf-design-table" >
-    <tbody>
+    <tbody class="pf-design-table__legend">
       <tr><th colspan="4"><h2>File status indicators</h2></th></tr>
       <tr></tr>
       <tr><td colspan="4">
-        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created < week</span><br>
-        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified < week</span><br>
+        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created within <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified within <span class="days">7</span> days</span><br>
         <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present"></span> Present</span><br>
         <span><span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span> Missing</span><br>
+        <span class="pf-design-table__days-slider">
+          <input id="daysSlider" type="range" min="1" value="7" max="100" step="1"/>
+          <output class="pf-design-table__days-output" for="daysSlider" id="daysOutput">50 days</output>
+        </span>
       </td></tr>
     </tbody>
 
     {{#each families}}
-      <tbody>
+      <tbody class="pf-design-table__files">
         <tr><th colspan="4"><h2>{{name}}</h2></th></tr>
         <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
         {{#each patterns}}
           <tr>
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/{{../name}}/{{name}}">{{name}}</a></td>
             {{#eachInMap files }}
-              <td class="pf-design-table__cell pf-design-table__cell--{{ value.status }}">
-              {{#compare value.status "==" "new"}}
-                <span class="fa fa-star pf-design-table__icon pf-design-table__icon--new" title="New: Last modified on {{ value.changed }}"></span>
-              {{/compare}}
-              {{#compare value.status "==" "changed"}}
-                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed" title="Changed: Last modified on {{ value.changed }}"></span>
-              {{/compare}}
-              {{#compare value.status "==" "present"}}
-                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present" title="Present: Last modified on {{ value.changed }}"></span>
-              {{/compare}}
               {{#compare value.status "==" "missing"}}
-                <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                <td class="pf-design-table__cell pf-design-table__cell--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
+              {{else}}
+                <td class="pf-design-table__cell pf-design-table__cell--present">
+                  <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
+                        data-created="{{ value.dateCreated }}"
+                        data-changed="{{ value.dateChanged }}"
+                        title="Modified on {{ value.dateChangedFormatted }}. Created on {{ value.dateCreatedFormatted }}">
+                  </span>
+                </td>
               {{/compare}}
-              </td>
             {{/eachInMap}}
           </tr>
         {{/each}}
       </tbody>
     {{/each}}
   </table>
+  <script defer>
+    function getQueryStringValue (key) {
+      return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
+    }
+    function findMaxDays() {
+      let nodeList = document.querySelectorAll('.pf-design-table__cell--present .pf-design-table__icon')
+      let now = new Date().getTime();
+      let maxDays = 0;
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        let createdDate = new Date(icon.dataset.created).getTime();
+        let days = (now - createdDate) / 1000 / 3600 / 24;
+        maxDays = Math.max(days, maxDays);
+      }
+      maxDays = Math.min(365, maxDays);
+      document.getElementById('daysSlider').setAttribute('max', maxDays + 1);
+    };
+    findMaxDays();
+    function changeDays(days) {
+      let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
+      let now = new Date().getTime();
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        let changedDate = new Date(icon.dataset.changed).getTime();
+        let createdDate = new Date(icon.dataset.created).getTime();
+        let daysList = document.querySelectorAll('.pf-design-table__legend .days');
+        for (let j = 0; j < daysList.length; j++) {
+          let daysSpan = daysList[j];
+          daysSpan.innerText = days;
+        }
+        document.getElementById('daysSlider').value = days;
+        document.getElementById('daysOutput').value = days + ' days';
+        let changed = now - changedDate < days*24*3600*1000;
+        let created = now - createdDate < days*24*3600*1000;
+        if (created) {
+          icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
+          icon.classList.add('fa-star', 'pf-design-table__icon--new');
+        } else if (changed) {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
+        } else {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
+        }
+      }
+    }
+    let days = getQueryStringValue('days') || 30;
+    changeDays(days);
+    document.getElementById('daysSlider').addEventListener("input", function() {
+      changeDays(this.value);
+    });
+  </script>
 </body>
 </html>
