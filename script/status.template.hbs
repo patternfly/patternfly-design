@@ -9,15 +9,6 @@
   .pf-design-table__cell {
     text-align: center;
   }
-  .pf-design-table__cell--new {
-    /*background-color: #bee1f4;*/
-  }
-  .pf-design-table__cell--changed {
-    /*background-color: #f9d67a;*/
-  }
-  .pf-design-table__cell--present {
-    /*background-color: #c8eb79;*/
-  }
   .pf-design-table__cell--missing {
     background-color: #ffe6e6;
   }
@@ -71,17 +62,19 @@
           <tr>
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/{{../name}}/{{name}}">{{name}}</a></td>
             {{#eachInMap files }}
-              <td class="pf-design-table__cell pf-design-table__cell--{{ value.status }}">
               {{#compare value.status "==" "missing"}}
-                <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                <td class="pf-design-table__cell pf-design-table__cell--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
               {{else}}
-                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="{{ value.dateCreated }}"
-                      data-changed="{{ value.dateChanged }}"
-                      title="Last modified on {{ value.dateChangedFormatted }}">
-                </span>
+                <td class="pf-design-table__cell">
+                  <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
+                        data-created="{{ value.dateCreated }}"
+                        data-changed="{{ value.dateChanged }}"
+                        title="Modified on {{ value.dateChangedFormatted }}. Created on {{ value.dateCreatedFormatted }}">
+                  </span>
+                </td>
               {{/compare}}
-              </td>
             {{/eachInMap}}
           </tr>
         {{/each}}
@@ -101,8 +94,8 @@
         let changedDate = new Date(icon.dataset.changed).getTime();
         let createdDate = new Date(icon.dataset.created).getTime();
         let daysList = document.querySelectorAll('.pf-design-table__legend .days');
-        for (let j = 0; i < daysList.length; i++) {
-          let daysSpan = daysList[i];
+        for (let j = 0; j < daysList.length; j++) {
+          let daysSpan = daysList[j];
           daysSpan.innerText = days;
         }
         document.getElementById('daysSlider').value = days;

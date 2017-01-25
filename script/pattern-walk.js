@@ -70,22 +70,15 @@ var familyObservable = readdir('pattern-library')
       .flatMap(function(fileExists) {
         if (fileExists) {
           file.status = 'present'
-          return exec(`git log --format=%aD -n 1 ${file.path}`)
-          .flatMap(function(stdout) {
-            file.dateChanged = new Date(stdout[0]);
-            file.dateChangedFormatted = dateFormat(file.dateChanged, 'dddd, mmmm dS')
-            if (now - file.dateChanged.getTime() < 7*24*3600*1000) {
-              file.status = 'changed'
-              return exec(`git log --format=%aD ${file.path} | tail -1`)
-              .map(function (stdout) {
-                file.dateCreated = new Date(stdout[0]);
-                if (now - file.dateCreated.getTime() < 7*24*3600*1000) {
-                  file.status = 'new'
-                }
-              });
-            } else {
-              return Rx.Observable.empty;
-            }
+          return exec(`git log --format=%aD ${file.path}`)
+          .map(function(stdout) {
+            let commits = stdout[0].split('\n').filter(function(commit) {
+              return commit.length > 0;
+            });
+            file.dateChanged = new Date(commits[0]);
+            file.dateChangedFormatted = dateFormat(file.dateChanged, 'mmmm dS yyyy');
+            file.dateCreated = new Date(commits[commits.length - 1]);
+            file.dateCreatedFormatted = dateFormat(file.dateCreated, 'mmmm dS yyyy');
           });
         } else {
           file.status = 'missing';
