@@ -6,8 +6,8 @@ This pattern defines how pagination behaves within content views. When present, 
 
 * Pagination is found below the content.
 * Pagination is optional.
-  * When there is a small number of items.
-  * When content uses "lazy load" to load content as a user scrolls.
+  * Pagination is not necessary when there is a small amount of content.
+  * Pagination is not necessary when an application uses "lazy load" to load content as a user scrolls.
 * Pagination can be "sticky" and remain fixed to the bottom of a user's browser.
 
 ## Pagination - Table View
