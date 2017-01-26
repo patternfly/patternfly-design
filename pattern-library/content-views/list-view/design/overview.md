@@ -27,6 +27,12 @@ Compound expansion supports multiple expansion panels to examine multiple attrib
 
 ![List view with compound row expansion](img/list-view-compound-expansion.png)
 
+## List View with Draggable Rows
+
+Provide customizable sorting capabilities to users by applying the [Drag and Drop](https://www.patternfly.org/pattern-library/forms-and-controls/drag-and-drop/#/api) pattern to a standard list view. Drag and Drop allows users to dynamically reorder items in the list.
+
+![List view with draggable rows](img/list-view-drag-and-drop.png)
+
 ## Row Variation Examples
 
 The following row variations provide some examples of how you might visualize content within a row. You are not limited to these layouts. You may need to adjust the visualizations to best fit your application’s needs. Each row within a list view should have a consistent layout. Do not mix and match.
