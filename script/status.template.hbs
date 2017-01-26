@@ -3,9 +3,22 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly-additions.css">
   <style>
-  .pf-design-table {
-    width: auto;margin: auto;
+
+  @keyframes appear {
+    from { filter: opacity(0) }
+    to { filter: opacity(1) }
   }
+
+  @keyframes disappear {
+    from { filter: opacity(1) }
+    to { filter: opacity(0) }
+  }
+
+  .pf-design-table {
+    width: auto;
+    margin: auto;
+  }
+
   .pf-design-table__cell {
     text-align: center;
   }
@@ -35,6 +48,15 @@
     padding: 3px;
     flex-shrink: 0;
   }
+  .remove-icon {
+    animation: disappear .2s ease;
+    animation-fill-mode: forwards;
+  }
+  .add-icon {
+    animation: appear .2s ease;
+    animation-fill-mode: forwards;
+  }
+
   </style>
 </head>
 <body>
@@ -85,8 +107,7 @@
     function getQueryStringValue (key) {
       return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
     }
-    function findMaxDays() {
-      let nodeList = document.querySelectorAll('.pf-design-table__cell--present .pf-design-table__icon')
+    function findMaxDays(nodeList) {
       let now = new Date().getTime();
       let maxDays = 0;
       for (let i = 0; i < nodeList.length; i++) {
@@ -98,9 +119,36 @@
       maxDays = Math.min(365, maxDays);
       document.getElementById('daysSlider').setAttribute('max', maxDays + 1);
     };
-    findMaxDays();
-    function changeDays(days) {
-      let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
+
+    function updateClass(icon) {
+      if (icon.dataset.status == 'created') {
+          icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
+          icon.classList.add('fa-star', 'pf-design-table__icon--new');
+        } else if (icon.dataset.status == 'changed') {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
+        } else {
+          icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
+          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
+        }
+    }
+
+    function setAnimationListeners(nodeList) {
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        icon.addEventListener("animationend", function(event) {
+          if (event.animationName == 'appear') {
+            icon.classList.remove('add-icon');
+          } else if (event.animationName == 'disappear') {
+            icon.classList.remove('remove-icon');
+            updateClass(this);
+            icon.classList.add('add-icon');
+          }
+        });
+      }
+    }
+
+    function changeDays(nodeList, days) {
       let now = new Date().getTime();
       for (let i = 0; i < nodeList.length; i++) {
         let icon = nodeList[i];
@@ -113,24 +161,29 @@
         }
         document.getElementById('daysSlider').value = days;
         document.getElementById('daysOutput').value = days + ' days';
-        let changed = now - changedDate < days*24*3600*1000;
-        let created = now - createdDate < days*24*3600*1000;
-        if (created) {
-          icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
-          icon.classList.add('fa-star', 'pf-design-table__icon--new');
-        } else if (changed) {
-          icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
-          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
+        let oldStatus = icon.dataset.status;
+        if (now - createdDate < days*24*3600*1000) {
+          icon.dataset.status = 'created';
+        } else if (now - changedDate < days*24*3600*1000) {
+          icon.dataset.status = 'changed';
         } else {
-          icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
-          icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
+          icon.dataset.status = 'present';
+        };
+        if (!oldStatus) {
+          updateClass(icon);
+        } else if (oldStatus != icon.dataset.status) {
+          icon.classList.add('remove-icon');
         }
+
       }
     }
+    let nodeList = document.querySelectorAll('.pf-design-table__cell--present .pf-design-table__icon')
+    findMaxDays(nodeList);
+    setAnimationListeners(nodeList);
     let days = getQueryStringValue('days') || 30;
-    changeDays(days);
+    changeDays(nodeList, days);
     document.getElementById('daysSlider').addEventListener("input", function() {
-      changeDays(this.value);
+      changeDays(nodeList, this.value);
     });
   </script>
 </body>
