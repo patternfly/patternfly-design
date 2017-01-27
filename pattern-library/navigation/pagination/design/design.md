@@ -42,3 +42,10 @@
 ![Pagination Select 6](img/pagination_selection_6.png)
 
 1. Clear any selected items by clicking Clear All link.
+
+## Pagination - Content Below
+![Pagination Content Below](img/pagination_content_below.png)
+
+1. A sticky footer is not recommended for views with content *below* pagination.
+2. It is recommended that the default number of items displayed be less than 25 in order to minimize scrolling.
+  * Allowing users to change the default number should be optional.
