@@ -20,6 +20,9 @@
 ### Filters Applied
 ![Pagination Select 2](img/pagination_selection_2.png)
 
+1. Filters displayed on left side.
+2. Updated item count displayed on right side.
+
 ### Single Select
 ![Pagination Select 3](img/pagination_selection_3.png)
 
