@@ -43,6 +43,11 @@
 
 1. Clear any selected items by clicking Clear All link.
 
+### Selection While Paging
+![Pagination Select 7](img/pagination_selection_7.png)
+
+1. Items remain selected even as a user pages.
+
 ## Pagination - Content Below
 ![Pagination Content Below](img/pagination_content_below.png)
 
