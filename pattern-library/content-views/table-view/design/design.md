@@ -4,6 +4,7 @@
 ![Table with a single row selected](img/table-callout1.png)
 
 1. **Toolbar:** This version of the Table View is using a [Toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) with filter and actions. Item count is also included in the toolbar on the right hand side.
+1. **Column Visibility:** Control what data displays by hiding and showing columns. See [column visibility](#column-visibility) for more details about interaction with the control, and the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) for more examples of icon placement in the toolbar.
 1. **Sorting:** Organize data by sorting columns. All columns are sortable, simply click on the column header to sort via info found in that column.
   - Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
 1. **Select Row(s):** Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously.
@@ -40,6 +41,20 @@
 ![paginationclearall](img/pagination_design2.png)
 
 1. When any or all items are selected, user can clear selection.
+
+## Column Visibility
+
+![Table with a column visibility menu active](img/table-col-visibility-menu.png)
+
+1. **Column Visibility Icon:** Displays in the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) control group after the Filter control group. If sort controls are included in the toolbar, then column visibility is the last item in the same group as the Sort controls.
+
+2. **Column Visibility Dropdown:** Lists all columns that can be displayed in the table.
+
+  * Each list item is a checkbox with the column header as the label.
+
+  * The list is sorted by the same order that the columns appear in the table.
+
+  * When a checkbox selection is cleared, the column is removed from the table, and the other columns expand to fill the width of the table. Alternatively, when a checkbox is selected, the column is added to the table.
 
 
 ## What’s not covered in the current design but will be covered in future sprints:
