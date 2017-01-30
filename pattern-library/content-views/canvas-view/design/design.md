@@ -6,7 +6,7 @@
   2. **Canvas:** A grid based background should cover the working area of the Canvas View. Users can drag items from the toolbox, onto the canvas and arrange the items as needed.
   3. **Toolbox:**
     * All items that can be dragged onto the canvas are available in the Toolbox.
-    * The toolbox can be Left-aligned or top-aligned depending on the use case.
+    * The toolbox can be left-aligned or top-aligned depending on the use case.
   4. **Canvas Items:** Canvas items are things that have been dragged from the toolbox onto the canvas. In some cases items can be ordered or connected to represent a particular flow of information.
   5. **Properties Panel** (optional):
     * Users may need to view or edit the properties of individual canvas items.
