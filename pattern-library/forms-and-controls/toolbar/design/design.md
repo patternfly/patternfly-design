@@ -7,6 +7,8 @@
 
   1. **Sort:** Helps users make sense of content by ordering it in a logical fashion based on a single attribute.
 
+  1. **Column Visibility:** Enables users to define what columns are visible within a table. If the user changes the view to something other than the table view, then this icon does not display in the toolbar. Refer to the [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/) design page for more details
+
   1. **Actions:** Contains actions for one or more pieces of content in the current view.
 
   1. **Find:** Locates a specific item or items by automatically scrolling or paging to all occurrences of an entered query. Unlike filtering, it does not remove content from the view.
@@ -14,7 +16,7 @@
   1. **Change View:** Allows users to utilize the advantages of different content representations by switching between ways of visualizing the same dataset.
 
   1. **Active Filters:** A component of the filter tool that contains a list of all currently active filters as well as the Clear All Filters action. Not displayed if stackable filters are disabled.
-  
+
   1. **Content and Results Count:** Shows the number of content items that satisfy all currently applied filters, as well as the total number of items and the type of item. If no filters are applied, only the total number of items and the item type are displayed (e.g. 40 Virtual Machines). May be displayed to the left of right-aligned content if stackable filters are disabled.
 
 ## Layouts
