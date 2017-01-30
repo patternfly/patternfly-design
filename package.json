@@ -19,7 +19,7 @@
     "test": "./script/verify-site-includes.js",
     "build-status": "./script/status.js",
     "watch-status": "watch ./script/status.js script",
-    "serve-status": "browser-sync start --server --files 'publish/**/*' --startPath 'publish/status'",
+    "serve-status": "browser-sync start --server --port 8080 --files 'publish/**/*' --startPath 'publish/status'",
     "serve": "npm run watch-status & npm run serve-status"
   },
   "repository": {

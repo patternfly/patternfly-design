@@ -3,20 +3,24 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.15.1/css/patternfly-additions.css">
   <style>
-  .pf-design-table {
-    width: auto;margin: auto;
+
+  @keyframes appear {
+    from { filter: opacity(0) }
+    to { filter: opacity(1) }
   }
+
+  @keyframes disappear {
+    from { filter: opacity(1) }
+    to { filter: opacity(0) }
+  }
+
+  .pf-design-table {
+    width: auto;
+    margin: auto;
+  }
+
   .pf-design-table__cell {
     text-align: center;
-  }
-  .pf-design-table__cell--new {
-    /*background-color: #bee1f4;*/
-  }
-  .pf-design-table__cell--changed {
-    /*background-color: #f9d67a;*/
-  }
-  .pf-design-table__cell--present {
-    /*background-color: #c8eb79;*/
   }
   .pf-design-table__cell--missing {
     background-color: #ffe6e6;
@@ -44,6 +48,15 @@
     padding: 3px;
     flex-shrink: 0;
   }
+  .remove-icon {
+    animation: disappear .2s ease;
+    animation-fill-mode: forwards;
+  }
+  .add-icon {
+    animation: appear .2s ease;
+    animation-fill-mode: forwards;
+  }
+
   </style>
 </head>
 <body>
@@ -52,8 +65,8 @@
       <tr><th colspan="4"><h2>File status indicators</h2></th></tr>
       <tr></tr>
       <tr><td colspan="4">
-        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created < <span class="days">7</span> days</span><br>
-        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified < <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-star pf-design-table__icon pf-design-table__icon--new"></span> Created within <span class="days">7</span> days</span><br>
+        <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"></span> Modified within <span class="days">7</span> days</span><br>
         <span><span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--present"></span> Present</span><br>
         <span><span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span> Missing</span><br>
         <span class="pf-design-table__days-slider">
@@ -71,17 +84,19 @@
           <tr>
             <td><a href="https://github.com/patternfly/patternfly-design/tree/master/pattern-library/{{../name}}/{{name}}">{{name}}</a></td>
             {{#eachInMap files }}
-              <td class="pf-design-table__cell pf-design-table__cell--{{ value.status }}">
               {{#compare value.status "==" "missing"}}
-                <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                <td class="pf-design-table__cell pf-design-table__cell--missing">
+                  <span class="pficon pficon-close pf-design-table__icon pf-design-table__icon--missing"></span>
+                </td>
               {{else}}
-                <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
-                      data-created="{{ value.dateCreated }}"
-                      data-changed="{{ value.dateChanged }}"
-                      title="Last modified on {{ value.dateChangedFormatted }}">
-                </span>
+                <td class="pf-design-table__cell pf-design-table__cell--present">
+                  <span class="fa fa-file-text-o pf-design-table__icon pf-design-table__icon--changed"
+                        data-created="{{ value.dateCreated }}"
+                        data-changed="{{ value.dateChanged }}"
+                        title="Modified on {{ value.dateChangedFormatted }}. Created on {{ value.dateCreatedFormatted }}">
+                  </span>
+                </td>
               {{/compare}}
-              </td>
             {{/eachInMap}}
           </tr>
         {{/each}}
@@ -92,39 +107,83 @@
     function getQueryStringValue (key) {
       return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
     }
-    function changeDays(days) {
-      console.log(`Updating icons for ${days} days.`)
-      let nodeList = document.querySelectorAll('.pf-design-table__files .pf-design-table__icon')
+    function findMaxDays(nodeList) {
       let now = new Date().getTime();
+      let maxDays = 0;
       for (let i = 0; i < nodeList.length; i++) {
         let icon = nodeList[i];
-        let changedDate = new Date(icon.dataset.changed).getTime();
         let createdDate = new Date(icon.dataset.created).getTime();
-        let daysList = document.querySelectorAll('.pf-design-table__legend .days');
-        for (let j = 0; i < daysList.length; i++) {
-          let daysSpan = daysList[i];
-          daysSpan.innerText = days;
-        }
-        document.getElementById('daysSlider').value = days;
-        document.getElementById('daysOutput').value = days + ' days';
-        let changed = now - changedDate < days*24*3600*1000;
-        let created = now - createdDate < days*24*3600*1000;
-        if (created) {
+        let days = (now - createdDate) / 1000 / 3600 / 24;
+        maxDays = Math.max(days, maxDays);
+      }
+      maxDays = Math.min(365, maxDays);
+      document.getElementById('daysSlider').setAttribute('max', maxDays + 1);
+    };
+
+    function updateClass(icon) {
+      if (icon.dataset.status == 'created') {
           icon.classList.remove('fa-file-text-o', 'pf-design-table__icon--present', 'pf-design-table__icon--changed');
           icon.classList.add('fa-star', 'pf-design-table__icon--new');
-        } else if (changed) {
+        } else if (icon.dataset.status == 'changed') {
           icon.classList.remove('fa-star', 'pf-design-table__icon--present', 'pf-design-table__icon--new');
           icon.classList.add('fa-file-text-o', 'pf-design-table__icon--changed');
         } else {
           icon.classList.remove('fa-star', 'pf-design-table__icon--changed', 'pf-design-table__icon--new');
           icon.classList.add('fa-file-text-o', 'pf-design-table__icon--present');
         }
+    }
+
+    function setAnimationListeners(nodeList) {
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        icon.addEventListener("animationend", function(event) {
+          if (event.animationName == 'appear') {
+            icon.classList.remove('add-icon');
+          } else if (event.animationName == 'disappear') {
+            icon.classList.remove('remove-icon');
+            updateClass(this);
+            icon.classList.add('add-icon');
+          }
+        });
       }
     }
-    let days = getQueryStringValue('days') || 7;
-    changeDays(days);
+
+    function changeDays(nodeList, days) {
+      let now = new Date().getTime();
+      for (let i = 0; i < nodeList.length; i++) {
+        let icon = nodeList[i];
+        let changedDate = new Date(icon.dataset.changed).getTime();
+        let createdDate = new Date(icon.dataset.created).getTime();
+        let daysList = document.querySelectorAll('.pf-design-table__legend .days');
+        for (let j = 0; j < daysList.length; j++) {
+          let daysSpan = daysList[j];
+          daysSpan.innerText = days;
+        }
+        document.getElementById('daysSlider').value = days;
+        document.getElementById('daysOutput').value = days + ' days';
+        let oldStatus = icon.dataset.status;
+        if (now - createdDate < days*24*3600*1000) {
+          icon.dataset.status = 'created';
+        } else if (now - changedDate < days*24*3600*1000) {
+          icon.dataset.status = 'changed';
+        } else {
+          icon.dataset.status = 'present';
+        };
+        if (!oldStatus) {
+          updateClass(icon);
+        } else if (oldStatus != icon.dataset.status) {
+          icon.classList.add('remove-icon');
+        }
+
+      }
+    }
+    let nodeList = document.querySelectorAll('.pf-design-table__cell--present .pf-design-table__icon')
+    findMaxDays(nodeList);
+    setAnimationListeners(nodeList);
+    let days = getQueryStringValue('days') || 30;
+    changeDays(nodeList, days);
     document.getElementById('daysSlider').addEventListener("input", function() {
-      changeDays(this.value);
+      changeDays(nodeList, this.value);
     });
   </script>
 </body>
