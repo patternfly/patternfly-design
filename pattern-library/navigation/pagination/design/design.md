@@ -4,9 +4,9 @@
 
 1. **Items per Page:** This control displays the number of items on a page.
   * It includes an option to modify the number of items displayed. It is recommended that the default number be less than 25 in order to minimize scrolling.
-2. **Items Displayed:** This control displays the number of items currently in view.
+2. **Items Displayed:** This count displays the items currently in view.
 3. **Navigate Pages:** These controls allow the user to navigate to the previous or first page.
-4. **Current Page:** This control display the current page and allows users to navigate to a specific page.
+4. **Current Page:** This control displays the current page and allows users to navigate to a specific page.
 5. **Total Pages:** This count displays the total number of pages.
 6. **Navigate Pages:** These controls allow the user to navigate to the next or last page.
 
@@ -24,12 +24,12 @@
 ### Single Select
 ![Pagination Select 3](img/pagination_selection_3.png)
 
-1. **Select:** Select single items by checking the box on the left of each item row.
+1. **Single Select:** Select single items by checking the box on the left of each item row.
 
 ### Multi-Select
 ![Pagination Select 4](img/pagination_selection_4.png)
 
-1. **Select All:** Select all items within a single page by checking the box in the column header.
+1. **Multi-Select:** Select all items within a single page by checking the box in the column header.
 
 ### Select All
 ![Pagination Select 5](img/pagination_selection_5.png)
@@ -44,7 +44,7 @@
 ### Selection While Paging
 ![Pagination Select 7](img/pagination_selection_7.png)
 
-1. **Select:** Items remain selected even as a user pages.
+1. **Selection While Paging:** Items remain selected even as a user pages.
 
 ## Pagination - Content Below
 ![Pagination Content Below](img/pagination_content_below.png)
