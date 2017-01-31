@@ -11,7 +11,7 @@ This pattern should NOT be used:
 * When syntax requirements are complex and the explanation is lengthy, for example, when outlining password requirements.
 * When the information is not necessary for the user to read to complete their task. In this case, use [Field Level Help](http://www.patternfly.org/pattern-library/forms-and-controls/field-level-help/#/api).
 * When input data can be validated using client-side validation. For guidance, see [Errors and Validation](http://www.patternfly.org/pattern-library/forms-and-controls/errors-and-validation/#/api).
-* As a replacement for form field labels. For more information, see [Form Field Layouts](http://www.patternfly.org/pattern-library/forms-and-controls/form-field-layouts/#/api)Form Field Labels.
+* As a replacement for form field labels. For more information, see [Form Field Layouts](http://www.patternfly.org/pattern-library/forms-and-controls/form-field-layouts/#/api) Form Field Labels.
 
 ### Default state
 ![Syntax Hints Default](img/Syntax-Hints-Default.png)
