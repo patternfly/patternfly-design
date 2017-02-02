@@ -7,7 +7,9 @@
 
   1. **Sort:** Helps users make sense of content by ordering it in a logical fashion based on a single attribute.
 
-  1. **Column Visibility:** Enables users to define what columns are visible within a table. If the user changes the view to something other than the table view, then this icon does not display in the toolbar. Refer to the [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/) design page for more details
+  1. **Column Visibility:** Enables users to define what columns are visible within a table.
+    - Only displays for the table view. If the user changes the view to something other than the table view, then this icon does not display in the toolbar. Refer to the [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/) design page for more details.
+    - If Sort controls are included in the toolbar, then this icon displays in the same control group as Sort and is the last item in this group. If sort controls are not included, then the this icon displays in the same position that is shown for the Sort control group in the [Layouts](#layouts) section below.
 
   1. **Actions:** Contains actions for one or more pieces of content in the current view.
 
