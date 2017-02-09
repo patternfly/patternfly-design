@@ -1,12 +1,25 @@
 # Form Design Guidelines
-This document is intended to help designers created consistent and usable forms using PatternFly components.
+This document is intended to help designers created consistent and usable forms using PatternFly components.  The following topics are addressed.
+
+[Field Labeling](#field-labeling)
+
+[Data Input](#data-input)
+
+[Actions](#actions)
+
+[Help](#help)
+
+[Validation](#validation)
+
+[Progressive Disclosure](#progressive-disclosure)
+
 
 ## Field Labeling
 
 ### Overview
-* Right aligned labels should be your default choice.  It has been shown that this approach leads to the shortest completion times.
+> Right aligned labels should be your default choice.  It has been shown that this approach leads to the shortest completion times.
 
-* Use top aligned labels when you are space constrained or if mobile usage is a high priority.
+> Use top aligned labels when you are space constrained or if mobile usage is a high priority.
 
 ### Read More
 Labels are always provided for input fields to help users understand what information is being requested of them. This pattern has recommendations for three variations to support different use cases.  Whatever approach you use, we recommend that you maintain consistency throughout an application.
@@ -34,14 +47,6 @@ Top aligned labels provide a consistent left edge, along with close proximity of
 * The user will be entering familiar content and is less likely to make data entry errors.
 * Only a few form fields need to be presented.
 
-##### Ideal for the Following Viewports
-![Top Aligned Labels Viewport Recommendations](img/top-aligned-viewport.png)
-
-* Desktop
-  * Full screen (content, detail views)
-  * Short dialogs & wizard screens (not too tall)
-
-
 
 #### Right Aligned Labels
 The ragged left edge makes scanning for context difficult, although the proximity between label and input aids quicker form completion.
@@ -64,17 +69,8 @@ The ragged left edge makes scanning for context difficult, although the proximit
 ##### Use When
 * The user is likely to understand the overall context of the form, and scanability is not a priority.
 * Completing the form quickly is a priority, but using the “top-aligned” format is not a viable solution.
-
-##### Ideal for the Following Viewports
-![Right Aligned Labels Viewport Recommendations](img/right-aligned-viewport.png)
-
-* Desktop
-  * Suitable for modal dialogues and wizards.
-  * Full screen views: Ensure that there is sufficient margin to the left of the form labels to accommodate most labels.
-* Tablet
-  * Ensure that there is sufficient margin to the left of the form labels to accommodate most labels.  
-* Mobile
-  * To accommodate mobile viewports, right-aligned labels should be responsive by adjusting to a top-aligned layout.
+* For desktop and tablet interfaces, ensure that there is sufficient margin to the left of the form labels to accommodate most labels.
+* To accommodate mobile viewports, right-aligned labels should be responsive by adjusting to a top-aligned layout.
 
 
 
@@ -98,15 +94,8 @@ The strong vertical edge helps users to scan for context, although the distance 
 * The user is presented with unfamiliar content, and would benefit from scanning the form to understand the overall context.
 * The user needs to provide a well considered response - providing data related to critical or complex tasks.  
 * It’s more important that the user pay close attention to the form material, rather than completing it quickly.
-
-##### Ideal for the Following Viewports
-![Right Aligned Labels Viewport Recommendations](img/right-aligned-viewport.png)
-
-* Desktop
-  * Preferable for modals and wizards.
-  * Full screen views: User needs to be able to make the visual connection between the label and the input; ensure that there isn’t too much space between these elements.
-* Mobile
-  * To accommodate mobile viewports, left-aligned labels should be responsive by adjusting to a top-aligned layout.
+* User needs to be able to make the visual connection between the label and the input; ensure that there isn’t too much space between these elements.
+* To accommodate mobile viewports, left-aligned labels should be responsive by adjusting to a top-aligned layout.
 
 #### Indicating Required Fields
 
@@ -116,16 +105,16 @@ The strong vertical edge helps users to scan for context, although the distance 
 Where applicable, units should be displayed to the right of any field where they are needed to provide clarity to the displayed data.  
 
 
-
-
-
 ## Data Input
 
 ### Overview
-* Use radio button or checkboxes when you need to select from a small number of known options (2-5 options).  They provide users with the best visibility to choices.
-* Select lists can be used when you have many options, are space-constrained, or  have variable options.
-* On/off switches are a good alternative for enabling and disabling capabilities, but they should be used sparingly to reduce visual clutter.
-* Use bound entry controls like datapickers, timepickers, or numeric touchspin  controls when entering strictly typed data.  This will reduce the need for field-level validation and prevent user input errors.
+> Use radio button or checkboxes when you need to select from a small number of known options (2-5 options).  They provide users with the best visibility to choices.
+
+> Select lists can be used when you have many options, are space-constrained, or  have variable options.
+
+> On/off switches are a good alternative for enabling and disabling capabilities, but they should be used sparingly to reduce visual clutter.
+
+> Use bound entry controls like datapickers, timepickers, or numeric touchspin  controls when entering strictly typed data.  This will reduce the need for field-level validation and prevent user input errors.
 
 ### Read More
 Forms enable users to input a variety of data.  Users may need to select from a fixed set of options or input a value directly.  Guidelines for selection from multiple options and entering values from the keyboard are included below.
@@ -137,14 +126,21 @@ Checkboxes, radio buttons, and switches are useful when you want to select from 
 
 On/Off switches are a third option and can potentially take the place of a single checkbox or a set of two radio buttons.  Switches should only be used when the result will be to enable or disable some optional capability.  They may simplify labeling by allowing you to simply label the on/off switch with the name of the attribute being affected.  For general option selection, checkboxes should be the default choice.
 
-[Include some graphic here with examples.]
+![Radio Button Usage](img/data-input-radio-buttons.png)
+
+![Radio Button Usage](img/data-input-checkboxes.png)
+
+![Radio Button Usage](img/data-input-switch.png)
+
 
 ##### Select Lists
 Select lists provide an alternate method for selecting between multiple options when space is constrained or there are too many options to comfortable display on the page at once.  Select list should also be used when the options may vary.  
 
-PatternFly offers two types of Select controls, Bootstrap Single-Select for selecting between mutually exclusive options and Bootstrap Multi-Select for selecting one or more options from a list.  When a small number of options exist (e.g. less than 5), radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
+PatternFly offers two types of Select controls, Bootstrap Single-Select for selecting between mutually exclusive options and Bootstrap Multi-Select for selecting one or more options from a list.  When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
 
-[Include examples.]
+![Bootstrap Single Select](img/bootstrap-single-select.png)
+
+![Bootstrap Single Select](img/bootstrap-multi-select.png)
 
 #### Data Entry Controls
 
@@ -156,15 +152,17 @@ If the acceptable entries into a text edit field are constrained, syntax hints a
 ##### Bound Entry Controls
 Bound entry controls should be used when entering special data types, including dates, time, and other forms of numeric data.  These controls constrain user input and combine keyboard and mouse interaction.  They are designed to only allow valid inputs and therefore avoid the need for secondary validation.  See the DatePicker, TimePicker, and Bootstrap Touchspin components for more details.
 
-[Include some visual examples of these components.]
+![Bootstrap Single Select](img/data-input-bound-controls.png)
 
 
 ## Actions
 
 ### Overview
-* Align submit buttons to the left (Save, Cancel) on full page forms and to the right (Cancel, Save) on modals.
-* Buttons within forms should be placed immediately to the right of or below the item that they affect.
-* Disable submit buttons until all required form inputs have been satisfied.
+> Align submit buttons to the left (Save, Cancel) on full page forms and to the right (Cancel, Save) on modals.
+
+> Buttons within forms should be placed immediately to the right of or below the item that they affect.
+
+> Disable submit buttons until all required form inputs have been satisfied.
 
 ### Read more
 
@@ -173,11 +171,13 @@ Buttons are the primary means for invoking actions within forms.  Submit buttons
 
 For full page forms, submit buttons should be left aligned at the bottom of the page where the primary action (Save) comes first from left to right.  On modal forms, the button are right aligned with the primary action as the right most button.
 
-[Include visual examples of this.]
+![Buttons on Forms](img/Buttons-on-Form.png)
+
+![Radio Button Usage](img/buttons-on-modal.png)
 
 Buttons may also be used for actions within a form.  In these cases, the button should be placed to the right of or below the item that they affect.
 
-[Show a visual example of this.]
+![Radio Button Usage](img/buttons-within-form.png)
 
 [Link to button style guidelines for more detail about button appearance.]
 
@@ -190,9 +190,11 @@ Submit buttons should be disabled when all conditions required for completing a 
 Help may be provided at a page level or at a field level.
 
 ### Overview
-* Use page level help when linking to online manuals, doc pages, or when you need to provide a top-down overview of the information to be entered on a form.
-* Use field level help to supplement form field labels by providing concise pop-up tips that help novice users.
-* Use syntax hints to indicate how the data must be entered, e.g. the formats for dates or other structured data.
+> Use page level help when linking to online manuals, doc pages, or when you need to provide a top-down overview of the information to be entered on a form.
+
+> Use field level help to supplement form field labels by providing concise pop-up tips that help novice users.
+
+> Use syntax hints to indicate how the data must be entered, e.g. the formats for dates or other structured data.
 
 ### Read More
 
@@ -235,8 +237,9 @@ This pattern should NOT be used:
 ## Validation
 
 ### Overview
-* Use inline notifications to display global errors or warnings associated with the form as a whole.
-* Present field level validation to direct the user to specific items that are in error.  Where possible, errors should be presented immediately so the user may correct the problem and move on.
+> Use inline notifications to display global errors or warnings associated with the form as a whole.
+
+> Present field level validation to direct the user to specific items that are in error.  Where possible, errors should be presented immediately so the user may correct the problem and move on.
 
 ### Read More
 It is often necessary for the system to validate user input and communicate problems before a form can be successfully completed.
@@ -272,10 +275,11 @@ See [Inline Notifications](https://www.patternfly.org/widgets/#progress) for mor
 ## Progressive Disclosure
 
 ### Overview
-* Use progressive disclosure to show or hide sections of a form based on some conditional input.
-* Progressive disclosure is helpful when you want to reduce complexity by only revealing fields that are relevant based on some higher level input.
+> Use progressive disclosure to show or hide sections of a form based on some conditional input.
 
-###Read More
+> Progressive disclosure is helpful when you want to reduce complexity by only revealing fields that are relevant based on some higher level input.
+
+### Read More
 Progressive disclosure is used to hide and show fields based on a particular selection. The workflow is simple and the user can focus on the task at hand. This approach saves users’ time from unnecessarily identifying what fields can or cannot be interacted with. This approach is also helpful to color-blind users because it avoids using color to indicate whether or not a field is available.
 
 Progressive disclosure results from some action taken on some parent selection control, i.e. a checkbox, a radio button, a switch, or a list selection.  That  result then triggers additional controls to be shown or hidden.  Content below these child controls will shift down or up depending on the selection.
@@ -296,7 +300,7 @@ Here are three examples:
 #### Conditional Fields with Dropdown Menu <a id="multi_level"></a>
 ![Image of conditional fields with drop-down menu](img/progressive-disclosure-example3.png)
 
-## Topics for Future Consideration
+### Topics for Future Consideration
 * Grouping form fields
 * Inline editing (i.e. field by field editing without a submit button)
 * Page level help
