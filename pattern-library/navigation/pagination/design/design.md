@@ -58,4 +58,4 @@
 ## Pagination - No Data
 ![Pagination Select 7](img/pagination_no_data.png)
 
-1. **No Data:** Pagination is not displayed when there is no data to page.
+* **No Data:** Pagination is not displayed when there is no data to page.
