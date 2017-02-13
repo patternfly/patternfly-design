@@ -30,3 +30,21 @@ The Toolbar can take different shapes depending on which content controls are in
 ![Toolbar pattern with callouts](img/toolbar-layout2.png)
 
 The content controls should be arranged according to the above templates. If one or more component patterns are not needed, the remaining patterns should align to the edge of the toolbar rather than leaving an empty space for the missing pattern.
+
+
+## Icons and Tooltip text
+To support accessibility, icon buttons that display in the toolbar should include tooltip text using the [Tooltip widget](http://www.patternfly.org/pattern-library/widgets/#tooltip) and screenreader text using the `aria-label` attribute. The [Tooltip widget](http://www.patternfly.org/pattern-library/widgets/#tooltip) supports keyboard accessibility, whereas the html `title` attribute does not.
+
+The following text is recommended for the set of icons displayed in the example above.
+
+| Icon                                      | Class Name    | Tooltip Text      | Screenreader Text (aria-label) | Comments                   |
+| ----------------------------------------- | ------------- | ----------------- | ------------------------------ | -------------------------- |
+| <span class="fa fa-sort-asc"></span>      | fa-sort-asc   | Sort Z to A       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
+| <span class="fa fa-sort-desc"></span>     | fa-sort-desc  | Sort A to Z       | Sorted Z to A. Toggle to sort A to Z. | Displays in the Sort control group (see callout 3). See comments in previous row. |
+| <span class="fa fa-column"></span>        | fa-column     | Show/hide columns | Show/hide columns              | Displays in the Sort control group (see callout 4) |
+| <span class="fa fa-ellipsis-v"></span>    | fa-ellipsis-v | More actions      | More actions                   | Displays in the Actions control group (see callout 5) |
+| <span class="fa fa-search"></span>        | fa-search     | Find              | Find                           | Displays in the Find control group (see callout 6) |
+| <span class="fa fa-th"></span>            | fa-th         | Table view        | Table view                     | Displays in the View control group (see callout 7) |
+| <span class="fa fa-th-large"></span>      | fa-th-large   | List view         | List view                      | Displays in the View control group (see callout 7) |
+| <span class="fa fa-th-list"></span>       | fa-th-list    | Card view         | Card view                      | Displays in the View control group (see callout 7) |
+| <span class="pficon pficon-close"></span> | pficon-close  | [none]            | Clear filter                   | Displays in the Active Filters row (see callout 8). Tooltip text is not needed for the X icon since the action associated with X is more obvious to users. However, screenreader text is still needed. |
