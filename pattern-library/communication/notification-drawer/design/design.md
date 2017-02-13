@@ -1,4 +1,5 @@
 # Notification Drawer
+Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notification-drawer), [Expand Behavior](#expand-behavior-|-optional), or [Notification Drawer | Responsive State](#notification-drawer-|-responsive-state)
 
 ## Toast Notification
 ![Image of standard Toast Notification](img/toast.png)
@@ -18,7 +19,7 @@
 8. **Row Actions:** Clicking on the [Kabob](https://www.patternfly.org/pattern-library/widgets/#kebabs) menu will reveal a drop down containing actions for that item.
 9. **Infinite Scroll:** Infinite scroll reduces need to identify time range on accordion tab. Allows for free-range historical search of notifications.
 
-## Expand Behavior (optional)
+## Expand Behavior | Optional
 The notification drawer has the ability to expand in order to view additional details regarding an event. The expand drawer functionality is optional. Use of this feature will depend on the amount of information available.
 
 1. **Collapsed Drawer:** The expand icon is in the top left corner of the notification drawer and is shown as a link to expand the drawer.
@@ -29,3 +30,11 @@ The notification drawer has the ability to expand in order to view additional de
 
 ### Expanded Drawer
 ![Image of Expanded Notification Drawer](img/expanded.png)
+
+## Notification Drawer | Responsive State
+This is how the notification drawer looks on small screens. Once a user selects "Notifications" within a small screen's vertical navigation menu, the notification drawer appears in full-width, with a Back Link above it.
+
+![navigation-vertical-notifications-responsive-callout](img/navigation-drawer-responsive-callout.png)
+
+1. **Back Link**: Clicking the back link restores the primary-level vertical navigation menu.
+2. **Notification Drawer**: The notification drawer takes the entire screen's width when on small screens.
