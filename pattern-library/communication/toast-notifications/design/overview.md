@@ -4,15 +4,9 @@ Toast notifications pop onto the screen to notify the user of a system occurrenc
 
 Toast notifications should be transient and stay on the screen for 8 seconds, so that they do not block the information behind them for too long, but allows the user to read the message. Ideally, the user can decide what kinds of notifications appear and how long they remain on the screen. Toast notifications should remain on the screen when the user is hovering on them.
 
-Jump to [Examples](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-1), [With Max-Width](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-2) or [In Context](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/example-overview-3)
 
-## Examples
+![Toast notification](img/toast-notification.png)
 
-![Toast notification](img/toast-html.png)
-
-## With Max-Width
-
-![Toast notification with max width set](img/toast-html2.png)
 
 ## In Context
 
