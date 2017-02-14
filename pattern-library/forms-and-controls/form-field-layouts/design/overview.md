@@ -35,6 +35,8 @@ A consistent left edge, along with close proximity of label and input, offers ea
 ## Right Aligned Labels
 The ragged left edge makes scanning for context difficult, although the proximity between label and input aids quicker form completion.
 
+![Right Aligned Labels](img/right-aligned-labels.png)
+
 ### Use Cases
 * The user is likely to understand the overall context of the form, and scannability is not a priority.
 * Completing the form quickly is a priority, but using the “top-aligned” format is not a viable solution.
