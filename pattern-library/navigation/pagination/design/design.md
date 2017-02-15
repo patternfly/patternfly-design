@@ -36,12 +36,12 @@
 ### Select All
 ![Pagination Select 5](img/pagination_selection_5.png)
 
-1. **Select All:** Select all items within the table by clicking Select All link.
+1. **Select All:** Select all items within the table by clicking Select All option under the kebab menu.
 
-### Clear All
+### Clear Selected
 ![Pagination Select 6](img/pagination_selection_6.png)
 
-1. **Clear All:** Clear any selected items by clicking Clear All link.
+1. **Clear Selected:** Clear any selected items by clicking Clear Selected option under the kebab menu.
 
 ### Selection While Paging
 ![Pagination Select 7](img/pagination_selection_7.png)
