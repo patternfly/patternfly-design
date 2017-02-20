@@ -101,9 +101,9 @@ Where applicable, units should be displayed to the right of any field where they
 
 Forms enable users to input a variety of data.  Users may need to select from a fixed set of options or input a value directly.  Guidelines for selection from multiple options and entering values from the keyboard are included below.
 
-#### Selection Controls
+### Selection Controls
 
-##### Using Checkboxes, Radio Buttons, and Switches
+#### Using Checkboxes, Radio Buttons, and Switches
 Checkboxes, radio buttons, and switches are useful when you want to select from a list of optional settings.  Checkboxes should be used when allowing users to select one or more items from a list of options.  Radio buttons allow mutually exclusive selection.  As a general rule, radio buttons should not be used when more than 2-5 options are available or if you are space constrained.  In these cases a Select list is a better choice.
 
 On/Off switches are a third option and can potentially take the place of a single checkbox or a set of two radio buttons.  Switches should only be used when the result will be to enable or disable some optional capability.  They may simplify labeling by allowing you to simply label the on/off switch with the name of the attribute being affected.  For general option selection, checkboxes should be the default choice.
@@ -115,7 +115,7 @@ On/Off switches are a third option and can potentially take the place of a singl
 ![Switch Usage](img/data-input-switch.png)
 
 
-##### Select Lists
+#### Select Lists
 Select lists provide an alternate method for selecting between multiple options when space is constrained or there are too many options to comfortable display on the page at once.  Select list should also be used when the options may vary.  
 
 PatternFly offers two types of Select controls, Bootstrap Single-Select for selecting between mutually exclusive options and Bootstrap Multi-Select for selecting one or more options from a list.  When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
@@ -124,14 +124,14 @@ PatternFly offers two types of Select controls, Bootstrap Single-Select for sele
 
 ![Bootstrap Multi Select](img/bootstrap-multi-select.png)
 
-#### Data Entry Controls
+### Data Entry Controls
 
-##### Text Entry
+#### Text Entry
 Text edit fields are the simplest and most common controls for allowing a user to enter a string of characters from the keyboard.  Edit fields should be appropriately sized to anticipate the longest value possible (if a maximum character length is known).  In cases where a value is too long to be fully displayed in an edit box, [truncation](http://www.patternfly.org/styles/terminology-and-wording/#_) should be used.
 
 If the acceptable entries into a text edit field are constrained, syntax hints and field validation are recommended to prevent data entry errors.
 
-##### Bound Entry Controls
+#### Bound Entry Controls
 Bound entry controls should be used when entering special data types, including dates, time, and other forms of numeric data.  These controls constrain user input and combine keyboard and mouse interaction.  They are designed to only allow valid inputs and therefore avoid the need for secondary validation.  See the DatePicker, TimePicker, and Bootstrap Touchspin components for more details.
 
 ![Bound Data Input](img/data-input-bound-controls.png)
@@ -147,12 +147,12 @@ Bound entry controls should be used when entering special data types, including 
 
 
 
-#### Buttons on Forms
+### Buttons on Forms
 Buttons are the primary means for invoking actions within forms.  Submit buttons are generally placed at the bottom of the page to optimize top to bottom flow.  There should always be two buttons, a primary action button that will commit changes made by the user and a Cancel button that will abort those changes.  By default, the primary action will be labeled Save unless there is use case specific naming that makes more sense.  The Cancel button should always discard any changes and return the user to their prior state before opening this form (i.e., close the modal window or navigation back to the parent page.)  See the [PatternFly Terminology and Wording guidelines](http://www.patternfly.org/styles/terminology-and-wording/#_) for more guidance on button labeling.  
 
 For full page forms, submit buttons should be left aligned at the bottom of the page where the primary action (Save) comes first from left to right.  On modal forms, the button are right aligned with the primary action as the right most button.
 
-![Buttons on Forms](img/Buttons-on-Form.png)
+![Buttons on Forms](img/buttons-on-form.png)
 
 ![Buttons on Modal](img/buttons-on-modal.png)
 
