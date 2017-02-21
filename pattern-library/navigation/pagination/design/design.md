@@ -6,9 +6,11 @@
   * It includes an option to modify the number of items displayed. It is recommended that the default number be less than 25 in order to minimize scrolling.
 2. **Items Displayed:** This count displays the items currently in view.
 3. **Navigate Pages:** These controls allow the user to navigate to the previous or first page.
+  * These controls are disabled when the user is on the first page.
 4. **Current Page:** This control displays the current page and allows users to navigate to a specific page.
 5. **Total Pages:** This count displays the total number of pages.
 6. **Navigate Pages:** These controls allow the user to navigate to the next or last page.
+  * These controls are disabled when the user is on the last page.
 
 ## Pagination - Selection Pattern
 
@@ -34,12 +36,12 @@
 ### Select All
 ![Pagination Select 5](img/pagination_selection_5.png)
 
-1. **Select All:** Select all items within the table by clicking Select All link.
+1. **Select All:** Select all items within the table by clicking Select All option under the kebab menu.
 
-### Clear All
+### Clear Selected
 ![Pagination Select 6](img/pagination_selection_6.png)
 
-1. **Clear All:** Clear any selected items by clicking Clear All link.
+1. **Clear Selected:** Clear any selected items by clicking Clear Selected option under the kebab menu.
 
 ### Selection While Paging
 ![Pagination Select 7](img/pagination_selection_7.png)
@@ -52,3 +54,8 @@
 1. **Content Below:** A sticky footer is not recommended for views with content *below* pagination.
 2. **Items per Page:** It is recommended that the default number of items displayed be less than 25 in order to minimize scrolling.
   * Allowing users to change the default number should be optional.
+
+## Pagination - No Data
+![Pagination Select 7](img/pagination_no_data.png)
+
+* **No Data:** Pagination is not displayed when there is no data to page.
