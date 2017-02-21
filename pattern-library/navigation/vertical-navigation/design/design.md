@@ -49,7 +49,7 @@ Tertiary navigation is non-persistent and only appears on hover. The tertiary na
 
 ### Primary Navigation | Responsive State
 
-![navigation-vertical-responsive-callout](img/navigation-vertical-notifications-responsive-callout.png)
+![navigation-vertical-responsive-callout](img/navigation-vertical-responsive-callout.png)
 
 1. **Menu Drawer**: When open, the menu appears as a drawer sliding out from the left edge of the viewport. This will overlay content area.
 2. **Utility Items**:
