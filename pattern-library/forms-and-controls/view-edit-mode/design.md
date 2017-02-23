@@ -3,7 +3,7 @@
 ## View mode
 ![Image highlighting attribute selector](img/View.png)
 
- 1. The "Edit" button has been put in the top right corner. Horizontal center align with the title. Use default button style for edit button. In view status, it doesn't take to much visual noise that influence user reviewing the form contents.
+ 1. The "Edit" button has been put in the top right corner. Horizontal center align with the title. The pencil icon in edit button will help user find edit function much more easily. Use default button style for edit button. In view status, it doesn't take to much visual noise that influence user reviewing the form contents.
  1. Just show the text information in form content section. Without click "edit" button. User can edit nothing in this part.
 
 ## Edit mode
