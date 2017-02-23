@@ -5,6 +5,7 @@ View mode / Edit mode is a high frequency of usage scenarios in form design. The
 The two modes are cooperate with each other.
 
 ## Examples
+##View mode
 ![Image of filter](img/view_mode.png)
-
+##Editmode
 ![Image of filter](img/edit_mode.png)
