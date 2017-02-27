@@ -21,7 +21,7 @@
 
 7. **Row Shading:** Use alternating row colors to help the user read the content of the table more easily.
 
-8. **Disabled** (optional): Users can use "--" when the value of a cell should be rendered as disabled.
+8. **Unavailable** (optional): Users can use "--" when the value of a cell should be rendered as unavailable.
 
 ## Table States – continued
 ![Table with a all rows selected](img/table-callout2.png)
