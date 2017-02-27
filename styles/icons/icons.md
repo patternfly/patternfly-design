@@ -2,6 +2,8 @@
 
 To copy any icon to the clipboard, just click on the icon. To use an icon within desktop applications, install [PatternFlyIcons-webfont.ttf](https://github.com/patternfly/patternfly/raw/master-dist/dist/fonts/PatternFlyIcons-webfont.ttf) or [FontAwesome.otf](https://github.com/patternfly/patternfly/raw/master-dist/dist/fonts/FontAwesome.otf), set it as the font in your application, and paste the icons into your designs.
 
+You may also download the set of [PatternFly icon SVGs](patternfly-svg-icons.zip).
+
 | Icon                                                   | Name                      |
 | ------------------------------------------------------ | ------------------------- |
 | <span class="fa fa-check"></span>                      | fa-check                  |
