@@ -62,10 +62,12 @@ Tertiary navigation is non-persistent and only appears on hover. The tertiary na
 1. **Back Link**: Clicking the back link restores the primary-level menu.
 2. **Back Link** (for Utility Item): The back link for a utility item is formatted differently from the back links for main navigational items.
 
+<!--
 ### Notification Drawer | Responsive State
 This is how the notification drawer looks on small screens. Once a user selects "Notifications" within a small screen's vertical navigation menu, the notification drawer appears in full-width, with a Back Link above it. [See Here](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/api) for specifics about the Notification Drawer.
 
 ![navigation-vertical-notifications-responsive-callout](img/navigation-vertical-notifications-responsive-callout.png)
 
 1. **Back Link**: Clicking the back link restores the primary-level menu.
-2. **Notification Drawer**: The notification drawer takes the entire screen's width when on small screens.
+2. **Notification Drawer**: The notification drawer takes the entire screen's width when on small screens.)
+-->
