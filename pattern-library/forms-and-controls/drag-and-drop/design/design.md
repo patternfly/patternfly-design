@@ -1,6 +1,6 @@
-#Drag and Drop
+# Drag and Drop
 
-##Vertical Lists
+## Vertical Lists
 
 ![Image of Drag and Drop in a Vertical List](img/vertical_list.png)
 
@@ -23,7 +23,7 @@
 
 
 
-##Horizontal Lists
+## Horizontal Lists
 
   ![Image of Drag and Drop in a Horizontal List](img/horizontal_list.png)
 
@@ -38,7 +38,7 @@
 
 
 
-##Drag and Drop Interactions
+## Drag and Drop Interactions
 
   ![Image of Drag and Drop Example](img/interactions.png)
 
@@ -61,7 +61,7 @@
 
 
 
-##Accessibility Options
+## Accessibility Options
 
 * **Select items to Drag:** Use the tab key to go through items in the list. Use the spacebar to select an item to move. Use shift/tab to reverse directions through the list.
 * **Select multiple items to Drag:** Hold shift to select multiple items in a sequence. Hold ctrl to select multiple items out of order.
