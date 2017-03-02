@@ -2,19 +2,29 @@
 
 To copy any icon to the clipboard, just click on the icon. To use an icon within desktop applications, install [PatternFlyIcons-webfont.ttf](https://github.com/patternfly/patternfly/raw/master-dist/dist/fonts/PatternFlyIcons-webfont.ttf) or [FontAwesome.otf](https://github.com/patternfly/patternfly/raw/master-dist/dist/fonts/FontAwesome.otf), set it as the font in your application, and paste the icons into your designs.
 
-| Icon                                                   | Name                      |
-| ------------------------------------------------------ | ------------------------- |
+You may also download the set of [PatternFly icon SVGs](patternfly-svg-icons.zip).
+
+| Icon                                                        | Name                           |
+| ----------------------------------------------------------- | ------------------------------ |
 | <span class="fa fa-check"></span>                      | fa-check                  |
 | <span class="fa fa-arrow-circle-o-down"></span>        | fa-arrow-circle-o-down    |
 | <span class="fa fa-arrow-circle-o-up"></span>          | fa-arrow-circle-o-up      |
 | <span class="pficon pficon-error-circle-o"></span>     | pficon-error-circle-o     |
 | <span class="pficon pficon-warning-triangle-o"></span> | pficon-warning-triangle-o |
+| <span class="pficon pficon-search"></span>             | pficon-search             |
 | <span class="fa fa-clock-o"></span>                    | fa-clock-o                |
 | <span class="pficon pficon-ok"></span>                 | pficon-ok                 |
 | <span class="pficon pficon-info"></span>               | pficon-info               |
 | <span class="pficon pficon-restart"></span>            | pficon-restart            |
+| <span class="pficon pficon-spinner"></span>            | pficon-spinner            |
+| <span class="pficon pficon-spinner2"></span>           | pficon-spinner2           |
 | <span class="pficon pficon-folder-open"></span>        | pficon-folder-open        |
 | <span class="pficon pficon-folder-close"></span>       | pficon-folder-close       |
+| <span class="pficon pficon-key"></span>                | pficon-key                |
+| <span class="pficon pficon-locked"></span>             | pficon-locked             |
+| <span class="pficon pficon-unlocked"></span>           | pficon-unlocked           |
+| <span class="pficon pficon-private"></span>            | pficon-private            |
+| <span class="pficon pficon-thumb-tack"></span>         | pficon-thumb-tack         |
 | <span class="pficon pficon-home"></span>               | pficon-home               |
 | <span class="pficon pficon-print"></span>              | pficon-print              |
 | <span class="fa fa-cubes"></span>                      | fa-cubes                  |
@@ -23,9 +33,13 @@ To copy any icon to the clipboard, just click on the icon. To use an icon within
 | <span class="pficon pficon-service"></span>            | pficon-service            |
 | <span class="pficon pficon-container-node"></span>     | pficon-container-node     |
 | <span class="pficon pficon-cluster"></span>            | pficon-cluster            |
+| <span class="pficon pficon-bundle"></span>             | pficon-bundle             |
+| <span class="pficon pficon-middleware"></span>         | pficon-middleware         |
 | <span class="pficon pficon-route"></span>              | pficon-route              |
 | <span class="pficon pficon-replicator"></span>         | pficon-replicator         |
 | <span class="pficon pficon-registry"></span>           | pficon-registry           |
+| <span class="pficon pficon-rebalance"></span>          | pficon-rebalance          |
+| <span class="pficon pficon-degraded"></span>           | pficon-degraded           |
 | <span class="fa fa-tachometer"></span>                 | fa-tachometer             |
 | <span class="fa fa-th-large"></span>                   | fa-th-large               |
 | <span class="fa fa-th"></span>                         | fa-th                     |
@@ -47,28 +61,34 @@ To copy any icon to the clipboard, just click on the icon. To use an icon within
 | <span class="pficon pficon-regions"></span>            | pficon-regions            |
 | <span class="pficon pficon-repository"></span>         | pficon-repository         |
 | <span class="pficon pficon-resource-pool"></span>      | pficon-resource-pool      |
+| <span class="pficon pficon-resources-almost-full"></span>| pficon-resources-almost-full|
+| <span class="pficon pficon-resources-full"></span>     | pficon-resources-full     |
 | <span class="pficon pficon-server"></span>             | pficon-server             |
+| <span class="pficon pficon-server-group"></span>       | pficon-server-group       |
 | <span class="pficon pficon-settings"></span>           | pficon-settings           |
 | <span class="pficon pficon-storage-domain"></span>     | pficon-storage-domain     |
 | <span class="pficon pficon-user"></span>               | pficon-user               |
 | <span class="pficon pficon-users"></span>              | pficon-users              |
+| <span class="pficon pficon-project"></span>            | pficon-project            |
+| <span class="pficon pficon-blueprint"></span>          | pficon-blueprint          |
+| <span class="pficon pficon-chat"></span>               | pficon-chat               |
+| <span class="pficon pficon-messages"></span>           | pficon-messages           |
 | <span class="pficon pficon-virtual-machine"></span>    | pficon-virtual-machine    |
+| <span class="pficon pficon-volume"></span>             | pficon-volume             |
 | <span class="pficon pficon-zone"></span>               | pficon-zone               |
 | <span class="pficon pficon-screen"></span>             | pficon-screen             |
 | <span class="fa fa-envelope"></span>                   | fa-envelope               |
-| <span class="pficon pficon-cluster"></span>            | pficon-cluster            |
-| <span class="pficon pficon-container-node"></span>     | pficon-container-node     |
 | <span class="fa fa-refresh"></span>                    | fa-refresh                |
 | <span class="fa fa-filter"></span>                     | fa-filter                 |
 | <span class="pficon pficon-add-circle-o"></span>       | pficon-add-circle-o       |
 | <span class="pficon pficon-edit"></span>               | pficon-edit               |
-| <span class="pficon pficon-delete"></span>             | pficon-delete             |
 | <span class="pficon pficon-save"></span>               | pficon-save               |
+| <span class="pficon pficon-remove"></span>             | pficon-remove             |
 | <span class="pficon pficon-help"></span>               | pficon-help               |
 | <span class="pficon pficon-close"></span>              | pficon-close              |
 | <span class="pficon pficon-export"></span>             | pficon-export             |
 | <span class="pficon pficon-import"></span>             | pficon-import             |
-| <span class="pficon pficon-restart"></span>            | pficon-restart            |
+| <span class="pficon pficon-arrow"></span>              | pficon-arrow              |
 | <span class="fa fa-angle-up"></span>                   | fa-angle-up               |
 | <span class="fa fa-angle-down"></span>                 | fa-angle-down             |
 | <span class="fa fa-angle-left"></span>                 | fa-angle-left             |
