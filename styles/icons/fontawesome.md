@@ -38,7 +38,7 @@
 | <span class="fa fa-star"></span>                       | fa-star                   |                 |
 | <span class="fa fa-table"></span>                      | fa-table                  |                 |
 | <span class="fa fa-tachometer"></span>                 | fa-tachometer             |                 |
-| <span class="fa fa-thumbtack"></span>                  | fa-thumbtack              |                 |
+| <span class="fa fa-thumb-tack"></span>                 | fa-thumb-tack             |                 |
 | <span class="fa fa-th-large"></span>                   | fa-th-large               |                 |
 | <span class="fa fa-th"></span>                         | fa-th                     |                 |
 | <span class="fa fa-unlock-alt"></span>                 | fa-unlock-alt             |                 |
