@@ -52,7 +52,7 @@ Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons
 | <span class="pficon pficon-resource-pool"></span>             | pficon-resource-pool             | e90c            |
 | <span class="pficon pficon-resources-almost-empty"></span>    | pficon-resources-almost-empty    | e91d            |
 | <span class="pficon pficon-resources-almost-full"></span>     | pficon-resources-almost-full     | e912            |
-| <span class="pficon pficon-resources-full"></span>            | pficon-resources-full            |                 |
+| <span class="pficon pficon-resources-full"></span>            | pficon-resources-full            | e913            |
 | <span class="pficon pficon-route"></span>                     | pficon-route                     | e625            |
 | <span class="pficon pficon-save"></span>                      | pficon-save                      | e601            |
 | <span class="pficon pficon-screen"></span>                    | pficon-screen                    | e600            |
