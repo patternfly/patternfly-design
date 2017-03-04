@@ -2,7 +2,6 @@
 
 [Font Awesome](http://fontawesome.io/icons/) icons recommended for use with PatternFly.
 
-{:.table .table-striped .table-bordered}
 | Icon                                                   | Name                      | utf8 content string|
 | ------------------------------------------------------ | ------------------------- | --------------- |
 | <span class="fa fa-angle-double-left"></span>          | fa-angle-double-left      |                 |
@@ -43,3 +42,4 @@
 | <span class="fa fa-th-large"></span>                   | fa-th-large               |                 |
 | <span class="fa fa-th"></span>                         | fa-th                     |                 |
 | <span class="fa fa-unlock-alt"></span>                 | fa-unlock-alt             |                 |
+{:.table .table-striped .table-bordered}
