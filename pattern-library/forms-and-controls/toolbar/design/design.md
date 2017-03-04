@@ -37,6 +37,7 @@ To support accessibility, icon buttons that display in the toolbar should includ
 
 The following text is recommended for the set of icons displayed in the example above.
 
+{:.table .table-striped .table-bordered}
 | Icon                                      | Class Name    | Tooltip Text      | Screenreader Text (aria-label) | Comments                   |
 | ----------------------------------------- | ------------- | ----------------- | ------------------------------ | -------------------------- |
 | <span class="fa fa-sort-asc"></span>      | fa-sort-asc   | Sort Z to A       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
