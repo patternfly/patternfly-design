@@ -1,7 +1,8 @@
 ## PatternFly Icons
 
-Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons)
+Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons).
 
+{:.table .table-striped .table-bordered}
 | Icon                                                          | Name                             | PF Icon Content String|
 | ------------------------------------------------------------- | -------------------------------- | --------------- |
 | <span class="pficon pficon-add-circle-o"></span>              | pficon-add-circle-o              | e61b            |
