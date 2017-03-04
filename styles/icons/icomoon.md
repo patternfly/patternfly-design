@@ -2,7 +2,6 @@
 
 Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons).
 
-{:.table .table-striped .table-bordered}
 | Icon                                                          | Name                             | PF Icon Content String|
 | ------------------------------------------------------------- | -------------------------------- | --------------- |
 | <span class="pficon pficon-add-circle-o"></span>              | pficon-add-circle-o              | e61b            |
@@ -76,3 +75,4 @@ Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons
 | <span class="pficon pficon-volume"></span>                    | pficon-volume                    | e910            |
 | <span class="pficon pficon-warning-triangle-o"></span>        | pficon-warning-triangle-o        | e913            |
 | <span class="pficon pficon-zone"></span>                      | pficon-zone                      | e911            |
+{:.table .table-striped .table-bordered}

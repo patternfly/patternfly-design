@@ -37,7 +37,6 @@ To support accessibility, icon buttons that display in the toolbar should includ
 
 The following text is recommended for the set of icons displayed in the example above.
 
-{:.table .table-striped .table-bordered}
 | Icon                                      | Class Name    | Tooltip Text      | Screenreader Text (aria-label) | Comments                   |
 | ----------------------------------------- | ------------- | ----------------- | ------------------------------ | -------------------------- |
 | <span class="fa fa-sort-asc"></span>      | fa-sort-asc   | Sort Z to A       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
@@ -49,3 +48,4 @@ The following text is recommended for the set of icons displayed in the example 
 | <span class="fa fa-th-large"></span>      | fa-th-large   | List view         | List view                      | Displays in the View control group (see callout 7) |
 | <span class="fa fa-th-list"></span>       | fa-th-list    | Card view         | Card view                      | Displays in the View control group (see callout 7) |
 | <span class="pficon pficon-close"></span> | pficon-close  | [none]            | Clear filter                   | Displays in the Active Filters row (see callout 8). Tooltip text is not needed for the X icon since the action associated with X is more obvious to users. However, screenreader text is still needed. |
+{:.table .table-striped .table-bordered}
