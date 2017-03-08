@@ -1,26 +1,14 @@
 ## Field Labeling
 
-> Right aligned labels should be your default choice.  It has been shown that this approach leads to the shortest completion times.
+Labels are always provided for input fields to help users understand what information is being requested of them. This pattern has recommendations for three variations to support different use cases.  
 
-> Use top aligned labels when you are space constrained or if mobile usage is a high priority.
+### High-Level Recommendations
 
+* Make [right aligned labels](#right-aligned-labels) should be your default choice.  It has been shown that this approach leads to the shortest completion times.
 
-Labels are always provided for input fields to help users understand what information is being requested of them. This pattern has recommendations for three variations to support different use cases.  Whatever approach you use, we recommend that you maintain consistency throughout an application.
+* Use [top aligned labels](#top-aligned-labels) when you are space constrained or if mobile usage is a high priority.
 
-### Top Aligned Labels
-Top aligned labels provide a consistent left edge, along with close proximity of label and input. This offers ease of use for both scanning and form completion while requiring more vertical space than the alternatives.
-
-![Top Aligned Labels](img/top-aligned-labels.png)
-
-Top aligned labels offer the most horizontal area for long labels, relative to the other options as labels can vary in length without affecting the overall presentation. Because the labels are in close proximity to the input fields this approach supports scanability and quick data entry. But because this approach is so visually efficient, however, users might move too quickly through the form and potentially make data entry errors.
-
-##### Use When
-* The ability to complete the form quickly is a high priority.
-* When label length might vary, e. g. internationalization support.
-* The label length might be long, such as for “natural language” question-style labels.
-* The user will be entering familiar content and is less likely to make data entry errors.
-* Only a few form fields need to be presented.
-* Related fields must be grouped horizontally. For example [first name] [last name]
+* Whatever approach you use, we recommend that you maintain consistency throughout an application.
 
 
 ### Right Aligned Labels
@@ -39,6 +27,21 @@ Despite these advantages, the irregular, ragged left edge of form labels makes t
 * To accommodate mobile viewports, right-aligned labels should be responsive by adjusting to a top-aligned layout.
 
 
+### Top Aligned Labels
+Top aligned labels provide a consistent left edge, along with close proximity of label and input. This offers ease of use for both scanning and form completion while requiring more vertical space than the alternatives.
+
+![Top Aligned Labels](img/top-aligned-labels.png)
+
+Top aligned labels offer the most horizontal area for long labels, relative to the other options as labels can vary in length without affecting the overall presentation. Because the labels are in close proximity to the input fields this approach supports scanability and quick data entry. But because this approach is so visually efficient, however, users might move too quickly through the form and potentially make data entry errors.
+
+##### Use When
+* The ability to complete the form quickly is a high priority.
+* When label length might vary, e. g. internationalization support.
+* The label length might be long, such as for “natural language” question-style labels.
+* The user will be entering familiar content and is less likely to make data entry errors.
+* Only a few form fields need to be presented.
+* Related fields must be grouped horizontally. For example [first name] [last name]
+
 
 ### Left-aligned labels
 The strong vertical edge helps users to scan for context, although the distance between label and input might slow users down.
@@ -56,19 +59,21 @@ Left aligned labels are good for unfamiliar content or forms in which well consi
 * To accommodate mobile viewports, left-aligned labels should be responsive by adjusting to a top-aligned layout.
 
 ### Indicating Required Fields
+If only some of the fields are required and others are optional, denote required fields as follows. Due to responsiveness issues, we do not recommend labeling optional fields with "(optional)".
 
-![Form with all fields required](img/form-required-fields.png)
+![Form with required fields](img/form-required-fields.png)
 
 1. **Required field:** Required fields should be denoted with an * (asterisk) symbol.
-  - Due to responsiveness issues, we do not recommend labeling optional fields with "(optional)"
-1. Forms with a mixture of required and optional fields should include this explanation.
+2. A message to explain the meaning of the *
+
+When all fields on a form are either required or optional, it is not necessary to place the required field indicator on all fields. Simply include a message at the top of the form that indicates whether all fields are required or optional (if it will not be obvious to the target user).  
 
   ![Form with all fields required](img/form-all-fields-required.png)
 
-1. Forms in which all fields are required should include this explanation.
-1. Forms in which all fields are optional should include this explanation.
+3. Message when all fields are required.
+4. Message when all fields are optional.
 
 ### Displaying Units
-Where applicable, units should be displayed to the right of any field where they are needed to provide clarity to the displayed data.
+Where applicable, units should be displayed to the right of any field where they are needed to provide clarity to the displayed data.  See the [PatternFly Terminology and Wording Guidelines](http://www.patternfly.org/styles/terminology-and-wording/#_) for common unit abreviations.
 
 [Need an example here.]  
