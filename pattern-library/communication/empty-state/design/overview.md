@@ -7,6 +7,4 @@ This pattern should NOT be used when:
 - Selected filters cause an empty result.
 - There is a connectivity issue and the data set cannot be obtained.
 
-## Example
-
 ![Empty State pattern](img/empty-state-html.png)
