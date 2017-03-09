@@ -1,19 +1,23 @@
 ## Actions
 
-> Align submit buttons to the left (Save, Cancel) on full page forms and to the right (Cancel, Save) on modals.
+### High-Level Recommendations
 
-> Buttons within forms should be placed immediately to the right of or below the item that they affect.
+* Align submit buttons to the left (Save, Cancel) on full page forms and to the right (Cancel, Save) on modals.
 
-> Disable submit buttons until all required form inputs have been satisfied.
+* Buttons within forms should be placed immediately to the right of or below the item that they affect.
+
+* Disable submit buttons until all required form inputs have been satisfied.
 
 
 
 ### Buttons on Forms
 Buttons are the primary means for invoking actions within forms.  Submit buttons are generally placed at the bottom of the page to optimize top to bottom flow.  There should always be two buttons, a primary action button that will commit changes made by the user and a Cancel button that will abort those changes.  By default, the primary action will be labeled Save unless there is use case specific naming that makes more sense.  The Cancel button should always discard any changes and return the user to their prior state before opening this form (i.e., close the modal window or navigation back to the parent page.)  See the [PatternFly Terminology and Wording guidelines](http://www.patternfly.org/styles/terminology-and-wording/#_) for more guidance on button labeling.
 
-For full page forms, submit buttons should be left aligned at the bottom of the page where the primary action (Save) comes first from left to right.  On modal forms, the button are right aligned with the primary action as the right most button.
+For full page forms, submit buttons should be left aligned at the bottom of the page. Left align buttons with the left edge of the input fields with the primary action on the left.  
 
 ![Buttons on Forms](img/buttons-on-form.png)
+
+On modal forms, the button are right aligned with the primary action as the right most button.
 
 ![Buttons on Modal](img/buttons-on-modal.png)
 
