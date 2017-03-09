@@ -29,3 +29,15 @@ Buttons may also be used for actions within a form.  In these cases, the button 
 
 #### Enabling and Disabling Actions
 Submit buttons should be disabled when all conditions required for completing a form are not met.  This will reduce the need to return validation errors because the user neglected to complete the form.  When using disabled buttons, it should always be possible for the user to enable the button by inputing information onto the current page.  Do not use this technique for blocking functionality that is not available to the current user or requires changes outside of the current page.
+
+#### Usage Guidelines
+
+  1. **Close Button:**
+    - For modal dialogs, follow the [Modal Widget](https://www.patternfly.org/pattern-library/widgets/#modal) guidelines.
+    - When referring to closing another type of view use "Close" as a secondary button.
+
+  1. **Delete Button:**
+   - "Delete" should be used in a secondary button unless you have a limited use case where the Delete action is a highly destructive action. In that case, use the destructive button. Ideally, a delete button would be followed up with a confirmation modal for the user to confirm this action.
+
+  1. **Cancel Button:**
+   - "Cancel" should be used in a secondary button unless you have a limited use case where the Cancel action is a highly destructive action. In that case, use the destructive button.
