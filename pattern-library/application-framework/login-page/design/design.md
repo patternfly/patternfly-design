@@ -16,10 +16,13 @@
 
 * Examples of these messages include the following:
   1. **Error Message:** An error is triggered if the user incorrectly types their username or password. In this event, after the information has been submitted, the values entered for the username and other optional fields remains populated however, the value for the password is discarded.
+
   ![Image of login error](img/login-03.png)
 
   2. **Warning Message:** A warning message is triggered if the user has the caps lock turned on. Once the caps lock is turned off, the warning should disappear.
+
   ![Image of login error](img/login-04.png)
 
   3. **Informational Message:** An informational message is triggered if the user is timed out of the application. They will be returned to the login page, which will display an informational message explaining that the session timed out due to inactivity.
+
   ![Image of login error](img/login-05.png)
