@@ -21,6 +21,7 @@
 [Inline Notifications](http://www.patternfly.org/pattern-library/communication/inline-notifications/#/api) are displayed below the application name and above the input fields when informational, warning, or errors messages are needed. If there are multiple strings, each message appears on its own line, and the area adjusts as needed to fit these messages.
 
 Examples of these messages include the following:
+
 1. **Error Message:** An error is triggered if the user incorrectly types their username or password. In this event, after the information has been submitted, the values entered for the username and other optional fields remains populated however, the value for the password is discarded.
 
 ![Image of login error](img/login-03.png)
