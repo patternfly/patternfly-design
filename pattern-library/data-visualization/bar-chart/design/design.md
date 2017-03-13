@@ -3,7 +3,7 @@
 ![#vertical-bar-chart-callout-1](img/vertical-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:**
-    - Horizontal axis labels display the series names and are recommended, but can be omitted if necessary due to space constraints and responsiveness. If omitted a legend must be available.
+    * Horizontal axis labels display the series names and are recommended, but can be omitted if necessary due to space constraints and responsiveness. If omitted a legend must be available.
 
   1. **Vertical Axis Labels:** Vertical axis labels display values.
 
@@ -23,7 +23,8 @@
   1. **Tooltip:** We recommend that the series name and value are displayed on hover.
 
   1. **Legend:** It is recommended to include a legend to define the colors on the chart. On the bar chart, the legend may be located left aligned and underneath the chart or left aligned and to the right of the chart.
-    - **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
+
+    * **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
 
   1. **Stacked Bar** (optional): The first series name is represented by the topmost stacked bar, and the last series name is represented by the bottommost stacked bar. This order should not be reversed.
 
