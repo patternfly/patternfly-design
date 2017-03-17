@@ -25,3 +25,29 @@
 - Each filter is additive in nature, meaning that adding further filters will reduce the overall set of results. Filters are combined with the AND boolean for the results they return.
 
 - If an attribute can only have one filter value at any time, selecting a new value will replace the previous filter rather than adding a new one.
+
+## Displaying a Null Result Set
+
+Should the application of filters return 0 results, an empty state message will appear within the current view.
+
+![Filter results in empty state](img/filter-empty-design.png)
+
+1. **Message:** Alert user that there are 0 results based on the filter criteria
+
+1. **Suggestions:** A brief message suggesting how to fix the problem.
+
+1. **Clear All Filters** Clicking this will clear all applied filters and restore content to this view.
+
+1. **Background** The background color of this form will match the color of the current view.
+
+This form will always be displayed within the current view and the toolbar will remain active so that the user can modify filter criteria.
+
+#### Null Result Set in Card or List View
+
+![Null results in card view](img/card-filter-empty.png)
+
+#### Null Results in Table View
+
+![Null results in card view](img/table-filter-empty.png)
+
+Note that in table view, the background color is white.
