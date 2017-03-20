@@ -18,7 +18,7 @@ Forms enable users to input a variety of data.  Users may need to select from a 
 #### Using Checkboxes, Radio Buttons, and Switches
 Checkboxes, radio buttons, and switches are useful when you want to select from a list of optional settings.  
 
-Checkboxes should be used when allowing users to select one or more items from a list of options. Arrange checkboxes vertically, when possible to facilitate easy scanning.  If there are many items and labels are short, a grid arrangement can also be used to save space.  You may also nest other controls within a radio button group that are enabled or disabled when an option is selected/deselected. 
+Checkboxes should be used when allowing users to select one or more items from a list of options. Arrange checkboxes vertically, when possible to facilitate easy scanning.  If there are many items and labels are short, a grid arrangement can also be used to save space.  You may also nest other controls within a radio button group that are enabled or disabled when an option is selected/deselected.
 
 ![Checkbox Usage](img/data-input-checkboxes.png)
 
@@ -38,9 +38,8 @@ Select lists provide an alternate method for selecting between multiple options 
 
 PatternFly offers two types of Select controls, Bootstrap Single-Select for selecting between mutually exclusive options and Bootstrap Multi-Select for selecting one or more options from a list.  When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
 
-![Bootstrap Single Select](img/bootstrap-single-select.png)
+![Bootstrap Single Select](img/bootstrap-single-multi-select.png)
 
-![Bootstrap Multi Select](img/bootstrap-multi-select.png)
 
 ### Data Entry Controls
 
