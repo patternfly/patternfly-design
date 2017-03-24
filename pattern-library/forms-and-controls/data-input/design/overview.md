@@ -18,16 +18,23 @@ Forms enable users to input a variety of data.  Users may need to select from a 
 #### Using Checkboxes, Radio Buttons, and Switches
 Checkboxes, radio buttons, and switches are useful when you want to select from a list of optional settings.  
 
+##### Checkboxes
 Checkboxes should be used when allowing users to select one or more items from a list of options. Arrange checkboxes vertically, when possible to facilitate easy scanning.  If there are many items and labels are short, a grid arrangement can also be used to save space.  You may also nest other controls within a radio button group that are enabled or disabled when an option is selected/deselected.
 
 ![Checkbox Usage](img/data-input-checkboxes.png)
+1. Checkboxes arranged in a two-column grid
+2. Checkboxes with nested controls
 
+##### Radio Buttons
 Radio buttons allow mutually exclusive selection.  Radio buttons are always used as a group and there will always be one (and only one) active selection.  If you need to alow selection of a null option, use "None" or a similar term to represent that setting.  You may arrange radio button vertically or horizontally, although vertical arrangement is preferrable for scanning.  Radio buttons, like checkboxes, may also be used to nest other controls for enabling or disabling options.
 
 As a general rule, radio buttons should not be used when more than 2-5 options are available or if you are space constrained.  In these cases a [Select list](#select-lists) is a better choice.
 
 ![Radio Button Usage](img/data-input-radio-buttons.png)
+1. A group of radio buttons arranged inline
+2. A vertical radio button group with nested controls
 
+##### On/Off Switches
 On/Off switches are a third option and can potentially take the place of a single checkbox or a set of two radio buttons.  Switches should only be used when the result will be to enable or disable some optional capability.  They may simplify labeling by allowing you to simply label the on/off switch with the name of the attribute being affected.  For general option selection, checkboxes should be the default choice.  Like checkboxes, switches can be used to enable or disable a set of nested controls.
 
 ![Switch Usage](img/data-input-switch.png)
