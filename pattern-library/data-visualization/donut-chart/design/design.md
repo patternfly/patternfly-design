@@ -12,14 +12,14 @@
       - When the utilization percentage has surpassed the error threshold, the indicator is is red (#cc0000).
 
   2. **Label or Icon** (optional):
-    - When the donut chart is a part of a dashboard tile, there is a label in the center of the chart.
+    - When the Donut Chart is a part of a dashboard tile, there is a label in the center of the chart.
     - The label may be omitted or replaced by an icon if the chart is used in an object blade or card.
     - The label in the center of the chart should show one of the following:
       - The used value in a large font size followed by “<units> Used” on a second row.
       - The available value in a large font size followed by “<units> Available” on a second row.
       - The current percentage in a large font size followed by a “of <total value> <units>” on a second row.
 
-  3. **Tooltip** (optional): When the donut chart is used to represent utilization, the percentage is displayed in a tooltip on hover.
+  3. **Tooltip** (optional): When the Donut Chart is used to represent utilization, the percentage is displayed in a tooltip on hover.
 
   4. **Warning Threshold Indicator** (optional): If a warning threshold exists, that may be visually indicated on the chart. 75% is the typical default value for a warning threshold but some products may have configurable thresholds (design not currently shown, visuals are still TBD).
 
@@ -31,14 +31,14 @@
   1. **Donut Chart Fill:**
     - **Interaction** (optional):
       - If drill down behavior is supported, clicking on a segment of the donut will navigate to the appropriate page.
-      - If supported, right clicking on a segment of the donut chart will bring up a menu with associated actions.
+      - If supported, right clicking on a segment of the Donut Chart will bring up a menu with associated actions.
       - **Color:** For recommendations on fill colors, see the Color Palette.
 
-  2. **Label or Icon:** When the donut chart is contained within a dashboard card, there is a label defining what the donut chart represents. The label may be shown either inside or outside of the donut chart.
+  2. **Label or Icon:** When the Donut Chart is contained within a dashboard card, there is a label defining what the Donut Chart represents. The label may be shown either inside or outside of the Donut Chart.
 
-  3. **Total Value** (optional): The total value of the data set may be shown in the center of the donut chart. It should be represented as a [total numeric value] + [data set label], for example: “8 Animals.” The label may wrap to a second line if necessary. If the information does not fit in the center of the doughnut, do not resize or otherwise modify the presentation. In that case leave the center empty and consider presenting the data in either the chart labels, a title, or tooltips.
+  3. **Total Value** (optional): The total value of the data set may be shown in the center of the Donut Chart. It should be represented as a [total numeric value] + [data set label], for example: “8 Animals.” The label may wrap to a second line if necessary. If the information does not fit in the center of the doughnut, do not resize or otherwise modify the presentation. In that case leave the center empty and consider presenting the data in either the chart labels, a title, or tooltips.
 
-  4. **Set of Values** (optional): It is recommended to show the values for each piece of the donut chart using the legend and in a tooltip on hover.
+  4. **Set of Values** (optional): It is recommended to show the values for each piece of the Donut Chart using the legend and in a tooltip on hover.
 
   5. **Tooltip** (optional): We recommend that the name and value are displayed on hover.
 
