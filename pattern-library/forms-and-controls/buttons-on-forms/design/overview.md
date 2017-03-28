@@ -33,13 +33,16 @@ Buttons may also be used for inline actions within a form.  In these cases, the 
 #### Enabling and Disabling Actions
 Submit buttons should be disabled when all conditions required for completing a form are not met.  This will reduce the need to return validation errors because the user neglected to complete the form.  When using disabled buttons, it should always be possible for the user to enable the button by inputing information onto the current page.  Do not use this technique for blocking functionality that is not available to the current user or requires changes outside of the current page.
 
-#### Usage Examples
+#### Styling Commonly Used Buttons
 
-  1. **Close Button:**
-    - Use "Close" to exit the current view.  Close should not be used when the view is editable as its meaning may not be clear.  In these cases Save and Cancel are recommended.  Style Close as a secondary button.
+  **Close Button:**
+Use "Close" to exit the current view.  Close should not be used when the view is editable as its meaning may not be clear.  In these cases Save and Cancel are recommended.  Style Close as a secondary button.
 
-  1. **Delete Button:**
-   - "Delete" should be a secondary button unless you have a use case where the Delete action is a highly destructive action. In that case, use the destructive button style. Ideally, a delete button would be followed up with a confirmation modal for the user to confirm this action.
+  **Delete Button:**
+  "Delete" should be a secondary button unless you have a use case where the Delete action is a highly destructive action. In that case, use the destructive button style. Ideally, a delete button would be followed up with a confirmation modal for the user to confirm this action.
 
-  1. **Cancel Button:**
-   - "Cancel" should be styled as a secondary button unless you have a limited use case where the Cancel action is a highly destructive action. In that case, use the destructive button.
+  **Cancel Button:**
+  "Cancel" should be styled as a secondary button unless you have a limited use case where the Cancel action is a highly destructive action. In that case, use the destructive button.
+  
+  **Save Button:**
+  "Save" should be styled as the primary button on all editable forms. 
