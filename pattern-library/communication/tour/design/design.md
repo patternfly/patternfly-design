@@ -30,8 +30,7 @@ Click Back or Next to continue through the tour:
 ## Additional Considerations
 - In some cases, a tour may be customizable by admin users, allowing access to overwrite step names and descriptions.
 - Tours can be automatically triggered for new users to step through the UI on their initial login. Automatic tours are recommended for first time use only.
+- In some cases, more than one tour may exist.
 - Step numbers are dynamic. In some cases, users may not have access to view all steps or all areas of the UI, so the numbers should update accordingly for each tour instance.
-
-Add guided tours to the Help menu in the masthead when available:
-
-![template](img/Navbar-1.png)
+- Add guided tours to the Help menu in the masthead when available:
+  ![template](img/Navbar-1.png)

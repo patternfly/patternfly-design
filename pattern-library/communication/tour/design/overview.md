@@ -5,4 +5,5 @@ Tours are helpful tools provided to users as an introduction to new interfaces o
 
 ## Example
 The following is an example of a single step within a guided tour:
+
 ![Tour](img/Tour-03.png)
