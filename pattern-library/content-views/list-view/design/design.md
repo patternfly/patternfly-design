@@ -53,4 +53,4 @@
 
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the List View should be responsive.
 
-- **Pagination:** Card view can also support pagination. See [Pagination](https://github.com/patternfly/patternfly-design/tree/master/pattern-library/navigation/pagination/design) for more details.
+- **Pagination:** List view can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
