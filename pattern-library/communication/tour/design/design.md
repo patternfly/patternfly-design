@@ -1,14 +1,15 @@
 # Tour
 - When a tour is available, a button or link should be displayed for users to manually start it. Labels should be specific if there are multiple tours available.
 - Tours can include any number of steps, but the recommendation is to stay between 3-15 steps.
-- Every step displays a bubble with the step number, name, and description of what is being highlighted.
+
+- Every step displays a Bubble with the step number, name, description of highlighted area and button bar.
 
 ![tour bubble](img/Tour-00.png)
 
-1. **Top Bar:** A light grey bar sits across the top of the tour bubble and includes the following items vertically aligned:  
+1. **Top Bar:** A light grey bar sits across the top of the Tour Bubble and includes the following items vertically aligned:  
   - A **Step Number** to denote where the user currently is along the tour.
   - A **Step Name** to highlight the topic of the particular step.
-  - A **Cancel** or close button, allowing the user to end the tour at any point.
+  - A **Cancel** or Close button, to allow the user to end the tour at any point.
 2. **Pointer:** The pointer is used to identify a specific area in the UI.
 3. **Description:** The description should include key details pertaining to the highlighted area.
 4. **Actions:**
@@ -32,5 +33,6 @@ Click Back or Next to continue through the tour:
 - Tours can be automatically triggered for new users to step through the UI on their initial login. Automatic tours are recommended for first time use only.
 - In some cases, more than one tour may exist.
 - Step numbers are dynamic. In some cases, users may not have access to view all steps or all areas of the UI, so the numbers should update accordingly for each tour instance.
-- Add guided tours to the Help menu in the masthead when available:
-  ![template](img/Navbar-1.png)
+- Add guided tours to the Help menu in the [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/) when available.
+
+  ![template](img/Navbar-1B.png)
