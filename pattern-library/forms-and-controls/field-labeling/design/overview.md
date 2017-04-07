@@ -73,7 +73,4 @@ When all fields on a form are either required or optional, it is not necessary t
 3. Message when all fields are required.
 4. Message when all fields are optional.
 
-### Displaying Units
-Where applicable, units should be displayed to the right of any field where they are needed to provide clarity to the displayed data.  See the [PatternFly Terminology and Wording Guidelines](http://www.patternfly.org/styles/terminology-and-wording/#_) for common unit abreviations.
 
-![Form with units](img/form-with-units.png)
