@@ -43,9 +43,14 @@ On/Off switches are a third option and can potentially take the place of a singl
 #### Select Lists
 Select lists provide an alternate method for selecting between multiple options when space is constrained or there are too many options to comfortable display on the page at once.  Select list should also be used when the options may vary.
 
-PatternFly offers two types of Select controls, Bootstrap Single-Select for selecting between mutually exclusive options and Bootstrap Multi-Select for selecting one or more options from a list.  When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
+PatternFly offers two types of Select controls, Bootstrap Single Select for selecting between mutually exclusive options and Bootstrap Multi Select for selecting one or more options from a list.  When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
 
 ![Bootstrap Single Select](img/bootstrap-single-multi-select.png)
+
+#### Comboboxes
+A combobox is similar to a single select list in that users can select from a dropdown list of pre-defined options.  However, a combobox combines a text input field with the dropdown list allowing users to enter the value from the keyboard or select it from the list.  Comboboxes also support type-ahead so that a filtered version of the value list is displayed as the user types, making it easier to select from a filtered set of options. A combobox is preferred over a select list when the number of options is large (more that 10).
+
+![Bootstrap Combobox](img/bootstrap-combobox.png)
 
 
 ### Data Entry Controls
