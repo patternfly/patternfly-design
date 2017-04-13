@@ -72,4 +72,4 @@
 
 ## Additional Notes about Behavior
 
-- **Pagination:** Table view supports pagination. See [Pagination](https://github.com/patternfly/patternfly-design/tree/master/pattern-library/navigation/pagination/design) for more details.
+- **Pagination:** Table view supports pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
