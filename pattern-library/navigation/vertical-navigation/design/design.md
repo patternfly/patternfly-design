@@ -34,9 +34,8 @@ Fly out secondary navigation acts the same as the [Primary with Secondary Naviga
 
 ![navigation-with-secondary-callout](img/navigation-with-fly-out-secondary-callout.png)
 
-1. **Label**: The label at the top of the secondary menu mirrors the selected primary category to reinforce the user’s current location.
-2. **Selection**: A selected item in the secondary navigation is highlighted.
-3. **Hover**: On hover, the secondary navigation is highlighted and underlined.
+1. **Selection**: A selected item in the secondary navigation is highlighted.
+2. **Hover**: On hover, the secondary navigation is highlighted and underlined.
 
 ## Primary with Tertiary Navigation
 Tertiary navigation is non-persistent and only appears on hover. The tertiary navigation is shown as a third column that opens to the right.
