@@ -1,6 +1,9 @@
 Jump to [Masthead Design](#masthead-design), [Primary Navigation](#primary-navigation), [Primary with Secondary Navigation](#primary-with-secondary-navigation), [Primary with Fly Out Secondary Navigation](#primary-with-fly-out-secondary-navigation), [Primary with Tertiary Navigation](#primary-with-tertiary-navigation), or [Responsive States](#responsive-states)
 
 ## Masthead Design
+
+There are two options for the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) design, one short option to save space and one tall option to accommodate for larger product logos. The tall masthead option is recommended when using vertical navigation.
+
 ![masthead_vertical_callout](img/masthead_vertical_callout.png)
 
 1. **Branding**: Product icon can also be used in addition to the burger bar OR as a standalone icon.
