@@ -38,7 +38,7 @@
 
 ## Empty State
 
-![Table view empty state](img/empty-state-callout.png)
+![Table View empty state](img/empty-state-callout.png)
 
 1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
 
@@ -72,4 +72,4 @@
 
 ## Additional Notes about Behavior
 
-- **Pagination:** Table view supports pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+- **Pagination:** Table View supports pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
