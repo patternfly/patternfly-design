@@ -1,7 +1,7 @@
 ## A Guide to PatternFly Navigation
 There are a number of different solutions that we support in PatternFly with respect to navigation. Choosing which one works best really depends on the application you are designing and developing. Here are some guidelines around which type of navigation solutions we suggest, why, and when.
 
-Jump to [Masthead (Branding & Application Level Navigation)](#masthead), [Horizontal vs. Vertical Navigation](#horizontalvertical), [Breadcrumbs (Drill Down to Details)](#breadcrumbs), or [Responsive Navigation](#responsive).
+Jump to [Masthead (Branding & Application Level Navigation)](#masthead-(branding-&-application-level-navigation)), [Horizontal vs. Vertical Navigation](#horizontal-vs.-vertical-navigation), [Breadcrumbs (Drill Down to Details)](#breadcrumbs-(drill-down-to-details)), or [Responsive Navigation](#responsive-navigation).
 
 
 ## Masthead (Branding & Application Level Navigation)
