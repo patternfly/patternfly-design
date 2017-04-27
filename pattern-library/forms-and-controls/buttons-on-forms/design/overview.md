@@ -36,6 +36,8 @@ Buttons may also be used for inline actions within a form.  In these cases, the 
 #### Enabling and Disabling Actions
 Submit buttons should be disabled when all conditions required for completing a form are not met.  This will reduce the need to return validation errors because the user neglected to complete the form.  When using disabled buttons, it should always be possible for the user to enable the button by inputing information onto the current page.  Do not use this technique for blocking functionality that is not available to the current user or requires changes outside of the current page.
 
+For more guidance on handling form validation see [Errors and Validation](http://www.patternfly.org/pattern-library/forms-and-controls/errors-and-validation/).
+
 #### Styling Commonly Used Buttons
 
   **Close Button:**
