@@ -1,7 +1,7 @@
 ## A Guide to PatternFly Navigation
 There are a number of different solutions that we support in PatternFly with respect to navigation. Choosing which one works best really depends on the application you are designing and developing. Here are some guidelines around which type of navigation solutions we suggest, why, and when.
 
-Jump to [Masthead (Branding & Application Level Navigation)](#masthead-(branding-&-application-level-navigation)), [Horizontal vs. Vertical Navigation](#horizontal-vs.-vertical-navigation), [Breadcrumbs (Drill Down to Details)](#breadcrumbs-(drill-down-to-details)), or [Responsive Navigation](#responsive-navigation).
+Jump to [Masthead (Branding & Application Level Navigation)](#masthead-branding-application-level-navigation), [Horizontal vs. Vertical Navigation](#horizontal-vs-vertical-navigation), [Breadcrumbs (Drill Down to Details)](#breadcrumbs-drill-down-to-details), or [Responsive Navigation](#responsive-navigation).
 
 
 ## Masthead (Branding & Application Level Navigation)
@@ -24,7 +24,7 @@ Consider [Hortizonal Navigation](http://www.patternfly.org/pattern-library/navig
 * Horizontal space is a concern. Horizontal navigation takes up a bit of vertical space, but under that there is the entire width for any content. Overall, horizontal navigation can take up less space than vertical. If a typical user won’t have a wide enough screen, vertical navigation can take up a lot of that space and horizontal navigation should be considered.
 ![horizontalvertical](img/horizontal-nav.png)
 
-Consider [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) when:
+Consider [Vertical Navigation](vertical-nav.md) when:
 * Vertical space is a concern. Vertical navigation takes up horizontal space, but vertical space is preserved for more content to the right of the navigation.
 * A larger number of primary navigation items exist. Vertical navigation scales better than horizontal navigation moving left to right.
 * Icons for each primary navigation item will be used. This is another scale concern, but can also benefit the space used by vertical navigation by allowing the user to toggle the words off and save space by just showing the icons in the navigation bar.
