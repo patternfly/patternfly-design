@@ -61,8 +61,8 @@ Text edit fields are the simplest and most common controls for allowing a user t
 If the acceptable entries into a text edit field are constrained, syntax hints and field validation are recommended to prevent data entry errors.
 
 #### Bound Entry Controls
-Bound entry controls should be used when entering special data types, including dates, time, and other forms of numeric data.  These controls constrain user input and combine keyboard and mouse interaction.  They are designed to only allow valid inputs and therefore avoid the need for secondary validation.  See the DatePicker, TimePicker, and Bootstrap Touchspin components for more details.
+Bound entry controls should be used when entering special data types, including dates, time, and other forms of numeric data.  These controls constrain user input and combine keyboard and mouse interaction.  They are designed to only allow valid inputs and therefore avoid the need for secondary validation.  See the [Datepicker](http://www.patternfly.org/pattern-library/forms-and-controls/datepicker/), [Timepicker](http://www.patternfly.org/pattern-library/forms-and-controls/timepicker/), and [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) components for more details.
 
 ![Bound Data Input](img/data-input-bound-controls.png)
 
-This dialog box uses bounded data entry controls to prevent user errors.  A date picker allows the user to pick a valid date.  A time picker, a Bootstrap touchspin control, and a select list control are used to set time, repeats, and participants, respectively.
+This dialog box uses bounded data entry controls to prevent user errors.  A date picker allows the user to pick a valid date.  A time picker, a Bootstrap Touchspin control, and a select list control are used to set time, repeats, and participants, respectively.
