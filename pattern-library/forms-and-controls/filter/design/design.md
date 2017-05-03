@@ -36,11 +36,11 @@ Should the application of filters return 0 results, an empty state message will 
 
 1. **Suggestions:** A brief message suggesting how to fix the problem.
 
-1. **Clear All Filters** Clicking this will clear all applied filters and restore content to this view.
+1. **Clear All Filters:** Clicking this will clear all applied filters and restore content to this view.
 
-1. **Background** The background color of this form will match the color of the current view.
+1. **Background:** The background color of this form will match the color of the current view.
 
-This form will always be displayed within the current view and the toolbar will remain active so that the user can modify filter criteria.
+This form will always be displayed within the current view and the Toolbar will remain active so that the user can modify filter criteria.
 
 #### Null Result Set in Card or List View
 
@@ -50,4 +50,4 @@ This form will always be displayed within the current view and the toolbar will 
 
 ![Null results in card view](img/table-filter-empty.png)
 
-Note that in table view, the background color is white.
+Note that in Table View, the background color is white.
