@@ -34,15 +34,6 @@
 
 4. **Bulk Item Actions:** Bulk item action buttons are activated when multiple rows are selected. Some actions are available as both a table action and a bulk item action. The number of rows selected is shown near the table action buttons.
 
-
-
-## Empty State
-
-![Table View empty state](img/empty-state-callout.png)
-
-1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
-
-
 ## Column Visibility
 
 ![Table with a column visibility menu active](img/table-col-visibility-menu.png)
@@ -72,4 +63,6 @@
 
 ## Additional Notes about Behavior
 
-- **Pagination:** Table View supports pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+- **Pagination:** Table view supports pagination. See [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+
+- **Empty State:** If no items exist in the table, display the [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/) pattern. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
