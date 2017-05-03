@@ -17,35 +17,28 @@ patternWalk.observable
   return family.patterns;
 })
 .flatMap(function(pattern) {
-  return exists(pattern.files.get('site').path)
-  .flatMap(function(siteFileExists) {
-    if (siteFileExists) {
-      return readFile(pattern.files.get('site').path, 'utf8')
-      .flatMap(function(contents) {
-        return Rx.Observable.from(contents.split(/\n/))
-        .filter(function(line) {
-          let match = patternFileRe.exec(line);
-          return match && match[2] != 'false'
-        })
-        .flatMap(function (line) {
-          let match = patternFileRe.exec(line);
-          let includePath = match[2];
-          let result = {
-            siteFile: pattern.files.get('site').path,
-            includeType: match[1],
-            includePath: includePath,
-          }
-          return exists(includePath)
-          .map(function(includeFileExists) {
-            result.exists = includeFileExists;
-            return result;
-          });
-        });
-      })
-    } else {
-      return Rx.Observable.empty;
-    }
-  })
+  let siteFile = pattern.files.get('site');
+  if (siteFile.status === 'present') {
+    return Rx.Observable.from(['overview', 'design'])
+    .flatMap(function (key) {
+      let includePath = siteFile.frontmatter[key]
+      if (!includePath) {
+        return Rx.Observable.empty;
+      };
+      let result = {
+        siteFile: siteFile.path,
+        includeType: key,
+        includePath: includePath,
+      }
+      return exists(includePath)
+      .map(function(includeFileExists) {
+        result.exists = includeFileExists;
+        return result;
+      });
+    });
+  } else {
+    return Rx.Observable.empty;
+  }
 })
 .filter(function(result) {
   return result && !result.exists;

@@ -5,6 +5,7 @@ var Rx = require('rx'),
     fs = require('fs'),
     path = require('path'),
     dateFormat = require('dateformat'),
+    fm = require('front-matter'),
     readdir = Rx.Observable.fromNodeCallback(fs.readdir),
     readFile = Rx.Observable.fromNodeCallback(fs.readFile),
     stat = Rx.Observable.fromNodeCallback(fs.stat),
@@ -27,72 +28,81 @@ var Rx = require('rx'),
 
 var familyObservable = readdir('pattern-library')
 .flatMap(function(familyNames) {
-  return familyNames;
-})
-.flatMap(function(familyName) {
-  return stat(path.join('pattern-library/', familyName))
-  .map(function(stats) {
-    return {
-      familyName: familyName,
-      stats: stats
-    };
-  });
-})
-.filter(function(familyStats) {
-  return familyStats.stats.isDirectory();
-})
-.map(function(familyStats) {
-  return {
-    name: familyStats.familyName,
-    patterns: []
-  }
-})
-.flatMap(function(family) {
-  return readdir(path.join('pattern-library/', family.name))
-  .flatMap(function(patternNames) {
-    return patternNames;
-  })
-  .flatMap(function(patternName) {
-    var pattern = {
-      name: patternName,
-      files: new Map()
-    }
-    family.patterns.push(pattern);
-    return Rx.Observable.from(patternFiles).flatMap(function(entry) {
-      var now = new Date().getTime();
-      var key = entry[0], fileToCheck = entry[1];
-      var file = {
-        patternFile: fileToCheck,
-        path: path.join('pattern-library', family.name, pattern.name, fileToCheck.path)
+  return Rx.Observable.forkJoin(familyNames.map(function(familyName) {
+    return stat(path.join('pattern-library/', familyName))
+    .map(function(stats) {
+      return {
+        familyName: familyName,
+        stats: stats
+      };
+    })
+    .filter(function(familyStats) {
+      return familyStats.stats.isDirectory();
+    })
+    .map(function(familyStats) {
+      return {
+        name: familyStats.familyName,
+        patterns: []
       }
-      pattern.files.set(key, file);
-      return exists(file.path)
-      .flatMap(function(fileExists) {
-        if (fileExists) {
-          file.status = 'present'
-          return exec(`git log --format=%aD ${file.path}`)
-          .map(function(stdout) {
-            let commits = stdout[0].split('\n').filter(function(commit) {
-              return commit.length > 0;
-            });
-            file.dateChanged = new Date(commits[0]);
-            file.dateChangedFormatted = dateFormat(file.dateChanged, 'mmmm dS yyyy');
-            file.dateCreated = new Date(commits[commits.length - 1]);
-            file.dateCreatedFormatted = dateFormat(file.dateCreated, 'mmmm dS yyyy');
-          });
-        } else {
-          file.status = 'missing';
-          return Rx.Observable.empty;
-        }
+    })
+    .flatMap(function(family) {
+      return readdir(path.join('pattern-library/', family.name))
+      .flatMap(function(patternNames) {
+        return Rx.Observable.forkJoin(patternNames.map(function(patternName) {
+          var pattern = {
+            name: patternName,
+            files: new Map()
+          }
+          return Rx.Observable.forkJoin(Array.from(patternFiles).map(function(entry) {
+            let fileToCheck = entry[1], key = entry[0]
+            let now = new Date().getTime();
+            let file = {
+              patternFile: fileToCheck,
+              path: path.join('pattern-library', family.name, pattern.name, fileToCheck.path)
+            }
+            pattern.files.set(key, file);
+            return exists(file.path)
+              .flatMap(function(fileExists) {
+                if (fileExists) {
+                  file.status = 'present'
+                  return exec(`git log --format=%aD ${file.path}`)
+                  .map(function(stdout) {
+                    let commits = stdout[0].split('\n').filter(function(commit) {
+                      return commit.length > 0;
+                    });
+                    file.dateChanged = new Date(commits[0]);
+                    file.dateChangedFormatted = dateFormat(file.dateChanged, 'mmmm dS yyyy');
+                    file.dateCreated = new Date(commits[commits.length - 1]);
+                    file.dateCreatedFormatted = dateFormat(file.dateCreated, 'mmmm dS yyyy');
+                    return pattern;
+                  });
+                } else {
+                  file.status = 'missing';
+                  return Rx.Observable.from([pattern]);
+                }
+              })
+          }))
+          .flatMap(function() {
+            let siteFile = pattern.files.get('site');
+            if (siteFile.status === 'present') {
+              return readFile(pattern.files.get('site').path, 'utf8')
+              .map(function(contents) {
+                siteFile.frontmatter = fm(contents).attributes;
+                return pattern;
+              })
+            } else {
+              return Rx.Observable.from([pattern]);
+            }
+          })
+        }))
+        .map(function(patterns) {
+          family.patterns = patterns;
+          return family;
+        })
       })
     })
-  })
-  .toArray()
-  .map(function() {
-    return family;
-  })
+  }))
 })
-.toArray()
 .flatMap(function(families) {
   families.sort(function compare(famA, famB) {
     if (famA.name < famB.name) {
