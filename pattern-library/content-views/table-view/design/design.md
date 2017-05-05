@@ -9,11 +9,11 @@
 
 3. **Sorting:** Organize data by sorting columns. All columns are sortable, simply click on the column header to sort via info found in that column.
 
-  Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
+    Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
 
 4. **Select Row(s):** Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously.
 
-  Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
+    Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
 
 5. **Hover State:** When the user hovers over a row, that row will be lightly highlighted and outlined. This helps the user to isolate the row, especially when clicking on items in the row.
 
