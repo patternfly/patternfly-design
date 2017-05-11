@@ -219,6 +219,9 @@
   .pf-design-table__icon--present {
     color: #8b8d8f;
   }
+  .pf-design-table__cell__impl .pf-design-table__icon--present {
+    color: #92d400;
+  }
   .pf-design-table__icon--missing {
     color: #a30000;
   }
@@ -229,6 +232,9 @@
     font-size: 100%;
     padding: 3px;
     flex-shrink: 0;
+  }
+  .pf-design-table__row__header-files {
+    white-space: nowrap;
   }
   .remove-icon {
     animation: disappear .2s ease;
@@ -249,6 +255,14 @@
     flex-direction: row;
     justify-content: space-around;
     white-space: nowrap;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) > td.pf-design-table__cell__impl {
+    background-color: #f5f5f5;
+  }
+
+  .table-striped > tbody > tr:nth-of-type(even) > td.pf-design-table__cell__impl {
+    background-color: #ededed;
   }
 
   </style>
@@ -293,8 +307,11 @@
 
     {{#each families}}
       <tbody class='pf-design-table__files'>
-        <tr><th colspan='4'><h2>{{name}}</h2></th></tr>
-        <tr><th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th></tr>
+        <tr><th colspan='8'><h2>{{name}}</h2></th></tr>
+        <tr class='pf-design-table__row__header-files'>
+          <th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th>
+          <th>jQuery</th><th>Angular 1</th><th>Angular 2+ (ng)</th><th>React</th><th>Web component</th><th>CSS</th>
+        </tr>
         {{#each patterns}}
           <tr>
             <td><a href='https://github.com/patternfly/patternfly-design/tree/master/pattern-library/{{../name}}/{{name}}'>{{name}}</a></td>
@@ -310,6 +327,62 @@
                         data-changed='{{ value.dateChanged }}'
                         title='Modified on {{ value.dateChangedFormatted }}. Created on {{ value.dateCreatedFormatted }}'>
                   </span>
+                </td>
+              {{/compare}}
+              {{#compare key '==' 'site'}}
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_jquery}}
+                    <a href="{{value.frontmatter.impl_jquery}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
+                </td>
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_angular}}
+                    <a href="{{value.frontmatter.impl_angular}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
+                </td>
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_ng}}
+                    <a href="{{value.frontmatter.impl_ng}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
+                </td>
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_react}}
+                    <a href="{{value.frontmatter.impl_react}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
+                </td>
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_webcomponent}}
+                    <a href="{{value.frontmatter.impl_webcomponent}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
+                </td>
+                <td class="pf-design-table__cell pf-design-table__cell__impl">
+                  {{#if value.frontmatter.impl_webcomponent}}
+                    <a href="{{value.frontmatter.impl_css}}" target="_new">
+                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
+                    </a>
+                  {{else}}
+                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
+                  {{/if}}
                 </td>
               {{/compare}}
             {{/eachInMap}}

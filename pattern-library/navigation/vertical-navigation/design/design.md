@@ -1,6 +1,9 @@
-Jump to [Masthead Design](#masthead-design), [Primary Navigation](#primary-navigation), [Primary with Secondary Navigation](#primary-with-secondary-navigation), [Primary with Tertiary Navigation](#primary-with-tertiary-navigation), or [Responsive States](#responsive-states)
+Jump to [Masthead Design](#masthead-design), [Primary Navigation](#primary-navigation), [Primary with Secondary Navigation](#primary-with-secondary-navigation), [Primary with Fly Out Secondary Navigation](#primary-with-fly-out-secondary-navigation), [Primary with Tertiary Navigation](#primary-with-tertiary-navigation), or [Responsive States](#responsive-states)
 
 ## Masthead Design
+
+There are two options for the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) design, one short option to save space and one tall option to accommodate for larger product logos. The tall masthead option is recommended when using vertical navigation.
+
 ![masthead_vertical_callout](img/masthead_vertical_callout.png)
 
 1. **Branding**: Product icon can also be used in addition to the burger bar OR as a standalone icon.
@@ -28,6 +31,14 @@ Secondary navigation is non-persistent, appearing on hover. The secondary naviga
 1. **Label**: The label at the top of the secondary menu mirrors the selected primary category to reinforce the user’s current location.
 2. **Selection**: A selected item in the secondary navigation is highlighted.
 3. **Hover**: On hover, the secondary navigation is highlighted and underlined.
+
+## Primary with Fly Out Secondary Navigation
+Fly out secondary navigation acts the same as the [Primary with Secondary Navigation](#primary-with-secondary-navigation), but provides an option for when a whole column is not needed for the navigation items. This is ideal for a smaller set of secondary navigation throughout the entire application. This should not be mixed with the base [Primary with Secondary Navigation](#primary-with-secondary-navigation). The fly out secondary navigation is shown in a fly out that appears to the right. (See [Secondary Navigation | Responsive State](#secondary-navigation-|-responsive-state) for how the secondary navigation is displayed on small screens. NOTE: This is the same for if you are using the [Primary with Secondary Navigation](#primary-with-secondary-navigation).)
+
+![navigation-with-secondary-callout](img/navigation-with-fly-out-secondary-callout.png)
+
+1. **Selection**: A selected item in the secondary navigation is highlighted.
+2. **Hover**: On hover, the secondary navigation is highlighted and underlined.
 
 ## Primary with Tertiary Navigation
 Tertiary navigation is non-persistent and only appears on hover. The tertiary navigation is shown as a third column that opens to the right.

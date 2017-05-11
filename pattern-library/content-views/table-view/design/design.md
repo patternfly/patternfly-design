@@ -9,11 +9,11 @@
 
 3. **Sorting:** Organize data by sorting columns. All columns are sortable, simply click on the column header to sort via info found in that column.
 
-  Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
+    Active column will be highlighted with a blue line above the column and blue text. The carat indicates the direction of the sort, in this case from ascending order alphabetically.
 
 4. **Select Row(s):** Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously.
 
-  Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
+    Selecting a checkbox activates and highlights the row. This highlight is more prominent than the highlight for hovering over a row.
 
 5. **Hover State:** When the user hovers over a row, that row will be lightly highlighted and outlined. This helps the user to isolate the row, especially when clicking on items in the row.
 
@@ -33,15 +33,6 @@
 3. **Column Reordering:** User can change the order of columns listed in the table. Click on a column header and drag it along the row of headers into the desired position. Note that only one column can be moved at a time.
 
 4. **Bulk Item Actions:** Bulk item action buttons are activated when multiple rows are selected. Some actions are available as both a table action and a bulk item action. The number of rows selected is shown near the table action buttons.
-
-
-
-## Empty State
-
-![Table view empty state](img/empty-state-callout.png)
-
-1. **Empty State:** If no items exist in the table, display the empty state pattern. Simple filter feature will be disabled within the data toolbar in this state. However, table actions will remain enabled.
-
 
 ## Column Visibility
 
@@ -72,4 +63,6 @@
 
 ## Additional Notes about Behavior
 
-- **Pagination:** Table view supports pagination. See [Pagination](https://github.com/patternfly/patternfly-design/tree/master/pattern-library/navigation/pagination/design) for more details.
+- **Pagination:** Table view supports pagination. See [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+
+- **Empty State:** If no items exist in the table, display the [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/) pattern. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
