@@ -84,13 +84,14 @@ For sentence style, capitalize the first letter of the first word and any proper
 | Group headings, group boxes                                | Headline       |
 | List boxes: Introductory text                              | Sentence       |
 | List boxes: List box labels                                | Headline       |
+| Menu items                                                 | Headline       |
 | Prompts                                                    | Sentence       |
 | Radio buttons labels                                       | Sentence       |
 | States (as shown in tables, filters, e. g. Up and Running) | Headline       |
 | Status messages                                            | Sentence       |
 | Tab labels                                                 | Headline       |
 | Text box labels                                            | Headline       |
-| Tooltips                                                  | Sentence       |
+| Tooltips                                                   | Sentence       |
 | Window titles (browsers, dialog boxes, steps in a wizard)  | Headline       |
 
 ## Links
