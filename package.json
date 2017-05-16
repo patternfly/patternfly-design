@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "./script/verify-site-includes.js",
-    "lint": "bundle exec mdl -r ~MD013 pattern-library/",
+    "lint": "bundle exec mdl pattern-library/",
     "build-status": "./script/status.js",
     "watch-status": "watch ./script/status.js script",
     "serve-status": "browser-sync start --server --port 8080 --files 'publish/**/*' --startPath 'publish/status'",
