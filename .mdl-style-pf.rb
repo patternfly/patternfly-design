@@ -1,0 +1,10 @@
+all
+exclude_rule 'MD013'
+exclude_rule 'MD010'
+exclude_rule 'MD022'
+exclude_rule 'MD024'
+exclude_rule 'fenced-code-language'
+exclude_rule 'first-line-h1'
+rule 'MD026', :punctuation => '.,;!?'
+rule 'MD029', :style => 'ordered'
+rule 'MD007', :indent => '4'
