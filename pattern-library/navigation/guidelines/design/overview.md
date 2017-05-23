@@ -10,12 +10,12 @@ The masthead serves as a place where overall branding and application level navi
 Consider a [Short Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/) when:
 * There is a concern about saving vertical space.
 * Horizontal navigation is being used.
-![masthead](img/short-masthead.png)
+![shortmasthead](img/short-masthead.png)
 
 Consider a [Tall Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/) when:
 * The product needs to support rebranding.
 * Vertical navigation is being used.
-![masthead](img/tall-masthead.png)
+![tallmasthead](img/tall-masthead.png)
 
 ## Horizontal vs. Vertical Navigation
 People seem to like to make this out to be a battle but really, there are specific reasons when you’d want to use one versus the other.
@@ -29,8 +29,7 @@ Consider [Vertical Navigation](vertical-nav.md) when:
 * A larger number of primary navigation items exist. Vertical navigation scales better than horizontal navigation moving left to right.
 * Icons for each primary navigation item will be used. This is another scale concern, but can also benefit the space used by vertical navigation by allowing the user to toggle the words off and save space by just showing the icons in the navigation bar.
 * Switching between desktop and mobile is a planned use case. Vertical menus more readily adapt to small screen sizes. While horizontal menus can also be made responsive, it usually requires a transformation from horizontal to vertical. Since vertical menus are already in this format, the transition from desktop to mobile is less disorienting.
-
-  <img src="img/vertical-nav.png" alt="vertical-nav" style="width: 215px;"/>
+![vertical-nav](img/vertical-nav.png)
 
 ## Breadcrumbs (Drill Down to Details)
 One type of navigation comes up when a user wants to drill down even further from the main navigation into object details.
@@ -45,5 +44,4 @@ Consider [Breadcrumb Navigation](http://www.patternfly.org/pattern-library/navig
 As the screen real estate gets smaller, we are making a few recommendations when it comes to supporting a responsive navigation:
 * **Small Screen (From 768 to 1200px):** In all cases, the secondary navigation, if one exists, will replace the primary menu in a one column layout (same 	interactions as full-width without icons).
 * **Mobile (less than 768 px):** Navigation is hidden under “hamburger” icon.
-
-  <img src="img/responsive-nav.png" alt="vertical-nav" style="width: 275px;"/>
+![responsive-nav](img/responsive-nav.png)
