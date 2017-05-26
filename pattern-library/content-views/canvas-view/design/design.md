@@ -37,3 +37,16 @@ Implementing the pan and zoom functionality is optional, but is recommended for 
 - Clicking and dragging on the canvas background when the cursor is in the all-scroll state will pan the canvas.
 - When the canvas is not zoomed out all the way, hovering over the canvas background will change the mouse pointer to “cursor:all-scroll”.
 - When it is zoomed out all the way, the cursor property will be set to “cursor: default”.
+
+
+## Canvas Containers
+![Canvas Layout](img/Canvas-07.png)
+1. **Containers:**
+  - When containers are present, canvas items can only be dropped into a container.
+  - When a user clicks on a container, the selected state should be visually indicated.
+  - When a container is selected, container actions are shown on the Editor Toolbar.
+  - For cases where multiple actions are available, a contextual menu of container actions is recommended on hover.
+  - Like canvas items, containers can be ordered or connected to represent a particular flow of information.
+1. **Background Disabled:** When containers are present, the canvas area outside of the containers is disabled so that items cannot be dropped into this area. The disabled area is indicated visually by graying out the canvas.  
+1. **Container Control:** An additional control is placed on the canvas for creating new containers.
+1. **Properties Panel** (optional): As with canvas items, when a container is selected an optional properties panel should appear on the right side of the canvas.
