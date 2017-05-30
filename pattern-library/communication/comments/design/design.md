@@ -1,8 +1,8 @@
-# Wizard
+# Comments
 
 ## Creating and viewing comments
 
-![Comment Basics](img/commenting_01.png)
+![Comment Basics](img/Commenting_01.png)
 
 
 1. **Header:** The Comments header tallies the total comments. There is no known limit to the number of comments.
@@ -12,7 +12,7 @@
 
 ## Interactions and Behaviors for entering a comment
 
-![Interactions](img/commenting_02.png)
+![Interactions](img/Commenting_02.png)
 
 1. Once the comment field has focus, the Post button will enable, the instructional text will clear and a blinking cursor will appear. The instructional text will reappear if the text entry field has no text and has lost focus.
 2. Any text entered will be black
@@ -22,7 +22,7 @@
 
 ## Edit + Delete comments
 
-![Edit and Delete](img/commenting_03.png)
+![Edit and Delete](img/Commenting_03.png)
 
 1. **Menu commands:** The kabob menu will house the commands for the comment, such as, Edit and Delete.
 2. **Delete command:** Selecting the Delete command prompts the user with a confirmation
@@ -32,7 +32,7 @@ dialog. Selecting the Edit command, will place the comment into and editing mode
 
 ## Completion Page
 
-![Delete Comment Dialog](img/commenting_04.png)
+![Delete Comment Dialog](img/Commenting_04.png)
 
 1. **Displays when:** Delete dialog displays, after a the Delete command has been selected from the kabob menu on a comment.
 2. **Cancel actions::** Cancel button and “X” both close the dialog and dismiss any changes.
