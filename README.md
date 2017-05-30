@@ -3,7 +3,7 @@ patternfly-design is awesome!
 
 The patternfly-design repo is where the designs for the [patternfly open interface project](https://github.com/patternfly/patternfly) and the content for [patternfly.org](https://www.patternfly.org) are created and housed.
 
-This open format enables community members and Patternfly team members to easily access and contribute to design documentation and assets. It also has the benefit of dramatically reducing overhead for posting to [patternfly.org](https://www.patternfly.org), as the site can consume the markdown files submitted by designers.
+This open format enables community members and PatternFly team members to easily access and contribute to design documentation and assets. It also has the benefit of dramatically reducing overhead for posting to [patternfly.org](https://www.patternfly.org), as the site can consume the markdown files submitted by designers.
 
 A listing and status of the design patterns in this site is available at: http://www.patternfly.org/patternfly-design/status/ 
 
