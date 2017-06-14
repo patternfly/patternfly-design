@@ -5,5 +5,5 @@ overview: pattern-library/communication/notification-drawer/design/overview.md
 design: pattern-library/communication/notification-drawer/design/design.md
 code_html: code/communication/notification-drawer/code.md
 code_angular: /components/angular-patternfly/dist/docs/partials/api/patternfly.notification.directive.pfNotificationDrawer.html
-impl_html: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/notification-drawer-vertical-nav.html
+impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/notification-drawer-vertical-nav.html
 ---
