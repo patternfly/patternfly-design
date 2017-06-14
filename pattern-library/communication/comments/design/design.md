@@ -7,14 +7,14 @@
 
 1. **Header:** The Comments header tallies the total comments. There is no known limit to the number of comments.
 2. **Commenting entry field:** Static text in the comment field will instruct the user on entering comments into the field.
-3. **Comments:** The individual comment entered will contain, the users avatar, name, date and time stamp, for when the comment was entered or last modified, and the text for the comment. The order of the list of comments will be lastest to oldest, from top to bottom, by default.
+3. **Comments:** The individual comment entered will contain, the users avatar, name, date and time stamp, for when the comment was entered or last modified, and the text for the comment. The order of the list of comments will be latest to oldest, from top to bottom, by default. The order of the list may be reviewed, to determine if the environment in which it is used, would best support latest to last or last to latest.
 
 
 ## Interactions and Behaviors for entering a comment
 
 ![Interactions](img/Commenting_02.png)
 
-1. Once the comment field has focus, the Post button will enable, the instructional text will clear and a blinking cursor will appear. The instructional text will reappear if the text entry field has no text and has lost focus.
+1. Once the comment field has focus and at least one character has been entered into the field, the Post button will enable, the instructional text will clear and a blinking cursor will appear. The instructional text will reappear if the text entry field has no text and has lost focus.
 2. Any text entered will be black
 3. Comments will infinitely wrap to accommodate the text. The Post button will remain bottom aligned with the commenting text field, as it grows.
 4. The comments will be left aligned and extend out to the right most margin and then carriage return/wrap.
