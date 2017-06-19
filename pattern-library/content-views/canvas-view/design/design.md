@@ -40,13 +40,14 @@ Implementing the pan and zoom functionality is optional, but is recommended for 
 
 
 ## Canvas Containers
+Containers are optional elements that contain, or nest, certain toolbox elements. They are not toolbox elements themselves and have their own properties.
+
 ![Canvas Layout](img/Canvas-07.png)
 1. **Containers:**
-  - When containers are present, canvas items can only be dropped into a container.
-  - When a user clicks on a container, the selected state should be visually indicated.
+  - When a user clicks on a container, the selected state is visually indicated.
   - When a container is selected, container actions are shown on the Editor Toolbar.
   - For cases where multiple actions are available, a contextual menu of container actions is recommended on hover.
   - Like canvas items, containers can be ordered or connected to represent a particular flow of information.
-1. **Background Disabled:** When containers are present, the canvas area outside of the containers is disabled so that items cannot be dropped into this area. The disabled area is indicated visually by graying out the canvas.  
-1. **Container Control:** An additional control is placed on the canvas for creating new containers.
-1. **Properties Panel** (optional): As with canvas items, when a container is selected an optional properties panel should appear on the right side of the canvas.
+1. **Background Disabled:** Some toolbox elements can only be added to containers. When such elements are selected in the toolbox, the canvas area outside of the containers is disabled so that items cannot be dropped into this area. The disabled area is indicated visually by graying out the canvas.  
+1. **Adding Containers:** A control is placed on the canvas for adding new containers. This control should always be "on top" so that elements dragged onto the canvas cannot hide the control. Once a container has been added to the canvas it can be clicked and dragged around the canvas just like toolbox elements.
+1. **Properties Panel** (optional): As with canvas items, when a container is selected an optional properties panel will appear on the right side of the canvas.
