@@ -48,3 +48,4 @@ The following text is recommended for the set of icons displayed in the example 
 | <span class="fa fa-th-large"></span>      | fa-th-large   | List view         | List view                      | Displays in the View control group (see callout 7) |
 | <span class="fa fa-th-list"></span>       | fa-th-list    | Card view         | Card view                      | Displays in the View control group (see callout 7) |
 | <span class="pficon pficon-close"></span> | pficon-close  | [none]            | Clear filter                   | Displays in the Active Filters row (see callout 8). Tooltip text is not needed for the X icon since the action associated with X is more obvious to users. However, screenreader text is still needed. |
+{:.table .table-striped .table-bordered}
