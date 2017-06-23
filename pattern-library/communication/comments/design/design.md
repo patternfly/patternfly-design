@@ -14,8 +14,8 @@
   - Text for the comment.
   - The order of the list of comments will be latest to oldest, from top to bottom, by default. The order of the list may be reviewed, to determine if the environment in which it is used, would best support latest to last or last to latest.
   **Buttons**
-   - (optional)The appearance of the buttons as text or icons is optional.
-   - (optional) Placement of the buttons below or to the right of the text entry field, is optional.
+   - (optional)The appearance of the buttons as text or icons.
+   - (optional) Placement of the command buttons below or to the right of the text entry field.
    - (optional) Cancel button is optional, as backspace can achieve the same effect, it just will most likely require more keystrokes.
 
 
