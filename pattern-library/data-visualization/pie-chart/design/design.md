@@ -3,7 +3,7 @@
 ![#callout-1](img/pie-chart-callout.png)
 
   1. **Pie Chart Fill:**
-    - Fill colors should be based on the [Patternfly Color Palette](https://www.patternfly.org/styles/color-palette/).
+    - Fill colors should be based on the [PatternFly Color Palette](https://www.patternfly.org/styles/color-palette/).
     - **Interaction** (optional):  
       -  If drill-down behavior is supported, clicking on a segment of the pie will trigger an associated action or navigation.
       - If supported, right clicking on a segment of the pie chart will bring up a menu with associated actions.
