@@ -13,7 +13,6 @@
   1. **Tooltip** (optional): We recommend that the name and quantity/percentage are displayed on hover.
 
   1. **Legend:** It is recommended to include a legend to show values and define the colors on the chart. On the pie chart, the legend should be left-aligned. It should be placed beneath or to the right of the pie chart.
-
     - **Interaction** (optional):
       - Clicking on a series in the legend should toggle the visibility of the series in the chart.
       - Hovering over a series in the legend will highlight the piece of pie associated with that attribute.
