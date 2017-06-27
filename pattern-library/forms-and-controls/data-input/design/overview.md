@@ -11,7 +11,7 @@
 #### Data Entry Controls
 * Use bound entry controls like datapickers, timepickers, or numeric touchspin  controls when entering strictly typed data.  This will reduce the need for field-level validation and prevent user input errors.
 
-* Using the Bootstrap Touchspin component in the Widgets library for numeric data entry is a good choice on forms. The user could enter the numeric data directly from the keyboard or use the “+””-” buttons for fine tuning. Bootstrap Touchspin could adjust number automatically prevent user input errors.
+* Using the [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) component in the Widgets library for numeric data entry is a good choice on forms. The user could enter the numeric data directly from the keyboard or use the “+””-” buttons for fine tuning. Bootstrap Touchspin could adjust number automatically prevent user input errors.
 
 * When the list of possible values is less than 20, a select list can also be used to enter numeric data.
 
@@ -74,14 +74,14 @@ This dialog box uses bounded data entry controls to prevent user errors.  A date
 ![Data Input Dashboard](img/data-input-dashboard.png)
 
 ### Bootstrap Touchspin
-PatternFly provides two kinds of Bootstrap Touchspin controls. The Bootstrap Touchspin with stacked buttons is the preferred method for entering numeric data on a web form. The user has a lot of user experience with this pattern, but the control buttons are too small on mobile devices,  will be very hard to click, and may lead to input errors . If your application needs to adapt to small screen devices, you should avoid using the  Bootstrap Touchspin (stacked) control.
+PatternFly provides two kinds of [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) controls. The Bootstrap Touchspin with stacked buttons is the preferred method for entering numeric data on a web form. The user has a lot of user experience with this pattern, but the control buttons are too small on mobile devices,  will be very hard to click, and may lead to input errors . If your application needs to adapt to small screen devices, you should avoid using the  Bootstrap Touchspin (stacked) control.
 
 An alternative is to use the Bootstrap Touchspin (without stacked). When using this control, the width of field will have a huge influence on user experience. Too wide a field will make it frustrating for users to click the control buttons. In this case, it would better adjust the width of input fields to match the length of the expected input.
 
 ![Bootstrap Touchspin Width](img/data-input-bootstrap-touchspin-width.png)
 
-### Select list
-Select list can also be used to enter numeric data. This pattern helps users select a value quickly and accurately, preventing user input errors. This is especially true in the usage scenarios for selecting data from some special data group (eg. -20 / -10 / -5 / 0 / 5 / 10 / 20).
+### Bootstrap Select
+[Bootstrap Select]( http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) can also be used to enter numeric data. This pattern helps users select a value quickly and accurately, preventing user input errors. This is especially true in the usage scenarios for selecting data from some special data group (eg. -20 / -10 / -5 / 0 / 5 / 10 / 20).
 
 When using a select list, options should be less than 20. Long lists that require scrolling are not easy to operate on mobile devices.
 
