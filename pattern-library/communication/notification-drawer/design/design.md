@@ -11,7 +11,7 @@ Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notifi
 
 1. **Icon:**
   - The fa-bell icon should be used to represent the notification drawer.
-  - Clicking on the icon will slide out a drawer and dismiss the toast notification.
+  - Clicking on the icon will open a drawer from the top of the page.
   - Clicking on the icon again will close the drawer.
 2. **Drawer Title:** Title of Drawer.
 3. **Accordion:** Only one notification tab may be opened at a given time -maximizing drawer space. Italicized text will indicate number of new events. Clicking on the title will expand accordion.
