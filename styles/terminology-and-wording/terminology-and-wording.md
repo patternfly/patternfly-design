@@ -145,7 +145,7 @@ As a user, I want to see a single link that directs me to a page or document wit
 
   ![#truncation4](img/truncation4@2x.jpg)
 
-  - In any container holding a string, if there is not sufficient room for the full spelling or hyphenation of a word, abbreviate the text according to the English abbreviation rules [actually, should be according to our rules too].  Do not truncate text in column headings.
+  - In any container holding a string, if there is not sufficient room for the full spelling or hyphenated word, consider abbreviating the text. For abbreviations, visit "Common Abbreviations" under [Terminology and Wording](http://www.patternfly.org/styles/terminology-and-wording/) or reference the [Chicago Manual](http://www.chicagomanualofstyle.org/16/ch10/ch10_toc.html) of Style. Do not truncate text in column headings.
 
   ![#truncation5](img/truncation5@2x.jpg)
 
