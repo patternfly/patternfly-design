@@ -15,6 +15,8 @@
 
 * When the list of possible values is less than 20, a select list can also be used to enter numeric data.
 
+* Whether numbers should be left aligned or right aligned is based on the context they are being used in. Data comparison and visual flow should be considered.
+
 Forms enable users to input a variety of data.  Users may need to select from a fixed set of options or input a value directly.  Guidelines for selection from multiple options and entering values from the keyboard are included below.
 
 ## Selection Controls
@@ -86,3 +88,20 @@ An alternative is to use the Bootstrap Touchspin (without stacked). When using t
 When using a select list, options should be less than 20. Long lists that require scrolling are not easy to operate on mobile devices.
 
 ![Select list](img/data-input-select-list.png)
+
+### Left alignment or right alignment
+Whether numbers should be left aligned vs. right aligned (vs. decimal aligned) is based on the context they are being used in. When to use it?
+
+#### Left alignment
+No matter edit state or view stats of common information form, user usually review the information from left to right then from top to bottom.
+
+![Left alignment](img/left-alignment.png)
+
+#### Right alignment
+On account of numbers right alignment, the numbers will be much more easier to be compared. Alignment of the decimal dot would make the data contrast clearer.
+
+![Right alignment](img/right-alignment.png)
+
+##### Tips:
+Numeric fields would better be left aligned.
+When there is a number already filled in, and you want to add more digits to it, you have to click in the small margin between the last number and the number selector. It is not a easy operation with a mouse and on a touchscreen will be harder.
