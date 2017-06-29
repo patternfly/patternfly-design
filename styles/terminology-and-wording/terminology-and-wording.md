@@ -127,20 +127,43 @@ As a user, I want to see a single link that directs me to a page or document wit
 
   -  Whenever the string overflows the container and you don't want the text to overflow to multiples lines. A few examples include:
     - Page titles that show object/host names
+![#truncation1](img/truncation1@2x.jpg)
+
     - Table or list view cells that contain long strings or lots of data and that have some method to view the full text
+![#truncation2](img/truncation2@2x.jpg)
 
 ### Whether to design for truncating strings at the beginning, end, or in the middle requires a bit of research.
 
   - Does the product you are designing for have a default truncation scheme? (For example, if your product has a default setting for how to truncate host names but also a user preference if users want to change it to suit their naming scheme, you should follow that scheme along with the guidelines here.
+    ![#truncation3](img/truncation3@2x.jpg)
+
   - If the product doesn't have a default truncation choice, think about how the product's users are apt to name objects -- is it more likely that the unique part of the name will be at the beginning or end of the string? Based on the answer, we recommend one of two methods of truncation. There are two different methods that could be applied. One is to truncate at the end of the string "abcdef..." and the other would be to truncate in the middle of the string "abc...ghi". Choose the method on the basis of whether text at the end or in the middle of the string is more likely to differentiate the item.
 
 ### Additional truncation guidelines.
 
   - Avoid abbreviations or truncated text in navigation items (first, second, and third levels of navigation in the masthead; left navigation).
-  - In any container holding a string, if there is not sufficient room for the full spelling or hyphenation of a word, abbreviate the text according to the English abbreviation rules [actually, should be according to our rules too].  Do not truncate text in column headings.
+
+  ![#truncation4](img/truncation4@2x.jpg)
+
+  - In any container holding a string, if there is not sufficient room for the full spelling or hyphenated word, consider abbreviating the text. For abbreviations, visit "Common Abbreviations" under [Terminology and Wording](http://www.patternfly.org/styles/terminology-and-wording/) or reference the [Chicago Manual](http://www.chicagomanualofstyle.org/16/ch10/ch10_toc.html) of Style. Do not truncate text in column headings.
+
+  ![#truncation5](img/truncation5@2x.jpg)
+
   - Indicate truncated text with an ellipsis (…).  If the text is part of a link, the ellipsis should be part of the link as well.
+
+    ![#truncation6](img/truncation6@2x.jpg)
+
   - Leave no fewer than 4 characters when truncating text, and preferably leave enough characters to give a fair idea of what the string says.  For example, don't truncate demo1.internal-el6.satellite to de...
   - Ensure that there is at least one method for the user to view the entire string.  We recommend the use of a [tooltip](https://www.patternfly.org/pattern-library/widgets/#tooltip) (useful for less than 150 characters or so), but other options include: expanding rows and overlays.
+
+  ![#truncation7](img/truncation7@2x.jpg)
+
   - For UI text (as opposed to user-generated text), keep in mind that some truncation could cause awkward words (i.e. "associate" truncating to "ass...") Attempt to avoid these scenarios, if possible.
   - If possible, ensure that truncation does not happen after punctuation, because then it is difficult to differentiate which is the ellipsis and which is part of the name.  For example, don't truncate demo1.internal-el6.satellite to demo1….
   - If a table column is resizable, the truncated text should adjust accordingly, and continue to follow the preceding guidelines.
+
+  Large size:
+  ![#truncation8](img/truncation8@2x.jpg)
+
+  Small size:
+  ![#truncation9](img/truncation9@2x.jpg)
