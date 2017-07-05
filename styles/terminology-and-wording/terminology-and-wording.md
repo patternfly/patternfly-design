@@ -28,6 +28,7 @@
 | Change | Not recommended. See Edit | | |
 | New | Not recommended. See Add or Create | | |
 | Remove or Remove [Object] | Remove an item from a list, group, view, or other  container element without deleting the item. Also see  Add and Delete. | Add | If what you are removing is not readily apparent from the context, consider adding a noun to the button label (e.g, Remove File, Remove User). |
+{:.table .table-striped .table-bordered}
 
 ## Abbreviations
 
@@ -38,6 +39,7 @@
 - Use abbreviations consistently.
 
 ### Common Abbreviations
+
 | Abbreviation  | Usage |
 | ------------- | ----- |
 | e.g. and i.e. | Use sparingly. e.g. means “for example.” i.e. means “in other words.” Add commas after each (e.g.,).Adapted from Red Hat Corporate Style Guide |
@@ -45,6 +47,7 @@
 | sysadmin      | Avoid using abbreviations like "sysadmin" and "SysAdmin;" these are too informal. "System" should be singular (i.e., not "systems administrator"), because it can include both a single system and multiple systems, similar to "database administrator" or "brain surgeon," who work on more than one database and brain, respectively.Taken from Red Hat Corporate Style Guide.|
 | U.S.          | As a noun, use "United States" unless there are space constraints. As an adjective use "U.S." (e.g., U.S. soldier). As part of an organization, use "U.S." Taken from Red Hat Corporate Style Guide. |
 | VM            | virtual machine.  OK to abbreviate as long as you've spelled it out once in first occurrence and as long as "VM" won't be confused with other terms that share that acronym.Taken from Red Hat Corporate Style Guide. |
+{:.table .table-striped .table-bordered}
 
 ### Abbreviations for 12 hour Time System
 
@@ -54,6 +57,7 @@ When referring to time zones, use [http://www.timeanddate.com/time/zones/](http:
 | --- | --- |
 | AM | ante meridiem (before noon) |
 | PM | post meridiem (after noon) |
+{:.table .table-bordered}
 
 ## Acronyms
 
@@ -73,6 +77,7 @@ For headline style, capitalize the first letter of every word except for article
 For sentence style, capitalize the first letter of the first word and any proper nouns.  Use sentence style for blocks of text and as described in “Capitalization for Common Components.” For example, “Only show subscriptions that match this Subscription Asset Manager Organization.”
 
 ### Capitalization for Common Components
+
 | Component                                                  | Capitalization |
 | ---------------------------------------------------------- | -------------- |
 | Button labels                                              | Headline       |
@@ -91,6 +96,7 @@ For sentence style, capitalize the first letter of the first word and any proper
 | Text box labels                                            | Headline       |
 | Tooltips                                                   | Sentence       |
 | Window titles (browsers, dialog boxes, steps in a wizard)  | Headline       |
+{:.table .table-striped .table-bordered}
 
 ## Links
 
@@ -108,17 +114,19 @@ As a user, I want to see a single link that directs me to a page or document wit
     - View ‘X’ in [Document Link] for more information.
 
 ## Punctuation
+
 | Symbol | Usage |
 | ------ | ----- |
 | Ampersands | Avoid using ampersands.  Use “and” instead. |
 | Colon | Use sentence style capitalization for introductory text that appears above a control. A colon follows the introductory text. |
 | Comma | Use serial commas. A serial comma is the comma before the “and” in a series of three or more items: “Item 1, item 2, and item 3.”Taken from Red Hat Word Nerds. |
-| Currency | For currencies that use the symbol $ alone, modify with the first two letters of the ISO code. Eg: US$1,500 (United States), AU$1,500 (Australia), HK$1,500 (Hong Kong), CA$1,500 (Canada). For other currencies, use the national currency symbol whenever possible (£1,500 = British pound; €1,500 = Euro, ¥1,500 = Japanese Yen, etc.). Generally, we do not provide currency conversions.Taken from Red Hat Corporate Style Guide.
-| Ellipses | Use an ellipsis (...) to indicate that text is truncated.
-| Exclamation point | Avoid using exclamation points, except when referring to a command, such as the bang ( ! ) command.
+| Currency | For currencies that use the symbol $ alone, modify with the first two letters of the ISO code. Eg: US$1,500 (United States), AU$1,500 (Australia), HK$1,500 (Hong Kong), CA$1,500 (Canada). For other currencies, use the national currency symbol whenever possible (£1,500 = British pound; €1,500 = Euro, ¥1,500 = Japanese Yen, etc.). Generally, we do not provide currency conversions.Taken from Red Hat Corporate Style Guide.|
+| Ellipses | Use an ellipsis (...) to indicate that text is truncated.|
+| Exclamation point | Avoid using exclamation points, except when referring to a command, such as the bang ( ! ) command.|
 | Hyphenation | Hyphenate when needed for clarity. Words that begin with prefixes are usually not hyphenated.  Prefixes can include "multi," "non," "sub," "co," "semi," "pre," "re," etc. <br>* **Exceptions:** When not hyphenating makes it unclear. For example: He recovered his health. He re-covered the leaky roof.* (AP)You will usually hyphenate:<ul><li> Complex adjectives (compound modifiers). This is when two adjectives work together to modify an object. The hyphen is used when the first adjective modifies the second adjective. Examples: cloud-based solutions, right-side paralysis, system-wide menu.  <br>* **Exception:** We never hyphenate "open source," even when used as a complex adjective.* </li><li>When the prefix ends in a vowel and the word that follows begins with the same vowel. Examples: semi-independent, pre-emptive. Exceptions: cooperate, coordinate</li><li>Capitalized words with a prefix.  Examples:  un-American, non-British</li><li>Double prefixes. Examples: sub-subparagraph, re-sublet</li></ul> Do not hyphenate words with the prefix “non” unless the dictionary says otherwise: nonaddictive, nonabrasive, nonalcoholic. Taken from Red Hat Corporate Style Guide |
 | Percent | In text, use the word percent. For example: 10 percent to 20 percent. In tables, use the percent symbol. For example: 10% to 20% |
 | Question mark | Place a question mark at the end of a question. For example: Are you sure you want to delete this file? |
+{:.table .table-striped .table-bordered}
 
 ## Truncation
 
