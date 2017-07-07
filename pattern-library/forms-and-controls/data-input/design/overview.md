@@ -99,7 +99,8 @@ No matter edit state or view stats of common information form, user usually revi
 
 #### Right alignment
 On account of numbers right alignment, the numbers will be much more easier to be compared. Alignment of the decimal dot would make the data contrast clearer.
-Right alignment is important for pure numeric values and decimal values, in that the right supports the functional purpose of scanning for value rather than using a formatted field like date time or zip code. Right alignment would lend to the comparative scanning of numbers in tables as well, and  delineating the alignment as formatted field value like a date/time or zip code vs. a decimal based numeric value
+
+Right alignment is important for pure numeric values and decimal values, in that the right supports the functional purpose of scanning for value rather than using a formatted field like date time or zip code. Right alignment would lend to the comparative scanning of numbers in tables as well, and  delineating the alignment as formatted field value like a date/time or zip code vs. a decimal based numeric value.
 
 ![Right alignment](img/right-alignment.png)
 
