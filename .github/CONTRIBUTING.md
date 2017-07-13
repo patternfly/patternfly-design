@@ -17,13 +17,18 @@ Before creating a bug report, check the list of known bugs and open issues. Bugs
 
 ### Proposing or Modifying a Design
 
-You may want to start by sharing your idea on the mailing list (patternfly@redhat.com) to kick off the discussion. A design proposal may have many forms, but it should answer these questions:
+Start by opening a new GitHub Issue and labeling it as “Change Request” to modify an existing component or as “New Pattern” to propose something new. A design proposal may have many forms, but it should answer these questions:
 
-- What is the name of the design pattern or component?
-- What problem does it solve?
-- When do you use it or what are the use cases?
+- What is the name of the design pattern or component (new or existing)?
+- What problem does it solve and what are the relevant use cases or other requirements?
+- Are there products or projects that are in need of this component and who are the stakeholders that should be included in the review?
+- What is the scope of this work (if known)?
 
-Once your design proposal is ready for review, send a [pull request (PR)](https://help.github.com/articles/about-pull-requests/) written in [markdown](https://guides.github.com/features/mastering-markdown/) to the patternfly-design repo (If you can read this, you're already in it!). The PR will be a way to discuss and refine the design with the goal of merging it as PatternFly documentation and making it viewable on patternfly.org. Design documents are living documents, therefore new PRs may be opened to add to or modify the documentation as necessary.
+All proposals will be reviewed, and if accepted, assigned for follow-up work. If you are available to perform this work, please feel free to assign yourself. Otherwise, accepted requests will be placed in a queue waiting for available resources.
+
+### Making Changes to the Design Repo
+
+Whether you are making a change to an existing pattern or adding a new one, you will need to send a [pull request (PR)](https://help.github.com/articles/about-pull-requests/) written in [markdown](https://guides.github.com/features/mastering-markdown/) to the patternfly-design repo (If you can read this, you're already in it!). The PR will be a way for stakeholders to review, discuss, and refine the design with the goal of merging it as PatternFly documentation and making it viewable on patternfly.org. Design documents are living documents, therefore new PRs may be opened to add to or modify the documentation as necessary.
 
 
 
