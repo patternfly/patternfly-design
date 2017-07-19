@@ -20,6 +20,7 @@
 | <span class="fa fa-cube"></span>                       | fa-cube                   |                 |
 | <span class="fa fa-cubes"></span>                      | fa-cubes                  |                 |
 | <span class="fa fa-database"></span>                   | fa-database               |                 |
+| <span class="fa fa-ellipsis-v"></span>                 | fa-ellipsis-v             |                 |
 | <span class="fa fa-envelope"></span>                   | fa-envelope               |                 |
 | <span class="fa fa-filter"></span>                     | fa-filter                 |                 |
 | <span class="fa fa-list-alt"></span>                   | fa-list-alt               |                 |
@@ -32,6 +33,8 @@
 | <span class="fa fa-refresh"></span>                    | fa-refresh                |                 |
 | <span class="fa fa-search"></span>                     | fa-search                 |                 |
 | <span class="fa fa-shield"></span>                     | fa-shield                 |                 |
+| <span class="fa fa-sort-alpha-asc"></span>             | fa-sort-alpha-asc         |                 |
+| <span class="fa fa-sort-alpha-desc"></span>            | fa-sort-alpha-desc        |                 |
 | <span class="fa fa-sort-asc"></span>                   | fa-sort-asc               |                 |
 | <span class="fa fa-sort-desc"></span>                  | fa-sort-desc              |                 |
 | <span class="fa fa-sort"></span>                       | fa-sort                   |                 |

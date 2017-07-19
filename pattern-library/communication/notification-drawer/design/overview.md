@@ -5,7 +5,7 @@ The Notification Drawer is a content delivery system such as events, tasks, and 
 Jump to [Vertical Navigation](#vertical-navigation) or [Horizontal Navigation](#horizontal-navigation).
 
 ## Vertical Navigation
-![Image of Vertical Nav Notification Drawer](img/notification-drawer-example.jpg)
+![Image of Vertical Nav Notification Drawer](img/PF-ND-05.png)
 
 ## Horizontal Navigation
-![Image of Horizontal Nav Notification Drawer](img/notification-drawer-example-horizontal.jpg)
+![Image of Horizontal Nav Notification Drawer](img/PF-ND-04.png)

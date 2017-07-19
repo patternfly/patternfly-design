@@ -1,15 +1,21 @@
 # Data Input
 
 ## High-Level Recommendations
-
+#### Selection Controls
 * Use radio button or checkboxes when you need to select from a small number of known options (2-5 options).  They provide users with the best visibility to choices.
 
 * Select lists can be used when you have many options, are space-constrained, or  have variable options.
 
 * On/off switches are a good alternative for enabling and disabling capabilities, but they should be used sparingly to reduce visual clutter.
 
+#### Data Entry Controls
 * Use bound entry controls like datapickers, timepickers, or numeric touchspin  controls when entering strictly typed data.  This will reduce the need for field-level validation and prevent user input errors.
 
+* Using the [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) component in the Widgets library for numeric data entry is a good choice on forms. The user could enter the numeric data directly from the keyboard or use the “+””-” buttons for fine tuning. Bootstrap Touchspin could adjust number automatically prevent user input errors.
+
+* When the list of possible values is less than 20, a select list can also be used to enter numeric data.
+
+* Whether numbers should be left aligned or right aligned is based on the context they are being used in. Data comparison and visual flow should be considered.
 
 Forms enable users to input a variety of data.  Users may need to select from a fixed set of options or input a value directly.  Guidelines for selection from multiple options and entering values from the keyboard are included below.
 
@@ -66,3 +72,38 @@ Bound entry controls should be used when entering special data types, including 
 ![Bound Data Input](img/data-input-bound-controls.png)
 
 This dialog box uses bounded data entry controls to prevent user errors.  A date picker allows the user to pick a valid date.  A time picker, a Bootstrap Touchspin control, and a select list control are used to set time, repeats, and participants, respectively.
+
+![Data Input Dashboard](img/data-input-dashboard.png)
+
+### Bootstrap Touchspin
+PatternFly provides two kinds of [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) controls. The Bootstrap Touchspin with stacked buttons is the preferred method for entering numeric data on a web form. The user has a lot of user experience with this pattern, but the control buttons are too small on mobile devices,  will be very hard to click, and may lead to input errors . If your application needs to adapt to small screen devices, you should avoid using the  Bootstrap Touchspin (stacked) control.
+
+An alternative is to use the Bootstrap Touchspin (without stacked). When using this control, the width of field will have a huge influence on user experience. Too wide a field will make it frustrating for users to click the control buttons. In this case, it would better adjust the width of input fields to match the length of the expected input.
+
+![Bootstrap Touchspin Width](img/data-input-bootstrap-touchspin-width.png)
+
+### Bootstrap Select
+[Bootstrap Select]( http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) can also be used to enter numeric data. This pattern helps users select a value quickly and accurately, preventing user input errors. This is especially true in the usage scenarios for selecting data from some special data group (eg. -20 / -10 / -5 / 0 / 5 / 10 / 20).
+
+When using a select list, options should be less than 20. Long lists that require scrolling are not easy to operate on mobile devices.
+
+![Select list](img/data-input-select-list.png)
+
+### Left alignment or right alignment
+Whether numbers should be left aligned vs. right aligned (vs. decimal aligned) is based on the context they are being used in. When to use it?
+
+#### Left alignment
+No matter edit state or view stats of common information form, user usually review the information from left to right then from top to bottom.
+
+![Left alignment](img/left-alignment.png)
+
+#### Right alignment
+On account of numbers right alignment, the numbers will be much more easier to be compared. Alignment of the decimal dot would make the data contrast clearer.
+
+Right alignment is important for pure numeric values and decimal values, in that the right supports the functional purpose of scanning for value rather than using a formatted field like date time or zip code. Right alignment would lend to the comparative scanning of numbers in tables as well, and  delineating the alignment as formatted field value like a date/time or zip code vs. a decimal based numeric value.
+
+![Right alignment](img/right-alignment.png)
+
+##### Tips:
+Numeric fields would better be left aligned.
+When there is a number already filled in, and you want to add more digits to it, you have to click in the small margin between the last number and the number selector. It is not a easy operation with a mouse and on a touchscreen will be harder.
