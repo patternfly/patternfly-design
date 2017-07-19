@@ -14,6 +14,8 @@
   - When the viewport size is decreased:
     - Content should wrap, displaying multiple rows of data
     - Content could be eliminated
+    
+1. **Disabled Row:** Rows that are currently not available will be disabled. The cursor should appear visually disabled when user hovers over the row.
 
 1. **Multi-Selection via Checkboxes** (optional): If multi-selection is supported, checkboxes appear on the left. Actions in the Data Toolbar apply to the selected items.
 
