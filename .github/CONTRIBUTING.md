@@ -20,11 +20,13 @@ Before creating a bug report, check the list of known bugs and open issues. Bugs
 Start by opening a new GitHub Issue and labeling it as “Change Request” to modify an existing component or as “New Pattern” to propose something new. A design proposal may have many forms, but it should answer these questions:
 
 - What is the name of the design pattern or component (new or existing)?
-- What problem does it solve and what are the relevant use cases or other requirements?
-- Are there products or projects that are in need of this component and who are the stakeholders that should be included in the review?
-- What is the scope of this work (if known)?
+- What problem does it solve? 
+- What are the relevant use cases?
+- Are there known requirements?
+- Are there products or projects that are in need of this component and who are the stakeholders that should be included in the review (if known)?
+- What is the scope of this work (if known). This can simply be a rough sizing estimate (e.g. Small, Medium, or Large)?
 
-All proposals will be reviewed, and if accepted, assigned for follow-up work. If you are available to perform this work, please feel free to assign yourself. Otherwise, accepted requests will be placed in a queue waiting for available resources.
+Attach any preliminary sketches or other artifacts if you have them. All proposals will be reviewed by the PatternFly project leads, and if accepted, prioritized for follow-up work. If you are available to perform this work, please feel free to assign yourself. Otherwise, accepted requests will be placed in a queue waiting for available resources.
 
 ### Making Changes to the Design Repo
 
