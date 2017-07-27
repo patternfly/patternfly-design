@@ -13,36 +13,54 @@ Implement these patterns in a well-structured layout to avoid visual clutter.
 ### Details
 
 #### Checkboxes
-Checkboxes should be used when allowing users to select one or more items from a list of options. Arrange checkboxes vertically, when possible to facilitate easy scanning. If there are many items and labels are short, a grid arrangement can also be used to save space. You may also nest other controls within a radio button group that are enabled or disabled when an option is selected/deselected.
+You should use Checkboxes when users need to select one or more items from a list of known options. When it's possible, arrange checkboxes vertically to facilitate easy visual scanning. If there are many items and labels are short, use a multi-column grid arrangement to save vertical space.
+
+If necessary, you can nest other controls within a checkbox item. Enable and disable nested options when the user selects or unselects a check box.
 
 ![Checkbox Usage](img/data-input-checkboxes.png)
-1. Checkboxes arranged in a two-column grid
+1. Checkboxes arranged in a two-column grid to conserve vertical space
 2. Checkboxes with nested controls
 
 #### Radio Buttons
-Radio buttons allow mutually exclusive selection. Radio buttons are always used as a group and there will always be one (and only one) active selection. If you need to alow selection of a null option, use "None" or a similar term to represent that setting. You may arrange radio button vertically or horizontally, although vertical arrangement is preferrable for scanning. Radio buttons, like checkboxes, may also be used to nest other controls for enabling or disabling options.
+Radio buttons allow users to make mutually exclusive selections. You must include more than one radio button in a group, and only one selection can be active at a time.
 
-As a general rule, radio buttons should not be used when more than 2-5 options are available or if you are space constrained. In these cases a [Select list](#select-lists) is a better choice.
+To allow users to select a null option, use "None" or a similar term to represent that choice.
+
+You may arrange radio button vertically or horizontally according to your preference. However, vertically-arranged radio buttons are easier for users to scan.
+
+Like checkboxes, you can use radio buttons to nest other controls , following the same guidelines for enabling or disabling options.
+
+As a general rule, you shouldn't use radio buttons when more than 2-5 options are available or if there are space constraints. In these cases, try using a [Select list](#select-lists) instead.
 
 ![Radio Button Usage](img/data-input-radio-buttons.png)
-1. A group of radio buttons arranged inline
-2. A vertical radio button group with nested controls
+1. A horizontal group of radio buttons
+2. A vertical group of radio buttons with nested controls
 
 #### On/Off Switches
-On/Off switches are a third option and can potentially take the place of a single checkbox or a set of two radio buttons. Switches should only be used when the result will be to enable or disable some optional capability. They may simplify labeling by allowing you to simply label the on/off switch with the name of the attribute being affected. For general option selection, checkboxes should be the default choice. Like checkboxes, switches can be used to enable or disable a set of nested controls.
+Use an On/Off switch when a user is presented with the binary choice to enable or disable some optional attribute or capability. In such a case, switches are excellent alternatives to a single checkbox or set of two radio buttons.
+
+Since the switch pattern is only used to enable or disable an attribute, you can simply labeling when using a switch by using only the name of the affected attribute. If the options you're presenting to the user are anything other than "on" or "off," you should use radio buttons instead.
+
+Just like radio buttons and checkboxes, switches can be used to enable or disable a set of nested controls.
 
 ![Switch Usage](img/data-input-switch.png)
 
 
 #### Select Lists
-Select lists provide an alternate method for selecting between multiple options when space is constrained or there are too many options to comfortable display on the page at once. Select list should also be used when the options may vary.
+You should use select lists when there are more than 5 known options, or when space is too limited for radio buttons. Select list should also be used when options are dynamic or variable.
 
-PatternFly offers two types of Select controls, Bootstrap Single Select for selecting between mutually exclusive options and Bootstrap Multi Select for selecting one or more options from a list. When a small number of options exist, radio buttons or checkboxes are preferred over select lists as they serve to make all the options visible.
+PatternFly offers two types of Select controls, Bootstrap Single Select and Bootstrap Multi Select.
+* Use Bootstrap Single Select for selecting a single, mutually exclusive option.
+* Use Bootstrap Multi Select for selecting one or more options.
+
+When fewer than five options exist, you should use radio buttons or checkboxes to display all options to the user simultaneously.
 
 ![Bootstrap Single Select](img/bootstrap-single-multi-select.png)
 
 #### Comboboxes
-A combobox is similar to a single select list in that users can select from a dropdown list of pre-defined options. However, a combobox combines a text input field with the dropdown list allowing users to enter the value from the keyboard or select it from the list. Comboboxes also support type-ahead so that a filtered version of the value list is displayed as the user types, making it easier to select from a filtered set of options. A combobox is preferred over a select list when the number of options is large (more that 10).
+A combobox allows users to type a value into the field *or* select a predefined option from the dropdown list. Comboboxes also support type-ahead features– a filtered list of options is displayed as the user types. This makes it easier to select a preferred option when there are too many options to quickly scan the full list.
+
+You should use a combobox in place of a single select list when there are more than 10 options.
 
 ![Bootstrap Combobox](img/bootstrap-combobox.png)
 
@@ -51,7 +69,7 @@ A combobox is similar to a single select list in that users can select from a dr
 You should choose a data entry control pattern that is optimized for the type of data a user will input. In some cases, users may need to select from a fixed set of options. In other cases, they may need to input a value directly.
 * Use *bound-entry controls* like the **Date Picker**, **Time Picker**, or **Touchspin** when entering strictly-typed data. This will reduce the need for field-level validation and prevent user input errors.
 
-Implement these patterns with consideration for the alignment of data. Consider data comparison and visual flow when deciding to left or right-align data entry controls.
+When implementing these patterns, you should take notice of the alignment of data. Consider data comparison and visual flow when deciding to left or right-align data entry controls.
 
 ### Details
 
