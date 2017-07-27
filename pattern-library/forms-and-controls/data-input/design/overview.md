@@ -74,16 +74,16 @@ When implementing these patterns, you should take notice of the alignment of dat
 ### Details
 
 #### Text Entry
-Text edit fields are the simplest and most common controls for allowing a user to enter a string of characters from the keyboard. Edit fields should be appropriately sized to anticipate the longest value possible (if a maximum character length is known). In cases where a value is too long to be fully displayed in an edit box, [truncation](http://www.patternfly.org/styles/terminology-and-wording/#_) should be used.
+Text fields are common, simple inputs for allowing a user to enter a string of characters from the keyboard. Be sure to size text fields appropriately to anticipate the longest likely value (if a maximum character length is known). When a value is too long to be fully displayed in a text field, use [truncation](http://www.patternfly.org/styles/terminology-and-wording/#_).
 
-If the acceptable entries into a text edit field are constrained, syntax hints and field validation are recommended to prevent data entry errors.
+If users must enter specifically-formatted data into the text field, use syntax hints and field validation to prevent data entry errors.
 
 #### Bound Entry Controls
-Bound entry controls should be used when entering special data types, including dates, time, and other forms of numeric data. These controls constrain user input and combine keyboard and mouse interaction. They are designed to only allow valid inputs and therefore avoid the need for secondary validation. See the [Datepicker](http://www.patternfly.org/pattern-library/forms-and-controls/datepicker/), [Timepicker](http://www.patternfly.org/pattern-library/forms-and-controls/timepicker/), and [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) components for more details.
+Use bound entry controls should be used to enter special data types, such as dates, times, and other numeric data. Bound entry controls constrain user input and combine keyboard and mouse interaction. These controls are designed to only allow valid inputs. As a result, field validation is unnecessary. See the [Datepicker](http://www.patternfly.org/pattern-library/forms-and-controls/datepicker/), [Timepicker](http://www.patternfly.org/pattern-library/forms-and-controls/timepicker/), and [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) components for details.
 
 ![Bound Data Input](img/data-input-bound-controls.png)
 
-This dialog box uses bounded data entry controls to prevent user errors. A date picker allows the user to pick a valid date. A time picker, a Bootstrap Touchspin control, and a select list control are used to set time, repeats, and participants, respectively.
+The dialog box above uses bounded data entry controls to prevent user errors. A date picker, time picker, touchspin control, and select list are used to input properly-formatted data into the form.
 
 ![Data Input Dashboard](img/data-input-dashboard.png)
 
@@ -101,21 +101,20 @@ When using a select list, options should be less than 20. Long lists that requir
 
 ![Select list](img/data-input-select-list.png)
 
-#### Left alignment or right alignment
-Whether numbers should be left aligned vs. right aligned (vs. decimal aligned) is based on the context they are being used in. When to use it?
+#### Left-alignment or right-alignment
+When you're deciding to left or right-align data in an entry control, consider the context of the data, the type of data, and the type of input.
 
 ##### Left alignment
-No matter edit state or view stats of common information form, user usually review the information from left to right then from top to bottom.
+Users generally scan information from left to right, moving from the top of a section to the bottom. Left-aligning information can make it easier for users to move easily from one line of data to the next by providing a consistent starting point for each line.
 
 ![Left alignment](img/left-alignment.png)
 
 ##### Right alignment
-On account of numbers right alignment, the numbers will be much more easier to be compared. Alignment of the decimal dot would make the data contrast clearer.
+Right-aligning integer strings allows the numbers to be easily compared, as decimals and comma separators are aligned. This increases contrast between lines of data.
 
-Right alignment is important for pure numeric values and decimal values, in that the right supports the functional purpose of scanning for value rather than using a formatted field like date time or zip code. Right alignment would lend to the comparative scanning of numbers in tables as well, and delineating the alignment as formatted field value like a date/time or zip code vs. a decimal based numeric value.
+Right-alignment is most important for pure numeric values and decimal values, because users can easily scan the values. Right-aligned data also supports increased number legibility in table layouts.
 
 ![Right alignment](img/right-alignment.png)
 
 ###### Tips:
-Numeric fields would better be left aligned.
-When there is a number already filled in, and you want to add more digits to it, you have to click in the small margin between the last number and the number selector. It is not a easy operation with a mouse and on a touchscreen will be harder.
+You should keep in mind that right-aligned numeric text entry fields may be difficult to edit once the user has inputted a value. The user would be forced to click within the small space between the end of the number value and the right end of the field to add digits to the value. This is even more difficult on touchscreen interfaces.
