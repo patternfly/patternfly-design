@@ -38,6 +38,24 @@ In the example above, the back button is disabled since this shows the first sub
 1. **Completion Message:** If the completion button does not close the wizard, a completion message can be used to provide users with feedback that the wizard has been successfully completed or if any errors have occurred.
 1. **Completion Button:** The wording on the completion button can change once processing of the content in the wizard is complete. This may be Close or some other word that makes sense for the particular use case. If the user has the option to go back and make alterations and resubmit the process, then the Back button should be enabled.
 
+## Embedded Wizard
+
+Embedded wizards should be used when the user must fill out the wizard in order to take any further action in the application. Examples of this include...
+- A new user sign up flow
+- A checkout flow that concludes interaction with the application when finished
+- A system setup flow that takes place before the user can enter the application
+
+Modal wizards should be used when the task is non-necessary or is one of several possible actions that the user could take. Examples of this include...
+- Purchasing add-ons for an already running system
+- Making a new project when the user already has several
+- As an administrator, creating one of several user profiles for use by other people
+
+![Embedded wizard](img/embedded-wizard-callout.png)
+
+**Differences from Modal Wizards** Embedded wizards follow the same guidelines as modal wizards, with a few exceptions.
+1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/forms/#/within-a-page).
+1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title
+
 ### What’s not covered in the current design but will be covered in future sprints:
 
 The following functionality is not covered in this pattern:
