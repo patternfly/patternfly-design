@@ -1,6 +1,6 @@
 # Data Input
 
-Selection Controls: [Checkboxes](#Checkboxes), [Radio Buttons](#radio-buttons), [Switches](#onoff-switches), [Select Lists](#select-lists), [Comboboxes](#comboboxes)
+Selection Controls: [Checkboxes](#checkboxes), [Radio Buttons](#radio-buttons), [Switches](#onoff-switches), [Select Lists](#select-lists), [Comboboxes](#comboboxes)
 
 Data Entry Controls: [Text Entry](#text-entry), [Bound-Entry Controls](#bound-entry-controls), [Bootstrap Touchspin](#bootstrap-touchspin), [Bootstrap Select](#bootstrap-select), [Left-Alignment or Right-Alignment](#left-alignment-or-right-alignment)
 
@@ -8,7 +8,7 @@ Data Entry Controls: [Text Entry](#text-entry), [Bound-Entry Controls](#bound-en
 
 ### Overview
 You should choose a selection control pattern based on the number of choices available to the user.
-* Use [Radio Buttons](#radio-buttons) or [Checkboxes](#Checkboxes) when you need to select from two to five known choices.
+* Use [Radio Buttons](#radio-buttons) or [Checkboxes](#checkboxes) when you need to select from two to five known choices.
 * When there are more than five choices, when layout space is limited, or when there are variable choices, use a [Select List](#select-lists).
 * Use a [Switch](#onoff-switches) input to allow the user to toggle between enabled and disabled states.
 
@@ -57,7 +57,7 @@ PatternFly offers two types of select controls, Bootstrap Single Select and Boot
 * Use [Bootstrap Single Select](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) for selecting a single, mutually exclusive option.
 * Use [Bootstrap Multi Select](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) for selecting one or more options.
 
-When fewer than five options exist, you should use [Radio Buttons](#radio-buttons) or [Checkboxes](#Checkboxes) to display all options to the user simultaneously.
+When fewer than five options exist, you should use [Radio Buttons](#radio-buttons) or [Checkboxes](#checkboxes) to display all options to the user simultaneously.
 
 ![Bootstrap Single Select](img/bootstrap-single-multi-select.png)
 
