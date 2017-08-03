@@ -2,7 +2,7 @@
 
 Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons).
 
-| Icon                                                          | Name                             | PF Icon Content String|  Definition   |  Type            |Example                |
+| Icon                                                          | Name                             | PF Icon Content String|  Definition   |  Type            |Contextual Usage                |
 | ------------------------------------------------------------- | -------------------------------- | --------------------- |-------------- |----------------- |---------- ------------|
 | <span class="pficon pficon-add-circle-o"></span>              | pficon-add-circle-o              | e61b                  |Create/Add     |Action            |                       |
 | <span class="pficon pficon-arrow"></span>                     | pficon-arrow                     | e929                  |               |                  |                       |
@@ -19,14 +19,14 @@ Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons
 | <span class="pficon pficon-container-node"></span>            | pficon-container-node            | e621                  |Node           |Object            |                       |
 | <span class="pficon pficon-cpu"></span>                       | pficon-cpu                       | e927                  |CPU            |Object            |                       |
 | <span class="pficon pficon-degraded"></span>                  | pficon-degraded                  | e91b                  |               |                  |                       |
-| <span class="pficon pficon-deleted"></span>                   | pficon-delete                    | ?                     |Delete         |Action            |                       |
+| <span class="pficon pficon-deleted"></span>                   | pficon-delete                    |                       |Delete         |Action            |                       |
 | <span class="pficon pficon-domain"></span>                    | pficon-domain                    | e919                  |               |                  |                       |
 | <span class="pficon pficon-edit"></span>                      | pficon-edit                      | e60a                  |Edit           |Action            |                       |
 | <span class="pficon pficon-enterprise"></span>                | pficon-enterprise                | e906                  |Enterprise     |Object            |                       |
 | <span class="pficon pficon-equalizer"></span>                 | pficon-equalizer                 | e610                  |               |                  |                       |
 | <span class="pficon pficon-error-circle-o"></span>            | pficon-error-circle-o            | e926                  |Error          |Status            |                       |
 | <span class="pficon pficon-export"></span>                    | pficon-export                    | e616                  |Export         |Action            |                       |
-| <span class="pficon pficon-flag"></span>                      | pficon-flag                      | ?                     |               |                  |                       |
+| <span class="pficon pficon-flag"></span>                      | pficon-flag                      |                       |               |                  |                       |
 | <span class="pficon pficon-flavor"></span>                    | pficon-flavor                    | e907                  |               |                  |                       |
 | <span class="pficon pficon-folder-close"></span>              | pficon-folder-close              | e607                  |Folder Close   |                  | Seen in file browser  |         
 | <span class="pficon pficon-folder-open"></span>               | pficon-folder-open               | e606                  |Folder Open    |                  | Seen in file browser  |
@@ -64,7 +64,7 @@ Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons
 | <span class="pficon pficon-resources-almost-empty"></span>    | pficon-resources-almost-empty    | e91d                  |               |                  |                       |
 | <span class="pficon pficon-resources-almost-full"></span>     | pficon-resources-almost-full     | e912                  |               |                  |                       |
 | <span class="pficon pficon-resources-full"></span>            | pficon-resources-full            | e913                  |               |                  |                       |
-| <span class="pficon pficon-restart"></span>                   | pficon-restart                   | ?                     |               |                  |                       |
+| <span class="pficon pficon-restart"></span>                   | pficon-restart                   |                       |               |                  |                       |
 | <span class="pficon pficon-route"></span>                     | pficon-route                     | e625                  |Route          | Object           |                       |
 | <span class="pficon pficon-save"></span>                      | pficon-save                      | e601                  |               |                  |                       |
 | <span class="pficon pficon-screen"></span>                    | pficon-screen                    | e600                  |Host           |Object            |                       |
