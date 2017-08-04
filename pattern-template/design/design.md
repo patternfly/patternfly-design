@@ -1,20 +1,28 @@
-# Pattern Name Goes Here
+This template should provide high level information on the design, to inform the user, at a glance, if this pattern is a fit for their needs.
 
-## Pattern Variation 1
+# Enter Pattern Name Here
+
+
+## Overview 
+
+(Remove instructional text)  
+Provide one or two sentences, describing the pattern you are contributing.
+
+Example: (remove all example text and text in parentheses)
+* "This pattern" can be used to present large amounts of data, providing flexibility and power to manipulate the data in a meaningful and understandable way.
+
+## Use Cases 
+
+(Remove instructional text)  
+Use cases describe how the user will perform a task, from the users perspective, outlining behaviors and simple steps to achieve the users goal.
+
+This information should help the user understand when and why this pattern should be used and when not to use.
+
+
+
+## Pattern Example Name Here
 ![Title of image](img/image-name-goes-here.jpg)
 
-  1. **Description Label One:** This is what the callout is pointing to and why it matters
-
-  1. **Description Label Two:** (optional):
-    - This is what the callout is pointing to and why it matters
-    - It doesn't matter that much, though, because this one's optional
-
-  1. **Description Label Three:** This is what the callout is pointing to and why it matters
-
-
-## Pattern Variation 1
-
+## Pattern Variation Example Name Here
 ![Title of image 2](img/image-name-goes-here-2.jpg)
 
-1. **Description Lable One:**
-  - This is what the callout is pointing to and why it matters
