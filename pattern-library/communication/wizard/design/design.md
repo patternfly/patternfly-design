@@ -53,7 +53,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 ![Embedded wizard](img/embedded-wizard-callout.png)
 
 **Differences from Modal Wizards** Embedded wizards follow the same guidelines as modal wizards, with a few exceptions.
-1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/forms/#/within-a-page).
+1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/buttons-on-forms/#full-page-forms). The button bar should be fixed to the bottom of wizard page.
 1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title
 
 ### What’s not covered in the current design but will be covered in future sprints:
@@ -64,6 +64,5 @@ The following functionality is not covered in this pattern:
 1. In some cases, it may be advantageous to the user to be able to jump to the review page without having completed previous steps.
 1. For more complex and time-consuming tasks, a wizard can have an optional save to let the user leave the wizard and return later. Some considerations for this feature are auto-saving and what happens if a session times out.
 1. For more complex wizards, there may be more steps or text than can be shown on the screen at one time. This pattern does not address the scalability of the main step bar.
-1. Wizards can be shown in modal dialogs or embedded on the main page. This pattern only address modal dialog implementations. Embedded wizards may need different design considerations such as location of buttons on the button bar and how Back and Next might work.
 
 These requirements will be added to the pattern at a later date.
