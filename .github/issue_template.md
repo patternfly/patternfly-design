@@ -8,6 +8,7 @@ To create a GitHub issue, first determine which type of contribution you are mak
 #### 2. If this is an enhancement, which application(s) will use this new pattern or enhancement?
 #### 3. Title
 #### 4. Problem Solving
+###### *Does this pattern solve a common problem and has community interest?*
 #### 5. Use Cases + Requirements
 #### 6. References 
 ###### *If you know of any other PatternFly designs that will be impacted or depend on the design you are contributing, enter those here.*
