@@ -1,7 +1,4 @@
 
-Thanks for all the great work you have done for this design contribution!  
-Once the design for the pattern is submitted with a PR (Pull Request), we will do our best to get back to you, as soon as possible, so that we can get your contribution posted to the PatternFly website.
-
 ## Description
 * Write a few sentences describing the overall goals, the design problem and solution being submitted, in this pull request.  
 * Include related PRs, GitHub Issues and or Jira stories.
