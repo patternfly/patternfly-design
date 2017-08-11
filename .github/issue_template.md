@@ -5,7 +5,7 @@ To create a GitHub issue, first determine which type of contribution you are mak
 #### 1. Choose the type of contribution for this pattern:
 - [ ] This is a new pattern 
 - [ ] This is an enhancement on an existing pattern
-#### 2. If this is an enhancement, which application(s) will use this new pattern or enhancement?
+#### 2. If this enhancement or new pattern was made for an application, specify which one.
 #### 3. Title
 #### 4. Problem Solving
 ###### *Does this pattern solve a common problem and has community interest?*
