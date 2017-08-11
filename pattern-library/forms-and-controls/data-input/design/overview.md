@@ -80,7 +80,22 @@ When implementing these patterns, you should take notice of the alignment of dat
 ### Details
 
 #### Text Entry
-Text Fields are common, simple inputs for allowing a user to enter a string of characters from the keyboard. Be sure to size Text Fields appropriately to anticipate the longest likely value (if a maximum character length is known). When a value is too long to be fully displayed in a Text Field, use [truncation](http://www.patternfly.org/styles/terminology-and-wording/#_).
+
+![Right Aligned Labels](img/right-aligned-labels.png)
+
+Text Fields are common, simple inputs for allowing a user to enter a string of characters from the keyboard. When using text fields in forms, the following are some factors to keep in mind.
+
+* Be sure to size Text Fields appropriately to anticipate the longest likely value (if a maximum character length is known). When a value is too long to be fully displayed in a Text Field, use [truncation](http://www.patternfly.org/styles/terminology-and-wording/#_).
+* Always provide a label.  Do not include a colon at the end of the label. Visit the Capitalization section of Terminology and Wording for information regarding capitalization.
+* Pre-populate fields with known values when possible (eg. default IP address.)
+* When presented in a form, the initial input field is usually the first input field which is required. The primary input field should receive focus, when the form is presented to the user.
+
+##### Notes about keyboard interactions: 
+* Support Enter key for submit (eg. “Save”), or any other primary form action.
+* If there is only one input field, pressing Enter key behaves the same as clicking the primary button.
+* Support Tab key (to progress forward) and Tab+Shift keys (to move backward) to move between input fields.
+* Support the Tab key for all interactive elements. The sequence of tab indices should be determined according to the positions of the elements, from top to bottom, from left to right.
+* When presented in a modal dialog, allow the Esc key to dismiss the window without saving changes.
 
 If users must enter specifically-formatted data into the Text Field, use syntax hints and field validation to prevent data entry errors.
 
