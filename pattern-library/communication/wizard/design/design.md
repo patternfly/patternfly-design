@@ -56,13 +56,26 @@ Modal wizards should be used when the task is non-necessary or is one of several
 1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/buttons-on-forms/#full-page-forms). The button bar should be fixed to the bottom of wizard page.
 1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title
 
-### What’s not covered in the current design but will be covered in future sprints:
 
-The following functionality is not covered in this pattern:
+## Responsive States
+
+![Collapsed responsive wizard](img/responsive-wizard-callout1.png)
+
+1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
+1. **Current Sub-step** (Optional)**:** If the current main step has substeps, the name of the substep appears next to it at the top of the page.
+1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable
+1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page.
+
+![Expanded responsive wizard](img/responsive-wizard-callout2.png)
+
+1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
+1. **Sub-steps for the Selected Main Step** (Optional)**:** Clicking on a sub-step will switch to that substep. The current sub-step is highlighted.
+
+### What’s not covered in the current design
+
+The following functionality is not covered in this pattern but will be covered in future iterations:
 
 1. In certain cases, the wizard will need to show step by step progress. This functionality is not covered.
 1. In some cases, it may be advantageous to the user to be able to jump to the review page without having completed previous steps.
 1. For more complex and time-consuming tasks, a wizard can have an optional save to let the user leave the wizard and return later. Some considerations for this feature are auto-saving and what happens if a session times out.
 1. For more complex wizards, there may be more steps or text than can be shown on the screen at one time. This pattern does not address the scalability of the main step bar.
-
-These requirements will be added to the pattern at a later date.
