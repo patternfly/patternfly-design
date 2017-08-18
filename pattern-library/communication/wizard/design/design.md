@@ -59,6 +59,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 
 ## Responsive States
 
+### Mobile Wizard
 ![Collapsed responsive wizard](img/responsive-wizard-callout1.png)
 
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
@@ -70,6 +71,14 @@ Modal wizards should be used when the task is non-necessary or is one of several
 
 1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
 1. **Sub-steps for the Selected Main Step** (Optional)**:** Clicking on a sub-step will switch to that substep. The current sub-step is highlighted.
+
+### Simplified Mobile Wizard
+If an application does not require the ability to switch between or view all steps from mobile devices, a simplified version of the wizard without a dropdown can be used instead.
+
+![Simplified responsive wizard](img/responsive-wizard-callout3.png)
+
+1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
+1. **Current Sub-step** (Optional)**:** If the current main step has substeps, the name of the substep appears next to it at the top of the page.
 
 ### What’s not covered in the current design
 
