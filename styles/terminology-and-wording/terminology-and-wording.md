@@ -13,7 +13,8 @@
 ## Common Terms and Words
 
 - Login (adj): As in a Login page. It also could be use as a noun as another name for username. However, "username" is recommended.
-- Log in (v): Use "Log In" as the button label for the Login page.
+- Log in (v): Use "Log in" ato describe the action of loggin in. An example of this is seen on the button label for the Login page.
+- Log out (v): Use "Log out" as the to describe the action of logging out.
 - Username (n): Usually a unique ID (e.g. ssmith123). Use "username" for the product login screen.
 
 ### Terminology and Wording for Action Labels
