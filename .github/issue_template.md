@@ -27,7 +27,8 @@ To create a GitHub issue, first determine which type of contribution you are mak
 - [ ] I would like to report a bug<br>
 1. Make sure you have checked the PatternFly-Design backlog of issues for known bugs.
 2. Provide clear and descriptive title.
-3. Provide a brief description of the problem and where it occurs.
+3. Assign the label, Bug, to the issue
+4. Provide a brief description of the problem and where it occurs.
 * List out the steps needed to reproduce the bug or behavior. 
 * Be as descriptive as possible
 * An image is worth a thousand words, adding images and links to rawgit when possible, will help us understand the problem.
