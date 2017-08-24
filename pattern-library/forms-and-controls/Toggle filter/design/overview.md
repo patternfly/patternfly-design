@@ -9,7 +9,7 @@ User of an application, repeatedly uses, common filtering criteria, and wants to
 
 #### Requirements
 The requirements stemming from the product that some users comp up with the requirement and send email to the pf-request@redhat.com.
-- Toggle filter can be used with or without other filter patterns, but the filters cannot be active at the same time.
+- Toggle filter should be used independently of other filter patterns.
 - An application will pre-define the toggle filters.
 - Toggle filtering will not offer the ability for an end user to define which individual filters are used.
 - There is a finite number of toggle filters.
