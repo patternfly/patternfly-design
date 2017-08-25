@@ -23,7 +23,7 @@ The masthead contains the following items from left to right:
   8. **User Icon:**
      * The username of the current logged in user should be listed to the right of the pficon-user icon and should always be in the top right corner of the masthead.
      * The dropdown arrow should appear to the right of the name to indicate additional options below.
-     * The dropdown items may vary based on the user settings and permissions available, but this section should always include a "Logout" option at the bottom of the dropdown list.
+     * The dropdown items may vary based on the user settings and permissions available, but this section should always include a "Log out" option at the bottom of the dropdown list.
      * If a [Language Selector](https://www.patternfly.org/pattern-library/forms-and-controls/language-selector/#/api) exists, it should appear in this dropdown menu as well.
 
 
