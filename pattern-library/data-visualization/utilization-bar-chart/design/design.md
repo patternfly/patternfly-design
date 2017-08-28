@@ -15,14 +15,14 @@
 
   1. **Tooltip:** The chart does not effectively show precise values in its original state, so it is recommended that you display a tooltip on hover with the exact percentage value of the used value.
 
-## **Warning Threshold**
+## **Warning Threshold (optional)**
 ![Utilization Bar Chart Example](img/utilization-bar-chart-warning-threshold.png)
 
-This chart provides for a warning threshold that you may use when desired. 75% is the typical default value for activating a warning threshold, but you may configure this threshold to a custom value.
-  - This threshold is orange (#ec7a08).
+This chart provides for an warning threshold that you may use when desired. When a warning threshold is active, the chart fill is blue until it reaches the warning threshold. Once it exceeds the warning threshold the chart fill is orange. 75% is the typical default value for activating a warning threshold, but you may configure this threshold to a custom value.
+  - The warning threshold fill is orange (#ec7a08).
 
-## **Error Threshold**
+## **Error Threshold (optional)**
 ![Utilization Bar Chart Example](img/utilization-bar-chart-error-threshold.png)
 
-This chart provides for an error threshold that may be used when applicable. 90% is the typical default value for an error threshold, but you may configure this threshold to a custom value.
-  - This threshold is red (#cc0000).
+This chart provides for an error threshold that may be used when applicable. When there is an error threshold, the chart fill is red once the value exceeds the error threshold. 90% is the typical default value for an error threshold, but you may configure this threshold to a custom value.
+  - The error threshold fill is red (#cc0000).
