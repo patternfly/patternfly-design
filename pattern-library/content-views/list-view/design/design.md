@@ -15,6 +15,8 @@
     - Content should wrap, displaying multiple rows of data
     - Content could be eliminated
 
+1. **Disabled Row** (optional): Rows that are currently not available will be disabled. The cursor should appear visually disabled when user hovers over the row.
+
 1. **Multi-Selection via Checkboxes** (optional): If multi-selection is supported, checkboxes appear on the left. Actions in the Data Toolbar apply to the selected items.
 
 1. **Item Hover:** A hover state should be shown visually when a user hovers over an item.
