@@ -134,6 +134,7 @@ Custom icons and selections from [IcoMoon &#8211; Free](http://icomoon.io/#icons
 | <span class="pficon pficon-trend-up"></span>                  | pficon-trend-up                  |           |e901          |               |                  |                                                                                          |
 | <span class="pficon pficon-unknown"></span>                   | pficon-unknown                   |           |e935          |Unknown status |Status            |x has an unknown status                                                                   |
 | <span class="pficon pficon-unlocked"></span>                  | pficon-unlocked                  |           |e922          |               |                  |
+|
 | <span class="pficon pficon-unplugged"></span>                 | pficon-unplugged                 |           |e942          |               |                  |                                                                                          |
 | <span class="pficon pficon-user"></span>                      | pficon-user                      |           |e91e          |User           |Object            |                                                                                          |
 | <span class="pficon pficon-users"></span>                     | pficon-users                     |           |e91f          |Users          |Object            |                                                                                          |
