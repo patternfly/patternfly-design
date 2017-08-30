@@ -67,7 +67,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
 1. **Current Sub-step** (Optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
 1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable
-1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page.
+1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page for embedded wizards and follows the guidelines outlined in [this blog post](https://blog.patternfly.org/how-we-scroll/) for scrolling in modal wizards.
 
 ![Expanded responsive wizard](img/responsive-wizard-callout2.png)
 
