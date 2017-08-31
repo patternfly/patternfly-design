@@ -7,7 +7,7 @@ The Modal Overlay pattern provides a way to quickly load and display important i
   - To load tasks which require a user's full attention, such as stepping through a wizard flow
   - To present important information or warnings
 
-The main difference between the Modal Overlay and the [Modeless Overlay](https://) is that the Modal Overlay will dim the background and will not allow users to interact with other areas of the page, while the Modeless Overlay will not require users to close the panel prior to performing other actions on the page.
+For specialized examples of the Modal Overlay, jump to the [Wizard](http://www.patternfly.org/pattern-library/communication/wizard/) or the [About Modal](http://www.patternfly.org/pattern-library/communication/about-modal/) patterns. For use cases that do not require a user's full attention, consider using the [Modeless Overlay](http://www.patternfly.org/pattern-library/forms-and-controls/modeless-overlay/) pattern. With the Modeless Overlay, the background is still accessible so users can interact with the rest of the page.
 
 ## Modal Overlay Example
 ![Image of Overlay](img/Overlay-01.png)
