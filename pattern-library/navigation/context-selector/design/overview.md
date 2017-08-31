@@ -14,7 +14,7 @@ This pattern should NOT be used:
 
 ## Use Cases
 
-### Context Selector on the Right Side
+### Context Selector on the Left Side
 ![Context Selector Left Side](img/context-selector-left.png)
 
 If the UI is about the context itself, or if users will be changing contexts often, the selector should be placed on the left side of the masthead, near the application branding.
