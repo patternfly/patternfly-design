@@ -2,7 +2,7 @@
 
 ![Image of Overlay 3](img/Overlay-02.png)
 
-1. **Title:** There should be a title bar spanning the top of the modal with a title in the top left corner. The title should be descriptive enough to convey the purpose of the modal while remaining concise. The title may match the action button or link that prompted the overlay modal to appear.
+1. **Title** (Optional): There should be a title bar spanning the top of the modal with a title in the top left corner. The title should be descriptive enough to convey the purpose of the modal while remaining concise. The title may match the action button or link that prompted the overlay modal to appear.
 
 2. **Close:** The pficon-close icon should always be available in the top right corner to close the modal overlay.
 
