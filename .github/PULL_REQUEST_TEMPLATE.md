@@ -18,4 +18,4 @@ Write a list of changes this design pattern introduces
 - [ ] Any new files have been added to the folder for that pattern.
 - [ ] The folder, for brand new patterns, has been titled with the name of the pattern.
 - [ ] All images are in an "img" folder and embedded images have the correct filepath.
-- [ ] The overview.md and design.md, for this design have been commited and pushed to the patternfly-design repository, for review.
+- [ ] The overview.md, design.md and site.md files, for this design have been commited and pushed to the patternfly-design repository, for review.
