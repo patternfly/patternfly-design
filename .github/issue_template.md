@@ -9,7 +9,7 @@ To create a GitHub issue, first determine which type of contribution you are mak
 #### 2. If this enhancement or new pattern was made for an application, specify which one.
 #### 3. Title
 #### 4. Use Cases + Requirements
-###### *Specify the use case, requirements and  not if this pattern solves a common problem and has community interest?*
+###### *Specify the use case, requirements and what problems do we believe users have, that we intend to solve? ANd, does this problem have a community interest?*
 #### 5. References 
 ###### *If you know of any other PatternFly designs that will be impacted or depend on the design you are contributing, enter those here.*
 ###### *Have you checked this GitHub backlog, to see if there is any work, in progress, that may impact your work?*
