@@ -1,28 +1,36 @@
-It is recommended to use horizontal navigation when you want to provide access to global navigation of an application at the top of every page. When using this pattern with the [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/api), it is recommended to use the sticky horizontal navigation so that the navigation and notification drawer stick to the top of the page on scroll. This horizontal navigation pattern will support up to three levels of navigation.
+It is recommended to use horizontal navigation when your application requires global navigation that is displayed always at the top.
+The horizontal navigation pattern supports up to two levels of navigation( Primary and Secondary).
 
-The top level (primary) navigation should always be exposed. Secondary and tertiary levels can either be persistent or hidden within drop-down menus. The latter provides less visibility to lower-level categories but saves vertical screen space.
+* **Primary level navigation** - The primary level navigation should always be exposed.
+* **Secondary navigation** - The secondary level can either be persistent or hidden within drop-down menus. The latter provides less visibility to lower-level categories but saves vertical screen space.
 
-As a rule of thumb, the horizontal navigation is the preferred choice over  [vertical navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) when:
+As a rule of thumb, the horizontal navigation is the preferred choice over [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) when:
+* There are a small number of fixed categories. You want to provide the best visibility to primary categories by placing them immediately below the page header area.
+* Consider using [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) if you need a solution that can easily scale for a large amount of menu items and easily adapt to small screen sizes.
+* Horizontal menus can also be made responsive but it usually requires a transformation from horizontal to vertical. Since vertical menus are already in this format, the transition from desktop to mobile is less disorienting.
 
-There are a small number of fixed categories.
-You want to provide the best visibility to primary categories by placing them immediately below the page header area.
-Consider using [vertical navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) if you need a solution that can easily scale for a large amount of menu items and easily adapt to small screen sizes. Horizontal menus can also be made responsive but it usually requires a transformation from horizontal to vertical. Since vertical menus are already in this format, the transition from desktop to mobile is less disorienting.
+When using this pattern with the [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/api), it is recommended to use the sticky horizontal navigation so that the navigation and notification drawer stick to the top of the page on scroll.
 
-Jump to [Masthead Design](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-1), [Standard Horizontal Navigation](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-2), or [Navbar Variations](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#example-overview-3)
+Jump to [Masthead Design](#masthead-design), [Standard Horizontal Navigation](#standard-horizontal-navigation), or [Navbar Variations](#navbar-variations).
+
+## Masthead Design
+The horizontal navigation is recommended to use the the short masthead in order to reduce the vertical real estate.
+
+![Masthead](img/masthead-horizontal@2x.png)
 
 ## Standard Horizontal Navigation
-![Standard Horizontal Navigation](img/standard-horizontal navigation.png)
+![Standard Horizontal Navigation](img/standard-horizontal-navigation.png)
 
 [View full page example](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/horizontal-navigation.html)
 
 ## Navbar Variations
 
 ### Single-Level Menu Bar
-![Single Level Menu Bar](img/single-level-menu-bar.png)
+![Single Level Menu Bar](img/masthead-horizontal@2x.png)
 
 ### Two-Level Menu Bar
-![Two Level Menu Bar](img/two-level-menu-bar.png)
+![Two Level Menu Bar](img/menu-bar-two-level.png)
 
 
 ### Menu Bar with Drop-Downs
-![Menu Bar with drop downs](img/menu-bar-with-drop-downs.png)
+![Menu Bar with drop downs](img/menu-bar-drop-downs.png)
