@@ -5,7 +5,7 @@ There are two options for the [Masthead](https://www.patternfly.org/pattern-libr
 
 ## Single-Level Menu Bar
 
-![Horizontal Navbar with Single-Level](img/design-single-level-nav@2x.png)
+![Horizontal Navbar with Single-Level](img/design-single-level-navigation@2x.png)
 
 The Single-Level Menu Bar is the default navbar, all other options are added to this basic pattern.
 
@@ -14,7 +14,7 @@ The Single-Level Menu Bar is the default navbar, all other options are added to 
 
 ## Two-Level Menu Bar
 
-![Horizontal Navbar with Two-Level](img/design-two-level-nav@2x.png)
+![Horizontal Navbar with Two-Level](img/design-two-level-navigation@2x.png)
 
 When a second level of persistent navigation is needed, add a second tier of links.
 
@@ -24,9 +24,10 @@ When a second level of persistent navigation is needed, add a second tier of lin
 
 ## Menu Bar with Drop-Downs
 
-![Horizontal Navbar with Drop-Down](img/design-drop-downs-nav@2x.png)
+![Horizontal Navbar with Drop-Down](img/design-drop-downs-navigation@2x.png)
 
 Add a drop-down menu to a single menu bar to expose a vertical list of sub-categories that the user can select from. Note that when drop-down menus are used, all categories are not required to have secondary navigation. The drop-down menus only support up to two levels of navigation. If you need the tertiary navigation, [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) is the preferred choice over horizontal navigation.
 
 1. **Primary Menu Item**: Any primary item that supports a secondary level of navigation will add a down-caret icon to indicate that a drop-down menu exists. The primary item will display its selected state when any secondary page within that branch is selected. This will provide the user feedback about which primary section they are working in. When an application is initially opened, the first secondary page within the first section will be opened, by default.
 2. **Drop-Down Menu**: Single-clicking a primary item opens the drop down. Clicking anywhere outside of the menu will dismiss it.
+3. **Drop-Down Menu On Hover and Selected**: The drop-down menu items have hover and selected states. Hover state provides feedback that menu items are active. Clicking this item navigates to a new page and dismisses the menu.

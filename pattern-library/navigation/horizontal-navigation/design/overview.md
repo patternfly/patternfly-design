@@ -29,7 +29,7 @@ The horizontal navigation is recommended to use the the short masthead in order 
 ![Single Level Menu Bar](img/masthead-horizontal@2x.png)
 
 ### Two-Level Menu Bar
-![Two Level Menu Bar](img/menu-bar-two-level.png)
+![Two Level Menu Bar](img/menu-bar-two-level@2x.png)
 
 
 ### Menu Bar with Drop-Downs
