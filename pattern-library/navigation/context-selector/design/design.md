@@ -16,4 +16,4 @@
 - If the product branding served as navigation, that navigation item should be added to the hamburger menu.
 
 ### Truncation
-Context names may need to be truncated if the names are very long, or if horizontal space is tight. Names should be truncated in a way that makes sense for the product or application. See PatternFly’s guidelines on [truncation](https://chrome.google.com/webstore/category/apps?hl=en-US).
+Context names may need to be truncated if the names are very long, or if horizontal space is tight. Names should be truncated in a way that makes sense for the product or application. See PatternFly’s guidelines on [truncation](http://www.patternfly.org/styles/terminology-and-wording/#truncation).
