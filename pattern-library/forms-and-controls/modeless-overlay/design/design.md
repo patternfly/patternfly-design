@@ -16,6 +16,12 @@
 
 1. **Content Body:** The overlay panel may be used with a variety of different views such as list, table, or card view. When using the overlay panel in different types of content views, the user still has the ability to interact with the page underneath of the panel and can adjust the content of the panel by selecting a different object from the underlying page. The user can use their mouse or keyboard to change the content of the overlay panel.
 
+**Page Behavior**
+
+Vertical Navigation: If the content of the panel extends past the initial frame of the window a vertical scrollbar should be enabled.
+
+Horizontal Scrollbar: In the case of the modeless overlay panel, a horizontal scrollbar should not be used.  
+
 # Modeless Overlay- Mobile
 
 ![Image of Modeless Overlay Mobile](img/modeless-overlay-mobile-callout.png)
@@ -32,4 +38,4 @@
 
 6. **Selecting Object Content** When the underlying UI is populated with object content, the user can select an individual object and open the overlay panel that way. The overlay panel will show information regarding the selected object.
 
-7. **Object Content** The user can view general object information from the overlay panel. 
+7. **Object Content** The user can view general object information from the overlay panel.
