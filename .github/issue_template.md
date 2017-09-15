@@ -19,7 +19,7 @@ To create a GitHub issue, first determine which type of contribution you are mak
 #### 7. Scope  
 ###### *Approximate the overall effort of the work for this issue, SM, MD, LG, XL, by applying the relevant GitHub label to this issue.*
 #### 8. Assign  
-###### *If you are going to be the person working on this pattern, go ahead and assign yourself to this issue, right here in GitHub.*
+###### *If you are going to be the person working on this pattern, use the tag '@patternfly-design-maintainers' in the comments, to let us know you want to work on this issue, and we will assign you to it.*
 #### 9. Pattern Name + Location  
 ###### *Once the design issue has been reviewed, the name and location, within the PatternFly.org website, will be determined and posted here, on this issue, by a PatternFly team member.*
 
