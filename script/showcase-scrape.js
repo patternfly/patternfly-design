@@ -37,59 +37,112 @@ const apfExceptions = [
   'http://www.patternfly.org/angular-patternfly/#/api/patternfly.wizard.component:pfWizardSubstep'
 ].map(url => URL.parse(url));
 
-function getHtml() {
-  return new Promise((resolve, reject) => {
-    request("http://www.patternfly.org/angular-patternfly/", function (error, response, body) {
+const pfExceptions = [ 'accordions.html',
+  'application-launcher-nav-horizontal.html',
+  'application-launcher-nav-vertical.html',
+  'badges.html',
+  'basic.html',
+  'bootstrap-combobox.html',
+  'bootstrap-select.html',
+  'bootstrap-switch.html',
+  'bootstrap-touchspin.html',
+  'bootstrap-treeview-2.html',
+  'bootstrap-treeview.html',
+  'buttons.html',
+  'card-view-card-variations.html',
+  'card-view-single-select.html',
+  'code.html',
+  'dropdowns.html',
+  'form.html',
+  'icons.html',
+  'infotip.html',
+  'labels.html',
+  'list-group.html',
+  'list-pf.html',
+  'list-view-compound-expansion.html',
+  'list-view-rows.html',
+  'list-view.html',
+  'modals.html',
+  'navbar.html',
+  'notification-drawer-horizontal-nav.html',
+  'pagination-card-view.html',
+  'pagination-list-view.html',
+  'pagination-table-view.html',
+  'panels.html',
+  'progress-bars.html',
+  'search.html',
+  'spinner.html',
+  'tab.html',
+  'table-view-columns.html',
+  'table-view-navbar.html',
+  'tables.html',
+  'tabs.html',
+  'tooltip.html',
+  'typography-2.html',
+  'typography.html',
+  'vertical-navigation-primary-only.html',
+  'vertical-navigation-with-badges.html',
+  'vertical-navigation-with-tertiary-no-icons.html',
+  'vertical-navigation-with-tertiary-pins.html'
+].map(url => URL.parse(url));
+
+function getHtml(url) {
+  return Rx.Observable.create(observer => {
+    request(url, function (error, response, body) {
       if (!error) {
-        resolve(body);
+        observer.onNext(body);
+        observer.onCompleted();
       } else {
-        reject(error);
+        observer.onError(error);
       }
     });
   })
+
 }
 
 function readHtml(filename) {
   return readFile('./script/data/apf.html', 'utf8');
 }
 
-function parseApfShowcase(html) {
+function parseShowcase(html) {
   const $ = cheerio.load(html);
-  // const hrefs = $('a').each((i, elem) => {
-  //   console.log($(elem).attr('href'))
-  // });
-  const urls = $('a').map((i, elem) => {
+  return $('a').map((i, elem) => {
     return $(elem).attr('href');
-  }).get()
-  .filter(url => {
-    return url.startsWith('http://www.patternfly.org/angular-patternfly/#/api/');
   })
-  .map(url => URL.parse(url))
-  .filter(url => url.hash.indexOf(':') > 0);
-  return urls;
+  .get()
+  .map(url => URL.parse(url));
 }
 
-const siteUrls$ = patternWalk.observable
-  .toArray()
-  .map(function(families) {
-    return families.map(family => {
-      return family.patterns.map(pattern => {
-        const site = pattern.files.get('site');
-        if (site && site.frontmatter) {
-          return site.frontmatter.impl_angular;
-        }
-      })
+const siteFrontMatter$ = patternWalk.observable
+  .mergeMap(family => {
+    return family.patterns.map(pattern => {
+      const site = pattern.files.get('site');
+      if (site && site.frontmatter) {
+        return site.frontmatter;
+      }
     })
-    .reduce((prev, curr) => {
-      return prev.concat(curr);
-    })
+  })
+  .filter(fm => !!fm)
+  ;
+
+const apfDiff$ = Rx.Observable.forkJoin(
+  // http://www.patternfly.org/angular-patternfly/ needs to be rendered by a browser
+  // as a workaround I saved the browser output to a files
+  // TODO: use headless chrome to render the showcase results and automate this
+  // getHtml('http://www.patternfly.org/angular-patternfly/')
+  readHtml('apf.html')
+    .map(html => parseShowcase(html)
+      .filter(url =>
+        url.pathname.startsWith('/angular-patternfly/') &&
+        url.hash && url.hash.startsWith('#/api/') &&
+        url.hash.indexOf(':') > 0
+      )
+    ),
+  siteFrontMatter$
+    .map(fm => fm.impl_angular)
     .filter(url => !!url)
     .map(url => URL.parse(url))
-  });
-
-Rx.Observable.forkJoin(
-  readHtml('apf.html').map(parseApfShowcase),
-  siteUrls$
+    .toArray()
 )
 .map(results => {
   const showcaseUrls = results[0];
@@ -105,14 +158,59 @@ Rx.Observable.forkJoin(
         return exceptionUrl.hash === showcaseUrl.hash;
       });
     });
-  console.log(`showcaseUrls: ${showcaseUrls.length}`);
+  console.log('----------------');
+  console.log(`A-PF showcaseUrls: ${showcaseUrls.length}`);
   console.log(`siteUrls: ${siteUrls.length}`);
-  console.log(`exceptions: ${apfExceptions.length}`);
+  console.log(`A-PF exceptions: ${apfExceptions.length}`);
   console.log(`diff: ${diff.length}`);
   return diff.map(url => decodeURIComponent(url.href)).sort();
 })
-.subscribe(function(diff) {
+.do(function(diff) {
   console.log(diff);
+});
+
+const pfDiff$ = Rx.Observable.forkJoin(
+  getHtml('https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/index.html')
+    .map(html => parseShowcase(html).filter(url => ! url.hostname)),
+  siteFrontMatter$
+    .map(fm => fm.impl_jquery)
+    .filter(url => !!url)
+    .map(url => URL.parse(url))
+    .toArray()
+)
+.map(results => {
+  const showcaseUrls = results[0];
+  const siteUrls = results[1];
+  const diff = showcaseUrls
+    .filter(showcaseUrl => {
+      return !siteUrls.some(siteUrl => {
+        // console.log(siteUrl.pathname, '/patternfly/patternfly/master-dist/dist/tests/' + showcaseUrl.pathname)
+        return siteUrl.pathname === '/patternfly/patternfly/master-dist/dist/tests/' + showcaseUrl.pathname;
+      });
+    })
+    .filter(showcaseUrl => {
+      return !pfExceptions.some(exceptionUrl => {
+        return exceptionUrl.pathname === '/patternfly/patternfly/master-dist/dist/tests/' + showcaseUrl.pathname;
+      });
+    });
+  console.log('----------------');
+  console.log(`PF showcaseUrls: ${showcaseUrls.length}`);
+  console.log(`siteUrls: ${siteUrls.length}`);
+  console.log(`PF exceptions: ${pfExceptions.length}`);
+  console.log(`diff: ${diff.length}`);
+  return diff.map(url => decodeURIComponent(url.href)).sort();
+})
+.do(function(diff) {
+  console.log(diff);
+});
+
+
+Rx.Observable.forkJoin(
+  apfDiff$,
+  pfDiff$
+)
+.subscribe(function(diff) {
+  console.log('Done.');
 }, function(error) {
   throw error;
 });
