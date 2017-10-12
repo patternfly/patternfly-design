@@ -93,6 +93,7 @@ For sentence style, capitalize the first letter of the first word and any proper
 | Radio buttons labels                                       | Sentence       |
 | States (as shown in tables, filters, e. g. Up and Running) | Headline       |
 | Status messages                                            | Sentence       |
+| Syntax hints (text shown inside fields)                    | Sentence       |
 | Tab labels                                                 | Headline       |
 | Text box labels                                            | Headline       |
 | Tooltips                                                   | Sentence       |
