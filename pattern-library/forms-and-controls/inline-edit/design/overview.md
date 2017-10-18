@@ -20,3 +20,8 @@ In-line Edit can be used in conjunction with a List View or a Table view to allo
 1. This pattern applies to List and Table content views.
 2. If drill-down behavior is supported, this pattern should not be used.
 3. This pattern does not include bulk actions (editing multiple rows at once).
+
+## In-Line Edit for Form
+The pattern enables users to edit the form text directly on the same page instead of navigating them to another page for editing the text. This is useful when the user may want to make a single edit without the need to refresh the entire form to make it editable. It could help user to improve the operation efficiency and reduce mistakes.
+
+![Image of List View](img/Form_Edit.png)

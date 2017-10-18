@@ -29,9 +29,24 @@
 ![Image of standard list view showing Edit action.](img/Table_01.png)
 
 1. **Row Selection:** Only one row can be edited at a time. Edit puts an entire row into edit mode. The row in edit mode should be visually distinct from surrounding rows.
-2. **Save and Cancel:** 
+2. **Save and Cancel:**
   * These buttons are usually displayed in a tab under the bottom right corner of the row.
   * The check mark should be used for save and the X for cancel. Save is disabled until a change is made.
   * When the editable row is the last one in the table, these buttons are displayed in a tab above the row.
 
 ![Image of standard list view showing Edit action.](img/Table_02.png)
+
+
+## In-line Edit in a Form
+![Image of standard list view showing Edit action.](img/Form_Edit_Design.png)
+
+1. **Default Status:** The Information is displayed as text text without edit icon.
+2. **Status with Edit Icon:** If the most information can not be edited in the form, show the edit icon to the right of the field that can be edited which will help user easily  identify editable fields.
+3. **Hover Status:** When the mouse hover on the editable information, the edit icon (if not already shown)  and field border will appear. Click the text or edit button to make the field editable. If the text is a link, only click the edit icon can be turn to edit status.
+4. **Save and Cancel:** These buttons are available on the right end. Save is disabled until a change is made. If user selects Cancel the text will go back to original state.
+5. **Edit Status:** Save is activated.
+6. **Spinner:** sometimes the system needs user wait for a short time to update the data.
+
+### Form In-line Edit Patterns
+
+![Image of standard list view showing Edit action.](img/Form_Edit_Patterns.png)
