@@ -1,0 +1,117 @@
+﻿Modeless Overlay Panel 
+
+
+Overview
+An overlay panel that displays more detailed information while still allowing the user to access and interact with the information behind the panel. 
+Use Cases
+
+
+General
+
+
+* If the user needs to access more detailed information from a list or dashboard. 
+* If the user needs more detailed information while still needing access to the underlying UI. 
+* Quick access to details without leaving a main page. 
+* A substitute for a modal[a][b][c] when the underlying UI directly affects the surfaced details. 
+
+
+More Detailed 
+
+
+* This pattern should be used only for detailed or secondary information, primary information should not live on this panel. 
+* The underlying information should be directly related to the detailed information that is presented on the panel. 
+* This pattern could be used to add, view, edit, and remove detailed information of an individual item. 
+
+
+
+
+Notes About the Behavior
+
+
+* The overlay panel can be collapsed and there’s a slight animation that goes along with it when the user closes the panel. 
+* The text boxes and fields featured on the overlay panel allow the user to edit them inline.
+* There is a slight shadow that appears around the edge of the overlay panel to reinforce that it is on another layer.
+* The overlay panel never bleeds onto the top navigation, it rests directly underneath of it. 
+* The user can still access the UI layer underneath of the overlay panel when the panel is extended. 
+
+
+
+
+Wireframe Notes [d]
+
+
+Overlay Panel Empty State
+
+
+1. Overlay Panel: The panel itself rests right along the bottom of the top navigation but does not bleed onto the top navigation bar. There is a slight shadow around the overlay panel that helps to reinforce that it is located on top of the main page. The panel may come off of the underlying UI from different directions such as the top, left, right, or bottom. The overlay panel may not cover any persistent navigational elements such as a top or side navigation bar.  
+2. Close Button: The close button allows the user to dismiss the overlay pattern. When the panel is closed, there is a slight animation that shows the overlay panel sliding back into the side of the window. 
+3. Title Area: The primary title of the object helps to identify what is being shown on the panel and is featured at the top of the panel. 
+4. Content Area: Application specific content such as descriptive title, date, status, product owner, collaborators, description, etc. could live here.  
+5. View Full Details: Extends out the overlay panel to be a full page. The overlay panel could animate out and extend to be a full page.   
+
+
+Animation Suggestions: The overlay panel should gently slide out from the side of the UI. There should be a slight shadow behind the panel that should go in time with the animation of the panel sliding out from the side.  When the panel is dismissed, the animation should slide the panel back into the side of the window that the panel came out of.  
+
+
+
+
+Overlay Panel Populated 
+
+
+1. Content Body: The overlay panel may be used with a variety of different views such as list, table, or card view. When using the overlay panel in different types of content views, the user still has the ability to interact with the page underneath of the panel and can adjust the content of the panel by selecting a different object from the underlying page. The user can use their mouse or keyboard to change the content of the overlay panel.    
+ 
+
+
+
+
+
+
+
+
+
+
+Overlay Panel on Mobile 
+
+
+1. On mobile, the overlay panel would extend to be full screen. 
+2. The overlay panel should act as an extension of the underlying UI. It presents more detailed information about the underlying UI.   
+3. The panel can be dismissed by either swiping it left or right. Once the panel has been dismissed the user should be returned to the underlying UI. 
+4. When the overlay panel is open, it should be the only element that is immediately available for the user to interact with. In order to access the underlying UI, the user must exit the overlay panel.
+5. Content and labels should be featured on the top of the input fields. 
+
+
+
+
+Wireframes
+
+
+ o tabs copy.png 
+
+
+
+ o tabs.png 
+
+  
+
+ Mobile- Empty State.png 
+
+
+
+ Mobile- Overlay Panel Empty 1.png 
+
+ Mobile- Overlay Panel Empty 2.png 
+
+ Mobile- Overlay Panel Empty 3.png 
+
+ Mobile- Populated Overlay Panel.png 
+
+
+
+
+
+
+
+[a]Would then link to the modal overlay pattern from this.
+[b]+crobson@redhat.com Is this the contribution that Colleen is working on or the modal that is already featured in the widgets section on PatternFly?
+[c]yes
+[d]I'm assuming this would go to the design.md file?
