@@ -6,4 +6,7 @@ Wizards should be used when the user needs to go through a sequential set of ste
 ![Wizard example image](img/wizard-flow-example.png)
 
 ## Embedded Wizard
-![Embedded wizard Example](img/embedded-wizard.png)
+![Embedded wizard example](img/embedded-wizard.png)
+
+## Wizard Mobile View
+![Responsive wizard example](img/responsive-wizard.png)
