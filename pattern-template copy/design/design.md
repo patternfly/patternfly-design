@@ -3,6 +3,11 @@ This template should provide detailed design solutions and the interactions and 
 Templates to generate mock ups or wireframes can be found here;  https://github.com/patternfly/patternfly-design/tree/master/resources/templates   
 These are not final visual implementations of the design solutions, and should focus on communicating flow and interactive behaviors.
 
+Provide a bulleted list of the variations on the pattern.
+
+Patterns Available:
+* Variation 1
+* Variation 2
 
 # Pattern Name Goes Here
 
