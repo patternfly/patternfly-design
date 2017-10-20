@@ -2,7 +2,7 @@
 
 ## Overview
 
-In-line Edit can be used in conjunction with a List View or a Table view to allow the user to create or edit an item without navigating to another view.  Use this when all editable elements can be viewed within the row/ expanded row, or when a "quick add" option is available for users to edit a subset of items quickly. In-line Edit saves the user the need to open a modal window or navigate to a new view for simple object creation or edit actions.  
+In-line Edit allow the user to create or edit an item without navigating to another view.  Use this when all editable elements can be viewed within the row/ expanded row, or when a "quick add" option is available for users to edit a subset of items quickly. In-line Edit saves the user the need to open a modal window or navigate to a new view for simple object creation or edit actions.  
 
 * Only one row in a list or a table can be edited at a time.  Users commit to or cancel changes by clicking **Save** or **Cancel**.
 

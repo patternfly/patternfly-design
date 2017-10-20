@@ -1,12 +1,19 @@
 # In-line Edit
 
+- [In-line Create and Edit](#in-line-create-and-edit)
+- [In-line Edit in a List View](#in-line-edit-in a-list-view)
+- [In-line Edit in an Expanded List View](#in-line edit-in-an-expanded-list-view)
+- [In-line Edit in a Table View](#in-line-edit-in-a table-view)
+- [In-line Edit in a Form](#in-line-edit-in-a-form)
+
+
 ## In-line Create and Edit
 ![Image of list with newly created row.](img/List_Edit_01.png)
 
 1. **Create:** This action adds a row at the top of the list, in edit mode. All fields in the new row are editable. Default values for all fields are recommended.
 2. **Save and Cancel:** These buttons are available on the right end of the row. If user selects Save (check) without entering values for all fields an error is displayed. If user selects Cancel the new row is deleted.
 
-## In-line Edit
+## In-line Edit in a List View
 ![Image of list with edit action.](img/List_Edit_02.png)
 
 1. **Row Selection:** Only one row can be edited at a time. Edit puts an entire row into edit mode. The row in edit mode should be visually distinct from surrounding rows. The first editable field should be in focus with an option to tab through all remaining editable fields with keyboard navigation.
@@ -42,12 +49,12 @@
 
 1. **Default Status:** The Information is displayed as text text without edit icon.
 2. **Status with Edit Icon:** If the most information can not be edited in the form, show the edit icon to the right of the field that can be edited which will help user easily  identify editable fields.
-3. **Hover Status:** When the mouse hover on the editable information, the edit icon (if not already shown)  and field border will appear. Click the text or edit button to make the field editable. If the text is a link, only click the edit icon can be turn to edit status. <br/>
+3. **Hover Status:** When the mouse hover on the editable information, the edit icon (if not already shown)  and field border will appear. Click the text or edit button to make the field editable. If the text is a link, the user must click the edit icon to make the field editable. <br/>
 **Select:**  If the user clicks and holds, they should be able to select the text rather than transition into the edit mode.
 4. **Save and Cancel:** These buttons are available on the right end. Save is disabled until a change is made. If user selects Cancel the text will go back to original state.
 5. **Edit Status:** Save is activated.
-6. **Error state:** The validation is preferred to verify in web front end than the back end. For example, the error message will show directly under the text field after user entering the invalid characters and error message. It will disappear after user correcting the error message.
 6. **Spinner:** Sometimes the system needs user wait for a short time to update the data.
+7. **Validation state:** User can click Save button to let the software validate the result. If the result is not correct, there will be a error message under the text field.
 
 ### Form In-line Edit Patterns
 
