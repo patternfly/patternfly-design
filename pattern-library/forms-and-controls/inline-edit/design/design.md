@@ -54,7 +54,7 @@
 4. **Save and Cancel:** These buttons are available on the right end. Save is disabled until a change is made. If user selects Cancel the text will go back to original state.
 5. **Edit Status:** Save is activated.
 6. **Spinner:** Sometimes the system needs user wait for a short time to update the data.
-7. **Validation state:** User can click Save button to let the software validate the result. If the result is not correct, there will be a error message under the text field.
+7. **Validation state:** User can click Save button to let the software validate the result. If the result is not correct, there will be an error message under the text field.
 
 ### Form In-line Edit Patterns
 
