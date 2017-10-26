@@ -3,7 +3,7 @@ Inline Edit has a number of use cases, jump to a section below for applied examp
 
 - [Create and Edit](#inline-create-and-edit)
 - [List Views](#inline-edit-in-a-list-view)
-- [Expanded List Views](#inline edit-in-an-expanded-list-view)
+- [Expanded List Views](#inline-edit-in-an-expanded-list-view)
 - [Table Views](#inline-edit-in-a-table-view)
 - [Forms](#inline-edit-in-a-form)
 
