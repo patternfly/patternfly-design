@@ -23,7 +23,8 @@ handlebars.registerHelper('eachInMap', function ( map, block ) {
 function mapReplacer(key, value) {
   if (value instanceof Map) {
     return Array.from(value).reduce(function(object, pair) {
-      return object[pair[0]] = pair[1];
+      object[pair[0]] = pair[1];
+      return object;
     }, {});
   } else {
     return value;
