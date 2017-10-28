@@ -1,6 +1,6 @@
 ---
 layout: page-pattern
-overview: pattern-library/{category-name}/{pattern-name}/design/overview.md
-design: pattern-library/{category-name}/{pattern-name}/design/design.md
+overview: pattern-library/forms-and-controls/saved-filter/design/overview.md
+design: pattern-library/forms-and-controls/saved-filter/design/design.md
 code: false
 ---
