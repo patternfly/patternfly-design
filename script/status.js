@@ -20,8 +20,25 @@ handlebars.registerHelper('eachInMap', function ( map, block ) {
   return out;
 } );
 
+function mapReplacer(key, value) {
+  if (value instanceof Map) {
+    return Array.from(value).reduce(function(object, pair) {
+      object[pair[0]] = pair[1];
+      return object;
+    }, {});
+  } else {
+    return value;
+  }
+}
+
 patternWalk.observable
 .toArray()
+.flatMap(function(families) {
+  return writeFile('./publish/status/pattern-status.json', JSON.stringify(families, mapReplacer, 2))
+  .map(function() {
+    return families;
+  })
+})
 .flatMap(function(families) {
   return readFile('./script/status.template.hbs', 'utf8')
   .map(function(template) {
