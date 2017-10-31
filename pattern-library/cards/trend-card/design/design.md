@@ -1,8 +1,8 @@
 # Trend Card
 
 ## Card with a Single Trend
-![Single Card Callout](img/trend-card-single-callout.png)
-![Action Card Callout](img/trend-card-action-callout.png)
+![Card Callout](img/trend-card-callout.png)
+
 
   1. **Title:**
     Identify a name for the trend being displayed. If the title does not require much emphasis and the trend is on the right, you may opt to place the title under the actual value versus the top left of the card.
@@ -11,6 +11,7 @@
     Shows the current value or percentage. The position may vary dependent on usage. Placement options for the actual value include:
       - Above the sparkline
       - Left of the sparkline
+      - Right of the sparkline
 
   1. **Total Value** (optional)**:**
     If needed, provide total value next to the actual value to help provide context.
@@ -29,7 +30,7 @@
       - Under the title
       - Under the sparkline
       - In a [time frame filter](https://www.patternfly.org/pattern-library/dashboard/dashboard-card/#example-overview-1)
-      
+
     The time frame on a card is optional since there could be a single instance of the time frame label or time frame filter that applies to all cards within a single view.
 
   1. **Actions Panel** (optional)**:**
