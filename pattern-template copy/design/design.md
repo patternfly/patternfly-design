@@ -11,20 +11,24 @@ These are not final visual implementations of the design solutions, and should f
 
   1. **Interaction Description Label One:**
   Content to include here are:
+  -  When and why this should be used
   -  An interactive step called out
   -  Behaviors and conditions of interaction
   -  What is and isn't covered in this portion of the UI
 
-  1. **Interaction Description Label Two:** (optional):
+  2. **Interaction Description Label Two:** (optional):
   Content to include here are:
+  -  When and why this should be used
   -  An interactive step called out
   -  Behaviors and conditions of interaction
   -  What is and isn't covered in this portion of the UI
 
-  1. **Interaction Description Label Three:**
+  2. **Interaction Description Label Three:**
   Content to include here are:
+  -  When and why this should be used
   -  An interactive step called out
   -  Behaviors and conditions of interaction
+  -  When and why this should be used
   -  What is and isn't covered in this portion of the UI
 
 
