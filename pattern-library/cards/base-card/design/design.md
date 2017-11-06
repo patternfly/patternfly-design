@@ -30,7 +30,7 @@ There are two options for where the time frame filter may be placed:
 ## Loading
 ![Image of loading state](img/card-loading.png)
 
-While the data for a card is loading, the card's contents are replaced with a spinning loading icon and a message. The message is customizable, but defaults to "Loading". While the card is in a loading state, any actions that could be taken on the card's content are disabled.
+While the data for a card is loading, the card's contents are replaced with a [spinning loading icon](http://www.patternfly.org/pattern-library/widgets/#spinner) and a message. The message is customizable, but defaults to "Loading". While the card is in a loading state, any actions that could be taken on the card's content are disabled. The default height of the loading card should be set so that the size of the card changes as little as possible when data appears and is rendered.
 
 ## No Data Available
 ![Image of no data available state](img/card-no-data.png)
