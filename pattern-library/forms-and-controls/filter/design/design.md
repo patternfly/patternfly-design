@@ -1,11 +1,10 @@
 # Filter
 
 ## Filter Trigger
-The filter trigger is a component that adds active filters to a page. It is located on the left side of the page, often within the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/). A filter trigger may be a simple text box or something much more complicated.
+The filter trigger is a component that adds active filters to a page. It is located on the left side of the page, often within the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/). A filter trigger may be a simple text box or something much more complicated. Only one type of filter trigger should be used on a given page.
 Possible filter triggers include:
 - [Textbox filter](http://www.patternfly.org/pattern-library/forms-and-controls/textbox-filter/)
 - [Checkbox filter](http://www.patternfly.org/pattern-library/forms-and-controls/checkbox-filter/)
-- Advanced filter
 
 ## Active Filters Bar
 ![Filter bars with callouts](img/filter-callout.png)
