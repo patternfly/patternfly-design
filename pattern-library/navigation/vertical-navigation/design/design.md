@@ -83,7 +83,5 @@ Tertiary navigation is non-persistent and only appears on hover. The tertiary na
 ![navigation-vertical-responsive5](img/navigation-vertical-responsive5@2x.png)
 1. **Bell Icon**: The icon of notification drawer is exposed on the second line of the masthead in the responsive state.
 2. **Notification Drawer**: When clicking the Icon, the notification drawer will slide out from the right edge and the drawer will take over the whole screen width. Click “X” button on the right edge to close the notification drawer.
-3. **Accordion**: When there are no new notifications, all the accordions are default to be collapsed.
-4. **Complex Events**: Individual rows may include additional information in complex events. User can tap on the event and full contents will show. If the event was unread, it will be marked as read at the same time. Tapping on the event again will collapse it. Tapping on another event will also lead to collapse it because only one event may be expanded at a given time.
-5. **Mark All Read**: After clicking “Mark All Read”, the link will be hidden until new unread notifications are available for reading.
-6. **Loading More**: User can scroll up and down within an accordion to view more events. It will load 10 events at a time by default. When scrolling to the bottom of the list, user can pull up to load more events.
+
+Visit [Notification Drawer Pattern](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) to get more information.
