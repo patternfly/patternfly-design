@@ -5,20 +5,25 @@ This template should provide high level information on the design, to inform the
 
 ## Overview (leave overview text and remove text in parentheses)
 
-(Remove instructional text)  
-Provide one or two sentences, describing the pattern you are contributing.
+(Remove all instructional text)  
+A. Provide one or two sentences, describing the pattern you are contributing.  
 
 Example: (remove all example text and text in parentheses)
-* "This pattern" can be used to present large amounts of data, providing flexibility and power to manipulate the data in a meaningful and understandable way.
+"The Table pattern can be used to present and organize data, providing flexibility and power to manipulate the data in a meaningful and understandable way."
 
+B. Describe when and why this pattern should be used and when it should not to use.
+
+Use this pattern:
+* To organizes data into rows (of items) and columns (of item attributes), that will make it easy to scan, compare, sort, and analyze the data.
+
+Do not use this pattern:
+* If you would like to visually communicate information, such as with a line or bar chart, a data set. or want to communicate data using more visual elements, consider using a List View.
 
 
 ## Use Cases (leave Use Cases text and remove text in parentheses)
 
 (Remove instructional text)  
 Use cases describe how the user will perform a task, from the users perspective, outlining behaviors and simple steps to achieve the users goal.
-
-This information should help the user understand when and why this pattern should be used and when not to use.
 
 
 
