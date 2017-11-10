@@ -44,6 +44,6 @@ The masthead contains the following items from left to right:
 
 * **Masthead Icons:**
   - The expand caret should be visible to the right side of an icon that has multiple options displayed in a list.
-  - The icon color changes to white and has a light gray background to visually indicate when a user hovers or selects an icon from the Masthead.
+  - It should be visually indicated when a user hovers or selects an icon from the Masthead.
 
 ![Image of masthead with dropdown options](img/masthead_dropdowns.png)
