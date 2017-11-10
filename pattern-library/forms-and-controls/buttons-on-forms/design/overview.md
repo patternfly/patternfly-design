@@ -10,7 +10,7 @@
 
 
 
-Buttons are the primary means for invoking actions within forms.  They may be placed at the bottom of a form, as in the case of submit buttons or inline with other form content. 
+Buttons are the primary means for invoking actions within forms.  They may be placed at the bottom of a form, as in the case of submit buttons or inline with other form content.
 
 ### Submit Buttons
 Submit buttons are placed at the bottom of the page to optimize top to bottom flow.  There should always be two buttons, a primary action button that will commit changes made by the user and a Cancel button that will abort those changes.  By default, the primary action will be labeled Save unless there is use case specific naming that makes more sense.  The Cancel button should always discard any changes and return the user to their prior state before opening this form (i.e., close the modal window or navigation back to the parent page.)  See the [PatternFly Terminology and Wording Guidelines](http://www.patternfly.org/styles/terminology-and-wording/#_) for more guidance on button labeling.
@@ -34,9 +34,10 @@ Buttons may also be used for inline actions within a form.  In these cases, the 
 1. Inline action button placed to the right of the field that it affects.
 
 ### Enabling and Disabling Actions
-Submit buttons should be disabled when all conditions required for completing a form are not met.  This will reduce the need to return validation errors because the user neglected to complete the form.  When using disabled buttons, it should always be possible for the user to enable the button by inputing information onto the current page.  Do not use this technique for blocking functionality that is not available to the current user or requires changes outside of the current page.
+* For short forms (e.g. wizards or similar forms), the submit buttons should be disabled until all conditions required for completing a form are met. This will reduce the need to return validation errors because the user neglected to complete the form. However, in cases of long scrolling-page forms, we recommend against disabling the submit button as the missing field and the button may not be visible on the screen at the same time. When using disabled buttons, it should always be possible for the user to enable the button by inputting information onto the current page. For more guidance on handling form validation see [Errors and Validation](http://www.patternfly.org/pattern-library/forms-and-controls/errors-and-validation/).
+* When a form is submitted, the submit button should be disabled to avoid duplicate submission. Also, feedback message and progress indicators (spinner or progress bars) should be used if the time to process the form submit action would exceed users’ expectations. For more information about progress indicators, see: [spinner](http://www.patternfly.org/pattern-library/widgets/#spinner) and/or [progress](http://www.patternfly.org/pattern-library/widgets/#progress-bars).
 
-For more guidance on handling form validation see [Errors and Validation](http://www.patternfly.org/pattern-library/forms-and-controls/errors-and-validation/).
+![Disable Submit Button](img/disable-submit-button.png)
 
 ### Styling Commonly Used Buttons
 
@@ -48,6 +49,6 @@ Use "Close" to exit the current view.  Close should not be used when the view is
 
   **Cancel Button:**
   "Cancel" should be styled as a secondary button unless you have a limited use case where the Cancel action is a highly destructive action. In that case, use the destructive button.
-  
+
   **Save Button:**
-  "Save" should be styled as the primary button on all editable forms. 
+  "Save" should be styled as the primary button on all editable forms.
