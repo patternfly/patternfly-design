@@ -1,7 +1,7 @@
 # Toolbar
 
 The Toolbar pattern sits above a content view such as a [List View](https://www.patternfly.org/pattern-library/content-views/list-view/#/api), [Card View](https://www.patternfly.org/pattern-library/content-views/card-view/#/api) or [Table View](https://www.patternfly.org/pattern-library/content-views/table-view/#/api). The Toolbar provides a framework for a number of content control patterns including, but not limited to:
-- Filter
+- [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/find/)
 - Sort
 - Actions
 - [Find](https://www.patternfly.org/pattern-library/forms-and-controls/find/#_)
