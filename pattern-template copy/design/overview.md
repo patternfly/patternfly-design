@@ -11,7 +11,7 @@ A. Provide one or two sentences, describing the pattern you are contributing.
 Example: (remove all example text and text in parentheses)
 "The Table pattern can be used to present and organize data, providing flexibility and power to manipulate the data in a meaningful and understandable way."
 
-B. Describe when and why this pattern should be used and when it should not to use.
+B. Describe when and why this pattern should be used and when it should not be used.
 
 Use this pattern:
 * To organizes data into rows (of items) and columns (of item attributes), that will make it easy to scan, compare, sort, and analyze the data.
