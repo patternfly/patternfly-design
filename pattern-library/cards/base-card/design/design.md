@@ -27,8 +27,13 @@ There are two options for where the time frame filter may be placed:
 1. **Actions Icon** (optional)**:** Include dan associated icon with the action button if applicable.
 1. **Flat Actions Button** (optional)**:** Within an actions panel you should have an action represented as a flat button on the left.
 
+## Loading
+![Image of loading state](img/card-loading.png)
+
+While the data for a card is loading, the card's contents are replaced with a [spinning loading icon](http://www.patternfly.org/pattern-library/widgets/#spinner) and a message. The message is customizable, but defaults to "Loading". While the card is in a loading state, any actions that could be taken on the card's content are disabled. Cards should not change height when data appears and is rendered.
+
 ## No Data Available
 ![Image of no data available state](img/card-no-data.png)
 
-1. If the data for a card does not exist or cannot be reached, the card will display an informational icon with the text, "No data available".
+If the data for a card does not exist or cannot be reached, the card will display an informational icon with the text, "No data available".
 **Note:** This display is *not* meant to indicate that data is loading, and should only be used when data is unreachable.
