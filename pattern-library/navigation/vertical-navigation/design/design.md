@@ -55,30 +55,33 @@ Tertiary navigation is non-persistent and only appears on hover. The tertiary na
 4. **Hover**: On hover, the tertiary navigation is highlighted and underlined.
 
 ## Responsive States
+![navigation-vertical-responsive1](img/navigation-vertical-responsive1@2x.png)
 - **Small Screen** (From 768 to 1200px): In all cases, the secondary navigation, if one exists, will replace the primary menu in a one column layout (same interactions as full-width without icons).
-- **Mobile** (less than 768 px): Navigation is hidden under “hamburger” icon.
+
+![navigation-vertical-responsive2](img/navigation-vertical-responsive2.png)
+- **Mobile** (less than 768 px): The masthead utility items and navbar will be hidden under “hamburger” icon. The logotype and the “hamburger” icon will stack into two line. The Product logo will be hidden only remain the product name. The product name will collapse on scroll.
+
 
 ### Primary Navigation | Responsive State
 
-![navigation-vertical-responsive-state-callout](img/navigation-vertical-responsive-callout.png)
+![navigation-vertical-responsive3](img/navigation-vertical-responsive3.png)
 
 1. **Menu Drawer**: When open, the menu appears as a drawer sliding out from the left edge of the viewport. This will overlay content area.
 2. **Utility Items**:
-  - Once the utility items do not fit in the masthead (on small screens), they will responsively move to rest underneath the main navigation items in the vertical navigation.
+  - Once the utility items do not fit in the masthead (on mobile devices), they will responsively move to rest underneath the menu drawer in the vertical navigation.
   - In any instance that there is an icon present in desktop state with no text label (for example, the help icon), a text label will appear next to that icon in this responsive state.
 
 
+
 ### Secondary Navigation | Responsive State
-![navigation-vertical-secondary-responsive-callout](img/navigation-vertical-secondary-responsive-callout.png)
+![navigation-vertical-responsive4](img/navigation-vertical-responsive4.png)
 1. **Back Link**: Clicking the back link restores the primary-level menu.
-2. **Back Link** (for Utility Item): The back link for a utility item is formatted differently from the back links for main navigational items.
+2. **Item Selected**: When enter the secondary navigation, the first item will be highlighted by default in responsive state.
+3. **Secondary Menu for Utility Item**: The secondary menu will not be highlighted by default in responsive state. User could chose to click either of the item.
 
-<!--
-### Notification Drawer | Responsive State
-This is how the notification drawer looks on small screens. Once a user selects "Notifications" within a small screen's vertical navigation menu, the notification drawer appears in full-width, with a Back Link above it. [See Here](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/api) for specifics about the Notification Drawer.
+### Vertical Navigation with Notification Drawer | Responsive State
+![navigation-vertical-responsive5](img/navigation-vertical-responsive5@2x.png)
+1. **Bell Icon**: The icon of notification drawer is exposed on the second line of the masthead in the responsive state.
+2. **Notification Drawer**: When clicking the Icon, the notification drawer will slide out from the right edge and the drawer will take over the whole screen width. Click “X” button on the right edge to close the notification drawer.
 
-![navigation-vertical-notifications-responsive-callout](img/navigation-vertical-notifications-responsive-callout.png)
-
-1. **Back Link**: Clicking the back link restores the primary-level menu.
-2. **Notification Drawer**: The notification drawer takes the entire screen's width when on small screens.)
--->
+Visit [Notification Drawer Pattern](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) to get more information.
