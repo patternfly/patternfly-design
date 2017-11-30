@@ -10,6 +10,8 @@ To create a GitHub issue, first determine which type of contribution you are mak
 #### 3. Title
 #### 4. Use Cases + Requirements
 ###### *Specify the use case, requirements and what problems do we believe users have, that we intend to solve? ANd, does this problem have a community interest?*
+Capture cross product requirements in this Google doc file.
+Make a duplicate of this file and include a link to this file here: https://docs.google.com/document/d/1LQ_MxtsFgvxi8-ssXVHLcSaCUy0xQR_npqsBfyJH2Hw/edit?usp=sharing
 #### 5. References 
 ###### *If you know of any other PatternFly designs that will be impacted or depend on the design you are contributing, enter those here.*
 ###### *Have you checked this GitHub backlog, to see if there is any work, in progress, that may impact your work?*
