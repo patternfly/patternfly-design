@@ -23,6 +23,9 @@ Start by opening a new GitHub Issue and labeling it as “Change Request” to m
 - What problem does it solve? 
 - What are the relevant use cases?
 - Are there known requirements?
+- Capture cross product requirements in this Google doc file. 
+  * Make a duplicate of this file and include a link to this file here:
+  https://docs.google.com/document/d/1LQ_MxtsFgvxi8-ssXVHLcSaCUy0xQR_npqsBfyJH2Hw/edit?usp=sharing
 - Are there products or projects that are in need of this component and who are the stakeholders that should be included in the review (if known)?
 - What is the scope of this work (if known). This can simply be a rough sizing estimate (e.g. Small, Medium, or Large)?
 
