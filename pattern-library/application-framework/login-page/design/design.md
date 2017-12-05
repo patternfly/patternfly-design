@@ -70,7 +70,7 @@ With client-side validation, error message will be presented before form submitt
   - When the password field is empty, we recommend to show “Enter your password” if a password is needed.
 
 #### Invalid Characters
-![Image of invalid characters](img/message-2.png)
+![Image of invalid characters](img/Message-2.png)
 1. **When to Show**: When user clicks the action button (Log in/Next), the login form can’t be submitted and error message will show (below the username field) if there are invalid characters in username.
 2. **When to Hide**: After user modified the field, the error message will disappear when the field loses focus.
 3. **Recommended Message**:
@@ -79,7 +79,7 @@ With client-side validation, error message will be presented before form submitt
 	- If the username can also be customized, when there are invalid characters, show “Invalid characters”.
 
 #### Caps lock is on
-![Image of caps lock](img/message-3.png)
+![Image of caps lock](img/Message-3.png)
 1. **When to Show**: When the password field gets focus as well as caps lock is on, an error message will show up to warn users to avoid making mistake.
 2. **When to Hide**: Once the caps lock turns off, the warning message should disappear.
 3. **Recommended Message**: "Caps lock is currently on. This may cause you to type an incorrect password."
@@ -98,17 +98,17 @@ If the user input a wrong account name which do not exist or if the user input a
  - When password is wrong, we recommend to show “Incorrect password, please try again.”
 
 2. For security reasons, just tell user that the username and the password don’t match.
-![Image of account or password errors](img/server-2.png)
+![Image of account or password errors](img/Server-2.png)
 
 #### User input an old password
 If the user input an old password (they may have changed the password recently), we can show an error message alerting them that the password has changed instead of stating “the password is wrong” only.
 
-![Image of old password error](img/server-3.png)
+![Image of old password error](img/Server-3.png)
 
 #### Other Examples of Error Messages
-![Image of other error messages](img/server-4.png)
+![Image of other error messages](img/Server-4.png)
 
 ## Notifications
 Except for error messages, notifications can also be informational messages. An informational message is triggered if the user is timed out of the application. They will be returned to the login page, which will display an informational message explaining that the session timed out due to inactivity.
 
-![Image of notifications](img/notification.png)
+![Image of notifications](img/Notification.png)
