@@ -104,7 +104,11 @@ For sentence style, capitalize the first letter of the first word and any proper
 
 ### More Information Link
 
-As a user, I want to see a single link that directs me to a page or document with additional information to learn more about a particular subject or task. As the user is reading the sentence, they have the option to click on the documentation or page link to view the documentation. This documentation could live within the same site or outside of the site. If it lives outside the site, we should let the user know by adding an icon to make this clear.
+As a user, I want to see a single link that directs me to a page or document with additional information to learn more about a particular subject or task. As the user is reading the sentence, they have the option to click on the documentation or page link to view the documentation. This documentation could live within the same site or outside of the site.
+
+### External links
+
+Links that direct users to an external site should be followed by the [fa-external-link](https://www.patternfly.org/styles/icons/) icon to indicate that they will be taken to a different site. When possible, external links should open in a new browser tab or window depending on browser preferences.
 
 ### General Rules
 
