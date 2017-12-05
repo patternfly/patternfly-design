@@ -1,35 +1,114 @@
 # Login Page
 
-![Image of login error](img/login-02.png)
+Jump to [Login Pages](#login-pages), [Login Pages | Responsive State](#responsive-state), [Error Messages](#error-messages), or [Notifications](#notifications)
 
-1. **Application Name:** The application or project name uses a combination of Open Sans Extra Bold and Open Sans Regular.
+## Login Pages
 
-2. **Logo:** The logo is located in the top right.
+Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [Other Login Methods](#other-login-methods), or [Single Sign-on (SSO)](#single-sign-on)
 
-3. **Required Fields:** The required fields include username (see the Terminology and Wording Style Guide) and password. Labels are left-aligned. Additional fields are optional. Some applications may require additional information beyond username and password (such as a specific server or geo-location).  In these cases, the additional fields can appear underneath the password field. The dialog will expand to accommodate the additional fields. The order of the additional fields will have to be addressed on a case-by-case basis, but they should sit between the Password field and the Log In button. Try and limit the number of fields to less than five. Also, you may use progressive disclosure if a field’s value is dependent on a field prior to it.
+### Basic Login Page
+![Image of basic login page](img/login-page-1.png)
+1. **Logo**: The product logo is placed at the top.
+2. **Description** (optional): Description of the website can be placed here.
+3. **Title**: The title is located at the top of the login card.
+4. **Required Fields**: Username and password are the required fields while additional fields are optional. Some applications may require additional fields such as a specific server or geo-location. When additional fields are required, they can appear underneath the password field. The login card will expand to accommodate the additional fields.
+The additional fields order will be addressed on a case-by-case basis, but they should sit between the “Password field” and the “checkbox”. Try to limit the number of the fields to less than five. Also, you may use progressive disclosure if the field value have dependency on the previous relevant field.
+5.  **Checkbox** (optional): Checkbox is located under the Required fields. For security reasons, we do not recommend allowing users to remember their password. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
+6. **Help Link**: It is a link for users to recover their password.
+7. **Login Button**: The button name is better to be called “Log In”. According to the Terminology and Wording Style Guide, it is better to use a verb phrase (log in) rather than a noun or adjective phrase (login) in terms of button name.
+8. **Sign up**: The page will jump to the sign up flow after clicking the “Sign up” link.
+9. **Language Selector** (optional): The language selector is located under the login card.
+10. **Links**: The links are entrance for users to get information and helps.
 
-4. **Checkbox** (optional)**:** A “Remember Username” checkbox is located under the fields. For security reasons, we do not recommend allowing the user to remember their password. Check box labels should use sentence style capitalization (see the Terminology and Wording Style Guide for more information regarding capitalization).
+### Identity First
+![Image of basic login page](img/login-page-2.png)
+1. **Username Field**: Username should be the first input and independently validated by server. Some username may not need password. When users click the “Next” Button, the page will  jump to the relevant application directly. In the situation that usernames do not exist, an error message will pop up after user clicking the “Next Button”.
+2. **Next Button**:The button should be called “Next” instead of “Log In”. Because most users still need to input password as a second step.
 
-5. **Help Link:** “Forgot Username or Password?” is a link for users to recover their username or password.
+![Image of basic login page](img/login-page-3.png)
+1. **Validated Username**: After successful verification, the username should change to  read-only mode in this page.
+2. **Edit**: Users can change username by clicking the edit icon on the far right. After clicking the icon, the card will return to the text field mode as the previous page.
+3. **Password Field**: If needed, users should input password to log in.
+4. **Login Button**: If there are more steps for authentication, the button should be called  “Next” instead of “Log In”.
 
-6. **Login Button:** The Login button appears underneath the password field. Please note, the label on the button should say “Log In”, a verb, vs Login, a noun or adjective (See the Terminology and Wording Style Guide for more information).
+### Social Login
+![Image of basic login page](img/login-page-4.png)
+1. **Social Media Buttons**: When button number less than four, all buttons will be displayed in one column. On the contrary, buttons will always be displayed in two columns.
 
-7. **Informational Text** (optional)**:** The text only area, located to the right of the fields, is available for additional information such as an introductory message about your application or you may want to include information about the latest release of your product here - such as a version number. Use text sparingly; do not overload this area with too much text.
+### Other Login Methods
+![Image of basic login page](img/login-page-5.png)
+1. **Authentication Code**: User can bind the authenticator which installed on their mobile phones with their accounts in registration process. If so, they can login with the code that authenticators provide.
+2. **SMS**: Users can bind their phone number (or backup phone numbers) with their accounts in registration process. If so, they can login with SMS.
+3. **Backup Code**: A backup code (random strings) can be provided to users in registration process. If so, they can login with backup code.
+
+### Single Sign-on (SSO)
+![Image of basic login page](img/SSO.png)
+1. **Logo**: Company logo is located at the top.
+2. **Title**: The title is located at the top of the login card.
+3. **Description**: <Application> is the one user came from. This page will jump back to that application when finishing the login process.
+4. **Supported Services**: All the supported services logo will be displayed at the bottom.
+
+## Login Pages | Responsive State
+This section is talking about how the login pages look on small screens.
+![Image of basic login page](img/responsive.png)
+1. When the screen getting smaller, the help link will automatically moved to the next line if there isn’t enough space for checkbox and help link placed in the same line.
+2. When the screen getting smaller,  the links will automatically moved to the next line if there isn’t enough space for language selector and other links.
+3. Social media buttons should line up in one column.
+
+## Error Messages
+User input can be validated on the client and on the server. Thus common error conditions can be divided to two aspects. Jump to [Client-side Errors](#client-side) or [Server-side Errors](#server-side)
+
+### Client-side Errors
+With client-side validation, error message will be presented before form submitted. It can happens when the text field gains focus, loses focus as well as when user clicks the action button.
+
+#### Field(s) is empty
+![Image of basic login page](img/message-1.png)
+1. **When to Show**: When user clicks the Action button (Log in/Next), the login form won’t be submitted and error message(s) will show below the empty field(s) if fields are still empty, .
+2. **When to Hide**: If user fill the empty field, the error message will disappear when text field loses focus.
+3. **Recommended Message**:
+  - When the username field is empty, we recommend to show “Enter your username”. “Username” can be replaced by “email” or other words if username is restricted to specific types of words.
+  - When the password field is empty, we recommend to show “Enter your password” if a password is needed.
+
+#### Invalid Characters
+![Image of basic login page](img/message-2.png)
+1. **When to Show**: When user clicks the action button (Log in/Next), the login form can’t be submitted and error message will show (below the username field) if there are invalid characters in username.
+2. **When to Hide**: After user modified the field, the error message will disappear when the field loses focus.
+3. **Recommended Message**:
+	- What characters are invalid determined by the username type: email address, phone number or custom username.
+	- If the username can only be email address and/or phone number, we recommend to show “That doesn’t look like an email address or phone number” when there are invalid characters.
+	- If the username can also be customized, when there are invalid characters, show “Invalid characters”.
+
+#### Caps lock is on
+![Image of basic login page](img/message-3.png)
+1. **When to Show**: When the password field gets focus as well as caps lock is on, an error message will show up to warn users to avoid making mistake.
+2. **When to Hide**: Once the caps lock turns off, the warning message should disappear.
+3. **Recommended Message**: "Caps lock is currently on. This may cause you to type an incorrect password."
+
+### Server-side Errors
+When users submit the form, the entire page is reloaded with indications of validation errors. At the same time, the password field should be cleared due to the security reason. Error messages can perform as inline validations for each field or inline notifications as global messages. Inline Notifications are displayed below the application name and above the input fields. If there are multiple messages, each message appears on its own line, and the area adjusts as needed to fit these messages.
+
+#### Account doesn’t exist/password is wrong
+If the user input a wrong account name which do not exist or if the user input a wrong password, we provide two solutions to show error messages:
+
+1. Directly tell the user that the account doesn’t exist or the password is wrong. Although it is useful and clear for user to easily understand the problem, it’s not safe.
+![Image of basic login page](img/server-1.png)
+ - When username is wrong (doesn’t exist), we recommend to show:
+  - "The account doesn’t exist. Try again."
+  - “The account doesn’t exist. Try again or Sign up for PatternFly.” for the products supporting signing up. The “Sign up for PatternFly” should be a link to help users creating a new account more easier. “PatternFly” can be replaced with other product names.
+ - When password is wrong, we recommend to show “Incorrect password, please try again.”
+
+2. For security reasons, just tell user that the username and the password don’t match.
+![Image of basic login page](img/server-2.png)
+
+#### User input an old password
+If the user input an old password (they may have changed the password recently), we can show an error message alerting them that the password has changed instead of stating “the password is wrong” only.
+
+![Image of basic login page](img/server-3.png)
+
+#### Other Examples of Error Messages
+![Image of basic login page](img/server-4.png)
 
 ## Notifications
+Except for error messages, notifications can also be informational messages. An informational message is triggered if the user is timed out of the application. They will be returned to the login page, which will display an informational message explaining that the session timed out due to inactivity.
 
-[Inline Notifications](http://www.patternfly.org/pattern-library/communication/inline-notifications/#/api) are displayed below the application name and above the input fields when informational, warning, or errors messages are needed. If there are multiple strings, each message appears on its own line, and the area adjusts as needed to fit these messages.
-
-Examples of these messages include the following:
-
-1. **Error Message:** An error is triggered if the user incorrectly types their username or password. In this event, after the information has been submitted, the values entered for the username and other optional fields remains populated however, the value for the password is discarded.
-
-![Image of login error](img/login-03.png)
-
-2. **Warning Message:** A warning message is triggered if the user has the caps lock turned on. Once the caps lock is turned off, the warning should disappear.
-
-![Image of login error](img/login-04.png)
-
-3. **Informational Message:** An informational message is triggered if the user is timed out of the application. They will be returned to the login page, which will display an informational message explaining that the session timed out due to inactivity.
-
-![Image of login error](img/login-05.png)
+![Image of basic login page](img/notification.png)
