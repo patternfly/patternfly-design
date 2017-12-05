@@ -14,14 +14,14 @@ The login page allows the user to gain access to an application by entering thei
 Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [SSO Login](#sso-login) or [Other Flows](#other-flows)
 
 ## Basic Login Page
-![Image of basic login page](img/Basic Login Screen.png)
+![Image of basic login page](img/basic-login-screen.png)
 
 ## Identity First
-![Image of identity first 1](img/Identity First-1.png)
-![Image of identity first 2](img/Identity First-2.png)
+![Image of identity first 1](img/identity-first-1.png)
+![Image of identity first 2](img/identity-first-2.png)
 
 ## Social Login
-![Image of social login](img/Social Account.png)
+![Image of social login](img/social-account.png)
 
 ## SSO Login
 ![Image of sso login](img/SSO-1.png)
@@ -29,4 +29,4 @@ Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first)
 ## Other Flows
 ![Image of authenticator](img/Authenticator.png)
 ![Image of sms](img/SMS.png)
-![Image of backup code](img/Backup Code.png)
+![Image of backup code](img/Backup-Code.png)

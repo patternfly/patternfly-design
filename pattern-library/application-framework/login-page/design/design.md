@@ -4,7 +4,7 @@ Jump to [Login Pages](#login-pages), [Login Pages | Responsive State](#responsiv
 
 ## Login Pages
 
-Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [Other Login Methods](#other-login-methods), or [Single Sign-on (SSO)](#single-sign-on)
+Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [Other Login Methods](#other-login-methods), or [Single Sign-on (SSO)](#single-sign-on-sso)
 
 ### Basic Login Page
 ![Image of basic login page](img/login-page-1.png)
