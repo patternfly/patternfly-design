@@ -56,13 +56,13 @@ This section is talking about how the login pages look on small screens.
 3. Social media buttons should line up in one column.
 
 ## Error Messages
-User input can be validated on the client and on the server. Thus common error conditions can be divided to two aspects. Jump to [Client-side Errors](#client-side) or [Server-side Errors](#server-side)
+User input can be validated on the client and on the server. Thus common error conditions can be divided to two aspects. Jump to [Client-side Errors](#client-side-errors) or [Server-side Errors](#server-side-errors)
 
 ### Client-side Errors
 With client-side validation, error message will be presented before form submitted. It can happens when the text field gains focus, loses focus as well as when user clicks the action button.
 
 #### Field(s) is empty
-![Image of empty fields](img/message-1.png)
+![Image of empty fields](img/Message-1.png)
 1. **When to Show**: When user clicks the Action button (Log in/Next), the login form won’t be submitted and error message(s) will show below the empty field(s) if fields are still empty, .
 2. **When to Hide**: If user fill the empty field, the error message will disappear when text field loses focus.
 3. **Recommended Message**:
