@@ -8,32 +8,32 @@ Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first)
 
 ### Basic Login Page
 ![Image of basic login page](img/login-page-1.png)
-1. **Logo**: The product logo is placed at the top.
+1. **Logotype**: The product logo is placed at the top.
 2. **Description** (optional): Description of the website can be placed here.
 3. **Title**: The title is located at the top of the login card.
 4. **Required Fields**: Username and password are the required fields while additional fields are optional. Some applications may require additional fields such as a specific server or geo-location. When additional fields are required, they can appear underneath the password field. The login card will expand to accommodate the additional fields.
 The additional fields order will be addressed on a case-by-case basis, but they should sit between the “Password field” and the “checkbox”. Try to limit the number of the fields to less than five. Also, you may use progressive disclosure if the field value have dependency on the previous relevant field.
-5.  **Checkbox** (optional): Checkbox is located under the Required fields. For security reasons, we do not recommend allowing users to remember their password. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
-6. **Help Link**: It is a link for users to recover their password.
-7. **Login Button**: The button name is better to be called “Log In”. According to the Terminology and Wording Style Guide, it is better to use a verb phrase (log in) rather than a noun or adjective phrase (login) in terms of button name.
-8. **Sign up**: The page will jump to the sign up flow after clicking the “Sign up” link.
+5.  **Checkbox** (optional): Checkbox is located under the Required fields. It can be labeled varied texts depending on the needs of different applications. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
+6. **Help Link** (optional): It is a link for users to recover their password.
+7. **Login Button**: The button should be labeled "Log In". See the [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/) for more information.
+8. **Sign up** (optional): The page will jump to the sign up flow after clicking the “Sign up” link.
 9. **Language Selector** (optional): The language selector is located under the login card.
 10. **Links**: The links are entrance for users to get information and helps.
 
 ### Identity First
 ![Image of identity first](img/login-page-2.png)
-1. **Username Field**: Username should be the first input and independently validated by server. Some username may not need password. When users click the “Next” Button, the page will  jump to the relevant application directly. In the situation that usernames do not exist, an error message will pop up after user clicking the “Next Button”.
-2. **Next Button**:The button should be called “Next” instead of “Log In”. Because most users still need to input password as a second step.
+1. **Username Field**: Include only a username field as the password will be requested in a separate step.
+2. **Next Button**: Replace "Log In" with "Next" since this will be a two step process. When the user clicks the "Next" button, the software will validate that this user exists and they will then be prompted to enter a password. If this user does not exist, an error message should be returned.
 
 ![Image of identity first](img/login-page-3.png)
-1. **Validated Username**: After successful verification, the username should change to  read-only mode in this page.
+1. **Validated Username**: After successful verification, the username should change to read-only mode in this page.
 2. **Edit**: Users can change username by clicking the edit icon on the far right. After clicking the icon, the card will return to the text field mode as the previous page.
 3. **Password Field**: If needed, users should input password to log in.
-4. **Login Button**: If there are more steps for authentication, the button should be called  “Next” instead of “Log In”.
+4. **Login Button**: If there are more steps for authentication, the button should be called “Next” instead of “Log In”.
 
 ### Social Login
 ![Image of social login](img/login-page-4.png)
-1. **Social Media Buttons**: When button number less than four, all buttons will be displayed in one column. On the contrary, buttons will always be displayed in two columns.
+1. **Social Media Buttons**: When the number of buttons is four or less, display all buttons in one column. Otherwise, use a two-column layout.
 
 ### Other Login Methods
 ![Image of other login methods](img/login-page-5.png)
@@ -43,7 +43,7 @@ The additional fields order will be addressed on a case-by-case basis, but they 
 
 ### Single Sign-on (SSO)
 ![Image of single sign-on](img/SSO.png)
-1. **Logo**: Company logo is located at the top.
+1. **Logotype**: Company logo is located at the top.
 2. **Title**: The title is located at the top of the login card.
 3. **Description**: <Application> is the one user came from. This page will jump back to that application when finishing the login process.
 4. **Supported Services**: All the supported services logo will be displayed at the bottom.
@@ -56,15 +56,17 @@ This section is talking about how the login pages look on small screens.
 3. Social media buttons should line up in one column.
 
 ## Error Messages
-User input can be validated on the client and on the server. Thus common error conditions can be divided to two aspects. Jump to [Client-side Errors](#client-side-errors) or [Server-side Errors](#server-side-errors)
+User input can be validated on the client and on the server. With client-side validation, error message will be presented before form submitted. It could happen when the text field gains focus, loses focus, or when user clicks the action button (without calling backend authenticator). With server-side validation, error message will only be presented when the page is reloaded with the data user submitted.
+
+Jump to [Client-side Errors](#client-side-errors) or [Server-side Errors](#server-side-errors)
 
 ### Client-side Errors
-With client-side validation, error message will be presented before form submitted. It can happens when the text field gains focus, loses focus as well as when user clicks the action button.
+In most cases, client-side validations perform as inline validations for each field. Some common conditions are as follows.
 
 #### Field(s) is empty
 ![Image of empty fields](img/Message-1.png)
-1. **When to Show**: When user clicks the Action button (Log in/Next), the login form won’t be submitted and error message(s) will show below the empty field(s) if fields are still empty, .
-2. **When to Hide**: If user fill the empty field, the error message will disappear when text field loses focus.
+1. **When to Show**: When the user clicks the action button (Log In/Next), the errors must be corrected before the form can be submitted, and an error message will be displayed below any empty field.
+2. **When to Hide**: When the user fills the empty field, the error message will disappear when the field loses focus.
 3. **Recommended Message**:
   - When the username field is empty, we recommend to show “Enter your username”. “Username” can be replaced by “email” or other words if username is restricted to specific types of words.
   - When the password field is empty, we recommend to show “Enter your password” if a password is needed.
