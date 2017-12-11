@@ -98,14 +98,12 @@ If the user input a wrong account name which do not exist or if the user input a
   - "The account doesn’t exist. Try again."
   - “The account doesn’t exist. Try again or Sign up for PatternFly.” for the products supporting signing up. The “Sign up for PatternFly” should be a link to help users creating a new account more easier. “PatternFly” can be replaced with other product names.
  - When password is wrong, we recommend to show “Incorrect password, please try again.”
+If the user input an old password (they may have changed the password recently), we can show an error message alerting them that the password has changed instead of stating “the password is wrong” only.
+
+ ![Image of old password error](img/Server-3.png)
 
 2. For security reasons, just tell user that the username and the password don’t match.
 ![Image of account or password errors](img/Server-2.png)
-
-#### User input an old password
-If the user input an old password (they may have changed the password recently), we can show an error message alerting them that the password has changed instead of stating “the password is wrong” only.
-
-![Image of old password error](img/Server-3.png)
 
 #### Other Examples of Error Messages
 ![Image of other error messages](img/Server-4.png)
