@@ -4,8 +4,6 @@ Jump to [Login Pages](#login-pages), [Login Pages | Responsive State](#responsiv
 
 ## Login Pages
 
-Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [Other Login Methods](#other-login-methods), or [Single Sign-on (SSO)](#single-sign-on-sso)
-
 ### Basic Login Page
 ![Image of basic login page](img/login-page-1.png)
 1. **Logotype**: The product logo is placed at the top.
@@ -20,33 +18,9 @@ The additional fields order will be addressed on a case-by-case basis, but they 
 9. **Language Selector** (optional): The language selector is located under the login card.
 10. **Links**: The links are entrance for users to get information and helps.
 
-### Identity First
-![Image of identity first](img/login-page-2.png)
-1. **Username Field**: Include only a username field as the password will be requested in a separate step.
-2. **Next Button**: Replace "Log In" with "Next" since this will be a two step process. When the user clicks the "Next" button, the software will validate that this user exists and they will then be prompted to enter a password. If this user does not exist, an error message should be returned.
-
-![Image of identity first](img/login-page-3.png)
-1. **Validated Username**: After successful verification, the username should change to read-only mode in this page.
-2. **Edit**: Users can change username by clicking the edit icon on the far right. After clicking the icon, the card will return to the text field mode as the previous page.
-3. **Password Field**: If needed, users should input password to log in.
-4. **Login Button**: If there are more steps for authentication, the button should be called “Next” instead of “Log In”.
-
 ### Social Login
 ![Image of social login](img/login-page-4.png)
 1. **Social Media Buttons**: When the number of buttons is four or less, display all buttons in one column. Otherwise, use a two-column layout.
-
-### Other Login Methods
-![Image of other login methods](img/login-page-5.png)
-1. **Authentication Code**: User can bind the authenticator which installed on their mobile phones with their accounts in registration process. If so, they can login with the code that authenticators provide.
-2. **SMS**: Users can bind their phone number (or backup phone numbers) with their accounts in registration process. If so, they can login with SMS.
-3. **Backup Code**: A backup code (random strings) can be provided to users in registration process. If so, they can login with backup code.
-
-### Single Sign-on (SSO)
-![Image of single sign-on](img/SSO.png)
-1. **Logotype**: Company logo is located at the top.
-2. **Title**: The title is located at the top of the login card.
-3. **Description**: <Application> is the one user came from. This page will jump back to that application when finishing the login process.
-4. **Supported Services**: All the supported services logo will be displayed at the bottom.
 
 ## Login Pages | Responsive State
 This section is talking about how the login pages look on small screens.

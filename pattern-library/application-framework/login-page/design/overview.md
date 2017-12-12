@@ -1,6 +1,8 @@
 # Login Page
 
-The login page allows the user to gain access to an application by entering their username and password. Usage scenarios related to the login page include:
+The login page allows the user to gain access to an application by entering their username and password. Except for the common login method, [Single Sign-On](https://www.patternfly.org/pattern-library/application-framework/single-sign-on/#) and [Identity First Login](https://www.patternfly.org/pattern-library/application-framework/identity-first/#) can also be used.
+
+Usage scenarios related to the login page include:
 
 * A user navigates to an application and is presented with a login page as a way to gain access to the application. There are two possible results:
   * Authentication is successful and the user is directed to the application landing page.
@@ -11,35 +13,12 @@ The login page allows the user to gain access to an application by entering thei
   * The user could answer a security question.
   * The user could get a message explaining that they have to contact a specific person.
 
-Jump to [Basic Login Page](#basic-login-page), [Identity First](#identity-first), [Social Login](#social-login), [SSO Login](#sso-login) or [Other Flows](#other-flows)
-
 ## Basic Login Page
 This is a general layout of a common login screen. A user can input the username and the password together to log in.
 
 ![Image of basic login page](img/basic-login-screen.png)
 
-## Identity First
-When identity first, a user will input the username and password separately and may not be required a password when other authentication mechanisms are used (for example fingerprint, two-way ssl, etc.). Also, it allows automatically redirecting to an external IdP when the user is linked to an external IdP.
-
-![Image of identity first 1](img/identity-first-1.png)
-![Image of identity first 2](img/identity-first-2.png)
-
 ## Social Login
 Social login will allow a user to sign in with their social networks or IdPs accounts.
 
 ![Image of social login](img/social-account.png)
-
-## SSO Login
-SSO (single sign-on) will allow a user to sign on once and access multiple applications within the same organization.
-
-![Image of sso login](img/SSO-1.png)
-
-## Other Flows
-In addition to the common login flows, there are some other steps can be added to the login process.
-
-### Authenticator Login
-![Image of authenticator](img/Authenticator.png)
-### SMS Login
-![Image of sms](img/SMS.png)
-### Backup Code Login
-![Image of backup code](img/Backup-Code.png)
