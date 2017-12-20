@@ -9,25 +9,26 @@ Jump to [Login Pages](#login-pages), [Login Pages | Responsive State](#responsiv
 1. **Logotype**: The product logo is placed at the top.
 2. **Description** (optional): Description of the website can be placed here.
 3. **Title**: The title is located at the top of the login card.
-4. **Required Fields**: Username and password are the required fields while additional fields are optional. Some applications may require additional fields such as a specific server or geo-location. When additional fields are required, they can appear underneath the password field. The login card will expand to accommodate the additional fields.
+4. **Language Selector** (optional): The language selector is located under the login card.
+5. **Required Fields**: Username and password are the required fields while additional fields are optional. Some applications may require additional fields such as a specific server or geo-location. When additional fields are required, they can appear underneath the password field. The login card will expand to accommodate the additional fields.
 The additional fields order will be addressed on a case-by-case basis, but they should sit between the “Password field” and the “checkbox”. Try to limit the number of the fields to less than five. Also, you may use progressive disclosure if the field value have dependency on the previous relevant field.
-5.  **Checkbox** (optional): Checkbox is located under the Required fields. It can be labeled varied texts depending on the needs of different applications. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
-6. **Help Link** (optional): It is a link for users to recover their password.
-7. **Login Button**: The button should be labeled "Log In". See the [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/) for more information.
-8. **Sign up** (optional): The page will jump to the sign up flow after clicking the “Sign up” link.
-9. **Language Selector** (optional): The language selector is located under the login card.
+6.  **Checkbox** (optional): Checkbox is located under the Required fields. It can be labeled varied texts depending on the needs of different applications. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
+7. **Help Link** (optional): It is a link for users to recover their password.
+8. **Login Button**: The button should be labeled "Log In". See the [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/) for more information.
+9. **Sign up** (optional): The page will jump to the sign up flow after clicking the “Sign up” link.
 10. **Links**: The links are entrance for users to get information and helps.
 
 ### Social Login
 ![Image of social login](img/login-page-4.png)
 1. **Social Media Buttons**: When the number of buttons is four or less, display all buttons in one column. Otherwise, use a two-column layout.
+2. **More Button**: When there are more than 8 buttons, just show first 7 of them. User can click the More Button to expand the list and view all the buttons.
 
 ## Login Pages | Responsive State
 This section is talking about how the login pages look on small screens.
+
 ![Image of responsive state](img/responsive.png)
 1. When the screen getting smaller, the help link will automatically moved to the next line if there isn’t enough space for checkbox and help link placed in the same line.
-2. When the screen getting smaller,  the links will automatically moved to the next line if there isn’t enough space for language selector and other links.
-3. Social media buttons should line up in one column.
+2. Social media buttons follow the same rule as in desktop size.
 
 ## Error Messages
 User input can be validated on the client and on the server. With client-side validation, error message will be presented before form submitted. It could happen when the text field gains focus, loses focus, or when user clicks the action button (without calling backend authenticator). With server-side validation, error message will only be presented when the page is reloaded with the data user submitted.
