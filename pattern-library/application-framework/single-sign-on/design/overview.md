@@ -1,7 +1,7 @@
 # Single Sign-On (SSO)
 
-Jump to [Login Page](http://www.patternfly.org/pattern-library/application-framework/login-page/) or [Identity First Login](http://www.patternfly.org/pattern-library/application-framework/identity-first-login/)
-
-SSO (single sign-on) will allow a user to sign on once and access multiple applications within the same organization.
+SSO (single sign-on) will allow a user to sign on once and access multiple applications within the same organization. For additional login methods, see:
+- [Login Page](https://www.patternfly.org/pattern-library/application-framework/login-page/#)
+- [Multi-Factor Login](https://www.patternfly.org/pattern-library/application-framework/multi-factor-login/#)
 
 ![Image of sso login](img/SSO-1.png)
