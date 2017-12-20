@@ -84,6 +84,6 @@ If the user input an old password (they may have changed the password recently),
 ![Image of other error messages](img/Server-4.png)
 
 ## Notifications
-Except for error messages, notifications can also be informational messages. An informational message is triggered if the user is timed out of the application. They will be returned to the login page, which will display an informational message explaining that the session timed out due to inactivity.
+Except for error messages, notifications can also be informational messages. An informational message can be triggered by system level events or triggered if the user is timed out of the application.
 
 ![Image of notifications](img/Notification.png)
