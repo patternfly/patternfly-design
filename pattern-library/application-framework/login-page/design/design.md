@@ -84,6 +84,6 @@ If the user input a wrong account name which do not exist or if the user input a
 ![Image of other error messages](img/Server-4.png)
 
 ## Notifications
-Except for error messages, notifications can also be informational messages. An informational message can be triggered by system level events or triggered if the user is timed out of the application.
+Except for error messages, notifications can also be informational messages. An informational message can be triggered by system level events or triggered if the user is timed out of the application. The user can dismiss the notification by clicking on the close icon.
 
 ![Image of notifications](img/Notification.png)
