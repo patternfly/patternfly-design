@@ -1,4 +1,4 @@
-# Identity First Login
+# Multi-Factor Login
 
 ## Identity First
 ![Image of identity first](img/login-page-2.png)
