@@ -1,7 +1,7 @@
 # Login Page
 
 The login page allows a user to gain access to an application by entering their username and password or by authenticating using a social media login. For additional login methods, see:
-- [Single Sign-On](https://www.patternfly.org/pattern-library/application-framework/single-sign-on/#) 
+- [Single Sign-On](https://www.patternfly.org/pattern-library/application-framework/single-sign-on/#)
 - [Identity First Login](https://www.patternfly.org/pattern-library/application-framework/identity-first/#)
 
 Usage scenarios related to the login page include:
@@ -22,5 +22,18 @@ This is a general layout of a common login screen. A user can input the username
 
 ## Social Login
 Social login will allow a user to sign in with their social networks or IdPs accounts.
+
+
+Please refer to branding guidelines when using logos for social login page. The following are examples of some of the more frequently used but you may use others as your needs require.
+
+- [Facebook brand guidelines](https://en.facebookbrand.com/guidelines/brand)
+- [Twitter brand guidelines](https://about.twitter.com/en_us/company/brand-resources.html)
+- [Github brand guidelines](https://github.com/logos)
+- [Stack Exchange brand guidelines](https://stackexchange.com/legal/trademark-guidance)
+- [Google brand guidelines](https://developers.google.com/identity/branding-guidelines)
+- [LinkedIn brand guidelines](https://brand.linkedin.com)
+- [OpenID brand guidelines](http://openid.net/add-openid/logos/)
+- [Instagram brand guidelines](https://en.instagram-brand.com)
+
 
 ![Image of social login](img/social-account.png)
