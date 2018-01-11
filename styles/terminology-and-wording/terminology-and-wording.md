@@ -120,18 +120,25 @@ Links that direct users to an external site should be followed by the [fa-extern
 
 ## Punctuation
 
-| Symbol | Usage |
-| ------ | ----- |
-| Ampersands | Avoid using ampersands.  Use “and” instead. |
-| Colon | Use sentence style capitalization for introductory text that appears above a control. A colon follows the introductory text. |
-| Comma | Use serial commas. A serial comma is the comma before the “and” in a series of three or more items: “Item 1, item 2, and item 3.”Taken from Red Hat Word Nerds. |
-| Currency | For currencies that use the symbol $ alone, modify with the first two letters of the ISO code. Eg: US$1,500 (United States), AU$1,500 (Australia), HK$1,500 (Hong Kong), CA$1,500 (Canada). For other currencies, use the national currency symbol whenever possible (£1,500 = British pound; €1,500 = Euro, ¥1,500 = Japanese Yen, etc.). Generally, we do not provide currency conversions.Taken from Red Hat Corporate Style Guide.|
-| Ellipses | Use an ellipsis (...) to indicate that text is truncated.|
-| Exclamation point | Avoid using exclamation points, except when referring to a command, such as the bang ( ! ) command.|
-| Hyphenation | Hyphenate when needed for clarity. Words that begin with prefixes are usually not hyphenated.  Prefixes can include "multi," "non," "sub," "co," "semi," "pre," "re," etc. <br>* **Exceptions:** When not hyphenating makes it unclear. For example: He recovered his health. He re-covered the leaky roof.* (AP)You will usually hyphenate:<ul><li> Complex adjectives (compound modifiers). This is when two adjectives work together to modify an object. The hyphen is used when the first adjective modifies the second adjective. Examples: cloud-based solutions, right-side paralysis, system-wide menu.  <br>* **Exception:** We never hyphenate "open source," even when used as a complex adjective.* </li><li>When the prefix ends in a vowel and the word that follows begins with the same vowel. Examples: semi-independent, pre-emptive. Exceptions: cooperate, coordinate</li><li>Capitalized words with a prefix.  Examples:  un-American, non-British</li><li>Double prefixes. Examples: sub-subparagraph, re-sublet</li></ul> Do not hyphenate words with the prefix “non” unless the dictionary says otherwise: nonaddictive, nonabrasive, nonalcoholic. Taken from Red Hat Corporate Style Guide |
-| Percent | In text, use the word percent. For example: 10 percent to 20 percent. In tables, use the percent symbol. For example: 10% to 20% |
-| Question mark | Place a question mark at the end of a question. For example: Are you sure you want to delete this file? |
-{:.table .table-striped .table-bordered}
+* **Ampersand:** Avoid using ampersands.  Use "and" instead.
+* **Colon:** Use sentence style capitalization for introductory text that appears above a control. A colon follows the introductory text.
+* **Comma:** Use serial commas. A serial comma is the comma before the "and" in a series of three or more items (e.g., Item 1, item 2, and item 3). Taken from Red Hat Word Nerds.
+* **Currency:** For currencies that use the symbol "$" alone, modify with the first two letters of the ISO code (e.g., US$1,500 (United States), AU$1,500 (Australia), HK$1,500 (Hong Kong), CA$1,500 (Canada)). For other currencies, use the national currency symbol whenever possible (e.g., £1,500 = British pound, €1,500 = Euro, ¥1,500 = Japanese Yen, etc.). Generally, we do not provide currency conversions. Taken from Red Hat Corporate Style Guide.
+* **Ellipses:** Use an ellipsis (...) to indicate that text is truncated.
+* **Exclamation Point:** Avoid using exclamation points except when referring to a command (e.g., the "bang" (!) command).
+* **Hyphen:** Hyphenate when needed for clarity.
+  * You will usually hyphenate:
+    * Complex adjectives (compound modifiers). This is when two adjectives work together to modify an object. The hyphen is used when the first adjective modifies the second adjective (e.g, cloud-based solutions, right-side paralysis, system-wide menu).
+      * **Exception:** We never hyphenate "open source," even when used as a complex adjective.
+    * When the prefix ends in a vowel and the word that follows begins with the same vowel (i.e., semi-independent, pre-emptive). 
+      * **Exceptions:** Cooperate and coordinate.
+    * Capitalized words with a prefix (e.g., un-American, non-British).
+    * Double prefixes (e.g., sub-subparagraph, re-sublet).
+  * You will usually not hyphenate:
+    * Words that begin with prefixes. Prefixes can include "multi," "non," "sub," "co," "semi," "pre," "re," etc.
+      * **Exceptions:** When not hyphenating makes it unclear (e.g., "He re-covered the leaky roof."). When using words that begin with "non," when the dictionary says otherwise (e.g., nonaddictive, nonabrasive, nonalcoholic).
+* **Percent:** In text, use the word "percent" (e.g., 10 percent to 20 percent). In tables, use the percent symbol (e.g., 10% to 20%).
+* **Question Mark:** Place a question mark at the end of a question (e.g., "Are you sure you want to delete this file?").
 
 ## Truncation
 
