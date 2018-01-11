@@ -25,8 +25,7 @@
 | Change | Not recommended. See Edit | | |
 | Create or Create [Object] | Create something new | Delete | If what you are creating is not readily apparent from the context, consider adding a noun to the button label (e.g. Create User). "New" or "Add" are not recommended for this use case. See "Add" for usage guidelines. |
 | Delete | Removes the selected items. | Create | Provide a mechanism to delete an object. "Erase" and "Remove" are not recommended for this use case. See Remove for usage guidelines. |
-| Edit | A way to make changes to an object such as a file, configuration, policy, etc.). Also see Rename. | | Use Edit to provide a facility for making changes to an object the user selects. "Modify" and "Change" are not recommended for this use case. |
-| Change | Not recommended. See Edit | | |
+| Edit | A way to make changes to an object such as a file, configuration, policy, etc. | | Use Edit to provide a facility for making changes to an object the user selects. "Modify" and "Change" are not recommended for this use case. |
 | New | Not recommended. See Add or Create | | |
 | Remove or Remove [Object] | Remove an item from a list, group, view, or other  container element without deleting the item. Also see  Add and Delete. | Add | If what you are removing is not readily apparent from the context, consider adding a noun to the button label (e.g, Remove File, Remove User). |
 {:.table .table-striped .table-bordered}
@@ -43,11 +42,11 @@
 
 | Abbreviation  | Usage |
 | ------------- | ----- |
-| e.g. and i.e. | Use sparingly. e.g. means “for example.” i.e. means “in other words.” Add commas after each (e.g.,).Adapted from Red Hat Corporate Style Guide |
-| KVM           | kernel-based virtual machine |
-| sysadmin      | Avoid using abbreviations like "sysadmin" and "SysAdmin;" these are too informal. "System" should be singular (i.e., not "systems administrator"), because it can include both a single system and multiple systems, similar to "database administrator" or "brain surgeon," who work on more than one database and brain, respectively.Taken from Red Hat Corporate Style Guide.|
+| e.g. and i.e. | Use sparingly. e.g. means “for example.” i.e. means “in other words.” Add commas after each (e.g.,). Adapted from Red Hat Corporate Style Guide |
+| KVM           | Kernel-based virtual machine |
+| sysadmin      | Avoid using abbreviations like "sysadmin" and "SysAdmin;" these are too informal. "System" should be singular (i.e., not "systems administrator"), because it can include both a single system and multiple systems, similar to "database administrator" or "brain surgeon," who work on more than one database and brain, respectively. Taken from Red Hat Corporate Style Guide.|
 | U.S.          | As a noun, use "United States" unless there are space constraints. As an adjective use "U.S." (e.g., U.S. soldier). As part of an organization, use "U.S." Taken from Red Hat Corporate Style Guide. |
-| VM            | virtual machine.  OK to abbreviate as long as you've spelled it out once in first occurrence and as long as "VM" won't be confused with other terms that share that acronym.Taken from Red Hat Corporate Style Guide. |
+| VM            | Virtual machine.  OK to abbreviate as long as you've spelled it out once in first occurrence and as long as "VM" won't be confused with other terms that share that acronym. Taken from Red Hat Corporate Style Guide. |
 {:.table .table-striped .table-bordered}
 
 ### Abbreviations for 12 hour Time System
@@ -114,7 +113,7 @@ Links that direct users to an external site should be followed by the [fa-extern
 
 - The link should be included in a complete sentence, use punctuation and sentence style capitalization.
 - Names or titles of a document or page should use header style capitalization.
-- The name of the document should should use link text styling to indicate that it is clickable. Check out an example of the link text under Styles Samples on the Typography page.
+- The name of the document should should use link text styling to indicate that it is clickable. Check out an example of the link text under Styles Samples on the [Typography](http://www.patternfly.org/styles/typography/) page.
 - Some recommendations for wording include:
     - View [Document Link] for more information.
     - View ‘X’ in [Document Link] for more information.
