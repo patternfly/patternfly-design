@@ -15,5 +15,8 @@
 ## Identity First
 User can also be authenticated step by step when login with SSO. The login process are similar to [Multi-Factor Login](https://www.patternfly.org/pattern-library/application-framework/multi-factor-login/#).
 
+#### Step 1 ####
 ![Image of single sign-on](img/SSO-4.png)
+
+#### Step 2 ####
 ![Image of single sign-on](img/SSO-5.png)

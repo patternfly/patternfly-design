@@ -6,7 +6,7 @@ The Launcher Menu can be used without the Launcher Home, but the Launcher Home i
 
 The Launcher pattern is NOT meant to be an alternative to displaying [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/#_) or [Horizontal Navigation](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#_).
 
-The Launcher Menu should be accessible from the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) using the Launcher icon detailed in the Design tab.
+The Launcher Menu should be accessible from the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) using the Launcher icon detailed in the [Design tab](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design).
 
 ![Application Launcher Dropdown](img/ApplicationSelector-02.png)
 
