@@ -1,4 +1,4 @@
-Jump to [Masthead Design](#masthead-design), [Single-Level Menu Bar](#single-level-menu-bar), [Two-Level Menu Bar](#two-level-menu-bar), or [Menu Bar with Drop-Downs](#menu-bar-with-drop-downs).
+Jump to [Masthead Design](#masthead-design), [Single-Level Menu Bar](#single-level-menu-bar), [Two-Level Menu Bar](#two-level-menu-bar), or [Menu Bar with Dropdowns](#menu-bar-with-drop-downs).
 
 ## Masthead Design
 There are two options for the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) design, one short option to save space and one tall option to accommodate for larger product logos. The short masthead option is recommended when using horizontal navigation.
@@ -22,12 +22,12 @@ When a second level of persistent navigation is needed, add a second tier of lin
 2. **Secondary Menu Item On-Hover**: Hover state provides feedback that menu items are active.
 3. **Primary Menu Item On Hover**: When the user hovers over a new primary menu item, the contents of the secondary menu will update to display secondary menu options associated with this item.
 
-## Menu Bar with Drop-Downs
+## Menu Bar with Dropdowns
 
-![Horizontal Navbar with Drop-Down](img/design-drop-downs-navigation@2x.png)
+![Horizontal Navbar with Dropdown](img/design-drop-downs-navigation@2x.png)
 
-Add a drop-down menu to a single menu bar to expose a vertical list of sub-categories that the user can select from. Note that when drop-down menus are used, all categories are not required to have secondary navigation. The drop-down menus only support up to two levels of navigation. If you need the tertiary navigation, [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) is the preferred choice over horizontal navigation.
+Add a dropdown menu to a single menu bar to expose a vertical list of sub-categories that the user can select from. Note that when dropdown menus are used, all categories are not required to have secondary navigation. The dropdown menus only support up to two levels of navigation. If you need the tertiary navigation, [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) is the preferred choice over horizontal navigation.
 
-1. **Primary Menu Item**: Any primary item that supports a secondary level of navigation will add a down-caret icon to indicate that a drop-down menu exists. The primary item will display its selected state when any secondary page within that branch is selected. This will provide the user feedback about which primary section they are working in. When an application is initially opened, the first secondary page within the first section will be opened, by default.
-2. **Drop-Down Menu**: Single-clicking a primary item opens the drop down. Clicking anywhere outside of the menu will dismiss it.
-3. **Drop-Down Menu On Hover and Selected**: The drop-down menu items have hover and selected states. Hover state provides feedback that menu items are active. Clicking this item navigates to a new page and dismisses the menu.
+1. **Primary Menu Item**: Any primary item that supports a secondary level of navigation will add a down-caret icon to indicate that a dropdown menu exists. The primary item will display its selected state when any secondary page within that branch is selected. This will provide the user feedback about which primary section they are working in. When an application is initially opened, the first secondary page within the first section will be opened, by default.
+2. **Dropdown Menu**: Single-clicking a primary item opens the dropdown. Clicking anywhere outside of the menu will dismiss it.
+3. **Dropdown Menu On Hover and Selected**: The dropdown menu items have hover and selected states. Hover state provides feedback that menu items are active. Clicking this item navigates to a new page and dismisses the menu.
