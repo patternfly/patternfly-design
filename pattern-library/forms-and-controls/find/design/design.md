@@ -4,7 +4,7 @@
 
 ![Find field](img/find-callout.png)
 
-1. **Icon:** Clicking on the icon triggers the entire Find tool to drop down.
+1. **Icon:** Clicking on the icon triggers the entire Find tool to dropdown.
 
 1. **Text Entry Field:** The user’s query is entered here. When possible, results should be updated as the user types, or after they press the enter key.
 
@@ -12,7 +12,7 @@
 
 1. **Previous and Next Result:** These buttons change focus to the previous or next result.
 
-1. **Close:** Dismisses the Find drop down and clears all shaded results.
+1. **Close:** Dismisses the Find dropdown and clears all shaded results.
 
 ## Find Results
 

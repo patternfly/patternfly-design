@@ -37,7 +37,7 @@
 
 ![Edit and Delete](img/Commenting_03.png)
 
-1. **Menu commands:** The kabob menu will house the commands for the comment, such as, Edit and Delete.
+1. **Menu commands:** The kebab menu will house the commands for the comment, such as, Edit and Delete.
 2. **Delete command:** Selecting the Delete command prompts the user with a confirmation
 dialog. Selecting the Edit command, will place the comment into and editing mode.
 3. **Edit a comment:** When a Comment is in Edit mode, the text field will highlight and become an in - line editable area. The cursor will blink and have focus at the end of the current string of text. There will be Save and Cancel buttons.
@@ -47,7 +47,7 @@ dialog. Selecting the Edit command, will place the comment into and editing mode
 
 ![Delete Comment Dialog](img/Commenting_04.png)
 
-1. **Displays when:** Delete dialog displays, after a the Delete command has been selected from the kabob menu on a comment.
+1. **Displays when:** Delete dialog displays, after a the Delete command has been selected from the kebab menu on a comment.
 2. **Cancel actions::** Cancel button and “X” both close the dialog and dismiss any changes.
 3. **Delete actions:** Delete is the default command
 4. **Keyboard commands:** The Esc key will also dismiss the action. The Return key will accept the Delete action.

@@ -27,7 +27,7 @@ Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notifi
   - This link may be hidden as needed.
 8. **Badge:** A blue badge will appear in the top right corner of the bell icon when new/unread notifications are present.
 9. **Close:** A close icon should be shown in the top right corner of the drawer, providing another method for closing the drawer.
-10. **Row Actions:** Clicking on the [Kabob](https://www.patternfly.org/pattern-library/widgets/#kebabs) menu will reveal a drop down containing actions for that item.
+10. **Row Actions:** Clicking on the [Kebab](https://www.patternfly.org/pattern-library/widgets/#kebabs) menu will reveal a dropdown containing actions for that item.
 11. **Infinite Scroll:** Infinite scroll reduces need to identify time range on accordion tab. Allows for free-range historical search of notifications.
 
 ## Expand Behavior | Optional

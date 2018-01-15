@@ -16,4 +16,4 @@ This pattern includes three examples:
 ![Image of multi level conditional fields](img/progressive-disclosure-example2.png)
 
 ### Conditional Fields with Dropdown Menu <a id="multi_level"></a>
-![Image of conditional fields with drop-down menu](img/progressive-disclosure-example3.png)
+![Image of conditional fields with dropdown menu](img/progressive-disclosure-example3.png)
