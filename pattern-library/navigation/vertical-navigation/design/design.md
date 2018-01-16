@@ -1,27 +1,12 @@
-Jump to [Masthead Design](#masthead-design), [Primary Navigation](#primary-navigation), [Primary with Secondary Navigation](#primary-with-secondary-navigation), [Primary with Fly Out Secondary Navigation](#primary-with-fly-out-secondary-navigation), [Primary with Tertiary Navigation](#primary-with-tertiary-navigation), or [Responsive States](#responsive-states)
-
-## Masthead Design
-
-There are two options for the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) design, one short option to save space and one tall option to accommodate for larger product logos. The tall masthead option is recommended when using vertical navigation.
-
-![masthead_vertical_callout](img/masthead_vertical_callout.png)
-
-1. **Branding**: Product icon can also be used in addition to the burger bar OR as a standalone icon.
-2. **Burger Bar**: If necessary, the burger bar icon can be used within the masthead. The burger bar acts as a toggle to display or hide the vertical navigation text labels.
-  - By default, the vertical navigation displays both icons and text labels.
-  - When the burger bar is selected, the navigation text labels disappear, and only the icons are displayed. The vertical navigation is then horizontally condensed, and more screen real estate is given to the main screen content.
-3. **Logo Area**: The logo area contains the application product name image file, in the form of a sized SVG graphic.
-4. **Utility Items**:
-  - The utility items are vertically centered and right-aligned within the masthead when there is enough horizontal room to contain them.
-  - If there is not enough space for them to appear within the masthead, please refer to [Primary Navigation | Responsive State](#primary-navigation-|-responsive-state) for new utility items location.
-
+Jump to [Primary Navigation](#primary-navigation), [Primary with Secondary Navigation](#primary-with-secondary-navigation), [Primary with Fly Out Secondary Navigation](#primary-with-fly-out-secondary-navigation), [Primary with Tertiary Navigation](#primary-with-tertiary-navigation), or [Responsive States](#responsive-states)
 
 ## Primary Navigation
 ![navigation-primary-callout](img/navigation-primary-callout.png)
 
-1. **Primary Navigation Icons**(optional): When the primary areas of the UI are easily represented by icons, they may be used in the primary navigation.
-2. **Selection**: A selected primary navigation item is highlighted and includes a vertical blue line decorator.
+1. **Masthead:** See the   [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) pattern for more details.
+2. **Primary Navigation Icons** (optional): When the primary areas of the UI are easily represented by icons, they may be used in the primary navigation.
 3. **Hover**: On hover, the primary navigation item is highlighted.
+4. **Selection**: A selected primary navigation item is highlighted and includes a vertical blue line decorator.
 
 ## Primary with Secondary Navigation
 Secondary navigation is non-persistent, appearing on hover. The secondary navigation is shown in a second column that appears to the right. (See [Secondary Navigation | Responsive State](#secondary-navigation-|-responsive-state) for how the secondary navigation is displayed on small screens.)
