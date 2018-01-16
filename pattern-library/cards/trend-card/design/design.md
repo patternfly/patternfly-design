@@ -9,8 +9,11 @@
 
   1. **Actual Value or Percentage:**
     Shows the current value or percentage. The position may vary dependent on usage. Placement options for the actual value include:
+
       - Above the sparkline
+
       - Left of the sparkline
+
       - Right of the sparkline
 
   1. **Total Value** (optional)**:**
@@ -25,16 +28,16 @@
   1. **Tooltip:**
     Use a tooltip on hover to display additional information about exact points on the sparkline (e.g. values and/or percentages). A vertical line and marker helps to accentuate the hover point.
 
-  1. **Time Frame** (optional)**:**
-    The time frame is indicated by placing a label on one of the following areas:
-      - Under the title
-      - Under the sparkline
-      - In a [time frame filter](https://www.patternfly.org/pattern-library/dashboard/dashboard-card/#example-overview-1)
+  1. **Time Frame** (optional)**:** The time frame on a card is optional since there could be a single instance of the time frame label or time frame filter that applies to all cards within a single view. The time frame is indicated by placing a label on one of the following areas:
 
-    The time frame on a card is optional since there could be a single instance of the time frame label or time frame filter that applies to all cards within a single view.
+      - Under the title
+
+      - Under the sparkline
+      
+      - In a [Time Frame Filter](http://www.patternfly.org/pattern-library/cards/base-card/#/design#time-frame-filter-optional)
 
   1. **Actions Panel** (optional)**:**
-    See [actions panel](https://www.patternfly.org/pattern-library/dashboard/dashboard-card/#example-overview-2) under the Dashboard Cards pattern for more details.
+    See [Actions Panel](http://www.patternfly.org/pattern-library/cards/base-card/#/design#actions-panel-optional) under the Cards pattern for more details.
 
 ## Card with Multiple Trends
 

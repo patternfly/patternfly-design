@@ -17,14 +17,14 @@
 
 There are two options for where the time frame filter may be placed:
 
-1. if there is a card title, the filter should be displayed on the right of the title panel.
-1. if there is an action panel, the filter can be displayed on the right of the action panel.
+1. If there is a card title, the filter should be displayed on the right of the title panel.
+1. If there is an action panel, the filter can be displayed on the right of the action panel.
 
 ## Actions Panel (optional)
 ![Image of card actions panel](img/card-actionspanel.png)
 
 1. **Actions Panel** (optional)**:** Include an actions panel at the bottom of the card if there is a primary action that you would like the user to quickly and easily be able to access from the card view.
-1. **Actions Icon** (optional)**:** Include dan associated icon with the action button if applicable.
+1. **Actions Icon** (optional)**:** Include an associated icon with the action button if applicable.
 1. **Flat Actions Button** (optional)**:** Within an actions panel you should have an action represented as a flat button on the left.
 
 ## Loading
