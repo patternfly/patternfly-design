@@ -12,7 +12,7 @@ Patterns Available:
 # Pattern Name Goes Here
 
 ## Pattern Variation 1
-![Title of image](img/image-name-goes-here.jpg)
+![Title of image 3](img/image-name-goes-here.jpg)
 
   1. **Interaction Description Label One:**
   Content to include here are:
@@ -24,7 +24,7 @@ Patterns Available:
 ## Pattern Variation 2
 (this is optional and only applies if you have more than one design solution)
 
-![Title of image 2](img/image-name-goes-here-2.jpg)
+![Title of image 4](img/image-name-goes-here-2.jpg)
 
 1. **Description Label One:**  
 Content to include here are:
