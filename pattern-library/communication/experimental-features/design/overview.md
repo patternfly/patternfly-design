@@ -1,6 +1,6 @@
 # Experimental Features
 
-The goal of the experimental features pattern is to provide a notice to the user that they are entering an area of the application that may not be finished and is not considered to be the final release. Experimental Features are often items that, while still in progress, are released for use in order to collect information from users, as well as experiment with different patterns, interactions, visuals and development methods. An experimental feature flag is especially useful when you wish to test out alpha or beta features in a production environment, with real users.
+The goal of the experimental features pattern is to provide a notice to the user that they are entering an area of the application that may not be finished and is not considered to be the final release. Experimental Features are often items that, while still in progress, are released for use in order to collect information from users, as well as experiment with different patterns, interactions, visuals, and development methods. An experimental feature flag is especially useful when you wish to test out alpha or beta features in a production environment with real users.
 
 This pattern should NOT be used when:
 

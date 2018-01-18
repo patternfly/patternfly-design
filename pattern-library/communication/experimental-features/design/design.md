@@ -17,9 +17,9 @@
 ![Experimental Feature in context](img/experimental-feature-in-context-design.png)
 
 1. **Placement:** The experimental feature bar and border are placed around the content of the screen, even after the user has activated the particular experimental feature. It is designed to clearly delineate the differences between an experimental and non-experimental feature.
-    - Any navigational items are still displayed, so that a user can leave the experimental features screen without having the make a decision on accepting the agreements.
+    - Any navigational items are still displayed so that a user can leave the experimental features screen without having to accept the terms agreement.
 
-## Experiment Features Action Bar
+## Experimental Features Action Bar
 
 ![Experimental Feature in context](img/experimental-feature-bar-design.png)
 
@@ -29,6 +29,6 @@ The Action Bar is made up of two action items: "Got it!" and "More info".
 
 1. **Got it!:** The "Got it!" text is a button link that is used to minimize the action bar. If you always want the bar to be displayed with the "This feature is experimental" text, you can remove the "Got It!" button and action. This should not be used in place of the term acceptance.
 
-2. **More Info:** The "More info" link is utilized to see additional information on the experimental feature that the user is attempting to use. When the bar has been minimized, the flask button, in the upper right will remain visible. This will allow the user to access more information on the experimental feature (if applicable), at any time during the use of the feature. Alternatively, this can just remain a static visual element if there is no further information to link the user to.
+2. **More Info:** The "More info" link is utilized to see additional information on the experimental feature that the user is attempting to use. When the bar has been minimized, the flask button in the upper right will remain visible. This will allow the user to access more information on the experimental feature (if applicable), at any time during the use of the feature. Alternatively, this can just remain a static visual element if there is no further information to link the user to.
   - The default behavior should be that clicking on "More Info" would bring you to another page, explaining the experimental feature.
   - Optional: Add a tooltip to the "More Info" flask icon to remind the user of what they are clicking on.
