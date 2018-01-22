@@ -2,7 +2,7 @@ It is recommended to use horizontal navigation when your application requires gl
 The horizontal navigation pattern supports up to two levels of navigation( Primary and Secondary).
 
 * **Primary level navigation** - The primary level navigation should always be exposed.
-* **Secondary navigation** - The secondary level can either be persistent or hidden within drop-down menus. The latter provides less visibility to lower-level categories but saves vertical screen space.
+* **Secondary navigation** - The secondary level can either be persistent or hidden within dropdown menus. The latter provides less visibility to lower-level categories but saves vertical screen space.
 
 As a rule of thumb, the horizontal navigation is the preferred choice over [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) when:
 * There are a small number of fixed categories. You want to provide the best visibility to primary categories by placing them immediately below the page header area.
@@ -32,5 +32,5 @@ The horizontal navigation is recommended to use the the short masthead in order 
 ![Two Level Menu Bar](img/menu-bar-two-level@2x.png)
 
 
-### Menu Bar with Drop-Downs
-![Menu Bar with drop downs](img/menu-bar-drop-downs.png)
+### Menu Bar with Dropdowns
+![Menu Bar with dropdowns](img/menu-bar-drop-downs.png)
