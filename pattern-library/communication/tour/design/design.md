@@ -1,15 +1,14 @@
 # Tour
 - When a tour is available, a button or link should be displayed for users to manually start it. Labels should be specific if there are multiple tours available.
 - Tours can include any number of steps, but the recommendation is to stay between 3-15 steps.
-
-- Every step displays a Bubble with the step number, name, description of highlighted area and button bar.
+- Every step displays a bubble with the step number, name, description of highlighted area, and button bar.
 
 ![tour bubble](img/Tour-00.png)
 
-1. **Top Bar:** A light grey bar sits across the top of the Tour Bubble and includes the following items vertically aligned:  
-  - A **Step Number** to denote where the user currently is along the tour.
-  - A **Step Name** to highlight the topic of the particular step.
-  - A **Cancel** or Close button, to allow the user to end the tour at any point.
+1. **Top Bar:** A light grey bar sits across the top of the tour bubble and includes the following items vertically aligned:  
+  - **Step Number:** Denotes where the user currently is along the tour.
+  - **Step Name:** The topic of the particular step.
+  - **Close Button:** Allows the user to end the tour at any point.
 2. **Pointer:** The pointer is used to identify a specific area in the UI.
 3. **Description:** The description should include key details pertaining to the highlighted area.
 4. **Actions:**
