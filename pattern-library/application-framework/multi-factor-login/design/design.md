@@ -4,7 +4,7 @@
 ![Image of identity first](img/login-page-2.png)
 1. **Logotype**: The product logo is placed at the top.
 2. **Description** (optional): Description of the website can be placed here.
-3. **Title**: The title is located at the top of the login card.
+3. **Title**: The title is located at the top of the login card. "Your Account" can be replaced by the product name or any other term that makes sense for your application.
 4. **Language Selector** (optional): The language selector is located in the top right of the login card.
 5. **Username Field**: Include only a username field as the password will be requested in a separate step.
 6. **Checkbox** (optional): Checkbox is located under the Required fields. It can be labeled varied texts depending on the needs of different applications. Checkbox labels should be capitalized according to [Terminology and Wording Style Guide](http://www.patternfly.org/styles/terminology-and-wording/).
