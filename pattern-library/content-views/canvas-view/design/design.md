@@ -1,10 +1,10 @@
 # Canvas View
 
 ![Canvas Layout](img/Canvas-03.png)
-  1. **Editor Toolbar:**  The Editor Toolbar includes a mechanism to open and close the Toolbox as well as actions pertaining to the items on the canvas. The Toolbar can also optionally include zoom/pan actions, find, and view types.
-  1. **Canvas:** A grid based background should cover the working area of the Canvas View. Users can drag items from the toolbox, onto the canvas and arrange the items as needed.
+  1. **Editor Toolbar:**  The Editor Toolbar includes a mechanism to open and close the toolbox as well as actions pertaining to the items on the canvas. The Toolbar can also optionally include zoom/pan actions, find, and view types.
+  1. **Canvas:** A grid based background should cover the working area of the Canvas View. Users can drag items from the toolbox onto the canvas and arrange the items as needed.
   1. **Toolbox:**
-      - All items that can be dragged onto the canvas are available in the Toolbox.
+      - All items that can be dragged onto the canvas are available in the toolbox.
       - The toolbox can be left-aligned or top-aligned depending on the use case.
   1. **Canvas Items:** Canvas items are things that have been dragged from the toolbox onto the canvas. In some cases items can be ordered or connected to represent a particular flow of information.
   1. **Properties Panel** (optional):
@@ -36,7 +36,7 @@ Implementing the pan and zoom functionality is optional, but is recommended for 
 ### Panning
 - Clicking and dragging on the canvas background when the cursor is in the all-scroll state will pan the canvas.
 - When the canvas is not zoomed out all the way, hovering over the canvas background will change the mouse pointer to “cursor:all-scroll”.
-- When it is zoomed out all the way, the cursor property will be set to “cursor: default”.
+- When the canvas is zoomed out all the way, the cursor property will be set to “cursor: default”.
 
 
 ## Canvas Containers
@@ -49,5 +49,5 @@ Containers are optional elements that contain, or nest, certain toolbox elements
     - For cases where multiple actions are available, a contextual menu of container actions is recommended on hover.
     - Like canvas items, containers can be ordered or connected to represent a particular flow of information.
 1. **Background Disabled:** Some toolbox elements can only be added to containers. When such elements are selected in the toolbox, the canvas area outside of the containers is disabled so that items cannot be dropped into this area. The disabled area is indicated visually by graying out the canvas.  
-1. **Adding Containers:** A control is placed on the canvas for adding new containers. This control should always be "on top" so that elements dragged onto the canvas cannot hide the control. Once a container has been added to the canvas it can be clicked and dragged around the canvas just like toolbox elements.
-1. **Properties Panel** (optional): As with canvas items, when a container is selected an optional properties panel will appear on the right side of the canvas.
+1. **Adding Containers:** A control is placed on the canvas for adding new containers. This control should always be "on top" so that elements dragged onto the canvas cannot hide the control. Once a container has been added to the canvas, it can be clicked and dragged around the canvas just like toolbox elements.
+1. **Properties Panel** (optional): As with canvas items, when a container is selected, an optional properties panel will appear on the right side of the canvas.

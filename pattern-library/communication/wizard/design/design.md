@@ -4,17 +4,17 @@
 
 ![Wizard showing a loading screen](img/wizard-flow-description1.png)
 
-1. **Title Bar** (optional for embedded wizards)**:** There should be a title bar for the wizard, this is required for modal wizards and optional for embedded wizards. The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
-1. **Loading Wizard State** (optional)**:** For cases when wizard will take a few moments to load, we recommend using a loading indicator and short message informing the user that the wizard is loading. Wizard will be empty besides the message and indicator.
+1. **Title Bar** (optional for embedded wizards)**:** There should be a title bar for the wizard, this is required for modal wizards and optional for embedded wizards. The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link, or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
+1. **Loading Wizard State** (optional)**:** For cases when the wizard will take a few moments to load, we recommend using a loading indicator and short message informing the user that the wizard is loading. Otherwise, the wizard should be empty.
 
 ## First Step
 
 ![Wizard showing step one](img/wizard-flow-description2.png)
 
-1. **Main Steps:** The main steps of the wizard are shown in the bar along the top of the screen. User can always see all of the primary steps in the flow at all times. The main step labels can be used to jump between steps in a non-sequential manner as long as previous steps have been completed. This should also be enabled for next steps as long as all required information has been completed on the current step and there are no dependencies between the steps. Main steps can be broken down into sub-steps.
+1. **Main Steps:** The main steps of the wizard are shown in the bar along the top of the screen. The user can always see all of the primary steps in the flow at all times. The main step labels can be used to jump between steps in a non-sequential manner as long as previous steps have been completed. This should also be enabled for next steps as long as all required information has been completed on the current step and there are no dependencies between the steps. Main steps can be broken down into sub-steps.
 1. **Sub-steps for the Selected Main Step:** Sub-steps are optional. If they are used, every effort should be made to provide sub-steps for each step in order to maintain a consistent layout and expectation from the users.
-1. **Button Bar:** The button bar provides the appropriate action buttons, these are usually a combination of Cancel, Back, Next and Finish. The exact wording on the Finish button can be adjusted to be more reflective of the completion action appropriate to what the user will be doing. The Back button should always be enabled except for the first step. The Next button should become enabled once all required information has been entered for the current step and/or sub-step. The Next button will move the user through any sub-steps before it moves the user to the next main step. The Back button will also behave the same way. In some cases the completion action button will close the dialog, in others, it views progress in the wizard, and ends up changing the label of that button.
-In the example above, the back button is disabled since this shows the first sub step within the first step.
+1. **Button Bar:** The button bar provides the appropriate action buttons. These are usually a combination of Cancel, Back, Next, and Finish. The exact wording on the Finish button can be adjusted to be more reflective of the completion action appropriate to what the user will be doing. The Back button should always be enabled except for the first step. The Next button should become enabled once all required information has been entered for the current step and/or sub-step. The Next button will move the user through any sub-steps before it moves the user to the next main step. The Back button will also behave the same way. In some cases the completion action button will close the dialog, and in others it views progress in the wizard and ends up changing the label of that button.
+In the example above, the back button is disabled since this shows the first sub-step within the first step.
 
 **Usage Note:** Main step and sub-step names should be kept as short and descriptive as possible. Preferably only one or two words.
 
@@ -30,8 +30,8 @@ In the example above, the back button is disabled since this shows the first sub
 ![Wizard showing a deployment in progress](img/wizard-flow-description4.png)
 
 1. **Main Steps:** The last step in the wizard can be a Review step that shows a summary of the information selected and/or set in the previous steps of the wizard. A Review step is optional but can provide a place to show a summary of the settings the user has gone through. Exact wording of the step and sub-steps can change depending on what makes sense for the particular task. Review along with Summary and Progress are only suggestions.
-1. **Completion Button:** Once all required information has been provided, the Next button becomes the Completion button with wording that makes sense for the particular task. For wizards that do not remain open while the particular task is being processed, the Completion button would close the wizard. On the last step of the wizard, there is no Next button.
-1. **Progress Indicator:** If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and Completion buttons should be disabled. The Cancel button can be enabled if cancelling the process is supported by the wizard.
+1. **Completion Button:** Once all required information has been provided, the Next button becomes the completion button with wording that makes sense for the particular task (i.e., Finish, Close, or Deploy). For wizards that do not remain open while the particular task is being processed, the completion button would close the wizard. On the last step of the wizard, there is no Next button.
+1. **Progress Indicator:** If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and completion buttons should be disabled. The Cancel button can be enabled if cancelling the process is supported by the wizard.
 
 ## Completion Page
 
@@ -42,21 +42,24 @@ In the example above, the back button is disabled since this shows the first sub
 
 ## Embedded Wizard
 
-Embedded wizards should be used when the user must fill out the wizard in order to take any further action in the application. Examples of this include...
-- A new user sign up flow
-- A checkout flow that concludes interaction with the application when finished
-- A system setup flow that takes place before the user can enter the application
+Embedded wizards should be used when the user must fill out the wizard in order to take any further action in the application. Examples of this include:
+- A new user sign up flow.
+- A checkout flow that concludes interaction with the application when finished.
+- A system setup flow that takes place before the user can enter the application.
 
-Modal wizards should be used when the task is non-necessary or is one of several possible actions that the user could take. Examples of this include...
-- Purchasing add-ons for an already running system
-- Making a new project when the user already has several
-- As an administrator, creating one of several user profiles for use by other people
+## Modal Wizard
+
+Modal wizards should be used when the task is non-necessary or is one of several possible actions that the user could take. Examples of this include:
+- Purchasing add-ons for an already running system.
+- Making a new project when the user already has several.
+- As an administrator, creating one of several user profiles for use by other people.
 
 ![Embedded wizard](img/embedded-wizard-callout.png)
 
-**Differences from Modal Wizards** Embedded wizards follow the same guidelines as modal wizards, with a few exceptions.
+### Differences between Modal and Embedded Wizards
+
 1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/buttons-on-forms/#full-page-forms). The button bar should be fixed to the bottom of wizard page.
-1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title
+1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title.
 
 
 ## Responsive States
@@ -64,27 +67,25 @@ Modal wizards should be used when the task is non-necessary or is one of several
 ### Mobile Wizard
 ![Collapsed responsive wizard](img/responsive-wizard-callout1.png)
 
-1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
-1. **Current Sub-step** (Optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
-1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable
+1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
+1. **Current Sub-step** (optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
+1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable.
 1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page for embedded wizards and modals wizards except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
 
 ![Expanded responsive wizard](img/responsive-wizard-callout2.png)
 
 1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
-1. **Sub-steps for the Selected Main Step** (Optional)**:** Clicking on a sub-step will switch to that sub-step. The current sub-step is highlighted.
+1. **Sub-steps for the Selected Main Step** (optional)**:** Clicking on a sub-step will switch to that sub-step. The current sub-step is highlighted.
 
 ### Simplified Mobile Wizard
 If an application does not require the ability to switch between or view all steps from mobile devices, a simplified version of the wizard without a dropdown can be used instead.
 
 ![Simplified responsive wizard](img/responsive-wizard-callout3.png)
 
-1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
+1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
 1. **Current Sub-step** (Optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.
 
 ### What’s not covered in the current design
-
-The following functionality is not covered in this pattern but will be covered in future iterations:
 
 1. In certain cases, the wizard will need to show step by step progress. This functionality is not covered.
 1. In some cases, it may be advantageous to the user to be able to jump to the review page without having completed previous steps.
