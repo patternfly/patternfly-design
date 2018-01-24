@@ -4,8 +4,8 @@
 
 ![Wizard showing a loading screen](img/wizard-flow-description1.png)
 
-1. **Title Bar** (optional for embedded wizards)**:** There should be a title bar for the wizard, this is required for modal wizards and optional for embedded wizards. The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link, or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
-1. **Loading Wizard State** (optional)**:** For cases when the wizard will take a few moments to load, we recommend using a loading indicator and short message informing the user that the wizard is loading. Otherwise, the wizard should be empty.
+1. **Title Bar** (optional for embedded wizards): There should be a title bar for the wizard, this is required for modal wizards and optional for embedded wizards. The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link, or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
+1. **Loading Wizard State** (optional): For cases when the wizard will take a few moments to load, we recommend using a loading indicator and short message informing the user that the wizard is loading. Otherwise, the wizard should be empty.
 
 ## First Step
 
@@ -68,14 +68,14 @@ Modal wizards should be used when the task is non-necessary or is one of several
 ![Collapsed responsive wizard](img/responsive-wizard-callout1.png)
 
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
-1. **Current Sub-step** (optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
+1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
 1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable.
 1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page for embedded wizards and modals wizards except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
 
 ![Expanded responsive wizard](img/responsive-wizard-callout2.png)
 
 1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
-1. **Sub-steps for the Selected Main Step** (optional)**:** Clicking on a sub-step will switch to that sub-step. The current sub-step is highlighted.
+1. **Sub-steps for the Selected Main Step** (optional): Clicking on a sub-step will switch to that sub-step. The current sub-step is highlighted.
 
 ### Simplified Mobile Wizard
 If an application does not require the ability to switch between or view all steps from mobile devices, a simplified version of the wizard without a dropdown can be used instead.
@@ -83,7 +83,7 @@ If an application does not require the ability to switch between or view all ste
 ![Simplified responsive wizard](img/responsive-wizard-callout3.png)
 
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
-1. **Current Sub-step** (Optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.
+1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.
 
 ### What’s not covered in the current design
 
