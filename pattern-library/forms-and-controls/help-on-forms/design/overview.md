@@ -36,5 +36,5 @@ This pattern should NOT be used:
 ### Page with errors
 ![Syntax with errors](img/syntax_with_errors.png)
 
-What’s not covered in the current design but will be covered in future sprints:
+#### What’s not covered in the current design:
 - Alternative design solutions that work with assistive technology or older web browsers that do not support placeholder syntax hints.

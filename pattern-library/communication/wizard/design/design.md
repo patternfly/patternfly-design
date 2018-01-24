@@ -85,8 +85,7 @@ If an application does not require the ability to switch between or view all ste
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
 1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.
 
-### What’s not covered in the current design
-
+### What’s not covered in the current design:
 1. In certain cases, the wizard will need to show step by step progress. This functionality is not covered.
 1. In some cases, it may be advantageous to the user to be able to jump to the review page without having completed previous steps.
 1. For more complex and time-consuming tasks, a wizard can have an optional save to let the user leave the wizard and return later. Some considerations for this feature are auto-saving and what happens if a session times out.
