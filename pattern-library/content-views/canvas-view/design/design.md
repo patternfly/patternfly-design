@@ -23,7 +23,7 @@
   1. **Canvas Items:** When a user clicks on a canvas item, the selected state should be visually indicated. For cases where multiple actions are available, a contextual menu of canvas item actions is recommended on hover.
 
 ## Zooming and Panning on the Canvas
-Implementing the pan and zoom functionality is optional, but is recommended for any canvas view that has the potential for becoming overcrowded with canvas items.
+Implementing the pan and zoom functionality is optional, but is recommended for any Canvas View that has the potential for becoming overcrowded with canvas items.
 
 ![Canvas Example with Zooming and Panning](img/Canvas-05.png)
 

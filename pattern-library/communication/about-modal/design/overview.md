@@ -12,7 +12,8 @@ Jump to [Multi-Line](#multiple-line) or [One-Line](#one-line)
 
 ![One Line](img/one-line-about-modal.jpg)
 
-## What's not covered in the current design but will be covered in future sprints:
+<br>
+### What's not covered in the current design:
 
 - How the About Version Modal is accessed.
 - Content other than the title, version number(s), and legal text.

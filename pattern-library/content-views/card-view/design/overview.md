@@ -23,7 +23,7 @@ Jump to [Single Select Card View](#single-select-card-view), [Multi Select Card 
 
 ## Card Variations
 
-The following card variations provide some examples of how you might visualize content within a card. You are not limited to these layouts. You may need to adjust the visualizations and/or combine elements to best fit your application’s needs. Each card within a card view should have a consistent layout. Do not mix and match.
+The following card variations provide some examples of how you might visualize content within a card. You are not limited to these layouts. You may need to adjust the visualizations and/or combine elements to best fit your application’s needs. Each card within a card View should have a consistent layout. Do not mix and match.
 
 ### Large Card
 

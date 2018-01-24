@@ -61,4 +61,4 @@ Selecting a checkbox will highlight the row in blue.
 
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the Tree List View should be responsive.
 
-- **Pagination:** The Tree List view can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+- **Pagination:** The Tree List View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.

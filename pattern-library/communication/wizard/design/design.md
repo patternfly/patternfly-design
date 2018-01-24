@@ -82,9 +82,7 @@ If an application does not require the ability to switch between or view all ste
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number
 1. **Current Sub-step** (Optional)**:** If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.
 
-### What’s not covered in the current design
-
-The following functionality is not covered in this pattern but will be covered in future iterations:
+### What’s not covered in the current design:
 
 1. In certain cases, the wizard will need to show step by step progress. This functionality is not covered.
 1. In some cases, it may be advantageous to the user to be able to jump to the review page without having completed previous steps.
