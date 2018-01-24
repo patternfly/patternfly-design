@@ -17,6 +17,6 @@ This pattern should NOT be used:
 ![Syntax Hints Default](img/Syntax-Hints-Default.png)
 
 
-What’s not covered in the current design but will be covered in future sprints:
+#### What’s not covered in the current design:
 * Localized standards for syntax hints, including phone numbers, mailing address, IP address, and naming fields.
 * Alternative design solutions that work with assistive technology or older web browsers that do not support placeholder syntax hints.
