@@ -20,8 +20,8 @@ Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notifi
   - New/unread notifications are shown in bold.
   - Clicking on a row will remove the bold text and the item will be marked as "read."
 5. **Row Hover State:** Example of hover state.
-6. **Mark All Read** (Optional): Clicking “Mark All Read” changes all visible unread rows (bold row type) to read (regular row type).
-7. **Clear All** (Optional): Clicking “Clear All” removes all visible rows from the drawer.
+6. **Mark All Read** (optional): Clicking “Mark All Read” changes all visible unread rows (bold row type) to read (regular row type).
+7. **Clear All** (optional): Clicking “Clear All” removes all visible rows from the drawer.
   - Note: This option may be used differently across products.
   - Some rows may not be eligible for clearing and should be determined on a case by case basis.
   - This link may be hidden as needed.
@@ -30,7 +30,7 @@ Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notifi
 10. **Row Actions:** Clicking on the [Kebab](https://www.patternfly.org/pattern-library/widgets/#kebabs) menu will reveal a dropdown containing actions for that item.
 11. **Infinite Scroll:** Allows the user to scroll through all notifications in the drawer viewport.
 
-## Expand Behavior (Optional)
+## Expand Behavior (optional)
 The notification drawer has the ability to expand in order to view additional details regarding an event. The expand drawer functionality is optional. Use of this feature will depend on the amount of information available.
 
 ### Collapsed Drawer

@@ -19,7 +19,7 @@
 
   1. **Sparkline:** See the [Sparkline Pattern](https://www.patternfly.org/pattern-library/data-visualization/sparkline/) for more details.
 
-  1. **Time Frame** (optional)**:** The time frame is indicated under the sparkline by small text and is left aligned.
+  1. **Time Frame** (optional): The time frame is indicated under the sparkline by small text and is left aligned.
 
 ## Card with Multiple Metrics
 ![Multiple Metrics Card](img/multi-metric-utilization-card-callout1.png)

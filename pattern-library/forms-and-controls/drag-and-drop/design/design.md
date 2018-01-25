@@ -12,7 +12,7 @@
   * When a user hovers over the handle icon, the cursor should change to an open hand, signifying the item can be dragged.
   * (Optional) If you choose to display the handle icon on unselected rows as well, the icon should appear visually disabled so it does not distract from the content.
 
-3. **Item Sequence (Optional):**
+3. **Item Sequence** (optional): 
   * If the order of items is important, the order number should be clearly labeled.
   * When an item is being moved, the order numbers should not change to reflect the move until the item has been successfully dropped in a new location.
 
@@ -31,7 +31,7 @@
   * The handle icon should not be used when applying drag and drop to horizontal lists, card views, or dashboards.
   * When a user hovers over an item or selects an item (anywhere that is not already a link, checkbox, button, etc), it should be visually indicated and the cursor should change to an open hand, signifying this item can be moved.
 
-2. **Multi-Selection (Optional):**
+2. **Multi-Selection** (optional):
   * If multi-selection is being supported, checkboxes should be used for moving multiple items at once.
   * Dragging multiple checked items will move the items as a group and will place them consecutively when dropped in the list.
 
