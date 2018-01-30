@@ -1,28 +1,33 @@
-This template should provide high level information on the design, to inform the user, at a glance, if this pattern is a fit for their needs.
+This template should provide detailed design solutions and the interactions and behaviors for each solution. Brief, concise explanations of steps to complete an interaction and any rules of engagement for the UI, should be specified.
 
-# Enter Pattern Name Here
+Templates to generate mock ups or wireframes can be found here;  https://github.com/patternfly/patternfly-design/tree/master/resources/templates   
+These are not final visual implementations of the design solutions, and should focus on communicating flow and interactive behaviors.
+
+Provide a bulleted list of the variations on the pattern.
+
+Patterns Available:
+* Variation 1
+* Variation 2
+
+# Pattern Name Goes Here
+
+## Pattern Variation 1
+![Title of Image](img/image-name-goes-here.jpg)
+
+  1. **Interaction Description Label One:**
+  Content to include here are:
+  -  An interactive step called out
+  -  Behaviors and conditions of interaction
+  -  What is and isn't covered in this portion of the UI
 
 
-## Overview 
+## Pattern Variation 2
+(this is optional and only applies if you have more than one design solution)
 
-(Remove instructional text)  
-Provide one or two sentences, describing the pattern you are contributing.
+![Title of Image2](img/image-name-goes-here-2.jpg)
 
-Example: (remove all example text and text in parentheses)
-* "This pattern" can be used to present large amounts of data, providing flexibility and power to manipulate the data in a meaningful and understandable way.
-
-## Use Cases 
-
-(Remove instructional text)  
-Use cases describe how the user will perform a task, from the users perspective, outlining behaviors and simple steps to achieve the users goal.
-
-This information should help the user understand when and why this pattern should be used and when not to use.
-
-
-
-## Pattern Example Name Here
-![Title of image](img/image-name-goes-here.jpg)
-
-## Pattern Variation Example Name Here
-![Title of image 2](img/image-name-goes-here-2.jpg)
-
+1. **Description Label One:**  
+Content to include here are:
+-  An interactive step called out
+-  Behaviors and conditions of interaction
+-  What is and isn't covered in this portion of the UI
