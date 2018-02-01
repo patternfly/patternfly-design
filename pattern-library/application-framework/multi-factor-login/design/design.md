@@ -22,4 +22,4 @@
 
 ## Multi-Factor Login Example
 ![Image of other login methods](img/Example.png)
-1. **More Verification Options**: Users can switch between different methods through this link if they can’t finish the current one. The link will lead to followed step.
+1. **More Verification Options** (optional): When there are additional verification options, users can switch between them through this link if they can’t finish the current one. The link will lead to followed step.
