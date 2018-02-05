@@ -35,7 +35,7 @@
 
 1. **Expansion Panel:** When the row is expanded, a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. The panel should be sized to accommodate the content. Content can be anything that is required to convey details of a selected object. However, we do not recommend placing tables of log lists of items inside the expansion panel. This could result in nested scrolling (i.e. the master list and the detailed content require separate scroll bars).
 
-1. **Close/Collapse (Optional):** Clicking the Close icon will collapse the expansion panel and return the list to its original (collapsed) state. Alternatively, clicking anywhere on the row again will have the same effect. Note: Use of the Close/Collapse icon is not advised if the content of the panel requires its full width.
+1. **Close/Collapse** (optional): Clicking the Close icon will collapse the expansion panel and return the list to its original (collapsed) state. Alternatively, clicking anywhere on the row again will have the same effect. Note: Use of the Close/Collapse icon is not advised if the content of the panel requires its full width.
 
 ## List View with Compound Expansion
 ![List view with compound expansion](img/list-view-compound-expansion-callout.png)
@@ -47,7 +47,7 @@
   - Clicking on any expandable attribute opens the expansion panels with details for the selected attribute, only. The caret changes direction to point down, and the attribute remains highlighted.
   - Hovering over another expandable attribute will highlight it. Clicking will close the current expansion panel and expand this attribute by opening its row expansion. This action is exactly equivalent to closing the first panel (by clicking close) and expanding the second panel.
 
-1. **Close/Collapse (Optional):** Click the Close icon to close/collapse the expansion panel.
+1. **Close/Collapse** (optional): Click the Close icon to close/collapse the expansion panel.
 
 ## Additional Notes about Behavior
 
