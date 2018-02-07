@@ -310,7 +310,7 @@
         <tr><th colspan='8'><h2>{{name}}</h2></th></tr>
         <tr class='pf-design-table__row__header-files'>
           <th>Pattern</th><th>overview.md</th><th>design.md</th><th>site.md</th>
-          <th>jQuery</th><th>Angular 1</th><th>Angular 2+ (ng)</th><th>React</th><th>Web component</th><th>CSS</th>
+          <th>Core</th><th>Angular 1</th><th>Angular 4+ (ng)</th><th>React</th>
         </tr>
         {{#each patterns}}
           <tr>
@@ -360,24 +360,6 @@
                 <td class="pf-design-table__cell pf-design-table__cell__impl">
                   {{#if value.frontmatter.impl_react}}
                     <a href="{{value.frontmatter.impl_react}}" target="_new">
-                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
-                    </a>
-                  {{else}}
-                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
-                  {{/if}}
-                </td>
-                <td class="pf-design-table__cell pf-design-table__cell__impl">
-                  {{#if value.frontmatter.impl_webcomponent}}
-                    <a href="{{value.frontmatter.impl_webcomponent}}" target="_new">
-                      <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
-                    </a>
-                  {{else}}
-                    <span class='pficon pficon-close pf-design-table__icon pf-design-table__icon--missing'></span>
-                  {{/if}}
-                </td>
-                <td class="pf-design-table__cell pf-design-table__cell__impl">
-                  {{#if value.frontmatter.impl_webcomponent}}
-                    <a href="{{value.frontmatter.impl_css}}" target="_new">
                       <span class='fa fa-check pf-design-table__icon pf-design-table__icon--present'></span>
                     </a>
                   {{else}}
