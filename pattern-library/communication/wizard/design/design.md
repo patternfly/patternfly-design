@@ -40,6 +40,9 @@ In the example above, the back button is disabled since this shows the first sub
 1. **Completion Message:** If the completion button does not close the wizard, a completion message can be used to provide users with feedback that the wizard has been successfully completed or if any errors have occurred.
 1. **Completion Button:** The wording on the completion button can change once processing of the content in the wizard is complete. This may be Close or some other word that makes sense for the particular use case. If the user has the option to go back and make alterations and resubmit the process, then the Back button should be enabled.
 
+<!---
+7Feb2018:
+Removing Embedded Wizard from this pattern for now. The main issue with this design is the full height. This can only be done if we can know the height of all the other elements on the page with the wizard. So for example: wizard height = (100 % of viewport height - combined height of other elements). If we build the example and another element is added it will break.
 ## Embedded Wizard
 
 Embedded wizards should be used when the user must fill out the wizard in order to take any further action in the application. Examples of this include:
@@ -60,6 +63,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 
 1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/buttons-on-forms/#full-page-forms). The button bar should be fixed to the bottom of wizard page.
 1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title.
+--->
 
 
 ## Responsive States
