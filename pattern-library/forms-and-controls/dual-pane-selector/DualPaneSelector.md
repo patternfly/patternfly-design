@@ -13,11 +13,11 @@ Dual Pane Selectors allow users to visually compare available and selected items
   1. **Type-ahead Filter**
     - Type-ahead filter allows you to easily reduce long lists to more quickly find items.
 
-  1. **Sorting (optional)**
+  1. **Sorting** (optional):
     - Default sort will be alphabetical.
     - Additional sorting options are dependent on the data.
 
-  1. **Additional Actions (optional)**
+  1. **Additional Actions** (optional):
       - Additional actions can be presented as a button.
       - More than one action should be presented in a kebab.
 

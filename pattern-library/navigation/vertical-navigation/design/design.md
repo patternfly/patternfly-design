@@ -31,7 +31,7 @@ Tertiary navigation is non-persistent and only appears on hover. The tertiary na
 
 ![navigation-with-tertiary-callout](img/navigation-with-tertiary-callout.png)
 
-1. **Pin Menu**(optional):
+1. **Pin Menu** (optional):
   - If the secondary navigation is pinned, the navigation is collapsed to a single column and the secondary navigation is the only menu visible.
   - If the tertiary navigation is pinned, the navigation is collapsed to a single column and the tertiary navigation is the only menu visible.
 2. **Label**:
