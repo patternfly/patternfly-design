@@ -11,10 +11,3 @@ Jump to [Multi-Line](#multiple-line) or [One-Line](#one-line)
 ## One Line
 
 ![One Line](img/one-line-about-modal.jpg)
-
-<br>
-### What's not covered in the current design:
-
-- How the About Version Modal is accessed.
-- Content other than the title, version number(s), and legal text.
-- Minimum and maximum modal sizes.
