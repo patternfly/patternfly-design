@@ -7,6 +7,8 @@
 
   1. **Sort Order Toggle:** Sort can toggle between ascending and descending order. The icon on this button changes according to the order of the current sort. The default for sort is ascending order.
 
+
+
   See available sort icons below and when they should be used.
 
 
@@ -18,4 +20,3 @@
 | <span class="fa fa-sort-alpha-desc">![Image sort A-Z](img/fa-sort-numeric-desc.png)</span> | fa-sort-numeric-descending | Sort 9 to 1 | Sorted 1 to9. Toggle to sort 1 to 9. | See comments in previous row. |
 | <span class="fa fa-sort-alpha-asc">![Image sort A-Z](img/fa-sort-common-asc.jpg)</span>  | fa-sort-common-ascending | Sort small value to large value | Sorted small to large value. Toggle to sort large to small value. | Use this icon to communicate sort order for other data types, such as sort by size,sort by date,sort by distance,etc. |
 | <span class="fa fa-sort-alpha-desc">![Image sort A-Z](img/fa-sort-common-desc.jpg)</span> | fa-sort-common-descending | Sort large value to small value | Sorted small to large value. Toggle to sort large to small value. | See comments in previous row. |
-{:.table .table-striped .table-bordered}
