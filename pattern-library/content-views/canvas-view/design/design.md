@@ -48,6 +48,6 @@ Containers are optional elements that contain, or nest, certain toolbox elements
     - When a container is selected, container actions are shown on the Editor Toolbar.
     - For cases where multiple actions are available, a contextual menu of container actions is recommended on hover.
     - Like canvas items, containers can be ordered or connected to represent a particular flow of information.
-1. **Background Disabled:** Some toolbox elements can only be added to containers. When such elements are selected in the toolbox, the canvas area outside of the containers is disabled so that items cannot be dropped into this area. The disabled area is indicated visually by graying out the canvas.  
+1. **Container-Only Toolbox Elements:** Some toolbox elements can only be added to containers. When such an element is selected in the toolbox and dragged onto the canvas area outside of a container, the item cannot be dropped. This is indicated visually by changing the appearance of the cursor to a circle-slash (fa-ban icon).  
 1. **Adding Containers:** A control is placed on the canvas for adding new containers. This control should always be "on top" so that elements dragged onto the canvas cannot hide the control. Once a container has been added to the canvas, it can be clicked and dragged around the canvas just like toolbox elements.
 1. **Properties Panel** (optional): As with canvas items, when a container is selected, an optional properties panel will appear on the right side of the canvas.
