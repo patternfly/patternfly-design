@@ -48,7 +48,7 @@ This is how the notification drawer looks on small screens. The icon of notifica
 ![navigation-vertical-notifications-responsive-callout](img/PF-ND-07.png)
 1. **Bell Icon:** The bell remains in the banner, allowing the user to toggle the visibility of the notification drawer.
 2. **Hamburger Icon:** Since navigation is hidden under “hamburger” icon, clicking on the hamburger menu should first collapse the notification drawer (if visible), and then display the navigation menu.
-3. **Accordion:** All notification tab accordions are collapsed by default. When there are new unread notifications, only that tab, or the first tab in a list of tabs with new unread notifications, will be open. 
+3. **Accordion:** All notification tab accordions are collapsed by default. When there are unread notifications, only that tab, or the first tab in a list of tabs with unread notifications, will be open.
 4. **Additional Information:** Individual notifications may include additional information about the event. The user can tap on the event name to toggle the visibility of the additional information. This will also mark the notification as read if it was previously unread. Tapping on another notification event will collapse any previously expanded events, as only one event may be expanded at a given time.
-5. **Mark All Read:** After clicking “Mark All Read”, the link will be hidden until new unread notifications are available for reading.
+5. **Mark All Read:** After clicking “Mark All Read”, the link will be hidden until unread notifications are available for reading.
 6. **Loading More:** User can scroll up and down within an accordion to view more events. It will load 10 events at a time by default. When scrolling to the bottom of the list, user can pull up to load more events.
