@@ -32,6 +32,7 @@
 
 ## Additional Notes about Behavior
 - **Empty State:** If no items exist in the table, display the [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/) pattern. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
+- **Loading State:** If content is loading, display the [Loading State](http://www.patternfly.org/pattern-library/communication/loading-state/) pattern.
 - **Pagination:** Table View supports pagination. See [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 
 <br>
