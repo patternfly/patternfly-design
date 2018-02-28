@@ -8,3 +8,5 @@ The goal of a session expiration warning pattern is to provide a warning to the 
 If the user does not click "Continue Session" within the specified time, the user will automatically be logged out. If the user is logged out, they will be redirected to the Login Page with an inline warning notification stating "You have been logged out due to inactivity. Log in again."
 
 ![Image of Session Expiration Warning notice](img/PF-SEW-02.png)
+
+If they click on Log Out, do NOT show inline notification.
