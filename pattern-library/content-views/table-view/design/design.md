@@ -41,4 +41,4 @@
 - Ability to expand and collapse rows to give user the option to view more details on each item.
 - Multi-column sort.
 - Sticky column headers.
-- Mobile design.
+-- Mobile design.
