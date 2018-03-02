@@ -2,7 +2,7 @@
 
 The login page allows a user to gain access to an application by entering their username and password or by authenticating using a social media login. For additional login methods, see:
 - [Single Sign-On](https://www.patternfly.org/pattern-library/application-framework/single-sign-on/#)
-- [Identity First Login](https://www.patternfly.org/pattern-library/application-framework/identity-first/#)
+- [Multi-Factor Login](https://www.patternfly.org/pattern-library/application-framework/multi-factor-login/#)
 
 Usage scenarios related to the login page include:
 
