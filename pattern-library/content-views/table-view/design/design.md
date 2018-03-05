@@ -36,7 +36,9 @@
 - **Pagination:** Table View supports pagination. See [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 
 <br>
+
 ### What’s not covered in the current design:
+
 - Simple sort.
 - Ability to expand and collapse rows to give user the option to view more details on each item.
 - Multi-column sort.
