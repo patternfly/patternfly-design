@@ -12,9 +12,8 @@
 ![Wizard showing step one](img/wizard-flow-description2.png)
 
 1. **Main Steps:** The main steps of the wizard are shown in the bar along the top of the screen. The user can always see all of the primary steps in the flow at all times. The main step labels can be used to jump between steps in a non-sequential manner as long as previous steps have been completed. This should also be enabled for next steps as long as all required information has been completed on the current step and there are no dependencies between the steps. Main steps can be broken down into sub-steps.
-1. **Sub-steps for the Selected Main Step:** Sub-steps are optional. If they are used, every effort should be made to provide sub-steps for each step in order to maintain a consistent layout and expectation from the users.
-1. **Button Bar:** The button bar provides the appropriate action buttons. These are usually a combination of Cancel, Back, Next, and Finish. The exact wording on the Finish button can be adjusted to be more reflective of the completion action appropriate to what the user will be doing. The Back button should always be enabled except for the first step. The Next button should become enabled once all required information has been entered for the current step and/or sub-step. The Next button will move the user through any sub-steps before it moves the user to the next main step. The Back button will also behave the same way. In some cases the completion action button will close the dialog, and in others it views progress in the wizard and ends up changing the label of that button.
-In the example above, the back button is disabled since this shows the first sub-step within the first step.
+1. **Sub-Steps for the Selected Main Step:** Sub-steps are optional. If they are used, every effort should be made to provide sub-steps for each step in order to maintain a consistent layout and expectation from the users. The sub-step labels can be used to jump between sub-steps in a non-sequential manner as long as previous sub-steps have been completed. This should also be enabled for next sub-steps as long as all required information has been completed on the current sub-step and there are no dependencies between the sub-steps.
+1. **Button Bar:** The button bar provides the appropriate action buttons. These are usually a combination of Cancel, Back, Next, and Finish. The Back button should always be enabled except for the first step. The Next button should become enabled once all required information has been entered for the current step and/or sub-step. The Next button will move the user through any sub-steps before it moves the user to the next main step. The Back button will also behave the same way. In the example above, the back button is disabled since this shows the first sub-step within the first step. The Cancel button will close the wizard dialog.
 
 **Usage Note:** Main step and sub-step names should be kept as short and descriptive as possible. Preferably only one or two words.
 
@@ -23,21 +22,28 @@ In the example above, the back button is disabled since this shows the first sub
 ![Wizard showing step two](img/wizard-flow-description3.png)
 
 1. **Main Steps:** The step that the user is currently on should be highlighted in some way to appear different than the other steps. If other steps are enabled, the user can click to go to that step either previous or next depending on the completion of or need for required inputs.
-1. **Expand/Collapse Information** (optional): Progressive disclosure can be used in the main content area of the step in order to accommodate more information. This is recommended to be used only as necessary or on the review step.
 
-## Final Step – Progress
+## Final Step - Summary (optional)
 
-![Wizard showing a deployment in progress](img/wizard-flow-description4.png)
+![Wizard showing a summary step](img/wizard-flow-description4.png)
 
 1. **Main Steps:** The last step in the wizard can be a Review step that shows a summary of the information selected and/or set in the previous steps of the wizard. A Review step is optional but can provide a place to show a summary of the settings the user has gone through. Exact wording of the step and sub-steps can change depending on what makes sense for the particular task. Review along with Summary and Progress are only suggestions.
-1. **Completion Button:** Once all required information has been provided, the Next button becomes the completion button with wording that makes sense for the particular task (i.e., Finish, Close, or Deploy). For wizards that do not remain open while the particular task is being processed, the completion button would close the wizard. On the last step of the wizard, there is no Next button.
-1. **Progress Indicator:** If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and completion buttons should be disabled. The Cancel button can be enabled if cancelling the process is supported by the wizard.
+1. **Expand/Collapse Information** (optional): Progressive disclosure can be used in the main content area of the summary step in order to accommodate more information. While this can be used anywhere in the wizard, it is recommended to be used only as necessary or on the summary review step.
+1. **Completion Button:** Once all required information has been provided, the Next button becomes the completion button with wording that makes sense for the particular task (i.e., Finish, Close, or Deploy). In some cases the Completion button will close the wizard dialog. In others the button becomes disabled and the text changes to indicate that the wizard is processing or finishing.
 
-## Completion Page
+## Final Step – Progress (optional)
 
-![Wizard showing successful completion](img/wizard-flow-description5.png)
+![Wizard showing a deployment in progress](img/wizard-flow-description5.png)
+
+1. **Progress Indicator:** If it takes a few moments to load the information into the page, a progress indicator can be used. In most instances when this occurs, the Back and completion buttons should be disabled. The Cancel button can be enabled if canceling the process is supported by the wizard.
+1. **Completion Button:** While the final step is processing, the Completion button should be disabled, and the wording may change to indicate that the task is in progress.
+
+## Completion Page (optional)
+
+![Wizard showing successful completion](img/wizard-flow-description6.png)
 
 1. **Completion Message:** If the completion button does not close the wizard, a completion message can be used to provide users with feedback that the wizard has been successfully completed or if any errors have occurred.
+1. **View Deployment** (optional): An optional button may be added to the completion page that takes the user to a page in the application where they can view the information submitted in the wizard. 
 1. **Completion Button:** The wording on the completion button can change once processing of the content in the wizard is complete. This may be Close or some other word that makes sense for the particular use case. If the user has the option to go back and make alterations and resubmit the process, then the Back button should be enabled.
 
 <!---
