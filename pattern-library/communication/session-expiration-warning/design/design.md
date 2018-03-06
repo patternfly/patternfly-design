@@ -10,6 +10,4 @@
 
 ## Session Timeout
 
-Sessions end after a specific amount of time passes. By default, sessions end after 30 minutes of inactivity. You can change the settings of session end after the specified amount of time has passed.
-
-The length of a session depends on your site and business. If your website have a lot of content and expect users to take a long time engaging with that content, lengthen the session time. Sessions would better not greater than four hours.
+Sessions end after a specific amount of time passes. 30 minutes is the recommended session inactivity time. The recommended maximum session inactivity time is 4 hours.
