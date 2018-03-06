@@ -82,6 +82,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable.
 1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page for embedded wizards and modals wizards except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
 
+### Mobile Wizard - Steps Dropdown
 ![Expanded responsive wizard](img/responsive-wizard-callout2.png)
 
 1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
