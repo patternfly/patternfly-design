@@ -43,7 +43,7 @@
 ![Wizard showing successful completion](img/wizard-flow-description6.png)
 
 1. **Completion Message:** If the completion button does not close the wizard, a completion message can be used to provide users with feedback that the wizard has been successfully completed or if any errors have occurred.
-1. **View Deployment** (optional): An optional button may be added to the completion page that takes the user to a page in the application where they can view the information submitted in the wizard. 
+1. **Action Button** (optional): An optional action button may be added to the completion page that takes the user to a page in the application where they can view the information submitted in the wizard.
 1. **Completion Button:** The wording on the completion button can change once processing of the content in the wizard is complete. This may be Close or some other word that makes sense for the particular use case. If the user has the option to go back and make alterations and resubmit the process, then the Back button should be enabled.
 
 <!---
