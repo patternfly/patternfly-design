@@ -4,7 +4,7 @@
 
 ![Wizard showing a loading screen](img/wizard-flow-description1.png)
 
-1. **Title Bar** (optional for embedded wizards): There should be a title bar for the wizard, this is required for modal wizards and optional for embedded wizards. The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link, or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
+1. **Title Bar:** The title given to the wizard should convey the purpose of the wizard and the process the user is going through. It can be the action label on the button, link, or menu that invokes the wizard, but should also take advantage of the ability for something more descriptive while remaining concise.
 1. **Loading Wizard State** (optional): For cases when the wizard will take a few moments to load, we recommend using a loading indicator and short message informing the user that the wizard is loading. Otherwise, the wizard should be empty.
 
 ## First Step
@@ -46,32 +46,6 @@
 1. **Action Button** (optional): An optional action button may be added to the completion page that takes the user to a page in the application where they can view the information submitted in the wizard.
 1. **Completion Button:** The wording on the completion button can change once processing of the content in the wizard is complete. This may be Close or some other word that makes sense for the particular use case. If the user has the option to go back and make alterations and resubmit the process, then the Back button should be enabled.
 
-<!---
-7Feb2018:
-Removing Embedded Wizard from this pattern for now. The main issue with this design is the full height. This can only be done if we can know the height of all the other elements on the page with the wizard. So for example: wizard height = (100 % of viewport height - combined height of other elements). If we build the example and another element is added it will break.
-## Embedded Wizard
-
-Embedded wizards should be used when the user must fill out the wizard in order to take any further action in the application. Examples of this include:
-- A new user sign up flow.
-- A checkout flow that concludes interaction with the application when finished.
-- A system setup flow that takes place before the user can enter the application.
-
-## Modal Wizard
-
-Modal wizards should be used when the task is non-necessary or is one of several possible actions that the user could take. Examples of this include:
-- Purchasing add-ons for an already running system.
-- Making a new project when the user already has several.
-- As an administrator, creating one of several user profiles for use by other people.
-
-![Embedded wizard](img/embedded-wizard-callout.png)
-
-### Differences between Modal and Embedded Wizards
-
-1. **Button Bar:** In an embedded wizard, the action buttons are placed in the bottom left corner as they would be in a [Full Page Form](http://www.patternfly.org/pattern-library/forms-and-controls/buttons-on-forms/#full-page-forms). The button bar should be fixed to the bottom of wizard page.
-1. **Breadcrumbs:** If the user has come from somewhere where they may want to return, such as the main body of an application rather than an external site or login page, breadcrumbs should be available above the wizard title.
---->
-
-
 ## Responsive States
 
 ### Mobile Wizard
@@ -80,7 +54,7 @@ Modal wizards should be used when the task is non-necessary or is one of several
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
 1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
 1. **Steps Dropdown:** Clicking on this dropdown reveals all steps in the wizard and enables users to switch between them if applicable.
-1. **Button Bar:** Wizard actions are available on the button bar, which is fixed at the bottom of the page for embedded wizards and modals wizards except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
+1. **Button Bar:** Wizard actions are available on the button bar which is fixed at the bottom of the page except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
 
 ### Mobile Wizard - Steps Dropdown
 ![Expanded responsive wizard](img/responsive-wizard-callout2.png)
