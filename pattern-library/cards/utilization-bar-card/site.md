@@ -7,4 +7,5 @@ code_angular: /components/angular-patternfly/dist/docs/partials/api/patternfly.c
 url-js-extra: ['components/jquery-match-height/dist/jquery.matchHeight-min.js']
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/cards.html
 impl_angular: https://www.patternfly.org/angular-patternfly/#/api/patternfly.card.component:pfCard - Utilization
+impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?&selectedKind=UtilizationBar&selectedStory=Utilization
 ---
