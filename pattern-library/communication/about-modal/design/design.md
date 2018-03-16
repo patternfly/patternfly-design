@@ -6,7 +6,7 @@
 1. **Close Button:** Clicking the close button (pficon-close) will dismiss the modal and return the background to it’s original state.
 1. **Title:** Title of product.
 1. **Content:** Label and version. Adequate spacing and font weight consideration should be provided for legibility. Two columns are available for versions that contain both a release name and version number or in the event more space is needed.<br>
-As an interim design, we are utilizing the following:<br>
+We are utilizing the following:<br>
 When version and build information are both shown:
 Version 6.3 (Build 5)<br>
 When version only:
