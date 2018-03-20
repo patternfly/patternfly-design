@@ -13,7 +13,8 @@ When version only:
 Version 6.3<br>
 When build only:
 Build 5
-1. **Trademark & Copyright info:** Legal text are present.
+1. **Trademark & Copyright info:** Optionally include legal text.
+Suggested format for copyright: Copyright (c) 2018 Company
 1. **Corner Graphic:** Corner graphic allows the opportunity for branding.
 
 ## What's not covered in the current design:
