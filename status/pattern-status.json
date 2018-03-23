@@ -112,9 +112,9 @@
             },
             "path": "pattern-library/application-framework/masthead/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -126,7 +126,7 @@
             "status": "present",
             "dateChanged": "2017-11-10T09:22:50.000Z",
             "dateChangedFormatted": "November 10th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -261,7 +261,7 @@
             "status": "present",
             "dateChanged": "2017-03-02T20:09:56.000Z",
             "dateChangedFormatted": "March 2nd 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -273,7 +273,7 @@
             "status": "present",
             "dateChanged": "2018-01-05T20:51:29.000Z",
             "dateChangedFormatted": "January 5th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -309,9 +309,9 @@
             },
             "path": "pattern-library/cards/base-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -323,7 +323,7 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -362,7 +362,7 @@
             "status": "present",
             "dateChanged": "2017-03-21T19:46:29.000Z",
             "dateChangedFormatted": "March 21st 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -374,7 +374,7 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -411,9 +411,9 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -423,9 +423,9 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -465,9 +465,9 @@
             },
             "path": "pattern-library/cards/utilization-trend-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -479,7 +479,7 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -522,7 +522,7 @@
             "status": "present",
             "dateChanged": "2018-02-08T16:15:38.000Z",
             "dateChangedFormatted": "February 8th 2018",
-            "dateCreated": "2017-01-18T14:15:37.000Z",
+            "dateCreated": "2017-01-18T16:40:47.000Z",
             "dateCreatedFormatted": "January 18th 2017"
           },
           "design": {
@@ -534,7 +534,7 @@
             "status": "present",
             "dateChanged": "2018-03-20T03:27:09.000Z",
             "dateChangedFormatted": "March 20th 2018",
-            "dateCreated": "2017-01-18T14:15:37.000Z",
+            "dateCreated": "2017-01-18T16:40:47.000Z",
             "dateCreatedFormatted": "January 18th 2017"
           },
           "site": {
@@ -622,7 +622,7 @@
             "status": "present",
             "dateChanged": "2018-01-18T23:17:51.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -634,7 +634,7 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -723,9 +723,9 @@
             },
             "path": "pattern-library/communication/inline-notifications/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -737,7 +737,7 @@
             "status": "present",
             "dateChanged": "2018-01-19T23:05:02.000Z",
             "dateChangedFormatted": "January 19th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -825,7 +825,7 @@
             "status": "present",
             "dateChanged": "2017-06-26T15:39:01.000Z",
             "dateChangedFormatted": "June 26th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -837,7 +837,7 @@
             "status": "present",
             "dateChanged": "2018-02-26T03:39:03.000Z",
             "dateChangedFormatted": "February 26th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -849,7 +849,7 @@
             "status": "present",
             "dateChanged": "2017-09-28T14:51:53.000Z",
             "dateChangedFormatted": "September 28th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "dlabrecq",
@@ -927,7 +927,7 @@
             "status": "present",
             "dateChanged": "2017-10-09T16:20:41.000Z",
             "dateChangedFormatted": "October 9th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -939,7 +939,7 @@
             "status": "present",
             "dateChanged": "2018-01-22T16:30:56.000Z",
             "dateChangedFormatted": "January 22nd 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1026,7 +1026,7 @@
             "status": "present",
             "dateChanged": "2018-03-13T14:14:47.000Z",
             "dateChangedFormatted": "March 13th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1038,7 +1038,7 @@
             "status": "present",
             "dateChanged": "2018-03-13T14:14:47.000Z",
             "dateChangedFormatted": "March 13th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1136,7 +1136,7 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1148,7 +1148,7 @@
             "status": "present",
             "dateChanged": "2018-02-27T19:37:48.000Z",
             "dateChangedFormatted": "February 27th 2018",
-            "dateCreated": "2017-01-24T16:34:14.000Z",
+            "dateCreated": "2017-01-24T16:36:27.000Z",
             "dateCreatedFormatted": "January 24th 2017"
           },
           "site": {
@@ -1190,7 +1190,7 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1202,7 +1202,7 @@
             "status": "present",
             "dateChanged": "2018-02-27T19:37:48.000Z",
             "dateChangedFormatted": "February 27th 2018",
-            "dateCreated": "2017-01-24T16:34:14.000Z",
+            "dateCreated": "2017-01-24T16:36:27.000Z",
             "dateCreatedFormatted": "January 24th 2017"
           },
           "site": {
@@ -1248,7 +1248,7 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-01-24T16:34:14.000Z",
+            "dateCreated": "2017-01-24T16:36:27.000Z",
             "dateCreatedFormatted": "January 24th 2017"
           },
           "design": {
@@ -1260,7 +1260,7 @@
             "status": "present",
             "dateChanged": "2018-03-05T15:27:24.000Z",
             "dateChangedFormatted": "March 5th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1361,9 +1361,9 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1373,9 +1373,9 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1415,9 +1415,9 @@
             },
             "path": "pattern-library/data-visualization/area-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1429,7 +1429,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1465,9 +1465,9 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1479,7 +1479,7 @@
             "status": "present",
             "dateChanged": "2017-04-20T13:02:36.000Z",
             "dateChangedFormatted": "April 20th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1517,7 +1517,7 @@
             "status": "present",
             "dateChanged": "2017-03-02T19:52:52.000Z",
             "dateChangedFormatted": "March 2nd 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1527,9 +1527,9 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T15:54:20.000Z",
+            "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1539,9 +1539,9 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/site.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -1567,7 +1567,7 @@
             "status": "present",
             "dateChanged": "2017-03-02T19:52:47.000Z",
             "dateChangedFormatted": "March 2nd 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1579,7 +1579,7 @@
             "status": "present",
             "dateChanged": "2017-03-02T20:37:34.000Z",
             "dateChangedFormatted": "March 2nd 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1619,7 +1619,7 @@
             "status": "present",
             "dateChanged": "2017-03-02T19:52:03.000Z",
             "dateChangedFormatted": "March 2nd 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1631,7 +1631,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1643,7 +1643,7 @@
             "status": "present",
             "dateChanged": "2017-08-23T16:19:26.000Z",
             "dateChangedFormatted": "August 23rd 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -1669,7 +1669,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1681,7 +1681,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1720,7 +1720,7 @@
             "status": "present",
             "dateChanged": "2017-06-29T15:34:32.000Z",
             "dateChangedFormatted": "June 29th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1732,7 +1732,7 @@
             "status": "present",
             "dateChanged": "2017-06-29T15:34:32.000Z",
             "dateChangedFormatted": "June 29th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1771,7 +1771,7 @@
             "status": "present",
             "dateChanged": "2018-01-15T23:03:34.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1781,9 +1781,9 @@
             },
             "path": "pattern-library/data-visualization/sparkline/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1822,7 +1822,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1834,7 +1834,7 @@
             "status": "present",
             "dateChanged": "2017-01-19T18:19:56.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -1844,9 +1844,9 @@
             },
             "path": "pattern-library/data-visualization/timeline/site.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -1872,7 +1872,7 @@
             "status": "present",
             "dateChanged": "2018-02-07T22:11:44.000Z",
             "dateChangedFormatted": "February 7th 2018",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -1884,7 +1884,7 @@
             "status": "present",
             "dateChanged": "2018-03-07T16:19:18.000Z",
             "dateChangedFormatted": "March 7th 2018",
-            "dateCreated": "2017-01-19T15:54:20.000Z",
+            "dateCreated": "2017-01-19T18:19:56.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -2026,7 +2026,7 @@
             "status": "present",
             "dateChanged": "2017-08-11T14:59:40.000Z",
             "dateChangedFormatted": "August 11th 2017",
-            "dateCreated": "2017-07-27T04:30:15.000Z",
+            "dateCreated": "2017-07-27T20:46:28.000Z",
             "dateCreatedFormatted": "July 27th 2017"
           },
           "design": {
@@ -2068,9 +2068,9 @@
             },
             "path": "pattern-library/forms-and-controls/datepicker/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -2080,9 +2080,9 @@
             },
             "path": "pattern-library/forms-and-controls/datepicker/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -2120,7 +2120,7 @@
             "status": "present",
             "dateChanged": "2017-02-14T19:34:17.000Z",
             "dateChangedFormatted": "February 14th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -2132,7 +2132,7 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -2196,7 +2196,7 @@
             "status": "present",
             "dateChanged": "2018-03-14T06:29:20.000Z",
             "dateChangedFormatted": "March 14th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -2216,7 +2216,7 @@
             "status": "present",
             "dateChanged": "2018-03-06T18:31:44.000Z",
             "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -2242,9 +2242,9 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -2254,9 +2254,9 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -2268,7 +2268,7 @@
             "status": "present",
             "dateChanged": "2017-09-25T20:22:52.000Z",
             "dateChangedFormatted": "September 25th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -2673,7 +2673,7 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -2683,9 +2683,9 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/design/design.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -2695,9 +2695,9 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/site.md",
             "status": "present",
-            "dateChanged": "2017-01-19T23:26:48.000Z",
+            "dateChanged": "2017-01-19T23:37:27.000Z",
             "dateChangedFormatted": "January 19th 2017",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017",
             "frontmatter": {
               "author": "lhinson",
@@ -3112,7 +3112,7 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "design": {
@@ -3124,7 +3124,7 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-01-19T23:26:48.000Z",
+            "dateCreated": "2017-01-19T23:37:27.000Z",
             "dateCreatedFormatted": "January 19th 2017"
           },
           "site": {
@@ -3162,7 +3162,7 @@
             "status": "present",
             "dateChanged": "2017-02-07T18:18:28.000Z",
             "dateChangedFormatted": "February 7th 2017",
-            "dateCreated": "2017-01-24T16:34:14.000Z",
+            "dateCreated": "2017-01-24T16:36:27.000Z",
             "dateCreatedFormatted": "January 24th 2017"
           },
           "design": {
@@ -3174,7 +3174,7 @@
             "status": "present",
             "dateChanged": "2017-02-15T16:07:20.000Z",
             "dateChangedFormatted": "February 15th 2017",
-            "dateCreated": "2017-01-24T16:34:14.000Z",
+            "dateCreated": "2017-01-24T16:36:27.000Z",
             "dateCreatedFormatted": "January 24th 2017"
           },
           "site": {
