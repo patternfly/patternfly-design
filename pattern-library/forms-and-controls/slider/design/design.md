@@ -12,16 +12,16 @@
 
 3. **Tooltip:** The current value should be displayed in a tooltip when users hover or click on the slider handle.
 
-4. **Numeric Scale** (Optional):
+4. **Numeric Scale** (optional):
   - A numeric scale may be displayed below the slider.
   - Displaying a numeric scale is recommended when using a discrete slider that snaps to specific values.
   - Note: The scale is not required to denote ALL discrete values.  
 
-5. **Discrete Values** (Optional): When using a discrete scale, each available value may be indicated using marks along the slider. The marks make it clear to users when the slider will snap to specific values.
+5. **Discrete Values** (optional): When using a discrete scale, each available value may be indicated using marks along the slider. The marks make it clear to users when the slider will snap to specific values.
 
-6. **Field Input** (Optional): The slider can optionally have a field input on the right side to enter the desired value as an alternative to sliding. The slider button should move to indicate the value entered.
+6. **Field Input** (optional): The slider can optionally have a field input on the right side to enter the desired value as an alternative to sliding. The slider button should move to indicate the value entered.
 
-7. **Unit Dropdown** (Optional): A dropdown may be provided in conjunction with the field input if various units are available for selection.
+7. **Unit Dropdown** (optional): A dropdown may be provided in conjunction with the field input if various units are available for selection.
 
 ## Slider Examples
 ![Image of Slider 3](img/Slider-03.png)
