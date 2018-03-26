@@ -48,7 +48,7 @@ In some cases, badges may be used with the icons in the masthead to provide the 
 ### Hamburger Menu
 In smaller viewport sizes, the hamburger menu should list all primary navigation items, followed by the items from the masthead (except for badged items like notifications and shopping cart which should remain in the masthead if possible).
 
-Masthead items should be listed based on their order in the masthead from left to right. For instance, based on the example images, the hamburger menu would be the following from top to bottom: Category 1, Category 2, Category 3, Help, User.
+Masthead items should be listed based on their order in the masthead from left to right. For instance, based on the example images, the hamburger menu would be the following from top to bottom: Category 1, Category 2, Category 3, Help, User. Where Category 1, Category 2, and Category 3 are items from the primary navigation of the application.
 
 ![Image of masthead details](img/masthead-humburger@2x.png)
 
