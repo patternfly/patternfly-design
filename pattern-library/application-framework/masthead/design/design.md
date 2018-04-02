@@ -27,12 +27,11 @@ The masthead contains the following items from left to right:
 
 8.**Help Icon:**
   * The pficon-help icon should always be placed directly to the left of the user icon.
-  * The dropdown arrow should appear to the right of the icon to indicate additional options below.
   * The dropdown items may vary, but any product documentation or helpful website links available to users should be listed here. This would also be the appropriate location for customer support links.
   * The dropdown should always include an "About" option that will launch the about modal for product version information. Jump to the [About Modal](https://www.patternfly.org/pattern-library/communication/about-modal/#/api) pattern for additional details.
 
 9.**User Icon:**
-  * The username of the current logged in user should be listed to the right of the pficon-user icon and should always be in the top right corner of the masthead.
+  * The user's name of the current logged in user should be listed to the right of the pficon-user icon and should always be in the top right corner of the masthead.
   * The dropdown arrow should appear to the right of the name to indicate additional options below.
   * The dropdown items may vary based on the user settings and permissions available, but this section should always include a "Log out" option at the bottom of the dropdown list.
   * If a [Language Selector](https://www.patternfly.org/pattern-library/forms-and-controls/language-selector/#/api) exists, it should appear in this dropdown menu as well.
