@@ -25,16 +25,17 @@ Possible filter triggers include:
 
 ## Displaying a Null Result Set
 If the current set of active filters returns 0 results, an empty state message will appear within the current view.
+
 ![filtered view with a null results set](img/filter-null-callout.png)
+
+The style of null results is similar with [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/#code).
 1. **Message**: Alert user that there are 0 results based on the filter criteria
 1. **Suggestions**: A brief message suggesting how to fix the problem.
 1. **Clear All Filters**: Clicking this will clear all applied filters and restore content to this view.
-1. **Background**: The background color of this form will match the color of the current view. Note that in [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/), the background color is white.
+
 
 This message will always be displayed within the current view and the Toolbar will remain active so that the user can modify filter criteria.
 
-Null Result Set in [Card](http://www.patternfly.org/pattern-library/content-views/card-view/) or [List View](http://www.patternfly.org/pattern-library/content-views/list-view/)
-![card view with a null results set](img/filter-null-card.png)
+Null Result Set in [Card](http://www.patternfly.org/pattern-library/content-views/card-view/) , [List View](http://www.patternfly.org/pattern-library/content-views/list-view/) and [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/)
 
-Null Results in [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/)
-![table view with a null results set](img/filter-null-table.png)
+![card view with a null results set](img/filter-null-card.png)

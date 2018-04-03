@@ -27,12 +27,9 @@ Use a Tree List View with Multi-Child expansion when you want to display multipl
 
 ## Optional: Tree List View with Checkboxes
 
-Use a Tree List View with checkboxes when you want to be able to select multiple elements as once for bulk expansion or minification of parent/child elements.
+Use a Tree List View with checkboxes when you want the ability to expand or collapse multiple parent/child elements at once.
 
 ![Tree List View with checkbox](img/tree-list-view-checkbox.png)
-
-## Unsupported: Drag and Drop
-At this time, drag and drop is not supported as part of this pattern.
 
 <!-- ## Draggable Rows
 

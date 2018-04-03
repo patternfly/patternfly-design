@@ -41,24 +41,27 @@ The Tree List View with Multi-Child Expansion performs similarly to the Single C
 1. **Show Child Elements:**
   - When clicking the caret, if there are child elements of the initial row's children, those elements are not opened.
   - Hovering over another expandable attribute will highlight it.
-
 1. **Show Multiple Child Elements:**
   - If an element has already been expanded, clicking the caret on the child element will open the next set of child elements, while keeping previously opened elements (now parents) open with their highlight and active border.
 
 ## Optional: Tree List View with Checkboxes
 ![Tree List View with checkbox](img/tree-list-view-checkbox-design.png)
 
-If desired, checkboxes can be added to the Tree List View. They will reside between the expansion caret and the pipe, and will allow for multi-selections in accordance with the toolbar.
+1. **Checkbox:**
+  - If desired, checkboxes can be added to the Tree List View. They will be placed between the expansion caret and the pipe, and will allow for multi-selections in accordance with the toolbar.
 
 ![Tree List View with checkbox selected](img/tree-list-view-checkbox-selected-design.png)
-Selecting a checkbox will highlight the row in blue.
+
+1. **Select Row(s):**
+  - Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously. Selecting a checkbox activates and highlights the row.
 
 ## Additional Notes about Behavior
 
 - **Recommendations:** We recommend that you use this pattern to go six layers deep. Any more than that will exceed the design expectations and cause rendering issues.
-
 - **Empty State:** If no items exist, display an Empty State page. See the [Empty State](https://www.patternfly.org/pattern-library/communication/empty-state/#_) pattern for more details. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
-
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the Tree List View should be responsive.
+- **Pagination:** The Tree List View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 
-- **Pagination:** The Tree List view can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+## What's not covered in the current design:
+
+- Drag and drop.

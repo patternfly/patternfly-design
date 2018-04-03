@@ -16,7 +16,7 @@
 
       - Right of the sparkline
 
-  1. **Total Value** (optional)**:**
+  1. **Total Value** (optional):
     If needed, provide total value next to the actual value to help provide context.
 
   1. **Unit of Measurement:**
@@ -28,7 +28,7 @@
   1. **Tooltip:**
     Use a tooltip on hover to display additional information about exact points on the sparkline (e.g. values and/or percentages). A vertical line and marker helps to accentuate the hover point.
 
-  1. **Time Frame** (optional)**:** The time frame on a card is optional since there could be a single instance of the time frame label or time frame filter that applies to all cards within a single view. The time frame is indicated by placing a label on one of the following areas:
+  1. **Time Frame** (optional): The time frame on a card is optional since there could be a single instance of the time frame label or time frame filter that applies to all cards within a single view. The time frame is indicated by placing a label on one of the following areas:
 
       - Under the title
 
@@ -36,7 +36,7 @@
       
       - In a [Time Frame Filter](http://www.patternfly.org/pattern-library/cards/base-card/#/design#time-frame-filter-optional)
 
-  1. **Actions Panel** (optional)**:**
+  1. **Actions Panel** (optional):
     See [Actions Panel](http://www.patternfly.org/pattern-library/cards/base-card/#/design#actions-panel-optional) under the Cards pattern for more details.
 
 ## Card with Multiple Trends
@@ -55,13 +55,13 @@
   1. **Actual Value:**
     Shows the current value to the right of the sparkline.
 
-  1. **Total Value** (optional)**:**
+  1. **Total Value** (optional):
     If needed, provide total value next to the actual value to help provide context.
 
   1. **Unit of Measurement:**
     The label for unit of measurement is shown after the the value.
 
-  1. **Percentage** (optional)**:**
+  1. **Percentage** (optional):
     The location of the percentage can be shown to the right of the sparkline.
 
   1. **Sparkline:**

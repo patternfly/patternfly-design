@@ -13,10 +13,5 @@ This pattern should NOT be used:
 * When input data can be validated using client-side validation. For guidance, see [Errors and Validation](http://www.patternfly.org/pattern-library/forms-and-controls/errors-and-validation/#/api).
 * As a replacement for form field labels. For more information, see [Form Field Layouts](http://www.patternfly.org/pattern-library/forms-and-controls/form-field-layouts/#/api) Form Field Labels.
 
-### Default state
+## Default state
 ![Syntax Hints Default](img/Syntax-Hints-Default.png)
-
-
-What’s not covered in the current design but will be covered in future sprints:
-* Localized standards for syntax hints, including phone numbers, mailing address, IP address, and naming fields.
-* Alternative design solutions that work with assistive technology or older web browsers that do not support placeholder syntax hints.
