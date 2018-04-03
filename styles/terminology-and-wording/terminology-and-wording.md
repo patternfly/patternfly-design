@@ -16,6 +16,7 @@
 - **Log in (v):** Use "Log in" to describe the action of logging in. An example of this is seen on the button label for the [Login](http://www.patternfly.org/pattern-library/application-framework/login-page/) page.
 - **Log out (v):** Use "Log out" to describe the action of logging out.
 - **Username (n):** Usually a unique ID (e.g., ssmith123). Use "username" for the product login page.
+- **Select (v):** Use "select" to prompt the user to select or choose an item from a list, group, view, or other container element. “Choose” is not recommended for this use case.
 
 ### Terminology and Wording for Action Labels
 
@@ -47,6 +48,8 @@
 | sysadmin      | Avoid using abbreviations like "sysadmin" and "SysAdmin" as these are too informal. "System" should be singular (i.e., not "systems administrator"), because it can include both a single system and multiple systems, similar to "database administrator" or "brain surgeon," who work on more than one database and brain, respectively. Taken from Red Hat Corporate Style Guide.|
 | U.S.          | As a noun, use "United States" unless there are space constraints. As an adjective use "U.S." (e.g., U.S. soldier). As part of an organization, use "U.S." Taken from Red Hat Corporate Style Guide. |
 | VM            | Refers to a virtual machine.  OK to abbreviate as long as you've spelled it out once in the first occurrence, and as long as "VM" won't be confused with other terms that share that acronym. Taken from Red Hat Corporate Style Guide. |
+| N/A           | Refers to data not available. Applies to tables, list views, card views, etc. |
+| --            | Refers to data not applicable. It is different than N/A that data would never be available for the object. |
 {:.table .table-striped .table-bordered}
 
 ### Abbreviations for 12 Hour Time System
@@ -130,7 +133,7 @@ Links that direct users to an external site should be followed by the [fa-extern
   * You will usually hyphenate:
     * Complex adjectives (compound modifiers). This is when two adjectives work together to modify an object. The hyphen is used when the first adjective modifies the second adjective (e.g, cloud-based solutions, right-side paralysis, system-wide menu).
       * **Exception:** We never hyphenate "open source," even when used as a complex adjective.
-    * When the prefix ends in a vowel and the word that follows begins with the same vowel (i.e., semi-independent, pre-emptive). 
+    * When the prefix ends in a vowel and the word that follows begins with the same vowel (i.e., semi-independent, pre-emptive).
       * **Exceptions:** Cooperate and coordinate.
     * Capitalized words with a prefix (e.g., un-American, non-British).
     * Double prefixes (e.g., sub-subparagraph, re-sublet).
