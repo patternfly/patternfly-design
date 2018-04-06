@@ -10,4 +10,4 @@ A listing of design patterns and their status and status are available at: http:
 Interested in contributing to PatternFly?
 --
 
-To learn more about how you can contribute to PatternFly visit our [Contribution page](https://github.com/patternfly/patternfly-design/.github/CONTRIBUTING.md).
+To learn more about how you can contribute to PatternFly visit our [Contribution page](CONTRIBUTING.md).
