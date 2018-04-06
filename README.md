@@ -1,4 +1,4 @@
-patternfly-design is awesome!
+Welcome to patternfly-design!
 =============================
 
 The "patternfly-design" repo houses the design documentation for the PatternFly project. Accepted content will be merged into the "patternfly-design" repo, so that they can appear on the [patternfly.org](https://www.patternfly.org), website.
@@ -10,7 +10,6 @@ A listing of design patterns and their status and status are available at: http:
 Interested in contributing to PatternFly?
 --
 
-To learn more about how you can contribute to PatternFly visit our [Home Page](https://github.com/patternfly/patternfly-design/wiki/home).
-
+To learn more about how you can contribute to PatternFly visit our [Contribution page](https://github.com/patternfly/patternfly-design/contributing.md).
 
 
