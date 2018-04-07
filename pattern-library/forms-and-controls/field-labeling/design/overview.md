@@ -5,7 +5,7 @@ Labels are always provided for input fields to help users understand what inform
 
 ## High-Level Recommendations
 
-* Make [right-aligned labels](#right-aligned-labels) as your default choice.  It has been shown that this approach leads to the shortest completion times.
+* Use [right-aligned labels](#right-aligned-labels) as your default choice.  It has been shown that this approach leads to the shortest completion times.
 * Use [top-aligned labels](#top-aligned-labels) when you are space constrained or if mobile usage is a high priority.
 * Whatever approach you use, we recommend that you maintain consistency throughout an application.
 * If a [field is required](#indicating-required-fields) a required field indicator should be used.
@@ -15,7 +15,7 @@ Labels are always provided for input fields to help users understand what inform
 ## Right-Aligned Labels
 The ragged left edge makes scanning for context difficult, although the proximity between label and input aids quicker form completion.
 
-![Right-Aligned Labels](img/right-aligned-labels.png)
+![right-aligned labels](img/right-aligned-labels.png)
 
 Right-aligned labels are good for layouts with more horizontal space than vertical, and support (western), left to right, reading between label and field. The label and the field are in close proximity, allowing the user to traverse quickly, and the vertical margin between all the labels and inputs might aid scanning in long forms.
 
@@ -32,7 +32,7 @@ Despite these advantages, the irregular, ragged left edge of form labels makes t
 ## Top-Aligned Labels
 Top-aligned labels provide a consistent left edge, along with close proximity of label and input. This offers ease of use for both scanning and form completion while requiring more vertical space than the alternatives.
 
-![Top-Aligned Labels](img/top-aligned-labels.png)
+![top-aligned labels](img/top-aligned-labels.png)
 
 Top-aligned labels offer the most horizontal area for long labels, relative to the other options as labels can vary in length without affecting the overall presentation. Because the labels are in close proximity to the input fields this approach supports scannability and quick data entry. But because this approach is so visually efficient, however, users might move too quickly through the form and potentially make data entry errors.
 
@@ -46,10 +46,10 @@ Top-aligned labels offer the most horizontal area for long labels, relative to t
 * Related fields must be grouped horizontally. For example [first name] [last name]
 
 
-## Left-Aligned labels
+## Left-Aligned Labels
 The strong vertical edge helps users to scan for context, although the distance between label and input might slow users down.
 
-![Left-Aligned Labels](img/left-aligned-labels.png)
+![left-aligned labels](img/left-aligned-labels.png)
 
 Left-aligned labels are good for unfamiliar content or forms in which well considered responses are necessary. Users can easily scan the left edge to read the labels and understand the larger context of the form while the distance between labels and inputs might slow users down. Like right-aligned labels, they support (western), left to right reading between label and field and are good for layouts with more horizontal space than vertical.
 
@@ -63,18 +63,14 @@ Left-aligned labels are good for unfamiliar content or forms in which well consi
 
 
 ## Indicating Required Fields
-If only some of the fields are required and others are optional, denote required fields as follows. Due to responsiveness issues, we do not recommend labeling optional fields with "(optional)".
+If only some of the fields are required and others are optional, a required field should be indicated with a red asterisk (<span style="color:red"> * </span>) to the left of the field label. Due to responsiveness issues, we do not recommend labeling optional fields with "(optional)".
 
-![Form with required fields (top-aligned)](img/form-required-fields.png)
-![Form with required fields (right-aligned)]
-![Form with required fields (left-aligned)]
-
-1. **Required field:** Required fields should be denoted with an * (asterisk) symbol to the left of the label text.
-2. **Explanation:** A message to explain the meaning of the * symbol
+![form with required fields (right-aligned)](img/right-aligned-labels.png)
 
 When all fields on a form are either required or optional, it is not necessary to place the required field indicator on all fields. Simply include a message at the top of the form that indicates whether all fields are required or optional (if it will not be obvious to the target user).  
 
-![Form with all fields required](img/form-all-fields-required.png)
+When fields are all required:
+![form with all required fields (right-aligned)](img/form-all-fields-required.png)
 
-3. Message when all fields are required.
-4. Message when all fields are optional.
+When fields are all optional:
+![form with all fields optional](img/form-all-fields-optional.png)
