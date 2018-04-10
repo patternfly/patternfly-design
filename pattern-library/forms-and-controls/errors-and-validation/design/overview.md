@@ -29,6 +29,6 @@ See [Inline Notifications](http://www.patternfly.org/pattern-library/communicati
 ### When to perform validation
 For server-side validation, the error message always appears after user submitted and the entire page was reloaded. For client-side validation, there are several scenarios:
 
-* When possible, it's best to perform inline validation as the widget loses focus so that the user is immediately informed of invalid information. The validation will disappear after user modifies the content within the field. However, inline validation shouldn’t be overused as the user may feel frustrated.
+* When possible, it's best to perform inline validation as the widget loses focus so that the user is immediately informed of invalid information. The validation will disappear after user modifies the content within the field and the widget loses focus. However, inline validation shouldn’t be overused as the user may feel frustrated.
 * When a required field is not filled or input data is in the incorrect format, we recommend showing a validation as the widget loses focus. If users are asked to provide unfamiliar data or a specific format is needed, we recommend provide syntax hints to preventing users from making mistakes. See [Syntax Hints](http://www.patternfly.org/pattern-library/forms-and-controls/help-on-forms/) for more information.
 * Some use cases might require validation as the user types, where the syntax for each character is checked. For example: Checking IP address fields where the only valid characters are numbers and periods.
