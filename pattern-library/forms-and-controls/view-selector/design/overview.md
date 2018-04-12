@@ -1,10 +1,15 @@
 # View Selector
 
-The view selector is located in a toolbar providing views for a [List View](https://www.patternfly.org/pattern-library/content-views/list-view/), [Card View](http://www.patternfly.org/pattern-library/content-views/card-view/) or [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/).
+A view selector is used to allow the user to visualize data differently by toggling between supported view types.
 
-View selector icons should be placed in this order (1) List View (2) Card View (3)Table View - optional.
+The following is a list of recommended view types which can be utilized as needed:
 
-![Image of View Selector](img/view-selector-layout.png)
+1. Overview (dashboard view of an object or a group of objects)
+2. List View
+3. Card View
+4. Table View
+5. Topology View
+
 
 ### View Selector Detail
-![View Selector Detail](img/view-selector-detail.png)
+![View Selector Detail](img/view-selector-overview.png)
