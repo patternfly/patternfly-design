@@ -39,8 +39,8 @@ The following text is recommended for the set of icons displayed in the example 
 
 | Icon                                      | Class Name    | Tooltip Text      | Screenreader Text (aria-label) | Comments                   |
 | ----------------------------------------- | ------------- | ----------------- | ------------------------------ | -------------------------- |
-| <span class="fa fa-sort-asc"></span>      | fa-sort-asc   | Sort Z to A       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
-| <span class="fa fa-sort-desc"></span>     | fa-sort-desc  | Sort A to Z       | Sorted Z to A. Toggle to sort A to Z. | Displays in the Sort control group (see callout 3). See comments in previous row. |
+| <span class="fa fa-sort-alpha-asc"></span>      | fa-sort-alpha-asc   | Sort A to Z       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
+| <span class="fa fa-sort-alpha-desc"></span>     | fa-sort-alpha-desc  | Sort Z to A       | Sorted Z to A. Toggle to sort A to Z. | Displays in the Sort control group (see callout 3). See comments in previous row. |
 | <span class="fa fa-column"></span>        | fa-column     | Show/hide columns | Show/hide columns              | Displays in the Sort control group (see callout 4) |
 | <span class="fa fa-ellipsis-v"></span>    | fa-ellipsis-v | More actions      | More actions                   | Displays in the Actions control group (see callout 5) |
 | <span class="fa fa-search"></span>        | fa-search     | Find              | Find                           | Displays in the Find control group (see callout 6) |
