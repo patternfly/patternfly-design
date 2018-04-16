@@ -5,7 +5,7 @@
 
   1. **Component Divider:** Visually and spatially separates the toolbar’s component patterns. No divider is needed between left-aligned and right-aligned sets of patterns because they are separated by a significant space.
 
-  1. **Sort:** Helps users make sense of content by ordering it in a logical fashion based on a single attribute.
+  1. **Sort:** Helps users make sense of content by ordering it in a logical fashion based on a single attribute. Refer to the [Sort](http://www.patternfly.org/pattern-library/forms-and-controls/sort/#overview/) design page for more details.
 
   1. **Column Visibility:** Enables users to define what columns are visible within a table.
     - Only displays for the table view. If the user changes the view to something other than the table view, then this icon does not display in the toolbar. Refer to the [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/) design page for more details.
@@ -39,7 +39,7 @@ The following text is recommended for the set of icons displayed in the example 
 
 | Icon                                      | Class Name    | Tooltip Text      | Screenreader Text (aria-label) | Comments                   |
 | ----------------------------------------- | ------------- | ----------------- | ------------------------------ | -------------------------- |
-| <span class="fa fa-sort-alpha-asc"></span>      | fa-sort-alpha-asc   | Sort A to Z       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. |
+| <span class="fa fa-sort-alpha-asc"></span>      | fa-sort-alpha-asc   | Sort A to Z       | Sorted A to Z. Toggle to sort Z to A. | Displays in the Sort control group (see callout 3). This icon and text would display regardless of data type. The icon and text use "A to Z" as an example to communicate sort order, and are not intended to indicate type of data that displays in the selected column. Refer to the [Sort](http://www.patternfly.org/pattern-library/forms-and-controls/sort/#design) design page for more details of available sort icons and when they should be used. |
 | <span class="fa fa-sort-alpha-desc"></span>     | fa-sort-alpha-desc  | Sort Z to A       | Sorted Z to A. Toggle to sort A to Z. | Displays in the Sort control group (see callout 3). See comments in previous row. |
 | <span class="fa fa-column"></span>        | fa-column     | Show/hide columns | Show/hide columns              | Displays in the Sort control group (see callout 4) |
 | <span class="fa fa-ellipsis-v"></span>    | fa-ellipsis-v | More actions      | More actions                   | Displays in the Actions control group (see callout 5) |
