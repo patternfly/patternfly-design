@@ -29,4 +29,4 @@ Icons on action buttons are generally not recommended, but they can be useful in
 ## Page-scoped actions
 ![A page with actions at the top](img/actions-page-scoped.png)
 Pages that don't have a toolbar, such as object detail pages, should have their actions aligned with the page title, or in the upper right-hand corner of the page if a title does not exist.
-These actions should otherwise behave and be styled like actions that are found in a toolbar.
+Actions should always behave and be styled the same way regardless of whether they are in a toolbar or on a page. 
