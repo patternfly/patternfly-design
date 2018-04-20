@@ -24,7 +24,7 @@ Icons on action buttons are generally not recommended, but they can be useful in
 1. Icons should be placed to the left of the action label and should be the same color as the label text.
 1. Icon use should be consistent throughout the action set.
 1. Icons without labels should only be used if the icon is extremely recognizable and has tooltip with a description of the action. The active area for action icons should be at least as wide as they are tall.
-1. If an action needs to be strongly de-emphasized because it is inline with text or for another reason, it can be displayed without a border similarly to a link. In these cases, having an associated icon can be useful to differentiate the action from a regular link. All of the above guidelines should be followed in this case.
+1. If an action needs to be strongly de-emphasized because it is inline with text or for another reason, it can be styled like a link. In these cases, having an associated icon can be useful to differentiate the action from a regular link. All of the above guidelines should be followed in this case.
 
 ## Page-scoped actions
 ![A page with actions at the top](img/actions-page-scoped.png)
