@@ -4,7 +4,7 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ## Default State
 
-![Selecting Items](default_state.png)
+![Selecting Items](img/default_state.png)
 
   1. **Select All**
     - Selects all items in the list.
@@ -36,9 +36,9 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ## Selecting and Moving Items
 
-![Hover Highlight](highlight.png)
-![Selecting Items](SingleSelect.png)
-![Select All](disabled.png)
+![Hover Highlight](img/highlight.png)
+![Selecting Items](img/SingleSelect.png)
+![Select All](img/disabled.png)
 1. **Hover Highlight**
   - Highlight should exist on hover.
 
@@ -55,7 +55,7 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ## Bulk Moving
 
-![Empty State](SelectAllDefaultState.png)
+![Empty State](img/SelectAllDefaultState.png)
 
 1. **Select All**
   - When Select All is clicked, all items are highlighted following the above highlight and move rules.
@@ -63,14 +63,14 @@ Dual Pane Selectors allow users to visually compare available and selected items
 
 ## Empty State on Selection Pane
 
-![Empty State](empty_defaultState.png)
+![Empty State](img/empty_defaultState.png)
 
 1. **Initial Pane is Empty**
   - When all items are selected and removed from the first state pane an Empty State message should be shown letting the users know there are no other items available for selection.
 
 ## Nesting
 
-![Default State](nesting.png)
+![Default State](img/nesting.png)
 
 1. **Parent and Child Selections**
   - Parent items contain checkboxes that will select all child items underneath that parent.
