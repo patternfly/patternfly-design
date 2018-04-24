@@ -8,5 +8,5 @@ code_angular: /components/angular-patternfly/dist/docs/partials/api/patternfly.n
 url-js-extra: ['components/angular-patternfly/dist/docs/grunt-scripts/angular-drag-and-drop-lists.js']
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/notification-drawer-vertical-nav.html
 impl_angular: https://www.patternfly.org/angular-patternfly/#/api/patternfly.notification.component:pfNotificationDrawer
-impl_webcomponent: https://rawgit.com/patternfly-webcomponents/patternfly-webcomponents/master-dist/app/app.html?dir=pf-notification-drawer&file=index.html
+impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=NotificationDrawer&selectedStory=Notification%20Drawer
 ---
