@@ -1,5 +1,3 @@
-This template should provide high level information on the design, to inform the user, at a glance, if this pattern is a fit for their needs.
-
 # Dual Pane Selector
 
 
@@ -7,6 +5,7 @@ This template should provide high level information on the design, to inform the
 
 The Dual Pane Selector component is used to move items from one list to another.
 
+They are best used when more than 30 items appear in a list, a many to many data model is needed or if there is a specific applicable use case. Lists under 30 items should consider using the [Bootstrap Multiple Select widget](http://www.patternfly.org/pattern-library/widgets/#bootstrap-select).
 
 ## Use Cases
 
