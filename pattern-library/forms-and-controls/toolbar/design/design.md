@@ -15,7 +15,9 @@
 
   1. **Find:** Locates a specific item or items by automatically scrolling or paging to all occurrences of an entered query. Unlike filtering, it does not remove content from the view.
 
-  1. **Change View:** Allows users to utilize the advantages of different content representations by switching between ways of visualizing the same dataset.
+  1. [**View Selector:**]([View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/) Allows users to utilize the advantages of different content representations by switching between ways of visualizing the same dataset.
+
+  ![View Selector Design img](img/view-selector-design.png)
 
   1. **Active Filters:** A component of the filter tool that contains a list of all currently active filters as well as the Clear All Filters action. Not displayed if stackable filters are disabled.
 
