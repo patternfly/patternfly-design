@@ -61,6 +61,7 @@ The Tree List View with Multi-Child Expansion performs similarly to the Single C
 - **Empty State:** If no items exist, display an Empty State page. See the [Empty State](https://www.patternfly.org/pattern-library/communication/empty-state/#_) pattern for more details. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the Tree List View should be responsive.
 - **Pagination:** The Tree List View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
+- **View Selector:** If alternate views are supported, a [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/#design) will be displayed in the top right corner. This will allow the user to switch to another view.
 
 ## What's not covered in the current design:
 
