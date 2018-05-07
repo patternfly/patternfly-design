@@ -5,7 +5,7 @@ The Toolbar pattern sits above a content view such as a [List View](https://www.
 - Sort
 - Actions
 - [Find](https://www.patternfly.org/pattern-library/forms-and-controls/find/#_)
-- Change View
+- [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/)
 
 These controls may be used either together or individually, and may be substituted for other components. The Toolbar pattern should be used any time controls are needed for a content view.
 
@@ -18,11 +18,11 @@ These controls may be used either together or individually, and may be substitut
 
 ![Toolbar pattern with callouts](img/toolbar-example2.png)
 
-### Without Find and Change View
+### Without Find and View Selector
 
 ![Toolbar pattern with callouts](img/toolbar-example3.png)
 
-### Without Change View
+### Without View Selector
 
 ![Toolbar pattern with callouts](img/toolbar-example4.png)
 
