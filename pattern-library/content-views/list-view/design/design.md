@@ -38,7 +38,7 @@
   - Hovering over an expandable attribute highlights it. Note that in this case there is no action that applies to single clicking on the entire row. The user must explicitly click on the element they want to expand.
   - Clicking on any expandable attribute opens the expansion panels with details for the selected attribute only. The caret changes direction to point down, and the attribute remains highlighted.
   - Hovering over another expandable attribute will highlight it. Clicking will close the current expansion panel and expand this attribute by opening its row expansion. This action is exactly equivalent to closing the first panel (by clicking close) and expanding the second panel.
-1. **Close/Collapse** (optional): Click the Close icon to close/collapse the expansion panel. 
+1. **Close/Collapse** (optional): Click the Close icon to close/collapse the expansion panel.
 
 
 ## Additional Notes about Behavior
@@ -47,3 +47,4 @@
 - **Loading State:** If content is not loaded, display the [Loading State](http://www.patternfly.org/pattern-library/communication/loading-state/) pattern.
 - **Pagination:** List View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the List View should be responsive.
+- **View Selector:** If alternate views are supported, a [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/#design) will be displayed in the top right corner. This will allow the user to switch to another view.
