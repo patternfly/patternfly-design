@@ -20,7 +20,7 @@
 5. **Background:** When the modal overlay appears, the background should darken to bring attention to the primary content. While the rest of the page is no longer accessible, the background should still be legible to remain in context for the user.
 
 ## Short Example
-![Image of Overlay 2](img/Overlay-01.png)
+![Image of Overlay 2](img/Overlay-01@2x.png)
 
 ## Long Example
-![Image of Overlay 3](img/Overlay-03.png)
+![Image of Overlay 3](img/Overlay-03@2x.png)
