@@ -1,6 +1,6 @@
-# Dual Pane Selector
+# Dual List Selector
 
-Dual Pane Selectors allow users to visually compare available and selected items and move items between those states.  
+Dual List Selectors allow users to visually compare available and selected items and move items between those states.  
 
 ## Default State
 
