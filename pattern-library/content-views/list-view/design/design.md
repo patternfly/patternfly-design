@@ -27,7 +27,7 @@
 1. **Interaction:**
   - Hovering over a row highlights it. Single clicking anywhere in the row expands the row.
   - If the list supports both expansion and drill-down to details, a button or link must be added to the row to support the drill-down action.
-1. **Expansion Panel:** When the row is expanded, the row background is changed to #------ and a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. The panel should be sized to accommodate the content. Content can be anything that is required to convey details of a selected object.
+1. **Expansion Panel:** When the row is expanded, a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. The panel should be sized to accommodate the content. Content can be anything that is required to convey details of a selected object.
 1. **Close/Collapse** (optional): Clicking the Close icon will collapse the expansion panel and return the list to its original (collapsed) state. Alternatively, clicking anywhere on the row again will have the same effect. Note: Use of the Close/Collapse icon is not advised if the content of the panel requires its full width.
 
 
