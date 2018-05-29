@@ -14,8 +14,8 @@
             "status": "present",
             "dateChanged": "2018-01-05T22:52:04.000Z",
             "dateChangedFormatted": "January 5th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -26,8 +26,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T17:42:41.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -36,11 +36,12 @@
             },
             "path": "pattern-library/application-framework/launcher/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Launcher",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/launcher/design/overview.md",
               "design": "pattern-library/application-framework/launcher/design/design.md",
@@ -65,8 +66,8 @@
             "status": "present",
             "dateChanged": "2018-03-02T15:12:16.000Z",
             "dateChangedFormatted": "March 2nd 2018",
-            "dateCreated": "2017-12-20T16:24:36.000Z",
-            "dateCreatedFormatted": "December 20th 2017"
+            "dateCreated": "2017-12-21T07:53:54.000Z",
+            "dateCreatedFormatted": "December 21st 2017"
           },
           "design": {
             "patternFile": {
@@ -77,8 +78,8 @@
             "status": "present",
             "dateChanged": "2018-01-23T09:15:41.000Z",
             "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-12-20T16:24:36.000Z",
-            "dateCreatedFormatted": "December 20th 2017"
+            "dateCreated": "2017-12-21T07:53:54.000Z",
+            "dateCreatedFormatted": "December 21st 2017"
           },
           "site": {
             "patternFile": {
@@ -87,11 +88,12 @@
             },
             "path": "pattern-library/application-framework/login-page/site.md",
             "status": "present",
-            "dateChanged": "2018-04-01T01:44:43.000Z",
-            "dateChangedFormatted": "April 1st 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Login Page",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/login-page/design/overview.md",
               "design": "pattern-library/application-framework/login-page/design/design.md",
@@ -115,8 +117,8 @@
             "status": "present",
             "dateChanged": "2018-03-22T09:44:59.000Z",
             "dateChangedFormatted": "March 22nd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -127,8 +129,8 @@
             "status": "present",
             "dateChanged": "2018-04-02T11:26:49.000Z",
             "dateChangedFormatted": "April 2nd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -137,11 +139,12 @@
             },
             "path": "pattern-library/application-framework/masthead/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Masthead",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/masthead/design/overview.md",
               "design": "pattern-library/application-framework/masthead/design/design.md",
@@ -184,11 +187,12 @@
             },
             "path": "pattern-library/application-framework/multi-factor-login/site.md",
             "status": "present",
-            "dateChanged": "2017-12-20T17:12:09.000Z",
-            "dateChangedFormatted": "December 20th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2017-12-20T17:12:09.000Z",
             "dateCreatedFormatted": "December 20th 2017",
             "frontmatter": {
+              "title": "Multi Factor Login",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/multi-factor-login/design/overview.md",
               "design": "pattern-library/application-framework/multi-factor-login/design/design.md",
@@ -231,11 +235,12 @@
             },
             "path": "pattern-library/application-framework/single-sign-on/site.md",
             "status": "present",
-            "dateChanged": "2018-03-02T14:53:26.000Z",
-            "dateChangedFormatted": "March 2nd 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2017-12-12T17:44:12.000Z",
             "dateCreatedFormatted": "December 12th 2017",
             "frontmatter": {
+              "title": "Single Sign On",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/single-sign-on/design/overview.md",
               "design": "pattern-library/application-framework/single-sign-on/design/design.md",
@@ -260,10 +265,10 @@
             },
             "path": "pattern-library/cards/aggregate-status-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -274,8 +279,8 @@
             "status": "present",
             "dateChanged": "2018-01-05T20:51:29.000Z",
             "dateChangedFormatted": "January 5th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -284,11 +289,12 @@
             },
             "path": "pattern-library/cards/aggregate-status-card/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Aggregate Status Card",
               "layout": "page-pattern",
               "overview": "pattern-library/cards/aggregate-status-card/design/overview.md",
               "design": "pattern-library/cards/aggregate-status-card/design/design.md",
@@ -310,10 +316,10 @@
             },
             "path": "pattern-library/cards/base-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -324,8 +330,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -334,11 +340,12 @@
             },
             "path": "pattern-library/cards/base-card/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Base Card",
               "layout": "page-pattern",
               "overview": "pattern-library/cards/base-card/design/overview.md",
               "design": "pattern-library/cards/base-card/design/design.md",
@@ -361,10 +368,10 @@
             },
             "path": "pattern-library/cards/trend-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -375,8 +382,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -385,11 +392,12 @@
             },
             "path": "pattern-library/cards/trend-card/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Trend Card",
               "layout": "page-pattern",
               "overview": "pattern-library/cards/trend-card/design/overview.md",
               "design": "pattern-library/cards/trend-card/design/design.md",
@@ -412,10 +420,10 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -424,10 +432,10 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -436,11 +444,12 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/site.md",
             "status": "present",
-            "dateChanged": "2018-03-15T17:52:52.000Z",
-            "dateChangedFormatted": "March 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Utilization Bar Card",
               "layout": "page-pattern",
               "overview": "pattern-library/cards/utilization-bar-card/design/overview.md",
               "design": "pattern-library/cards/utilization-bar-card/design/design.md",
@@ -466,10 +475,10 @@
             },
             "path": "pattern-library/cards/utilization-trend-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -480,8 +489,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -490,11 +499,12 @@
             },
             "path": "pattern-library/cards/utilization-trend-card/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Utilization Trend Card",
               "layout": "page-pattern",
               "overview": "pattern-library/cards/utilization-trend-card/design/overview.md",
               "design": "pattern-library/cards/utilization-trend-card/design/design.md",
@@ -523,8 +533,8 @@
             "status": "present",
             "dateChanged": "2018-02-08T16:15:38.000Z",
             "dateChangedFormatted": "February 8th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -535,8 +545,8 @@
             "status": "present",
             "dateChanged": "2018-03-20T03:27:09.000Z",
             "dateChangedFormatted": "March 20th 2018",
-            "dateCreated": "2018-03-14T08:18:33.000Z",
-            "dateCreatedFormatted": "March 14th 2018"
+            "dateCreated": "2018-03-16T02:53:50.000Z",
+            "dateCreatedFormatted": "March 16th 2018"
           },
           "site": {
             "patternFile": {
@@ -545,11 +555,12 @@
             },
             "path": "pattern-library/communication/about-modal/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "About Modal",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/about-modal/design/overview.md",
               "design": "pattern-library/communication/about-modal/design/design.md",
@@ -576,8 +587,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T17:42:41.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -588,8 +599,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T17:42:41.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -598,11 +609,12 @@
             },
             "path": "pattern-library/communication/comments/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Comments",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/comments/design/overview.md",
               "design": "pattern-library/communication/comments/design/design.md",
@@ -623,8 +635,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T23:17:51.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -635,8 +647,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -645,11 +657,12 @@
             },
             "path": "pattern-library/communication/empty-state/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Empty State",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/empty-state/design/overview.md",
               "design": "pattern-library/communication/empty-state/design/design.md",
@@ -678,8 +691,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T23:17:51.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -690,8 +703,8 @@
             "status": "present",
             "dateChanged": "2018-01-18T23:17:51.000Z",
             "dateChangedFormatted": "January 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -700,11 +713,12 @@
             },
             "path": "pattern-library/communication/experimental-features/site.md",
             "status": "present",
-            "dateChanged": "2018-03-02T14:53:26.000Z",
-            "dateChangedFormatted": "March 2nd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Experimental Features",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/experimental-features/design/overview.md",
               "design": "pattern-library/communication/experimental-features/design/design.md",
@@ -724,10 +738,10 @@
             },
             "path": "pattern-library/communication/inline-notifications/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -738,8 +752,8 @@
             "status": "present",
             "dateChanged": "2018-01-19T23:05:02.000Z",
             "dateChangedFormatted": "January 19th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -748,11 +762,12 @@
             },
             "path": "pattern-library/communication/inline-notifications/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Inline Notifications",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/inline-notifications/design/overview.md",
               "design": "pattern-library/communication/inline-notifications/design/design.md",
@@ -801,11 +816,12 @@
             },
             "path": "pattern-library/communication/loading-state/site.md",
             "status": "present",
-            "dateChanged": "2018-02-23T19:30:55.000Z",
-            "dateChangedFormatted": "February 23rd 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2018-02-21T16:27:56.000Z",
             "dateCreatedFormatted": "February 21st 2018",
             "frontmatter": {
+              "title": "Loading State",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/loading-state/design/overview.md",
               "design": "pattern-library/communication/loading-state/design/design.md",
@@ -824,10 +840,10 @@
             },
             "path": "pattern-library/communication/notification-drawer/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -838,8 +854,8 @@
             "status": "present",
             "dateChanged": "2018-02-26T03:39:03.000Z",
             "dateChangedFormatted": "February 26th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -848,12 +864,13 @@
             },
             "path": "pattern-library/communication/notification-drawer/site.md",
             "status": "present",
-            "dateChanged": "2018-04-24T20:49:07.000Z",
-            "dateChangedFormatted": "April 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "dlabrecq",
+              "title": "Notification Drawer",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/notification-drawer/design/overview.md",
               "design": "pattern-library/communication/notification-drawer/design/design.md",
@@ -903,11 +920,12 @@
             },
             "path": "pattern-library/communication/session-timeout/site.md",
             "status": "present",
-            "dateChanged": "2018-03-14T07:36:45.000Z",
-            "dateChangedFormatted": "March 14th 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2018-03-14T07:36:45.000Z",
             "dateCreatedFormatted": "March 14th 2018",
             "frontmatter": {
+              "title": "Session Timeout",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/session-timeout/design/overview.md",
               "design": "pattern-library/communication/session-timeout/design/design.md",
@@ -928,8 +946,8 @@
             "status": "present",
             "dateChanged": "2017-10-09T16:20:41.000Z",
             "dateChangedFormatted": "October 9th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-09T16:20:41.000Z",
+            "dateCreatedFormatted": "October 9th 2017"
           },
           "design": {
             "patternFile": {
@@ -940,8 +958,8 @@
             "status": "present",
             "dateChanged": "2018-01-22T16:30:56.000Z",
             "dateChangedFormatted": "January 22nd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-09T16:20:41.000Z",
+            "dateCreatedFormatted": "October 9th 2017"
           },
           "site": {
             "patternFile": {
@@ -950,11 +968,12 @@
             },
             "path": "pattern-library/communication/toast-notifications/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Toast Notifications",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/toast-notifications/design/overview.md",
               "design": "pattern-library/communication/toast-notifications/design/design.md",
@@ -978,10 +997,10 @@
             },
             "path": "pattern-library/communication/tour/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -992,8 +1011,8 @@
             "status": "present",
             "dateChanged": "2018-01-19T23:05:02.000Z",
             "dateChangedFormatted": "January 19th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1002,11 +1021,12 @@
             },
             "path": "pattern-library/communication/tour/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Tour",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/tour/design/overview.md",
               "design": "pattern-library/communication/tour/design/design.md",
@@ -1027,8 +1047,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1039,8 +1059,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1049,11 +1069,12 @@
             },
             "path": "pattern-library/communication/wizard/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Wizard",
               "layout": "page-pattern",
               "overview": "pattern-library/communication/wizard/design/overview.md",
               "design": "pattern-library/communication/wizard/design/design.md",
@@ -1084,8 +1105,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1096,8 +1117,8 @@
             "status": "present",
             "dateChanged": "2018-02-12T21:57:10.000Z",
             "dateChangedFormatted": "February 12th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1106,11 +1127,12 @@
             },
             "path": "pattern-library/content-views/canvas-view/site.md",
             "status": "present",
-            "dateChanged": "2017-10-17T09:17:09.000Z",
-            "dateChangedFormatted": "October 17th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Canvas View",
               "layout": "page-pattern",
               "overview": "pattern-library/content-views/canvas-view/design/overview.md",
               "design": "pattern-library/content-views/canvas-view/design/design.md",
@@ -1137,8 +1159,8 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1149,8 +1171,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T09:22:16.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1159,11 +1181,12 @@
             },
             "path": "pattern-library/content-views/card-view/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Card View",
               "layout": "page-pattern",
               "overview": "pattern-library/content-views/card-view/design/overview.md",
               "design": "pattern-library/content-views/card-view/design/design.md",
@@ -1191,8 +1214,8 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1203,8 +1226,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T10:16:50.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1213,11 +1236,12 @@
             },
             "path": "pattern-library/content-views/list-view/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "List View",
               "layout": "page-pattern",
               "overview": "pattern-library/content-views/list-view/design/overview.md",
               "design": "pattern-library/content-views/list-view/design/design.md",
@@ -1249,8 +1273,8 @@
             "status": "present",
             "dateChanged": "2018-01-24T22:02:28.000Z",
             "dateChangedFormatted": "January 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1261,8 +1285,8 @@
             "status": "present",
             "dateChanged": "2018-03-05T15:27:24.000Z",
             "dateChangedFormatted": "March 5th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1271,11 +1295,12 @@
             },
             "path": "pattern-library/content-views/table-view/site.md",
             "status": "present",
-            "dateChanged": "2018-03-06T18:31:44.000Z",
-            "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Table View",
               "layout": "page-pattern",
               "overview": "pattern-library/content-views/table-view/design/overview.md",
               "design": "pattern-library/content-views/table-view/design/design.md",
@@ -1311,8 +1336,8 @@
             "status": "present",
             "dateChanged": "2018-02-07T20:43:15.000Z",
             "dateChangedFormatted": "February 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1323,8 +1348,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T12:15:47.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1333,11 +1358,12 @@
             },
             "path": "pattern-library/content-views/tree-list-view/site.md",
             "status": "present",
-            "dateChanged": "2018-03-20T09:35:47.000Z",
-            "dateChangedFormatted": "March 20th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2018-03-20T09:35:47.000Z",
+            "dateCreatedFormatted": "March 20th 2018",
             "frontmatter": {
+              "title": "Tree List View",
               "layout": "page-pattern",
               "overview": "pattern-library/content-views/tree-list-view/design/overview.md",
               "design": "pattern-library/content-views/tree-list-view/design/design.md",
@@ -1362,10 +1388,10 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1374,10 +1400,10 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1386,11 +1412,12 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Dashboard Layout",
               "layout": "page-pattern",
               "overview": "pattern-library/dashboard/dashboard-layout/design/overview.md",
               "design": "pattern-library/dashboard/dashboard-layout/design/design.md",
@@ -1416,10 +1443,10 @@
             },
             "path": "pattern-library/data-visualization/area-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1428,10 +1455,10 @@
             },
             "path": "pattern-library/data-visualization/area-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1440,11 +1467,12 @@
             },
             "path": "pattern-library/data-visualization/area-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Area Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/area-chart/design/overview.md",
               "design": "pattern-library/data-visualization/area-chart/design/design.md",
@@ -1466,10 +1494,10 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1478,10 +1506,10 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1490,11 +1518,12 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Bar Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/bar-chart/design/overview.md",
               "design": "pattern-library/data-visualization/bar-chart/design/design.md",
@@ -1516,10 +1545,10 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1528,10 +1557,10 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1540,12 +1569,13 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Bullet Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/bullet-chart/design/overview.md",
               "design": "pattern-library/data-visualization/bullet-chart/design/design.md",
@@ -1566,10 +1596,10 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1578,10 +1608,10 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1590,11 +1620,12 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Donut Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/donut-chart/design/overview.md",
               "design": "pattern-library/data-visualization/donut-chart/design/design.md",
@@ -1618,10 +1649,10 @@
             },
             "path": "pattern-library/data-visualization/heat-map/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1630,10 +1661,10 @@
             },
             "path": "pattern-library/data-visualization/heat-map/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1642,12 +1673,13 @@
             },
             "path": "pattern-library/data-visualization/heat-map/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Heat Map",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/heat-map/design/overview.md",
               "design": "pattern-library/data-visualization/heat-map/design/design.md",
@@ -1668,10 +1700,10 @@
             },
             "path": "pattern-library/data-visualization/line-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1680,10 +1712,10 @@
             },
             "path": "pattern-library/data-visualization/line-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1692,11 +1724,12 @@
             },
             "path": "pattern-library/data-visualization/line-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Line Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/line-chart/design/overview.md",
               "design": "pattern-library/data-visualization/line-chart/design/design.md",
@@ -1719,10 +1752,10 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1731,10 +1764,10 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1743,11 +1776,12 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Pie Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/pie-chart/design/overview.md",
               "design": "pattern-library/data-visualization/pie-chart/design/design.md",
@@ -1772,8 +1806,8 @@
             "status": "present",
             "dateChanged": "2018-01-15T23:03:34.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1782,10 +1816,10 @@
             },
             "path": "pattern-library/data-visualization/sparkline/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1794,11 +1828,12 @@
             },
             "path": "pattern-library/data-visualization/sparkline/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Sparkline",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/sparkline/design/overview.md",
               "design": "pattern-library/data-visualization/sparkline/design/design.md",
@@ -1821,10 +1856,10 @@
             },
             "path": "pattern-library/data-visualization/timeline/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1833,10 +1868,10 @@
             },
             "path": "pattern-library/data-visualization/timeline/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1845,12 +1880,13 @@
             },
             "path": "pattern-library/data-visualization/timeline/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Timeline",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/timeline/design/overview.md",
               "design": "pattern-library/data-visualization/timeline/design/design.md",
@@ -1873,8 +1909,8 @@
             "status": "present",
             "dateChanged": "2018-02-07T22:11:44.000Z",
             "dateChangedFormatted": "February 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -1885,8 +1921,8 @@
             "status": "present",
             "dateChanged": "2018-03-07T16:19:18.000Z",
             "dateChangedFormatted": "March 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1895,11 +1931,12 @@
             },
             "path": "pattern-library/data-visualization/utilization-bar-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-04-24T20:49:07.000Z",
-            "dateChangedFormatted": "April 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Utilization Bar Chart",
               "layout": "page-pattern",
               "overview": "pattern-library/data-visualization/utilization-bar-chart/design/overview.md",
               "design": "pattern-library/data-visualization/utilization-bar-chart/design/design.md",
@@ -1966,8 +2003,8 @@
             "status": "present",
             "dateChanged": "2017-11-03T03:36:36.000Z",
             "dateChangedFormatted": "November 3rd 2017",
-            "dateCreated": "2017-04-27T18:56:12.000Z",
-            "dateCreatedFormatted": "April 27th 2017"
+            "dateCreated": "2017-05-01T16:57:29.000Z",
+            "dateCreatedFormatted": "May 1st 2017"
           },
           "design": {
             "patternFile": {
@@ -1976,10 +2013,10 @@
             },
             "path": "pattern-library/forms-and-controls/buttons-on-forms/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -1988,11 +2025,12 @@
             },
             "path": "pattern-library/forms-and-controls/buttons-on-forms/site.md",
             "status": "present",
-            "dateChanged": "2018-03-06T18:31:44.000Z",
-            "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Buttons on Forms",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/buttons-on-forms/design/overview.md",
               "design": "pattern-library/forms-and-controls/buttons-on-forms/design/design.md",
@@ -2038,11 +2076,12 @@
             },
             "path": "pattern-library/forms-and-controls/checkbox-filter/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2017-11-10T16:23:09.000Z",
             "dateCreatedFormatted": "November 10th 2017",
             "frontmatter": {
+              "title": "Checkbox Filter",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/checkbox-filter/design/overview.md",
               "design": "pattern-library/forms-and-controls/checkbox-filter/design/design.md",
@@ -2062,10 +2101,10 @@
             },
             "path": "pattern-library/forms-and-controls/data-input/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2082,11 +2121,12 @@
             },
             "path": "pattern-library/forms-and-controls/data-input/site.md",
             "status": "present",
-            "dateChanged": "2018-03-06T18:31:44.000Z",
-            "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Data Input",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/data-input/design/overview.md",
               "design": false,
@@ -2106,10 +2146,10 @@
             },
             "path": "pattern-library/forms-and-controls/datepicker/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2118,10 +2158,10 @@
             },
             "path": "pattern-library/forms-and-controls/datepicker/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2130,11 +2170,12 @@
             },
             "path": "pattern-library/forms-and-controls/datepicker/site.md",
             "status": "present",
-            "dateChanged": "2018-03-15T17:52:52.000Z",
-            "dateChangedFormatted": "March 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Datepicker",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/datepicker/design/overview.md",
               "design": "pattern-library/forms-and-controls/datepicker/design/design.md",
@@ -2156,10 +2197,10 @@
             },
             "path": "pattern-library/forms-and-controls/drag-and-drop/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2170,8 +2211,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2180,11 +2221,12 @@
             },
             "path": "pattern-library/forms-and-controls/drag-and-drop/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Drag and Drop",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/drag-and-drop/design/overview.md",
               "design": "pattern-library/forms-and-controls/drag-and-drop/design/design.md",
@@ -2227,11 +2269,12 @@
             },
             "path": "pattern-library/forms-and-controls/dual-list-selector/site.md",
             "status": "present",
-            "dateChanged": "2018-05-18T20:27:53.000Z",
-            "dateChangedFormatted": "May 18th 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2018-05-18T20:27:53.000Z",
             "dateCreatedFormatted": "May 18th 2018",
             "frontmatter": {
+              "title": "Dual List Selector",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/dual-list-selector/design/overview.md",
               "design": "pattern-library/forms-and-controls/dual-list-selector/design/design.md",
@@ -2252,8 +2295,8 @@
             "status": "present",
             "dateChanged": "2018-03-14T06:29:20.000Z",
             "dateChangedFormatted": "March 14th 2018",
-            "dateCreated": "2017-03-03T21:56:14.000Z",
-            "dateCreatedFormatted": "March 3rd 2017"
+            "dateCreated": "2017-03-04T13:36:59.000Z",
+            "dateCreatedFormatted": "March 4th 2017"
           },
           "design": {
             "patternFile": {
@@ -2270,12 +2313,13 @@
             },
             "path": "pattern-library/forms-and-controls/errors-and-validation/site.md",
             "status": "present",
-            "dateChanged": "2018-03-06T18:31:44.000Z",
-            "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Errors and Validation",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/errors-and-validation/design/overview.md",
               "design": false,
@@ -2298,10 +2342,10 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2310,10 +2354,10 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2322,12 +2366,13 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Expand Collapse Section",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/expand-collapse-section/design/overview.md",
               "design": "pattern-library/forms-and-controls/expand-collapse-section/design/design.md",
@@ -2349,8 +2394,8 @@
             "status": "present",
             "dateChanged": "2018-04-18T17:12:17.000Z",
             "dateChangedFormatted": "April 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2371,11 +2416,12 @@
             },
             "path": "pattern-library/forms-and-controls/field-labeling/site.md",
             "status": "present",
-            "dateChanged": "2018-04-18T17:12:17.000Z",
-            "dateChangedFormatted": "April 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Field Labeling",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/field-labeling/design/overview.md",
               "design": "pattern-library/forms-and-controls/field-labeling/design/design.md",
@@ -2398,8 +2444,8 @@
             "status": "present",
             "dateChanged": "2017-11-03T13:06:53.000Z",
             "dateChangedFormatted": "November 3rd 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2410,8 +2456,8 @@
             "status": "present",
             "dateChanged": "2018-02-13T07:08:15.000Z",
             "dateChangedFormatted": "February 13th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2420,11 +2466,12 @@
             },
             "path": "pattern-library/forms-and-controls/filter/site.md",
             "status": "present",
-            "dateChanged": "2018-03-06T18:31:44.000Z",
-            "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Filter",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/filter/design/overview.md",
               "design": "pattern-library/forms-and-controls/filter/design/design.md",
@@ -2444,10 +2491,10 @@
             },
             "path": "pattern-library/forms-and-controls/find/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2458,8 +2505,8 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2468,11 +2515,12 @@
             },
             "path": "pattern-library/forms-and-controls/find/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Find",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/find/design/overview.md",
               "design": "pattern-library/forms-and-controls/find/design/design.md",
@@ -2495,8 +2543,8 @@
             "status": "present",
             "dateChanged": "2018-02-08T16:15:38.000Z",
             "dateChangedFormatted": "February 8th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2507,8 +2555,8 @@
             "status": "present",
             "dateChanged": "2018-04-18T17:12:17.000Z",
             "dateChangedFormatted": "April 18th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-11T16:12:55.000Z",
+            "dateCreatedFormatted": "October 11th 2017"
           },
           "site": {
             "patternFile": {
@@ -2517,11 +2565,12 @@
             },
             "path": "pattern-library/forms-and-controls/help-on-forms/site.md",
             "status": "present",
-            "dateChanged": "2018-03-15T19:49:28.000Z",
-            "dateChangedFormatted": "March 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Help On Forms",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/help-on-forms/design/overview.md",
               "design": "pattern-library/forms-and-controls/help-on-forms/design/design.md",
@@ -2543,8 +2592,8 @@
             "status": "present",
             "dateChanged": "2017-10-25T07:00:48.000Z",
             "dateChangedFormatted": "October 25th 2017",
-            "dateCreated": "2017-10-19T07:31:35.000Z",
-            "dateCreatedFormatted": "October 19th 2017"
+            "dateCreated": "2017-10-20T07:16:49.000Z",
+            "dateCreatedFormatted": "October 20th 2017"
           },
           "design": {
             "patternFile": {
@@ -2555,8 +2604,8 @@
             "status": "present",
             "dateChanged": "2017-10-26T03:18:49.000Z",
             "dateChangedFormatted": "October 26th 2017",
-            "dateCreated": "2017-10-19T07:31:35.000Z",
-            "dateCreatedFormatted": "October 19th 2017"
+            "dateCreated": "2017-10-20T07:16:49.000Z",
+            "dateCreatedFormatted": "October 20th 2017"
           },
           "site": {
             "patternFile": {
@@ -2565,11 +2614,12 @@
             },
             "path": "pattern-library/forms-and-controls/inline-edit/site.md",
             "status": "present",
-            "dateChanged": "2018-05-02T18:07:37.000Z",
-            "dateChangedFormatted": "May 2nd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Inline Edit",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/inline-edit/design/overview.md",
               "design": "pattern-library/forms-and-controls/inline-edit/design/design.md",
@@ -2589,10 +2639,10 @@
             },
             "path": "pattern-library/forms-and-controls/language-selector/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2603,8 +2653,8 @@
             "status": "present",
             "dateChanged": "2018-02-12T05:29:49.000Z",
             "dateChangedFormatted": "February 12th 2018",
-            "dateCreated": "2017-03-03T21:56:14.000Z",
-            "dateCreatedFormatted": "March 3rd 2017"
+            "dateCreated": "2017-03-04T13:36:59.000Z",
+            "dateCreatedFormatted": "March 4th 2017"
           },
           "site": {
             "patternFile": {
@@ -2613,11 +2663,12 @@
             },
             "path": "pattern-library/forms-and-controls/language-selector/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Language Selector",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/language-selector/design/overview.md",
               "design": "pattern-library/forms-and-controls/language-selector/design/design.md",
@@ -2638,8 +2689,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2650,8 +2701,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2660,11 +2711,12 @@
             },
             "path": "pattern-library/forms-and-controls/modal-overlay/site.md",
             "status": "present",
-            "dateChanged": "2018-04-24T20:49:07.000Z",
-            "dateChangedFormatted": "April 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Modal Overlay",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/modal-overlay/design/overview.md",
               "design": "pattern-library/forms-and-controls/modal-overlay/design/design.md",
@@ -2686,10 +2738,10 @@
             },
             "path": "pattern-library/forms-and-controls/modeless-overlay/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2698,10 +2750,10 @@
             },
             "path": "pattern-library/forms-and-controls/modeless-overlay/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2710,11 +2762,12 @@
             },
             "path": "pattern-library/forms-and-controls/modeless-overlay/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Modeless Overlay",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/modeless-overlay/design/overview.md",
               "design": "pattern-library/forms-and-controls/modeless-overlay/design/design.md",
@@ -2735,8 +2788,8 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2745,10 +2798,10 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2757,12 +2810,13 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "author": "lhinson",
+              "title": "Progressive Disclosure",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/progressive-disclosure/design/overview.md",
               "design": "pattern-library/forms-and-controls/progressive-disclosure/design/design.md",
@@ -2783,10 +2837,10 @@
             },
             "path": "pattern-library/forms-and-controls/slider/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-09-27T14:15:24.000Z",
-            "dateChangedFormatted": "September 27th 2017",
-            "dateCreated": "2017-09-27T14:15:24.000Z",
-            "dateCreatedFormatted": "September 27th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2797,8 +2851,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-09-27T14:15:24.000Z",
-            "dateCreatedFormatted": "September 27th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2807,11 +2861,12 @@
             },
             "path": "pattern-library/forms-and-controls/slider/site.md",
             "status": "present",
-            "dateChanged": "2018-04-24T20:49:07.000Z",
-            "dateChangedFormatted": "April 24th 2018",
-            "dateCreated": "2017-09-27T14:15:24.000Z",
-            "dateCreatedFormatted": "September 27th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Slider",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/slider/design/overview.md",
               "design": "pattern-library/forms-and-controls/slider/design/design.md",
@@ -2832,10 +2887,10 @@
             },
             "path": "pattern-library/forms-and-controls/sort/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2846,8 +2901,8 @@
             "status": "present",
             "dateChanged": "2018-04-11T06:31:13.000Z",
             "dateChangedFormatted": "April 11th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2856,11 +2911,12 @@
             },
             "path": "pattern-library/forms-and-controls/sort/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Sort",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/sort/design/overview.md",
               "design": "pattern-library/forms-and-controls/sort/design/design.md",
@@ -2885,8 +2941,8 @@
             "status": "present",
             "dateChanged": "2018-02-08T16:15:38.000Z",
             "dateChangedFormatted": "February 8th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2897,8 +2953,8 @@
             "status": "present",
             "dateChanged": "2018-02-08T16:15:38.000Z",
             "dateChangedFormatted": "February 8th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2944,11 +3000,12 @@
             },
             "path": "pattern-library/forms-and-controls/textbox-filter/site.md",
             "status": "present",
-            "dateChanged": "2018-03-02T14:53:26.000Z",
-            "dateChangedFormatted": "March 2nd 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2017-11-10T16:23:09.000Z",
             "dateCreatedFormatted": "November 10th 2017",
             "frontmatter": {
+              "title": "Textbox Filter",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/textbox-filter/design/overview.md",
               "design": "pattern-library/forms-and-controls/textbox-filter/design/design.md",
@@ -2973,8 +3030,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T13:03:10.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -2985,8 +3042,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T13:03:10.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -2995,11 +3052,12 @@
             },
             "path": "pattern-library/forms-and-controls/toolbar/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Toolbar",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/toolbar/design/overview.md",
               "design": "pattern-library/forms-and-controls/toolbar/design/design.md",
@@ -3051,11 +3109,12 @@
             },
             "path": "pattern-library/forms-and-controls/view-selector/site.md",
             "status": "present",
-            "dateChanged": "2018-03-20T22:46:33.000Z",
-            "dateChangedFormatted": "March 20th 2018",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
             "dateCreated": "2018-03-20T22:46:33.000Z",
             "dateCreatedFormatted": "March 20th 2018",
             "frontmatter": {
+              "title": "View Selector",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/view-selector/design/overview.md",
               "design": "pattern-library/forms-and-controls/view-selector/design/design.md",
@@ -3080,10 +3139,10 @@
             },
             "path": "pattern-library/navigation/breadcrumbs/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3094,8 +3153,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -3104,11 +3163,12 @@
             },
             "path": "pattern-library/navigation/breadcrumbs/site.md",
             "status": "present",
-            "dateChanged": "2018-01-23T19:32:12.000Z",
-            "dateChangedFormatted": "January 23rd 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Breadcrumbs",
               "layout": "page-pattern",
               "overview": "pattern-library/navigation/breadcrumbs/design/overview.md",
               "design": "pattern-library/navigation/breadcrumbs/design/design.md",
@@ -3129,10 +3189,10 @@
             },
             "path": "pattern-library/navigation/context-selector/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3143,8 +3203,8 @@
             "status": "present",
             "dateChanged": "2018-03-16T04:20:58.000Z",
             "dateChangedFormatted": "March 16th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -3153,11 +3213,12 @@
             },
             "path": "pattern-library/navigation/context-selector/site.md",
             "status": "present",
-            "dateChanged": "2018-04-17T21:15:20.000Z",
-            "dateChangedFormatted": "April 17th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Context Selector",
               "layout": "page-pattern",
               "overview": "pattern-library/navigation/context-selector/design/overview.md",
               "design": "pattern-library/navigation/context-selector/design/design.md",
@@ -3176,10 +3237,10 @@
             },
             "path": "pattern-library/navigation/guidelines/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3196,10 +3257,10 @@
             },
             "path": "pattern-library/navigation/guidelines/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "title": "Navigation Guidelines",
               "layout": "page-pattern",
@@ -3223,8 +3284,8 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3235,8 +3296,8 @@
             "status": "present",
             "dateChanged": "2018-01-15T20:48:54.000Z",
             "dateChangedFormatted": "January 15th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -3245,10 +3306,10 @@
             },
             "path": "pattern-library/navigation/horizontal-navigation/site.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "title": "Horizontal Navigation",
               "layout": "page-pattern",
@@ -3271,10 +3332,10 @@
             },
             "path": "pattern-library/navigation/pagination/design/overview.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3283,10 +3344,10 @@
             },
             "path": "pattern-library/navigation/pagination/design/design.md",
             "status": "present",
-            "dateChanged": "2017-10-05T14:41:55.000Z",
-            "dateChangedFormatted": "October 5th 2017",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateChanged": "2017-10-12T20:41:09.000Z",
+            "dateChangedFormatted": "October 12th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -3295,11 +3356,12 @@
             },
             "path": "pattern-library/navigation/pagination/site.md",
             "status": "present",
-            "dateChanged": "2018-04-24T20:49:07.000Z",
-            "dateChangedFormatted": "April 24th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateChanged": "2018-05-29T04:53:37.000Z",
+            "dateChangedFormatted": "May 29th 2018",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
+              "title": "Pagination",
               "layout": "page-pattern",
               "overview": "pattern-library/navigation/pagination/design/overview.md",
               "design": "pattern-library/navigation/pagination/design/design.md",
@@ -3324,8 +3386,8 @@
             "status": "present",
             "dateChanged": "2018-03-06T21:45:40.000Z",
             "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "design": {
             "patternFile": {
@@ -3336,8 +3398,8 @@
             "status": "present",
             "dateChanged": "2018-01-25T15:54:42.000Z",
             "dateChangedFormatted": "January 25th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017"
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017"
           },
           "site": {
             "patternFile": {
@@ -3348,8 +3410,8 @@
             "status": "present",
             "dateChanged": "2018-03-06T18:31:44.000Z",
             "dateChangedFormatted": "March 6th 2018",
-            "dateCreated": "2017-10-05T14:41:55.000Z",
-            "dateCreatedFormatted": "October 5th 2017",
+            "dateCreated": "2017-10-12T20:41:09.000Z",
+            "dateCreatedFormatted": "October 12th 2017",
             "frontmatter": {
               "title": "Vertical Navigation",
               "layout": "page-pattern",
