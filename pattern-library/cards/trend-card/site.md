@@ -1,4 +1,5 @@
 ---
+title: Trend Card
 layout: page-pattern
 overview: pattern-library/cards/trend-card/design/overview.md
 design: pattern-library/cards/trend-card/design/design.md

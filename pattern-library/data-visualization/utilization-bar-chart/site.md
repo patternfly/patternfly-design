@@ -1,4 +1,5 @@
 ---
+title: Utilization Bar Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/utilization-bar-chart/design/overview.md
 design: pattern-library/data-visualization/utilization-bar-chart/design/design.md

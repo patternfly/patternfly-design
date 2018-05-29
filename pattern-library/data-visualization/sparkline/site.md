@@ -1,4 +1,5 @@
 ---
+title: Sparkline
 layout: page-pattern
 overview: pattern-library/data-visualization/sparkline/design/overview.md
 design: pattern-library/data-visualization/sparkline/design/design.md

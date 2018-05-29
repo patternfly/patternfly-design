@@ -1,4 +1,5 @@
 ---
+title: Empty State
 layout: page-pattern
 overview: pattern-library/communication/empty-state/design/overview.md
 design: pattern-library/communication/empty-state/design/design.md

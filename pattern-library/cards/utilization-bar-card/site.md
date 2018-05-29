@@ -1,4 +1,5 @@
 ---
+title: Utilization Bar Card
 layout: page-pattern
 overview: pattern-library/cards/utilization-bar-card/design/overview.md
 design: pattern-library/cards/utilization-bar-card/design/design.md
