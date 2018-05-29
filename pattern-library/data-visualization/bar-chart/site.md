@@ -1,4 +1,5 @@
 ---
+title: Bar Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/bar-chart/design/overview.md
 design: pattern-library/data-visualization/bar-chart/design/design.md

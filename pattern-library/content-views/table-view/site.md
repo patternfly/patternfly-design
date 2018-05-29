@@ -1,4 +1,5 @@
 ---
+title: Table View
 layout: page-pattern
 overview: pattern-library/content-views/table-view/design/overview.md
 design: pattern-library/content-views/table-view/design/design.md

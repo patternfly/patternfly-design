@@ -1,5 +1,6 @@
 ---
 author: lhinson
+title: Heat Map
 layout: page-pattern
 overview: pattern-library/data-visualization/heat-map/design/overview.md
 design: pattern-library/data-visualization/heat-map/design/design.md

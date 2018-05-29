@@ -1,4 +1,5 @@
 ---
+title: Textbox Filter
 layout: page-pattern
 overview: pattern-library/forms-and-controls/textbox-filter/design/overview.md
 design: pattern-library/forms-and-controls/textbox-filter/design/design.md

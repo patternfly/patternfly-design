@@ -1,4 +1,5 @@
 ---
+title: Wizard
 layout: page-pattern
 overview: pattern-library/communication/wizard/design/overview.md
 design: pattern-library/communication/wizard/design/design.md

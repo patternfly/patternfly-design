@@ -1,4 +1,5 @@
 ---
+title: Toast Notifications
 layout: page-pattern
 overview: pattern-library/communication/toast-notifications/design/overview.md
 design: pattern-library/communication/toast-notifications/design/design.md

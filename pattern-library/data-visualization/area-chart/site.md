@@ -1,4 +1,5 @@
 ---
+title: Area Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/area-chart/design/overview.md
 design: pattern-library/data-visualization/area-chart/design/design.md
