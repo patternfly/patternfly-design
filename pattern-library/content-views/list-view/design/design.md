@@ -27,7 +27,7 @@
 1. **Interaction:**
   - Hovering over a row highlights it. Single clicking anywhere in the row expands the row.
   - If the list supports both expansion and drill-down to details, a button or link must be added to the row to support the drill-down action.
-1. **Expansion Panel:** When the row is expanded, a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. The panel should be sized to accommodate the content. Content can be anything that is required to convey details of a selected object.
+1. **Expansion Panel:** When the row is expanded, a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. Content can be anything that is required to convey details of a selected object. If content overflows the height of the panel, a scroll bar will be exposed.
 1. **Close/Collapse** (optional): Clicking the Close icon will collapse the expansion panel and return the list to its original (collapsed) state. Alternatively, clicking anywhere on the row again will have the same effect. Note: Use of the Close/Collapse icon is not advised if the content of the panel requires its full width.
 
 
@@ -46,11 +46,11 @@
 
 The background color of a row will change to indicate current states. These are listed with corresponding hex color values below:
 
-* Hover - when the user hovers over a row (#------)
-* Selected - when the user selects a row via single click or selecting the checkbox (#------)
-* Open - when a row is expanded (#------)
-* Edit - when a row is in edit mode via [inline edit](http://www.patternfly.org/pattern-library/forms-and-controls/inline-edit) (#------)
-* Disabled - when a row is disabled (#------)
+* Hover - when the user hovers over a row (pf-blue-50, #def3ff)
+* Selected - when the user selects a row via single click or selecting the checkbox (#edf8ff)
+* Open - when a row is expanded (##edf8ff)
+* Edit - when a row is in edit mode via [inline edit](http://www.patternfly.org/pattern-library/forms-and-controls/inline-edit) (##edf8ff)
+* Disabled - when a row is disabled (pf-black-100, #fafafa)
 
 ## Additional Notes about Behavior
 
