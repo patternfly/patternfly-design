@@ -1,4 +1,5 @@
 ---
+title: Donut Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/donut-chart/design/overview.md
 design: pattern-library/data-visualization/donut-chart/design/design.md

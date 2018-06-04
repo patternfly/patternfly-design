@@ -1,4 +1,5 @@
 ---
+title: Inline Notifications
 layout: page-pattern
 overview: pattern-library/communication/inline-notifications/design/overview.md
 design: pattern-library/communication/inline-notifications/design/design.md

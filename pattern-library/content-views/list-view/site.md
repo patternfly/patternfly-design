@@ -1,4 +1,5 @@
 ---
+title: List View
 layout: page-pattern
 overview: pattern-library/content-views/list-view/design/overview.md
 design: pattern-library/content-views/list-view/design/design.md

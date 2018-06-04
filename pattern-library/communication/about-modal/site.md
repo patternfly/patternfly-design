@@ -1,4 +1,5 @@
 ---
+title: About Modal
 layout: page-pattern
 overview: pattern-library/communication/about-modal/design/overview.md
 design: pattern-library/communication/about-modal/design/design.md

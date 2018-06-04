@@ -1,5 +1,6 @@
 ---
 author: dlabrecq
+title: Notification Drawer
 layout: page-pattern
 overview: pattern-library/communication/notification-drawer/design/overview.md
 design: pattern-library/communication/notification-drawer/design/design.md

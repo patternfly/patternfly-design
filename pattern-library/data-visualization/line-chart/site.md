@@ -1,4 +1,5 @@
 ---
+title: Line Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/line-chart/design/overview.md
 design: pattern-library/data-visualization/line-chart/design/design.md

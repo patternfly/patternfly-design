@@ -1,4 +1,5 @@
 ---
+title: Pie Chart
 layout: page-pattern
 overview: pattern-library/data-visualization/pie-chart/design/overview.md
 design: pattern-library/data-visualization/pie-chart/design/design.md

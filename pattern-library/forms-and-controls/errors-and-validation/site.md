@@ -1,5 +1,6 @@
 ---
 author: lhinson
+title: Errors and Validation
 layout: page-pattern
 overview: pattern-library/forms-and-controls/errors-and-validation/design/overview.md
 design: false

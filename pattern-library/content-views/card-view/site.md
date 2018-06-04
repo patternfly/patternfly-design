@@ -1,4 +1,5 @@
 ---
+title: Card View
 layout: page-pattern
 overview: pattern-library/content-views/card-view/design/overview.md
 design: pattern-library/content-views/card-view/design/design.md

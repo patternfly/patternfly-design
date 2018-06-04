@@ -24,3 +24,4 @@
 - **Loading State:** If content is not loaded, display the  [Loading State](http://www.patternfly.org/pattern-library/communication/loading-state/) pattern.
 - **Pagination:** Card View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the Card View should be responsive.
+- **View Selector:** If alternate views are supported, a [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/#design) will be displayed in the top right corner. This will allow the user to switch to another view.
