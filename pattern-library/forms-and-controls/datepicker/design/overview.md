@@ -3,7 +3,8 @@
 The date and  time picker allows a user to select a single point in time or a time range. Time can be expressed as a date, a time of day, or a combination of both. Common use cases are selecting a date and time for something to run or expire and filtering events by their timestamp. The date and time picker is based on the Bootstrap-datetimepicker. See the
 [bootstrap-datepicker doc](http://http://eonasdan.github.io/bootstrap-datetimepicker/) for complete documentation.
 
-There are number of variations of the date and time picker, jump to a section below for applied examples:</br>
+There are number of variations of the date and time picker, jump to a section below for applied examples:
+</br>
 * [DatePicker](#DatePicker)
 * [TimePicker](#TimePicker)
 * [DateTimePicker](#DateTimePicker)

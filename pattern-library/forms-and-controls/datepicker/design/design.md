@@ -7,10 +7,8 @@ Date and Time picker has a number of variations, jump to a section below for app
 * [DateTimeRangePicker](#DateTimeRangPicker Expanded)
 
 </br>
-
 ### DatePicker
 </br>
-
 ![DatePicker Expanded](img/datepicker-guidance.png)
 
 1. **Input Field:** The datepicker field is read only due to the limitations of the input validation.
