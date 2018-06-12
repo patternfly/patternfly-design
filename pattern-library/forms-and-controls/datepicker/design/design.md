@@ -1,15 +1,15 @@
-# Date and Time Picker
+# Date and Time 
 Date and Time picker has a number of variations, jump to a section below for applied examples:
-* [DatePicker](#DatePicker Expanded)
-* [TimePicker](#TimePicker Expanded)
-* [DateTimePicker](#DateTimePicker Expanded)
-* [DateRangePicker](#DateRangePicker Expanded)
-* [DateTimeRangePicker](#DateTimeRangPicker Expanded)
+* [DatePicker](#DatePicker)
+* [TimePicker](#TimePicker)
+* [DateTimePicker](#DateTimePicker)
+* [DateRangePicker](#DateRangePicker)
+* [DateTimeRangePicker](#DateTimeRangPicker)
 
 </br>
 ### DatePicker
 </br>
-![DatePicker Expanded](img/datepicker-guidance.png)
+![DatePicker](img/datepicker-guidance.png)
 
 1. **Input Field:** The datepicker field is read only due to the limitations of the input validation.
 
@@ -28,7 +28,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 ### TimePicker
 </br>
 
-![TimePicker Expanded](img/timepicker-guidance.png)
+![TimePicker](img/timepicker-guidance.png)
 
 1. **Input Field:** The Timepicker field is read only due to the limitations of the input validation.
 
@@ -48,24 +48,22 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 </br>
 
-![DateTimePicker Expanded](img/dateTimepicker-guidance.png)
+![DateTimePicker](img/datetimepicker-guidance.png)
 
-DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#DatePicker Expanded) and [TimePicker](#TimePicker Expanded) for more details about design guidance.
+DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#DatePicker) and [TimePicker](#TimePicker) for more details about design guidance.
 
-1. **TimePicker Switch:** Allows users Change the view of the calendar to Time.
+1. **Input Field:** The DateTimepicker field is read only due to the limitations of the input validation.
 
-1. **TimePicker:** The TimePicker is displayed when the user clicks on the TimePicker Switch.
-
-1. **DatePicker Switch:** Allows the user to change the view of Time to Calendar.
+1. **DateTimePicker:** The DateTimePicker is displayed when the user clicks on the input field.
 
 1. **Now Button:** This button is a shortcut to select current time.
 
 ### DateRangePicker
 </br>
 
-![DateRange Expanded](img/daterange-guidance.png)
+![DateRange](img/daterange-guidance.png)
 
-DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#DatePicker Expanded) for more details about design guidance.
+DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#DatePicker) for more details about design guidance.
 1. **StartDate Input Field:** When the user clicks on the StartDate Input Field, the calendar is display for selecting a StartDate.
 
 1. **EndDate Input Field:** When the user clicks on the EndDate Input Field, the calendar is display for selecting an EndDate.
@@ -73,7 +71,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 
 ### Selecting Predefined Ranges
 
-![Predefined Ranges Expanded](img/daterange-flexble.png)
+![Predefined Ranges](img/daterange-flexble.png)
 
 1. **Predefined Range (optional):** This action allow user to quickly select some predefined ranges, such as : 7 days, 15 days, 30 days... The Options available in the  dropdown menu may be any number of days.
 
@@ -86,15 +84,10 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 ### DateTimeRangePicker
 </br>
 
-![Predefined Ranges Expanded](img/datetimerange-guidance.png)
+![DateTimeRangPicker](img/datetimerange-guidance.png)
 
-DateTimeRangePicker is a combination of Two DateTimePickers. Refer to the [DateTimePicker](#DateTimePicker Expanded) for more details about design guidance.
+DateTimeRangePicker is a combination of Two DateTimePickers. Refer to the [DateTimePicker](#DateTimePicker) for more details about design guidance.
 
-1. **StartDate Input Field:** When the user clicks on the StartDate Input Field, the calendar is display for selecting a StartDate.
+1. **StartDate Input Field:** When the user clicks on the StartDate Input Field, the DateTimePicker is display for selecting a StartDate and Time.
 
-
-1. **TimePicker Switch:** Allows users Change the view of the calendar to Time.
-
-1. **EndDate Input Field:** Allows the user to change the view of Time to Calendar.
-
-1. **Now Button:** When the user clicks on the EndDate Input Field,the calendar is display for selecting an EndDate.
+1. **EndDate Input Field:** When the user clicks on the EndDate Input Field, the DateTimePicker is display for selecting an EndDate and Time.
