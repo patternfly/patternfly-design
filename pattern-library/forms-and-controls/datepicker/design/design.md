@@ -7,8 +7,9 @@ Date and Time picker has a number of variations, jump to a section below for app
 * [DateTimeRangePicker](#DateTimeRangPicker)
 
 </br>
+
 ### DatePicker
-</br>
+
 ![DatePicker](img/datepicker-guidance.png)
 
 1. **Input Field:** The datepicker field is read only due to the limitations of the input validation.
@@ -84,7 +85,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 ### DateTimeRangePicker
 </br>
 
-![DateTimeRangPicker](img/dateTimerange-guidance.png)
+![DateTimeRangPicker](img/datetimerange-guidance.png)
 
 DateTimeRangePicker is a combination of Two DateTimePickers. Refer to the [DateTimePicker](#DateTimePicker) for more details about design guidance.
 
