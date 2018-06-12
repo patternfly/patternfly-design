@@ -1,4 +1,4 @@
-# Date and Time 
+# Date and Time
 Date and Time picker has a number of variations, jump to a section below for applied examples:
 * [DatePicker](#DatePicker)
 * [TimePicker](#TimePicker)
@@ -48,7 +48,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 </br>
 
-![DateTimePicker](img/datetimepicker-guidance.png)
+![DateTimePicker](img/dateTimepicker-guidance.png)
 
 DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#DatePicker) and [TimePicker](#TimePicker) for more details about design guidance.
 
@@ -84,7 +84,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 ### DateTimeRangePicker
 </br>
 
-![DateTimeRangPicker](img/datetimerange-guidance.png)
+![DateTimeRangPicker](img/dateTimerange-guidance.png)
 
 DateTimeRangePicker is a combination of Two DateTimePickers. Refer to the [DateTimePicker](#DateTimePicker) for more details about design guidance.
 
