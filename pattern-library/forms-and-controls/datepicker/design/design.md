@@ -49,7 +49,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 </br>
 
-![DateTimePicker](img/dateTimepicker-guidance.png)
+![DateTimePicker](img/datetime-guidance.png)
 
 DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#DatePicker) and [TimePicker](#TimePicker) for more details about design guidance.
 
@@ -57,7 +57,7 @@ DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [Date
 
 1. **DateTimePicker:** The DateTimePicker is displayed when the user clicks on the input field.
 
-1. **Now Button:** This button is a shortcut to select current time.
+
 
 ### DateRangePicker
 </br>

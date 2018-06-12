@@ -5,11 +5,11 @@ The date and  time picker allows a user to select a single point in time or a ti
 
 There are number of variation of the date and Time picker. We recommend using appropriate component to meet specific user case, jump to a section below for applied examples:
 </br>
-* [User wants to set a single date](#DatePicker)
-* [User wants to set a single time](#TimePicker)
-* [User want to set single date and time in combination](#DateTimePicker)
-* [User want to filter or search for items by a range of dates](#DateRangePicker)
-* [User want to filter or search for items by date and time in combination](#DateTimeRangPicker)
+* [As a user, I want to set a single date](#DatePicker)
+* [As a user, I want to set a single time](#TimePicker)
+* [As a user, I want to set single date and time in combination](#DateTimePicker)
+* [As a user, I want to filter or search for items by a range of dates](#DateRangePicker)
+* [As a user, I want to filter or search for items by date and time in combination](#DateTimeRangPicker)
 
 ### DatePicker
 The DatePicker allows a user to select a single date.
