@@ -8,7 +8,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 </br>
 
-## DatePicker
+### DatePicker
 
 ![DatePicker](img/datepicker-guidance.png)
 
@@ -26,7 +26,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 1. **Previous and Next Buttons:** Allows the user to navigate through the months or years.
 
-## TimePicker
+### TimePicker
 </br>
 
 ![TimePicker](img/timepicker-guidance.png)
@@ -46,7 +46,6 @@ Date and Time picker has a number of variations, jump to a section below for app
 1. **Up and Down Buttons:** Allows the user to step through the hours or minutes.
 
 ### DateTimePicker
-
 </br>
 
 ![DateTimePicker](img/datetime-guidance.png)
@@ -59,7 +58,7 @@ DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [Date
 
 
 
-## DateRangePicker
+### DateRangePicker
 </br>
 
 ![DateRange](img/daterange-guidance.png)
@@ -70,7 +69,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 1. **EndDate Input Field:** When the user clicks on the EndDate Input Field, the calendar is display for selecting an EndDate.
 
 
-## Selecting Predefined Ranges
+### Selecting Predefined Ranges
 
 ![Predefined Ranges](img/daterange-flexble.png)
 
@@ -82,7 +81,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 
   - When the EndDate is filled, user clicks “7 days “, the date range selected  will be 7 days before the EndDate.
 
-## DateTimeRangePicker
+### DateTimeRangePicker
 </br>
 
 ![DateTimeRangPicker](img/datetimerange-guidance.png)
