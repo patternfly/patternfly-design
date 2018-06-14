@@ -11,25 +11,25 @@ There are number of variation of the date and Time picker. We recommend using ap
 * [As a user, I want to filter or search for items by a range of dates](#daterangepicker)
 * [As a user, I want to filter or search for items by date and time in combination](#datetimerangepicker)
 
-## DatePicker
+### DatePicker
 The DatePicker allows a user to select a single date.
 </br>
 
 ![DatePicker](img/datepickernew.png)
 
-## TimePicker
+### TimePicker
 The TimePicker allows a user to select a single Time.
 </br>
 
 ![TimePicker](img/timepicker.png)
 
-## DateTimePicker
+### DateTimePicker
 The DateTimePicker allows a user to select a date with a time.
 </br>
 
 ![DateTimePicker](img/datetime-picker.png)
 
-## DateRangePicker
+### DateRangePicker
 The DateRangePicker allows a user to select a range of date.
 </br>
 
