@@ -6,7 +6,6 @@ Date and Time picker has a number of variations, jump to a section below for app
 * [DateRangePicker](#daterangepicker)
 * [DateTimeRangePicker](#datetimerangepicker)
 
-</br>
 
 ## DatePicker
 
@@ -27,7 +26,6 @@ Date and Time picker has a number of variations, jump to a section below for app
 1. **Previous and Next Buttons:** Allows the user to navigate through the months or years.
 
 ## TimePicker
-</br>
 
 ![TimePicker](img/timepicker-guidance.png)
 
@@ -47,8 +45,6 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 ### DateTimePicker
 
-</br>
-
 ![DateTimePicker](img/datetime-guidance.png)
 
 DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#datepicker) and [TimePicker](#timepicker) for more details about design guidance.
@@ -60,7 +56,6 @@ DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [Date
 
 
 ### DateRangePicker
-</br>
 
 ![DateRange](img/daterange-guidance.png)
 
@@ -83,7 +78,6 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
   - When the EndDate is filled, user clicks “7 days “, the date range selected  will be 7 days before the EndDate.
 
 ### DateTimeRangePicker
-</br>
 
 ![DateTimeRangPicker](img/datetimerange-guidance.png)
 
