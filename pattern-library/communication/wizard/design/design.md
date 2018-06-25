@@ -1,4 +1,4 @@
-Â# Wizard
+# Wizard
 
 ## Loading Screen
 
