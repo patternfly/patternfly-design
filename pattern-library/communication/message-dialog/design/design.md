@@ -53,3 +53,12 @@ Some usage examples include:
 - Notifying a user that a critical process is complete
 
 **Note:** If information is not critical, don’t use a passive dialog. Instead, use inline notifications or toast notifications.
+
+## Message Dialog Status Icons
+
+| Icon        | Use case(s)          | Usage |
+| ------------- |:-------------:| -----:|
+| ![status icon](img/status-icon1.png) pficon-warning-triangle-o | **Warning:** Caution/ Warning of critical information|Use on confirmation dialogs or passive dialogs to indicate a higher level of urgency and importance.|
+| ![status icon](img/status-icon2.png) pficon-info| **Acknowledgement:** Informs the user of an action or result| Use on confirmation or passive dialogs to indicate a lower level of urgency.|
+| ![status icon](img/status-icon3.png) pficon-ok|**Success:** Alert the user that the action has been completed| Use on passive dialogs to indicate that a process has completed successfully.|
+| ![status icon](img/status-icon4.png) pficon-error-circle-o| **Error:** Alert the user that the action has been completed| Use on error dialogs to indicate a problem. |
