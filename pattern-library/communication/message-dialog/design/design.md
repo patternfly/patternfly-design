@@ -4,7 +4,7 @@
 ## Elements of a Message Dialog
 ![Message Dialog Elements](img/msg-dialog-elements@2x.png)
 
-1. **Title bar (Required):** Titles are be informative and effectively group the content in the dialog. Do not use general or ambiguous statements like alert, warning or Are you sure?
+1. **Title bar (Required):** Titles are informative and effectively group the content in the dialog. Do not use general or ambiguous statements like alert, warning or Are you sure?
 
 2. **Primary message (Optional):** Primary messages communicate critical information quickly. For example, an error message could contain a primary message stating “Wrong password” or “Could not remove user,” and body text that provides additional information about why the action failed and what the user might do next.
 
@@ -46,7 +46,7 @@ Never blame the user. Use passive voice where appropriate to avoid assigning bla
 - ✅ We didn’t recognize that password.
 
 ### Passive Dialog
-Use passive dialogs to communicate critical information like the status of an application or result of an action. Passive modals should clearly communicate the issue and any actions required of the user as a result of the issue.Information in a passive dialog should be important, immediately relevant, and either lead to or require action on the users part.
+Use passive dialogs to communicate critical information like the status of an application or result of an action. Passive dialog should clearly communicate the issue and any actions required of the user as a result of the issue. Information in a passive dialog should be important, immediately relevant, and either lead to or require action on the user's part.
 ![Passive Dialog ](img/msg-dialog-passive@2x.png)
 Some usage examples include:
 - Notifying a user that an operation may take a long time to complete
