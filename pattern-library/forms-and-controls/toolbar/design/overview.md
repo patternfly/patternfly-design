@@ -19,7 +19,7 @@ These controls may be used either together or individually, and may be substitut
 
 ![Toolbar pattern with callouts](img/toolbar-alternate-filter.png)
 
-### Without Bulk selector
+### Without Bulk Selector
 
 ![Toolbar pattern with callouts](img/toolbar-wo-bulk-selector.png)
 
