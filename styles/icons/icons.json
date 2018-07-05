@@ -854,14 +854,14 @@
       "content": "e900",
       "definition": "Trend-Down",
       "type": "Status",
-      "usage": "Indicates an upward trend"
+      "usage": "Indicates a downward trend"
     },
     {
       "name": "pficon-trend-up",
       "content": "e901",
       "definition": "Trend-Up",
       "type": "Status",
-      "usage": "Indicates a downward trend"
+      "usage": "Indicates an upward trend"
     },
     {
       "name": "pficon-unknown",
