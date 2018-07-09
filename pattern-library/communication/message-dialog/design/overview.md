@@ -11,7 +11,7 @@ Use message dialogs to:
 You can use a simple message dialog or provide a message dialog with a status icon.
 
 ### Message Dialog
-![Message Dialog Without Icon](img/msg-dialog-withouticon@2x.png)
+![Message Dialog Without Icon](img/msg-dialog-withouticon.png)
 
 ### Message Dialog with Status Icon
-![Message Dialog With Icon](img/msg-dialog-withicon@2x.png)
+![Message Dialog With Icon](img/msg-dialog-withicon.png)
