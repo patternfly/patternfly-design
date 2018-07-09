@@ -46,10 +46,10 @@
 
 The background color of a row will change to indicate current states. These are listed with corresponding hex color values below:
 
-* Hover - when the user hovers over a row (pf-blue-50, #def3ff)
-* Selected - when the user selects a row via single click or selecting the checkbox (#edf8ff)
-* Open - when a row is expanded (##edf8ff)
-* Edit - when a row is in edit mode via [inline edit](http://www.patternfly.org/pattern-library/forms-and-controls/inline-edit) (##edf8ff)
+* Hover - when the user hovers over a row (#edf8ff)
+* Selected - when the user selects a row via single click or selecting the checkbox (pf-blue-50, #def3fff)
+* Open - when a row is expanded (pf-blue-50, #def3ff)
+* Edit - when a row is in edit mode via [inline edit](http://www.patternfly.org/pattern-library/forms-and-controls/inline-edit) (pf-blue-50, #def3ff)
 * Disabled - when a row is disabled (pf-black-100, #fafafa)
 
 ## Additional Notes about Behavior
