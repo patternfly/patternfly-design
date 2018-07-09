@@ -2,7 +2,7 @@
 # Message Dialogs
 
 ## Elements of a Message Dialog
-![Message Dialog Elements](img/msg-dialog-elements@2x.png)
+![Message Dialog Elements](img/msg-dialog-elements.png)
 
 1. **Title bar (Required):** Titles are informative and effectively group the content in the dialog. Do not use general or ambiguous statements like alert, warning or Are you sure?
 
@@ -28,7 +28,7 @@ Descriptive title and button labels make it easy for the user to scan the conten
 
 #### Confirm a Destructive Action
 Use a warning icon for actions that are difficult or impossible to undo. If an action will seriously impact the system and cannot be undone, use a destructive style button. Otherwise, use a primary button.
-![Confirmation Dialog 2](img/msg-dialog-confirmation2@2x.png)
+![Confirmation Dialog 2](img/msg-dialog-confirmation2.png)
 
 ### Error Dialog
 Use error dialogs to inform users of problems interrupting normal or expected behavior.
@@ -37,8 +37,8 @@ An error message should be actionable, human readable, and answer the following 
 - What is the problem?
 - Why did it happen?
 - How can I fix it?
-![Error Dialog 1](img/msg-dialog-error1@2x.png)
-![Error Dialog 2](img/msg-dialog-error2@2x.png)
+![Error Dialog 1](img/msg-dialog-error1.png)
+![Error Dialog 2](img/msg-dialog-error2.png)
 
 Never blame the user. Use passive voice where appropriate to avoid assigning blame.
 - ⛔ You put in the wrong password.
@@ -47,7 +47,7 @@ Never blame the user. Use passive voice where appropriate to avoid assigning bla
 
 ### Passive Dialog
 Use passive dialogs to communicate critical information like the status of an application or result of an action. Passive dialog should clearly communicate the issue and any actions required of the user as a result of the issue. Information in a passive dialog should be important, immediately relevant, and either lead to or require action on the user's part.
-![Passive Dialog ](img/msg-dialog-passive@2x.png)
+![Passive Dialog ](img/msg-dialog-passive.png)
 Some usage examples include:
 - Notifying a user that an operation may take a long time to complete
 - Notifying a user that a critical process is complete
@@ -62,3 +62,4 @@ Some usage examples include:
 | ![status icon](img/status-icon2.png) pficon-info| **Acknowledgement:** Informs the user of an action or result| Use on confirmation or passive dialogs to indicate a lower level of urgency.|
 | ![status icon](img/status-icon3.png) pficon-ok|**Success:** Alert the user that the action has been completed| Use on passive dialogs to indicate that a process has completed successfully.|
 | ![status icon](img/status-icon4.png) pficon-error-circle-o| **Error:** Alert the user that the action has been completed| Use on error dialogs to indicate a problem. |
+{:.table .table-striped .table-bordered}
