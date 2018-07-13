@@ -1,6 +1,9 @@
 # Toolbar
 
-![Toolbar pattern with callouts](img/toolbar-design.png)
+![Toolbar pattern with callouts](img/toolbar-callouts.png)
+  1. **Bulk Selector:**
+  Enables a user to quickly select or unselect all elements on the current page by clicking the checkbox.  Optionally allows a user to quickly select or unselect all elements associated with a specific state, if supported.
+
   1. **Filter:** Enables a user to quickly reduce the number of content items on screen at one time by applying stackable filters to a content view.
 
   1. **Component Divider:** Visually and spatially separates the toolbar’s component patterns. No divider is needed between left-aligned and right-aligned sets of patterns because they are separated by a significant space.
