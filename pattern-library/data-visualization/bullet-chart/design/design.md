@@ -56,6 +56,14 @@ Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Meas
 
 1. **Primary Measure Dot:** Display the primary measure as a dot when the scale starts at a value greater than zero.
 
+### Measure Greater Than Max Range
+
+![Image of bullet chart greater than max callout](img/greater-than-max-callout.png)
+
+1. **Primary Measure Bar:** Display the primary measure bar, which can optionally be segmented.
+
+2. **Single Qualitative Range Bar:** Display the range bar, which represents the min and max values.
+
 ## Horizontal Group
 
 ![Image of bullet chart horizontal group callout](img/grouped-horizontal-bullet-chart-callout.png)
