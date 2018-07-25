@@ -1,4 +1,5 @@
 ---
+title: Toolbar
 layout: page-pattern
 overview: pattern-library/forms-and-controls/toolbar/design/overview.md
 design: pattern-library/forms-and-controls/toolbar/design/design.md
@@ -10,5 +11,5 @@ url-js-extra: [
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/toolbar.html
 impl_angular: http://www.patternfly.org/angular-patternfly/#/api/patternfly.toolbars.component:pfToolbar
 impl_ng: https://rawgit.com/patternfly/patternfly-ng/master-dist/dist-demo/#/toolbar
-impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=Toolbar&selectedStory=Toolbar
+impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FToolbar&selectedStory=Toolbar
 ---

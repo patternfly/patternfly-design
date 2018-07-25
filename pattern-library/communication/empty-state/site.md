@@ -1,4 +1,5 @@
 ---
+title: Empty State
 layout: page-pattern
 overview: pattern-library/communication/empty-state/design/overview.md
 design: pattern-library/communication/empty-state/design/design.md
@@ -8,5 +9,5 @@ url-js-extra: ['components/angular-patternfly/dist/docs/grunt-scripts/angular-dr
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/blank-slate.html
 impl_angular: https://www.patternfly.org/angular-patternfly/#/api/patternfly.views.component:pfEmptyState
 impl_ng: https://rawgit.com/patternfly/patternfly-ng/master-dist/dist-demo/#/emptystate
-impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?knob-Right%20aligned=false&selectedKind=EmptyState&selectedStory=EmptyState
+impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FEmpty%20State&selectedStory=EmptyState
 ---

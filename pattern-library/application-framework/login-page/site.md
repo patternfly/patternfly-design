@@ -1,4 +1,5 @@
 ---
+title: Login Page
 layout: page-pattern
 overview: pattern-library/application-framework/login-page/design/overview.md
 design: pattern-library/application-framework/login-page/design/design.md

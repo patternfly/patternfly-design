@@ -9,7 +9,7 @@
 
 ## First Step
 
-![Wizard showing step one](img/wizard-flow-description2.png)
+![Wizard showing step one](img/wizard-flow-description2@2x.png)
 
 1. **Main Steps:** The main steps of the wizard are shown in the bar along the top of the screen. The user can always see all of the primary steps in the flow at all times. The main step labels can be used to jump between steps in a non-sequential manner as long as previous steps have been completed. This should also be enabled for next steps as long as all required information has been completed on the current step and there are no dependencies between the steps. Main steps can be broken down into sub-steps.
 1. **Sub-Steps for the Selected Main Step:** Sub-steps are optional. If they are used, every effort should be made to provide sub-steps for each step in order to maintain a consistent layout and expectation from the users. The sub-step labels can be used to jump between sub-steps in a non-sequential manner as long as previous sub-steps have been completed. This should also be enabled for next sub-steps as long as all required information has been completed on the current sub-step and there are no dependencies between the sub-steps.
@@ -49,7 +49,7 @@
 ## Responsive States
 
 ### Mobile Wizard
-![Collapsed responsive wizard](img/responsive-wizard-callout1.png)
+![Collapsed responsive wizard](img/responsive-wizard-callout1@2x.png)
 
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
 1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page. If the main and sub-step names are long enough that [truncation](https://www.patternfly.org/styles/terminology-and-wording/#truncation) is required, the sub-step name should be truncated before the main step name unless the sub-step name is critical to filling in the form.
@@ -57,7 +57,7 @@
 1. **Button Bar:** Wizard actions are available on the button bar which is fixed at the bottom of the page except for in smaller screen sizes, which requires the user to scroll the page for the button bar.
 
 ### Mobile Wizard - Steps Dropdown
-![Expanded responsive wizard](img/responsive-wizard-callout2.png)
+![Expanded responsive wizard](img/responsive-wizard-callout2@2x.png)
 
 1. **Main Steps:** Main wizard steps are shown vertically when the steps dropdown is expanded. Clicking on a different step will display its sub-steps, or switch to it if it does not have any sub-steps.
 1. **Sub-steps for the Selected Main Step** (optional): Clicking on a sub-step will switch to that sub-step. The current sub-step is highlighted.
@@ -65,7 +65,7 @@
 ### Simplified Mobile Wizard
 If an application does not require the ability to switch between or view all steps from mobile devices, a simplified version of the wizard without a dropdown can be used instead.
 
-![Simplified responsive wizard](img/responsive-wizard-callout3.png)
+![Simplified responsive wizard](img/responsive-wizard-callout3@2x.png)
 
 1. **Current Main Step:** The currently active main step is displayed at the top of the form along with the step number.
 1. **Current Sub-step** (optional): If the current main step has sub-steps, the name of the sub-step appears next to it at the top of the page.

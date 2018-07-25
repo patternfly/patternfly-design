@@ -1,4 +1,5 @@
 ---
+title: Aggregate Status Card
 layout: page-pattern
 overview: pattern-library/cards/aggregate-status-card/design/overview.md
 design: pattern-library/cards/aggregate-status-card/design/design.md

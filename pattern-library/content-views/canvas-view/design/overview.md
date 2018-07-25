@@ -12,4 +12,4 @@ In some cases, items on the canvas can be ordered or connected to represent a pa
 
 ## Example with Left-aligned Toolbox
 The Canvas View is typically embedded into a page that has breadcrumbs and some navigation framework.
-![Canvas Layout](img/Canvas-02.png)
+![Canvas Layout](img/Canvas-02@2x.png)
