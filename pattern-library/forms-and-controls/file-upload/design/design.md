@@ -7,6 +7,8 @@ Patterns Available:
   * [Editable Preview](#editable-preview)
 
 ## Multiple File Upload
+Use this component when you need to upload one or more files without previewing the contents of the file.
+
 ![Multiple File](img/Mul1.png)
 
 ![Multiple File](img/Mul2.png)
@@ -29,6 +31,7 @@ Patterns Available:
 ## Single File Upload
 
 ### Read-Only Preview
+Use this component when you need to upload one file with a read-only preview.
 
 ![Single File](img/SingleRead1.png)
 
@@ -42,6 +45,8 @@ Patterns Available:
 
 
 ### Editable Preview
+Use this component when you need to upload one file with an editable preview.
+
 ![Single File](img/SingleEdit1.png)
 
 ![Single File](img/SingleEdit3.png)
