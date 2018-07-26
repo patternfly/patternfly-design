@@ -1,6 +1,6 @@
 # Bullet Chart
 
-Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Measure](#segmented-primary-measure), [Negative Primary Measure](#negative-primary-measure), [Reversed Ranges](#reversed-ranges), [Scale Greater Than Zero](#scale-greater-than-zero), [Measure Greater Than Max Range](#measure-greater-than-max-range) [Horizontal Group](#horizontal-group), or [Vertical Group](#vertical-group)
+Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Measure](#segmented-primary-measure), [Negative Primary Measure](#negative-primary-measure), [Reversed Ranges](#reversed-ranges), [Scale Greater Than Zero](#scale-greater-than-zero), [Measure Greater Than Max Range](#measure-greater-than-max-range), [Horizontal Group](#horizontal-group), or [Vertical Group](#vertical-group)
 
 ## Standard Bullet Chart
 ![Image of standard bullet chart](img/bullet-chart-callout.png)
