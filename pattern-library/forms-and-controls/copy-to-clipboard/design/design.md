@@ -11,14 +11,14 @@ Patterns Available:
 ![Initial State](img/design-callout1.png)
 
 1. **Copy content**: The content that is to be copied is distinguished from the adjacent text by a text box.
-2. **Icon**: The clipboard icon should be used to indicate that clicking the button will copy the encompassed text to the user's clipboard.
+2. **Icon**: The clipboard icon (fa-clipboard) should be used to indicate that clicking the button will copy the encompassed text to the user's clipboard.
 3. **Tooltip**: On hover, the tooltip reads "Copy to Clipboard." Screenreader text will also read "Copy to Clipboard."
 
 ### Copied State
 ![Copied State](img/design-callout2.png)
 
 1. **Copy content**: The copy content does not change after being copied.
-2. **Icon**: A checkmark icon should be used to indicate that the encompassed text has been copied to the user's clipboard. This icon should remain for 2-3 seconds before returning to the copy icon.
+2. **Icon**: A checkmark icon (fa-check) should be used to indicate that the encompassed text has been copied to the user's clipboard. This icon should remain for 2-3 seconds before returning to the copy icon.
 3. **Tooltip**: After the copy icon has been clicked, the tooltip reads "Copied!" This tooltip should remain for 2-3 seconds before returning to the "Copy to Clipboard" text. Screenreader text will read back to the user the content they have copied. (Eg. "Copied 'Lorem ipsum dolor sit amet.'")
 
 ## Long String Inline
