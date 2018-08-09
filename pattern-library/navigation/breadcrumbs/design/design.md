@@ -3,7 +3,7 @@
 ![Breadcrumbs](img/Breadcrumbs-02.png)
 
   1. **Primary Navigation Item:** The primary navigation item should be the first item listed in the breadcrumb string. If the primary navigation items do not have a landing page, this item should not be listed as a link.
-  2. **Icon:**  The "fa-angle-double-right" Font Awesome icon should be used to separate levels in the breadcrumb string.
+  2. **Icon:**  The "fa-angle-right" Font Awesome icon should be used to separate levels in the breadcrumb string.
   3. **Links:** All drill down pages that the user can navigate back to, should be shown as links in the breadcrumb string. The underline should appear when the user hovers over a link.
   4. **Current Location:** The end of the breadcrumb string should represent the page a user is currently viewing. This string should not be a link.
   5. **Divider** (optional): A horizontal divider may be present below the breadcrumbs depending on the page layout used inside an application. If this format is used, it should be used consistently throughout the application.
@@ -21,7 +21,7 @@ When secondary navigation items are hidden, breadcrumbs may be used in conjuncti
 1. **Current Location:** The end of the breadcrumb can also play the role of page title in an effort to conserve vertical space. This option would include use of a larger font for the end of the breadcrumb string. If this format is used, it should be used consistently throughout the application.
 
 ## Breadcrumb Switcher (optional)
-The Breadcrumb Switcher provides a shortcut for users to quickly navigate to parallel pages, rather than navigating back to the previous page and making a new selection. In the example below, users can either go back to the "Packages" page to select a new item or they can remain in the details view shown, and use the switcher to jump from one item to the next. The switcher should never appear in the middle of the breadcrumbs. When used, the switcher will appear to the right of the last item in the breadcrumb string. 
+The Breadcrumb Switcher provides a shortcut for users to quickly navigate to parallel pages, rather than navigating back to the previous page and making a new selection. In the example below, users can either go back to the "Packages" page to select a new item or they can remain in the details view shown, and use the switcher to jump from one item to the next. The switcher should never appear in the middle of the breadcrumbs. When used, the switcher will appear to the right of the last item in the breadcrumb string.
 
 ![Switcher](img/switcher.png)
 
