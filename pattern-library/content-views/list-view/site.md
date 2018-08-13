@@ -9,7 +9,7 @@ url-js-extra: ['//cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js', '//cdnjs.
 'components/angular-patternfly/dist/docs/grunt-scripts/angular-drag-and-drop-lists.js']
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/list-view-simple-expansion.html
 impl_angular: https://www.patternfly.org/angular-patternfly/#/api/patternfly.views.component:pfListView
-impl_ng: https://rawgit.com/patternfly/patternfly-ng/master-dist/dist-demo/#/list
+impl_ng: https://www.patternfly.org/patternfly-ng/#/list
 impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FContent%20Views%2FList%20View&selectedStory=List%20of%20expandable%20items
 impl_webcomponent: https://rawgit.com/patternfly-webcomponents/patternfly-webcomponents/master-dist/app/app.html?dir=pf-list-view&file=index.html
 ---

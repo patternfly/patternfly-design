@@ -8,6 +8,6 @@ code_angular: /components/angular-patternfly/dist/docs/partials/api/patternfly.v
 url-js-extra: ['components/angular-patternfly/dist/docs/grunt-scripts/angular-drag-and-drop-lists.js']
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/blank-slate.html
 impl_angular: https://www.patternfly.org/angular-patternfly/#/api/patternfly.views.component:pfEmptyState
-impl_ng: https://rawgit.com/patternfly/patternfly-ng/master-dist/dist-demo/#/emptystate
+impl_ng: https://www.patternfly.org/patternfly-ng/#/emptystate
 impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FEmpty%20State&selectedStory=EmptyState
 ---
