@@ -1,11 +1,11 @@
 # Pagination
 
-Pagination should be located above or below the relevant content view whenever pagination is supported.
+Pagination should be located above and below the relevant content view whenever pagination is supported.
 
 ![Pagination Callouts](img/pagination_callouts_2.png)
 
 1. **Upper Pagination Control:** A pagination control is included in the toolbar above the list.
-2. **Pagniation Footer:** The pagination footer contains Items per Page and Pagination controls and is appended to the bottom of the view and may be sticky (see [Pagination - Content Below](## Pagination - Content Below)).
+2. **Pagniation Footer:** The pagination footer contains Items per Page and Pagination controls and is appended to the bottom of the view.
 
 ## Pagination Footer
 
