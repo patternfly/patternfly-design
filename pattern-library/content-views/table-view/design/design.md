@@ -30,6 +30,13 @@
     - The list is sorted by the same order that the columns appear in the table.
     - When a checkbox is unchecked, the column is removed from the table, and the other columns expand to fill the width of the table. Alternatively, when a checkbox is selected, the column is added to the table.
 
+## Simple Expansion
+
+![Table with expandable rows](img/table-expand.png)
+
+1. **Expand or Collapse Row:** The user may expand a row by selecting the right-caret that is placed to the left of each checkbox. Once the caret is selected, it will point down and expand the row. The row will remain highlighted in the hover state color until the user decides to collapse it.
+2. **Expanded Row:** Once the user expands a row, additional information will appear below the row with a white background, no matter the original row shade. The user may collapse the row by selecting the down-caret or the "x".
+
 ## Additional Notes about Behavior
 - **Empty State:** If no items exist in the table, display the [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/) pattern. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
 - **Loading State:** If content is loading, display the [Loading State](http://www.patternfly.org/pattern-library/communication/loading-state/) pattern.
@@ -40,7 +47,6 @@
 ### What’s not covered in the current design:
 
 - Simple sort.
-- Ability to expand and collapse rows to give user the option to view more details on each item.
 - Multi-column sort.
 - Sticky column headers.
 -- Mobile design.
