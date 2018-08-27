@@ -1,5 +1,14 @@
 # Pagination
 
+Pagination should be located above and below the relevant content view whenever pagination is supported.
+
+![Pagination Callouts](img/pagination_callouts_2.png)
+
+1. **Upper Pagination Control:** A pagination control is included in the toolbar above the list.
+2. **Pagniation Footer:** The pagination footer contains Items per Page and Pagination controls and is appended to the bottom of the view.
+
+## Pagination Footer
+
 ![Pagination Callouts](img/pagination_callouts.png)
 
 1. **Items per Page:** This control displays the number of items on a page.
@@ -12,41 +21,9 @@
 6. **Navigate Pages:** These controls allow the user to navigate to the next or last page.
   * These controls are disabled when the user is on the last page.
 
-## Pagination - Selection Pattern
 
-### Default View
-![Pagination Select 1](img/pagination_selection_1.png)
 
-### Filters Applied
-![Pagination Select 2](img/pagination_selection_2.png)
 
-1. **Filters:** Filters are displayed on left side.
-2. **Item Count:** An updated item count is displayed on the right side.
-
-### Single Select
-![Pagination Select 3](img/pagination_selection_3.png)
-
-1. **Single Select:** Select single items by checking the box on the left of each item row.
-
-### Multi-Select
-![Pagination Select 4](img/pagination_selection_4.png)
-
-1. **Multi-Select:** Select all items within a single page by checking the box in the column header.
-
-### Select All
-![Pagination Select 5](img/pagination_selection_5.png)
-
-1. **Select All:** Select all items within the table by clicking Select All option under the kebab menu.
-
-### Clear Selected
-![Pagination Select 6](img/pagination_selection_6.png)
-
-1. **Clear Selected:** Clear any selected items by clicking Clear Selected option under the kebab menu.
-
-### Selection While Paging
-![Pagination Select 7](img/pagination_selection_7.png)
-
-1. **Selection While Paging:** Items remain selected even as a user pages.
 
 ## Pagination - Content Below
 ![Pagination Content Below](img/pagination_content_below.png)
@@ -59,3 +36,6 @@
 ![Pagination Select 7](img/pagination_no_data.png)
 
 * **No Data:** Pagination is not displayed when there is no data to page.
+
+## Selection While Paging
+ Items remain selected even as a user pages.
