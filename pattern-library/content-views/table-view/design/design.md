@@ -32,10 +32,19 @@
 
 ## Simple Expansion
 
-![Table with expandable rows](img/table-expand.png)
+![Table with expandable rows](img/table-expand-callout.png)
 
-1. **Expand or Collapse Row:** The user may expand a row by selecting the right-caret that is placed to the left of each checkbox. Once the caret is selected, it will point down and expand the row. The row will remain highlighted in the hover state color until the user decides to collapse it.
-2. **Expanded Row:** Once the user expands a row, additional information will appear below the row with a white background, no matter the original row shade. The user may collapse the row by selecting the down-caret or the "x".
+1. **Icon:** Placing the caret at the front of the row signifies that this row is expandable. The caret points to the right when it is closed and down when it is expanded.
+2. **Interaction:** Hovering over a row highlights it. Single clicking the caret expands the row. If the row is open and the checkbox is selected, the selection color will take precedence.
+3. **Expansion Panel:** When the row is expanded, a panel is inserted between the bottom of the row and the top of the next row. All other content is pushed down the page. Content can be anything that is required to convey details of a selected object. If content exceeds the height of the panel, a scroll bar will be exposed.
+4. **Close/Collapse:** Clicking the Close icon will collapse the expansion panel and return the table to its original (collapsed) state. Alternatively, clicking on the caret again will have the same effect. Note: Use of the Close/Collapse icon is not advised if the content of the panel requires its full width.
+
+## States and Row Styling
+
+The background color of a row will change to indicate current states. These are listed with corresponding hex color values below:
+- Hover - when the user hovers over a row, even when a row is expanded (#edf8ff)
+- Selected - when the user selects a row via selecting the checkbox (#0088ce)
+- Open - when a row is expanded (#def3ff)
 
 ## Additional Notes about Behavior
 - **Empty State:** If no items exist in the table, display the [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/) pattern. If there are no items to display as the result of a null filter result, see the [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) pattern for more information about how to display this.
@@ -49,4 +58,4 @@
 - Simple sort.
 - Multi-column sort.
 - Sticky column headers.
--- Mobile design.
+- Mobile design.
