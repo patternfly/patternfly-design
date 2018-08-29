@@ -4,15 +4,15 @@
 
 ![dropdown elements](img/dropdown.png)
 
-1. ** Button ** The button is a clickable element that allows the user to open and close the dropdown menu. The button label describes the content of the dropdown. For example, "Actions" can be used if the menu will include a list of actions.
-2. ** Menu ** The dropdown menu lists available options or actions.
-3. ** Separator (optional) ** Separators can be used to group actions.
+1. **Button** The button is a clickable element that allows the user to open and close the dropdown menu. The button label describes the content of the dropdown. For example, "Actions" can be used if the menu will include a list of actions.
+2. **Menu** The dropdown menu lists available options or actions.
+3. **Separator (optional)** Separators can be used to group actions.
 
 ### Dropdown as a kebob menu
 
 ![Dropdown as a kebab](img/kebab.png)
 
-1. ** Kebab ** The dropdown button can be replaced by a vertical ellipses (kebab) icon to further reduce the footprint of the menu.
+1. **Kebab** The dropdown button can be replaced by a vertical ellipses (kebab) icon to further reduce the footprint of the menu.
 
 ## Usage
 Dropdown menus allow you to expose multiple options or actions on a page without allocating space for all options to be visible at all times.
