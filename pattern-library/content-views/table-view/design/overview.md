@@ -7,7 +7,7 @@ Table View organizes data into rows (of items) and columns (of item attributes).
 
 ![Default Table](img/table-overview.png)
 
-#Table View with Simple Expansion
+# Table View with Simple Expansion
 
 Use a Table View with expanding rows when you want to display details in place without requiring drill-down to a new page. This is useful when you want to allow users to view details of an object without reloading the page, or when the detail information is small and does not require its own page.
 
