@@ -31,5 +31,5 @@ Modals interrupt user task flow and should be avoided for any information that i
 * Use descriptive title and button labels so the user can scan  content and make a decision quickly. Ambiguous title and button labels make it more difficult for the user to understand their options and make a decision.
 
 ### Related components
-* [Modal Dialogs](../modal_dialog)
+* [Message Dialogs](../message_dialog)
 * [About Modal](../about-modal)
