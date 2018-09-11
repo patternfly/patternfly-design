@@ -33,13 +33,10 @@ Dropdown menus should not be used for selection of options within a form. In tho
 
 * Order items by expected usage with most frequently used actions at the top.
 
-## Behavior
-| No. | Element | Tooltip | on_Click
-| -- | -- | -- | -- |
-| 1 | Button | -- |The display of the menu is toggled. Note that clicking outside of the menu will not close the menu. |
-| 2 | Menu Item | -- |Invoke the action associated with this item. If the menu item is disabled, clicking it will have no effect.|
-
 ## Content
 The label associated with the button element should be descriptive on the contents of the dropdown. For lists of actions, "Actions" should be the default choice.
 
-Menu items that name actions should be verb based and easily scannable. In most cases, action labels should be limited to one or two words, where the first word is the action and the second word is the object it will be performed on, e.g. "Delete File". 
+Menu items that name actions should be verb based and easily scannable. In most cases, action labels should be limited to one or two words, where the first word is the action and the second word is the object it will be performed on, e.g. "Delete File".
+
+## Related components
+* Select list
