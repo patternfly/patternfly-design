@@ -13,17 +13,7 @@ The About Modal stores the version number(s) of the application as well as any a
   * When version only: Version 6.3
   * When build only: Build 5
 7. Close
-8. Modal image: The modal image should be the same as the ![background image](#) you use for your application. 
+8. Modal image: The modal image should be the same as the ![background image](#) you use for your application.
 
 ## Usage
 Use the About Modal to provide information about the product including the product name, logo, version numbers, and any appropriate legal text.
-
-## Variations
-##### About Modal - Default view
-![Modal](img/about-modal-default.png)
-
-##### About Modal - Responsive view (Tablet)
-![Modal](img/about-modal-medium.png)
-
-##### About Modal - Responsive view (Mobile)
-![Modal](img/about-modal-simple.png)
