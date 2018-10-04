@@ -16,7 +16,7 @@ These controls may be used either together or individually, and may be substitut
 
 ![Toolbar with active filters](img/toolbar-all.png)
 
-###Toolbar with pagination
+### With pagination
 
 ![Toolbar with pagination](img/toolbar-w-pagination.png)
 

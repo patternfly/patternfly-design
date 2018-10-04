@@ -24,7 +24,7 @@
 
   1. **Active Filters:** A component of the filter tool that contains a list of all currently active filters as well as the Clear All Filters action. Not displayed if stackable filters are disabled.
 
-  1. **Pagination:** A necessary control that is present both above and below content views that allows for navigation between pages without needing to scroll. Refer to the [Pagination] (https://www.patternfly.org/pattern-library/navigation/pagination/) design page for more details.
+  1. **Pagination:** A necessary control that is present both above and below content views that allows for navigation between pages without needing to scroll. Refer to the [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) design page for more details.
 
 ## Layouts
 
