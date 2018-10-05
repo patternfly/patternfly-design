@@ -14,8 +14,8 @@
             "status": "present",
             "dateChanged": "2018-06-04T14:41:55.000Z",
             "dateChangedFormatted": "June 4th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -26,8 +26,8 @@
             "status": "present",
             "dateChanged": "2018-06-04T14:41:55.000Z",
             "dateChangedFormatted": "June 4th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -36,10 +36,10 @@
             },
             "path": "pattern-library/application-framework/launcher/site.md",
             "status": "present",
-            "dateChanged": "2018-08-16T16:49:11.000Z",
-            "dateChangedFormatted": "August 16th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Launcher",
               "layout": "page-pattern",
@@ -50,7 +50,7 @@
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.navigation.component.pfApplicationLauncher.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/application-launcher.html",
               "impl_angular": "http://www.patternfly.org/angular-patternfly/#/api/patternfly.navigation.component:pfApplicationLauncher",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?&selectedKind=patternfly-react%2FApplication%20Framework%2FLauncher&selectedStory=Launcher"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?&selectedKind=patternfly-react%2FApplication%20Framework%2FLauncher&selectedStory=Launcher"
             }
           }
         }
@@ -65,10 +65,10 @@
             },
             "path": "pattern-library/application-framework/login-page/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -77,10 +77,10 @@
             },
             "path": "pattern-library/application-framework/login-page/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -91,8 +91,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Login Page",
               "layout": "page-pattern",
@@ -116,10 +116,10 @@
             },
             "path": "pattern-library/application-framework/masthead/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -128,10 +128,10 @@
             },
             "path": "pattern-library/application-framework/masthead/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -140,17 +140,17 @@
             },
             "path": "pattern-library/application-framework/masthead/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T17:47:39.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Masthead",
               "layout": "page-pattern",
               "overview": "pattern-library/application-framework/masthead/design/overview.md",
               "design": "pattern-library/application-framework/masthead/design/design.md",
               "code_html": false,
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FApplication%20Framework%2FMasthead&selectedStory=Masthead"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FApplication%20Framework%2FMasthead&selectedStory=Masthead"
             }
           }
         }
@@ -165,10 +165,10 @@
             },
             "path": "pattern-library/application-framework/multi-factor-login/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -177,10 +177,10 @@
             },
             "path": "pattern-library/application-framework/multi-factor-login/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -191,8 +191,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Multi Factor Login",
               "layout": "page-pattern",
@@ -213,10 +213,10 @@
             },
             "path": "pattern-library/application-framework/single-sign-on/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -225,10 +225,10 @@
             },
             "path": "pattern-library/application-framework/single-sign-on/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -239,8 +239,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Single Sign On",
               "layout": "page-pattern",
@@ -267,10 +267,10 @@
             },
             "path": "pattern-library/cards/aggregate-status-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -279,10 +279,10 @@
             },
             "path": "pattern-library/cards/aggregate-status-card/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -293,8 +293,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Aggregate Status Card",
               "layout": "page-pattern",
@@ -318,10 +318,10 @@
             },
             "path": "pattern-library/cards/base-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -330,10 +330,10 @@
             },
             "path": "pattern-library/cards/base-card/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -344,8 +344,8 @@
             "status": "present",
             "dateChanged": "2018-08-13T18:37:54.000Z",
             "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Base Card",
               "layout": "page-pattern",
@@ -370,10 +370,10 @@
             },
             "path": "pattern-library/cards/trend-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -382,10 +382,10 @@
             },
             "path": "pattern-library/cards/trend-card/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -396,8 +396,8 @@
             "status": "present",
             "dateChanged": "2018-08-13T18:37:54.000Z",
             "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Trend Card",
               "layout": "page-pattern",
@@ -422,10 +422,10 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -434,10 +434,10 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -446,10 +446,10 @@
             },
             "path": "pattern-library/cards/utilization-bar-card/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Utilization Bar Card",
               "layout": "page-pattern",
@@ -462,7 +462,7 @@
               ],
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/cards.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.card.component:pfCard - Utilization",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCards&selectedStory=Utilization%20Bar%20Card"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCards&selectedStory=Utilization%20Bar%20Card"
             }
           }
         }
@@ -477,10 +477,10 @@
             },
             "path": "pattern-library/cards/utilization-trend-card/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -489,10 +489,10 @@
             },
             "path": "pattern-library/cards/utilization-trend-card/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -503,8 +503,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Utilization Trend Card",
               "layout": "page-pattern",
@@ -533,10 +533,10 @@
             },
             "path": "pattern-library/communication/about-modal/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -545,10 +545,10 @@
             },
             "path": "pattern-library/communication/about-modal/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -557,10 +557,10 @@
             },
             "path": "pattern-library/communication/about-modal/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "About Modal",
               "layout": "page-pattern",
@@ -571,7 +571,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/about-modal.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.modals.component:pfAboutModal",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/aboutmodal",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FAbout%20Modal&selectedStory=AboutModal",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCommunication%2FAbout%20Modal&selectedStory=AboutModal",
               "impl_webcomponent": "https://rawgit.com/patternfly-webcomponents/patternfly-webcomponents/master-dist/app/app.html?dir=pf-modal&file=index.html"
             }
           }
@@ -587,10 +587,10 @@
             },
             "path": "pattern-library/communication/comments/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -599,10 +599,10 @@
             },
             "path": "pattern-library/communication/comments/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -613,8 +613,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Comments",
               "layout": "page-pattern",
@@ -635,10 +635,10 @@
             },
             "path": "pattern-library/communication/empty-state/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -649,8 +649,8 @@
             "status": "present",
             "dateChanged": "2018-08-08T14:06:59.000Z",
             "dateChangedFormatted": "August 8th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -659,10 +659,10 @@
             },
             "path": "pattern-library/communication/empty-state/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Empty State",
               "layout": "page-pattern",
@@ -676,7 +676,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/blank-slate.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.views.component:pfEmptyState",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/emptystate",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FEmpty%20State&selectedStory=EmptyState"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCommunication%2FEmpty%20State&selectedStory=EmptyState"
             }
           }
         }
@@ -691,10 +691,10 @@
             },
             "path": "pattern-library/communication/experimental-features/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -703,10 +703,10 @@
             },
             "path": "pattern-library/communication/experimental-features/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -717,8 +717,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Experimental Features",
               "layout": "page-pattern",
@@ -740,10 +740,10 @@
             },
             "path": "pattern-library/communication/inline-notifications/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -752,10 +752,10 @@
             },
             "path": "pattern-library/communication/inline-notifications/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -764,10 +764,10 @@
             },
             "path": "pattern-library/communication/inline-notifications/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Inline Notifications",
               "layout": "page-pattern",
@@ -777,7 +777,7 @@
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.notification.component.pfInlineNotification.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/alerts.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.notification.component:pfInlineNotification",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FWidgets%2FAlert&selectedStory=Alert",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FWidgets%2FAlert&selectedStory=Alert",
               "impl_webcomponent": "https://rawgit.com/patternfly-webcomponents/patternfly-webcomponents/master-dist/app/app.html?dir=pf-alert&file=index.html",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/inlinenotification"
             }
@@ -794,10 +794,10 @@
             },
             "path": "pattern-library/communication/loading-state/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -806,10 +806,10 @@
             },
             "path": "pattern-library/communication/loading-state/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -820,8 +820,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Loading State",
               "layout": "page-pattern",
@@ -889,10 +889,10 @@
             },
             "path": "pattern-library/communication/notification-drawer/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -901,10 +901,10 @@
             },
             "path": "pattern-library/communication/notification-drawer/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -913,10 +913,10 @@
             },
             "path": "pattern-library/communication/notification-drawer/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "dlabrecq",
               "title": "Notification Drawer",
@@ -930,7 +930,7 @@
               ],
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/notification-drawer-vertical-nav.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.notification.component:pfNotificationDrawer",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FNotification%20Drawer&selectedStory=Notification%20Drawer"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCommunication%2FNotification%20Drawer&selectedStory=Notification%20Drawer"
             }
           }
         }
@@ -945,10 +945,10 @@
             },
             "path": "pattern-library/communication/session-timeout/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -957,10 +957,10 @@
             },
             "path": "pattern-library/communication/session-timeout/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -971,8 +971,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Session Timeout",
               "layout": "page-pattern",
@@ -993,10 +993,10 @@
             },
             "path": "pattern-library/communication/toast-notifications/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1005,10 +1005,10 @@
             },
             "path": "pattern-library/communication/toast-notifications/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1017,10 +1017,10 @@
             },
             "path": "pattern-library/communication/toast-notifications/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Toast Notifications",
               "layout": "page-pattern",
@@ -1031,7 +1031,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/toast.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.notification.component:pfToastNotification",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/toastnotification",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FToast%20Notifications&selectedStory=Toast%20Notification"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCommunication%2FToast%20Notifications&selectedStory=Toast%20Notification"
             }
           }
         }
@@ -1046,10 +1046,10 @@
             },
             "path": "pattern-library/communication/tour/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1058,10 +1058,10 @@
             },
             "path": "pattern-library/communication/tour/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1072,8 +1072,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Tour",
               "layout": "page-pattern",
@@ -1096,8 +1096,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1108,8 +1108,8 @@
             "status": "present",
             "dateChanged": "2018-06-28T17:47:33.000Z",
             "dateChangedFormatted": "June 28th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1118,10 +1118,10 @@
             },
             "path": "pattern-library/communication/wizard/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Wizard",
               "layout": "page-pattern",
@@ -1132,7 +1132,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/wizard.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.wizard.component:pfWizard",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/wizard",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FCommunication%2FWizard%2FComponents&selectedStory=Wizard"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FCommunication%2FWizard%2FComponents&selectedStory=Wizard"
             }
           }
         }
@@ -1154,8 +1154,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1164,10 +1164,10 @@
             },
             "path": "pattern-library/content-views/canvas-view/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1178,8 +1178,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Canvas View",
               "layout": "page-pattern",
@@ -1206,10 +1206,10 @@
             },
             "path": "pattern-library/content-views/card-view/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1220,8 +1220,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T09:22:16.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1232,8 +1232,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Card View",
               "layout": "page-pattern",
@@ -1261,10 +1261,10 @@
             },
             "path": "pattern-library/content-views/list-view/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1275,8 +1275,8 @@
             "status": "present",
             "dateChanged": "2018-07-25T13:55:03.000Z",
             "dateChangedFormatted": "July 25th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1285,10 +1285,10 @@
             },
             "path": "pattern-library/content-views/list-view/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "List View",
               "layout": "page-pattern",
@@ -1304,7 +1304,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/list-view-simple-expansion.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.views.component:pfListView",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/list",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FContent%20Views%2FList%20View&selectedStory=List%20of%20expandable%20items",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FContent%20Views%2FList%20View&selectedStory=List%20of%20expandable%20items",
               "impl_webcomponent": "https://rawgit.com/patternfly-webcomponents/patternfly-webcomponents/master-dist/app/app.html?dir=pf-list-view&file=index.html"
             }
           }
@@ -1322,8 +1322,8 @@
             "status": "present",
             "dateChanged": "2018-09-04T16:07:43.000Z",
             "dateChangedFormatted": "September 4th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1334,8 +1334,8 @@
             "status": "present",
             "dateChanged": "2018-09-04T16:07:43.000Z",
             "dateChangedFormatted": "September 4th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1344,10 +1344,10 @@
             },
             "path": "pattern-library/content-views/table-view/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Table View",
               "layout": "page-pattern",
@@ -1367,7 +1367,7 @@
               ],
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/table-view.html",
               "impl_angular": "http://www.patternfly.org/angular-patternfly/#/api/patternfly.table.component:pfTableView - Basic",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Client%20Paginated%20Table",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Client%20Paginated%20Table",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/table"
             }
           }
@@ -1383,10 +1383,10 @@
             },
             "path": "pattern-library/content-views/tree-list-view/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1397,8 +1397,8 @@
             "status": "present",
             "dateChanged": "2018-05-07T12:15:47.000Z",
             "dateChangedFormatted": "May 7th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1409,8 +1409,8 @@
             "status": "present",
             "dateChanged": "2018-08-13T18:37:54.000Z",
             "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Tree List View",
               "layout": "page-pattern",
@@ -1437,10 +1437,10 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1449,10 +1449,10 @@
             },
             "path": "pattern-library/dashboard/dashboard-layout/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1463,8 +1463,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Dashboard Layout",
               "layout": "page-pattern",
@@ -1492,10 +1492,10 @@
             },
             "path": "pattern-library/data-visualization/area-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1504,10 +1504,10 @@
             },
             "path": "pattern-library/data-visualization/area-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1516,10 +1516,10 @@
             },
             "path": "pattern-library/data-visualization/area-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Area Chart",
               "layout": "page-pattern",
@@ -1528,7 +1528,7 @@
               "code_html": "code/data-visualization/area-chart/code.md",
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.charts.component.pfLineChart.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/area-charts.html",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Area%20Chart"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Area%20Chart"
             }
           }
         }
@@ -1543,10 +1543,10 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1555,10 +1555,10 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1567,10 +1567,10 @@
             },
             "path": "pattern-library/data-visualization/bar-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Bar Chart",
               "layout": "page-pattern",
@@ -1579,7 +1579,7 @@
               "code_html": "code/data-visualization/bar-chart/code.md",
               "code_angular": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/bar-charts.html",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Bar%20Chart"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Bar%20Chart"
             }
           }
         }
@@ -1594,10 +1594,10 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1608,8 +1608,8 @@
             "status": "present",
             "dateChanged": "2018-08-03T15:38:23.000Z",
             "dateChangedFormatted": "August 3rd 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1618,10 +1618,10 @@
             },
             "path": "pattern-library/data-visualization/bullet-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T17:47:39.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Bullet Chart",
@@ -1629,7 +1629,7 @@
               "overview": "pattern-library/data-visualization/bullet-chart/design/overview.md",
               "design": "pattern-library/data-visualization/bullet-chart/design/design.md",
               "code_html": false,
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Bullet%20Charts"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Bullet%20Charts"
             }
           }
         }
@@ -1644,10 +1644,10 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1656,10 +1656,10 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1668,10 +1668,10 @@
             },
             "path": "pattern-library/data-visualization/donut-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Donut Chart",
               "layout": "page-pattern",
@@ -1682,7 +1682,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/donut-charts.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.charts.component:pfDonutChart",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/donut",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Donut%20Chart"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Donut%20Chart"
             }
           }
         }
@@ -1697,10 +1697,10 @@
             },
             "path": "pattern-library/data-visualization/heat-map/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1709,10 +1709,10 @@
             },
             "path": "pattern-library/data-visualization/heat-map/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1723,8 +1723,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Heat Map",
@@ -1748,10 +1748,10 @@
             },
             "path": "pattern-library/data-visualization/line-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1760,10 +1760,10 @@
             },
             "path": "pattern-library/data-visualization/line-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1772,10 +1772,10 @@
             },
             "path": "pattern-library/data-visualization/line-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Line Chart",
               "layout": "page-pattern",
@@ -1785,7 +1785,7 @@
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.charts.component.pfLineChart.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/line-charts.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.charts.component:pfLineChart",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Line%20Chart"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Line%20Chart"
             }
           }
         }
@@ -1800,10 +1800,10 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1812,10 +1812,10 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1824,10 +1824,10 @@
             },
             "path": "pattern-library/data-visualization/pie-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Pie Chart",
               "layout": "page-pattern",
@@ -1837,7 +1837,7 @@
               "code_angular": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/pie-charts.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.charts.component:pfC3Chart",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Pie%20Chart"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Pie%20Chart"
             }
           }
         }
@@ -1852,10 +1852,10 @@
             },
             "path": "pattern-library/data-visualization/sparkline/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1864,10 +1864,10 @@
             },
             "path": "pattern-library/data-visualization/sparkline/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1878,8 +1878,8 @@
             "status": "present",
             "dateChanged": "2018-08-13T18:37:54.000Z",
             "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Sparkline",
               "layout": "page-pattern",
@@ -1904,10 +1904,10 @@
             },
             "path": "pattern-library/data-visualization/timeline/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1916,10 +1916,10 @@
             },
             "path": "pattern-library/data-visualization/timeline/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1930,8 +1930,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Timeline",
@@ -1955,10 +1955,10 @@
             },
             "path": "pattern-library/data-visualization/utilization-bar-chart/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -1967,10 +1967,10 @@
             },
             "path": "pattern-library/data-visualization/utilization-bar-chart/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -1979,10 +1979,10 @@
             },
             "path": "pattern-library/data-visualization/utilization-bar-chart/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Utilization Bar Chart",
               "layout": "page-pattern",
@@ -1992,7 +1992,7 @@
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.charts.directive.pfUtilizationBarChart.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/utilization-bar-charts.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.charts.directive:pfUtilizationBarChart",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Utilization%20Bar"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FData%20Visualization%2FCharts&selectedStory=Utilization%20Bar"
             }
           }
         }
@@ -2108,10 +2108,10 @@
             },
             "path": "pattern-library/forms-and-controls/buttons-on-forms/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2120,10 +2120,10 @@
             },
             "path": "pattern-library/forms-and-controls/buttons-on-forms/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2132,10 +2132,10 @@
             },
             "path": "pattern-library/forms-and-controls/buttons-on-forms/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Buttons on Forms",
               "layout": "page-pattern",
@@ -2144,7 +2144,7 @@
               "code_angular": "/components/angular-patternfly/dist/docs/partials/api/patternfly.form.component.pfFormButtons.html",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/form.html",
               "impl_angular": "http://www.patternfly.org/angular-patternfly/#/api/patternfly.form.component:pfFormButtons",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
             }
           }
         }
@@ -2159,10 +2159,10 @@
             },
             "path": "pattern-library/forms-and-controls/checkbox-filter/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2171,10 +2171,10 @@
             },
             "path": "pattern-library/forms-and-controls/checkbox-filter/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2185,8 +2185,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Checkbox Filter",
               "layout": "page-pattern",
@@ -2256,10 +2256,10 @@
             },
             "path": "pattern-library/forms-and-controls/data-input/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2276,17 +2276,17 @@
             },
             "path": "pattern-library/forms-and-controls/data-input/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Data Input",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/data-input/design/overview.md",
               "design": false,
               "code_html": false,
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Supported%20Controls"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Supported%20Controls"
             }
           }
         }
@@ -2352,10 +2352,10 @@
             },
             "path": "pattern-library/forms-and-controls/drag-and-drop/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2364,10 +2364,10 @@
             },
             "path": "pattern-library/forms-and-controls/drag-and-drop/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2378,8 +2378,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Drag and Drop",
               "layout": "page-pattern",
@@ -2448,10 +2448,10 @@
             },
             "path": "pattern-library/forms-and-controls/errors-and-validation/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2468,10 +2468,10 @@
             },
             "path": "pattern-library/forms-and-controls/errors-and-validation/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Errors and Validation",
@@ -2482,7 +2482,7 @@
               "code_angular": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/forms.html#right-aligned_error-feedback",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.validation:pfValidation",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
             }
           }
         }
@@ -2497,10 +2497,10 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2509,10 +2509,10 @@
             },
             "path": "pattern-library/forms-and-controls/expand-collapse-section/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2523,8 +2523,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Expand Collapse Section",
@@ -2547,10 +2547,10 @@
             },
             "path": "pattern-library/forms-and-controls/field-labeling/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2559,10 +2559,10 @@
             },
             "path": "pattern-library/forms-and-controls/field-labeling/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2571,10 +2571,10 @@
             },
             "path": "pattern-library/forms-and-controls/field-labeling/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Field Labeling",
               "layout": "page-pattern",
@@ -2582,7 +2582,7 @@
               "design": "pattern-library/forms-and-controls/field-labeling/design/design.md",
               "code_html": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/forms.html#right-aligned",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
             }
           }
         }
@@ -2645,10 +2645,10 @@
             },
             "path": "pattern-library/forms-and-controls/filter/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2657,10 +2657,10 @@
             },
             "path": "pattern-library/forms-and-controls/filter/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2669,17 +2669,17 @@
             },
             "path": "pattern-library/forms-and-controls/filter/site.md",
             "status": "present",
-            "dateChanged": "2018-08-16T16:49:11.000Z",
-            "dateChangedFormatted": "August 16th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Filter",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/filter/design/overview.md",
               "design": "pattern-library/forms-and-controls/filter/design/design.md",
               "code_html": false,
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FFilter&selectedStory=Filter",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FFilter&selectedStory=Filter",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/filters"
             }
           }
@@ -2695,10 +2695,10 @@
             },
             "path": "pattern-library/forms-and-controls/find/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2707,10 +2707,10 @@
             },
             "path": "pattern-library/forms-and-controls/find/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2721,8 +2721,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Find",
               "layout": "page-pattern",
@@ -2745,10 +2745,10 @@
             },
             "path": "pattern-library/forms-and-controls/help-on-forms/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2757,10 +2757,10 @@
             },
             "path": "pattern-library/forms-and-controls/help-on-forms/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2769,17 +2769,17 @@
             },
             "path": "pattern-library/forms-and-controls/help-on-forms/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Help On Forms",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/help-on-forms/design/overview.md",
               "design": "pattern-library/forms-and-controls/help-on-forms/design/design.md",
               "code_html": "code/forms-and-controls/field-level-help/code.md",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FForms&selectedStory=Horizontal%20Form"
             }
           }
         }
@@ -2794,10 +2794,10 @@
             },
             "path": "pattern-library/forms-and-controls/inline-edit/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2806,10 +2806,10 @@
             },
             "path": "pattern-library/forms-and-controls/inline-edit/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2818,17 +2818,17 @@
             },
             "path": "pattern-library/forms-and-controls/inline-edit/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Inline Edit",
               "layout": "page-pattern",
               "overview": "pattern-library/forms-and-controls/inline-edit/design/overview.md",
               "design": "pattern-library/forms-and-controls/inline-edit/design/design.md",
               "code_html": "code/forms-and-controls/inline-edit/code.md",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Table%20With%20Inline%20Edit%20Row"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Table%20With%20Inline%20Edit%20Row"
             }
           }
         }
@@ -2890,10 +2890,10 @@
             },
             "path": "pattern-library/forms-and-controls/language-selector/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2902,10 +2902,10 @@
             },
             "path": "pattern-library/forms-and-controls/language-selector/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2916,8 +2916,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Language Selector",
               "layout": "page-pattern",
@@ -2940,8 +2940,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -2952,8 +2952,8 @@
             "status": "present",
             "dateChanged": "2018-05-09T09:24:25.000Z",
             "dateChangedFormatted": "May 9th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -2962,10 +2962,10 @@
             },
             "path": "pattern-library/forms-and-controls/modal-overlay/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Modal Overlay",
               "layout": "page-pattern",
@@ -2973,7 +2973,7 @@
               "design": "pattern-library/forms-and-controls/modal-overlay/design/design.md",
               "code_html": "code/forms-and-controls/modal-overlay/code.md",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/modals.html",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FWidgets%2FModal%20Overlay&selectedStory=Modal",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FWidgets%2FModal%20Overlay&selectedStory=Modal",
               "impl_angular": "http://www.patternfly.org/angular-patternfly/#/api/patternfly.modals.componenet:pfModalOverlay"
             }
           }
@@ -2989,10 +2989,10 @@
             },
             "path": "pattern-library/forms-and-controls/modeless-overlay/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3001,10 +3001,10 @@
             },
             "path": "pattern-library/forms-and-controls/modeless-overlay/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3015,8 +3015,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Modeless Overlay",
               "layout": "page-pattern",
@@ -3037,10 +3037,10 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3049,10 +3049,10 @@
             },
             "path": "pattern-library/forms-and-controls/progressive-disclosure/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3063,8 +3063,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "author": "lhinson",
               "title": "Progressive Disclosure",
@@ -3088,10 +3088,10 @@
             },
             "path": "pattern-library/forms-and-controls/slider/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3100,10 +3100,10 @@
             },
             "path": "pattern-library/forms-and-controls/slider/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3112,10 +3112,10 @@
             },
             "path": "pattern-library/forms-and-controls/slider/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Slider",
               "layout": "page-pattern",
@@ -3123,7 +3123,7 @@
               "design": "pattern-library/forms-and-controls/slider/design/design.md",
               "code_html": "code/forms-and-controls/slider/code.md",
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/bootstrap-slider.html",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSlider&selectedStory=Slider"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSlider&selectedStory=Slider"
             }
           }
         }
@@ -3138,10 +3138,10 @@
             },
             "path": "pattern-library/forms-and-controls/sort/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3150,10 +3150,10 @@
             },
             "path": "pattern-library/forms-and-controls/sort/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3162,10 +3162,10 @@
             },
             "path": "pattern-library/forms-and-controls/sort/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Sort",
               "layout": "page-pattern",
@@ -3175,7 +3175,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/toolbar.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.sort.component:pfSort",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/sort",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSort&selectedStory=Sort"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSort&selectedStory=Sort"
             }
           }
         }
@@ -3190,10 +3190,10 @@
             },
             "path": "pattern-library/forms-and-controls/syntax-hints/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3202,10 +3202,10 @@
             },
             "path": "pattern-library/forms-and-controls/syntax-hints/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3227,10 +3227,10 @@
             },
             "path": "pattern-library/forms-and-controls/textbox-filter/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3239,10 +3239,10 @@
             },
             "path": "pattern-library/forms-and-controls/textbox-filter/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3251,10 +3251,10 @@
             },
             "path": "pattern-library/forms-and-controls/textbox-filter/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Textbox Filter",
               "layout": "page-pattern",
@@ -3264,7 +3264,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/filter.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.filters.component:pfFilter",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/filters",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FFilter&selectedStory=Filter"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FFilter&selectedStory=Filter"
             }
           }
         }
@@ -3281,8 +3281,8 @@
             "status": "present",
             "dateChanged": "2018-07-13T18:59:34.000Z",
             "dateChangedFormatted": "July 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3293,8 +3293,8 @@
             "status": "present",
             "dateChanged": "2018-07-13T18:59:34.000Z",
             "dateChangedFormatted": "July 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3303,10 +3303,10 @@
             },
             "path": "pattern-library/forms-and-controls/toolbar/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Toolbar",
               "layout": "page-pattern",
@@ -3321,7 +3321,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/toolbar.html",
               "impl_angular": "http://www.patternfly.org/angular-patternfly/#/api/patternfly.toolbars.component:pfToolbar",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/toolbar",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FToolbar&selectedStory=Toolbar"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FToolbar&selectedStory=Toolbar"
             }
           }
         }
@@ -3336,10 +3336,10 @@
             },
             "path": "pattern-library/forms-and-controls/view-selector/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3348,10 +3348,10 @@
             },
             "path": "pattern-library/forms-and-controls/view-selector/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3362,8 +3362,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "View Selector",
               "layout": "page-pattern",
@@ -3390,10 +3390,10 @@
             },
             "path": "pattern-library/navigation/breadcrumbs/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3404,8 +3404,8 @@
             "status": "present",
             "dateChanged": "2018-08-09T14:50:19.000Z",
             "dateChangedFormatted": "August 9th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3414,10 +3414,10 @@
             },
             "path": "pattern-library/navigation/breadcrumbs/site.md",
             "status": "present",
-            "dateChanged": "2018-06-11T20:21:02.000Z",
-            "dateChangedFormatted": "June 11th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Breadcrumbs",
               "layout": "page-pattern",
@@ -3425,7 +3425,7 @@
               "design": "pattern-library/navigation/breadcrumbs/design/design.md",
               "code_html": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/breadcrumbs.html",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FNavigation%2FBreadcrumb&selectedStory=Breadcrumb"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FNavigation%2FBreadcrumb&selectedStory=Breadcrumb"
             }
           }
         }
@@ -3440,10 +3440,10 @@
             },
             "path": "pattern-library/navigation/context-selector/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3452,10 +3452,10 @@
             },
             "path": "pattern-library/navigation/context-selector/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3466,8 +3466,8 @@
             "status": "present",
             "dateChanged": "2018-05-29T04:53:37.000Z",
             "dateChangedFormatted": "May 29th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Context Selector",
               "layout": "page-pattern",
@@ -3488,10 +3488,10 @@
             },
             "path": "pattern-library/navigation/guidelines/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3508,10 +3508,10 @@
             },
             "path": "pattern-library/navigation/guidelines/site.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Navigation Guidelines",
               "layout": "page-pattern",
@@ -3533,10 +3533,10 @@
             },
             "path": "pattern-library/navigation/horizontal-navigation/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3545,10 +3545,10 @@
             },
             "path": "pattern-library/navigation/horizontal-navigation/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3557,10 +3557,10 @@
             },
             "path": "pattern-library/navigation/horizontal-navigation/site.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Horizontal Navigation",
               "layout": "page-pattern",
@@ -3585,8 +3585,8 @@
             "status": "present",
             "dateChanged": "2018-08-22T15:54:47.000Z",
             "dateChangedFormatted": "August 22nd 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3597,8 +3597,8 @@
             "status": "present",
             "dateChanged": "2018-08-14T19:53:16.000Z",
             "dateChangedFormatted": "August 14th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3607,10 +3607,10 @@
             },
             "path": "pattern-library/navigation/pagination/site.md",
             "status": "present",
-            "dateChanged": "2018-08-23T17:44:05.000Z",
-            "dateChangedFormatted": "August 23rd 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Pagination",
               "layout": "page-pattern",
@@ -3620,7 +3620,7 @@
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/pagination.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.pagination.component:pfPagination",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/pagination",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FWidgets%2FPagination&selectedStory=Pagination%20row"
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FWidgets%2FPagination&selectedStory=Pagination%20row"
             }
           }
         }
@@ -3635,10 +3635,10 @@
             },
             "path": "pattern-library/navigation/vertical-navigation/design/overview.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "design": {
             "patternFile": {
@@ -3647,10 +3647,10 @@
             },
             "path": "pattern-library/navigation/vertical-navigation/design/design.md",
             "status": "present",
-            "dateChanged": "2018-04-19T10:27:46.000Z",
-            "dateChangedFormatted": "April 19th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018"
+            "dateChanged": "2018-04-13T05:53:00.000Z",
+            "dateChangedFormatted": "April 13th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018"
           },
           "site": {
             "patternFile": {
@@ -3659,10 +3659,10 @@
             },
             "path": "pattern-library/navigation/vertical-navigation/site.md",
             "status": "present",
-            "dateChanged": "2018-08-13T18:37:54.000Z",
-            "dateChangedFormatted": "August 13th 2018",
-            "dateCreated": "2018-04-19T10:27:46.000Z",
-            "dateCreatedFormatted": "April 19th 2018",
+            "dateChanged": "2018-10-05T16:55:29.000Z",
+            "dateChangedFormatted": "October 5th 2018",
+            "dateCreated": "2018-04-13T05:53:00.000Z",
+            "dateCreatedFormatted": "April 13th 2018",
             "frontmatter": {
               "title": "Vertical Navigation",
               "layout": "page-pattern",
@@ -3672,7 +3672,7 @@
               "code_angular": false,
               "impl_jquery": "https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/vertical-navigation-with-secondary.html",
               "impl_angular": "https://www.patternfly.org/angular-patternfly/#/api/patternfly.navigation.component:pfVerticalNavigation - Basic",
-              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FNavigation%2FVertical%20Navigation&selectedStory=Items%20as%20JSX",
+              "impl_react": "https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FNavigation%2FVertical%20Navigation&selectedStory=Items%20as%20JSX",
               "impl_ng": "https://www.patternfly.org/patternfly-ng/#/verticalnavigation"
             }
           }
