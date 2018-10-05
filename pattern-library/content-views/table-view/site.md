@@ -16,6 +16,6 @@ url-js-extra: [
 'components/angular-patternfly/dist/docs/grunt-scripts/angular-drag-and-drop-lists.js']
 impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/table-view.html
 impl_angular: 'http://www.patternfly.org/angular-patternfly/#/api/patternfly.table.component:pfTableView - Basic'
-impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Client%20Paginated%20Table
+impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FContent%20Views%2FTable%20View&selectedStory=Client%20Paginated%20Table
 impl_ng: https://www.patternfly.org/patternfly-ng/#/table
 ---
