@@ -20,9 +20,11 @@
 
   1. [**View Selector:**](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/) The View Selector allows the user to switch between different views of the same data set.
 
+  1. **Content and Results Count:** Shows the number of content items that satisfy all currently applied filters, as well as the total number of items and the type of item. If no filters are applied, only the total number of items and the item type are displayed (e.g. 40 Virtual Machines). May be displayed to the left of right-aligned content if stackable filters are disabled.
+
   1. **Active Filters:** A component of the filter tool that contains a list of all currently active filters as well as the Clear All Filters action. Not displayed if stackable filters are disabled.
 
-  1. **Content and Results Count:** Shows the number of content items that satisfy all currently applied filters, as well as the total number of items and the type of item. If no filters are applied, only the total number of items and the item type are displayed (e.g. 40 Virtual Machines). May be displayed to the left of right-aligned content if stackable filters are disabled.
+  1. **Pagination:** A necessary control that is present both above and below content views that allows for navigation between pages without needing to scroll. Refer to the [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/) design page for more details.
 
 ## Layouts
 
