@@ -7,13 +7,18 @@ The Toolbar pattern sits above a content view such as a [List View](https://www.
 - Actions
 - [Find](https://www.patternfly.org/pattern-library/forms-and-controls/find/#_)
 - [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/)
+- [Pagination](https://www.patternfly.org/pattern-library/navigation/pagination/)
 
 These controls may be used either together or individually, and may be substituted for other components. The Toolbar pattern should be used any time controls are needed for a content view.
 
 
 ### Toolbar With All Components
 
-![Toolbar with several active filters](img/toolbar-all.png)
+![Toolbar with active filters](img/toolbar-all.png)
+
+### With pagination
+
+![Toolbar with pagination](img/toolbar-w-pagination.png)
 
 ### With Alternate Filter
 
