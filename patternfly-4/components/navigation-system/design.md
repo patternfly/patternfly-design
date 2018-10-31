@@ -48,3 +48,12 @@ Use tertiary navigation when you need navigation specific to a particular window
 ![Context selector](img/context-selector.png)
 
 Use a context selector in addition to your global navigation when the data or resources you need to show in the interface are dependant on the users’ context. For example, you may need to display details about different regions, projects, or organizations.
+
+### Breadcrumbs
+
+![Breadcrumbs](img/context-selector.png)
+
+Use breadcrumbs in addition to your global navigation to display a user's location in the application. Breadcrumbs act as a resource to help users navigate more efficiently and provide context to help users understand where they are in the application hierarchy.
+
+Use breadcrumbs recommended when the primary and secondary navigation items are not always exposed.
+Don't use breadcrumbs as a replacement for global navigation. 
