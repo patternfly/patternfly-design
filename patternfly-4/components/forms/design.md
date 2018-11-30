@@ -33,14 +33,6 @@ The PatternFly components listed in the following sections can be used in a numb
 * Popovers
 * Buttons
 * Data input
-    * Radio buttons
-    * Checkboxes
-    * Datepicker
-    * Timepicker
-    * Touchspin
-    * Switch
-    * Select list
-    * Combo box
 
 **Related components**
 * Modal
@@ -73,7 +65,7 @@ Use field level help to provide additional context to a text or input field. Fie
 :thumbsdown: **DON'T**
 <span style="color:red"> - - - - </span>
 * Don’t use field level help to compensate for bad design or rely on it to explain a graphic or word choice.
-* Never hide critical information in a popover. Don’t put any information into a popover that a user needs to complete their task.
+* **Never** hide critical information in a popover. Don’t put any information into a popover that a user needs to complete their task.
 
 **Helper text**
 
@@ -84,6 +76,7 @@ Helper text is text below a form field that helps a user provide the right infor
 :thumbsup: **DO**
 <span style="color:green"> - - - - </span>
 * Keep helper text concise while providing enough information to enable a user to complete their task.
+* Use helper text to provide critical information that is secondary to the field label. 
 * Limit the use of helper text to avoid overwhelming the user.
 
 :thumbsdown: **DON'T**
