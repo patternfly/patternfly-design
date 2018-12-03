@@ -4,20 +4,28 @@ A form is a group of elements used to collect information from a user. Forms can
 
 ## Elements of a form
 While every form will require a different combination of components depending on the use-case, most forms will contain the following basic elements:
+
 ![Elements of a form](img/form-elements.png)
+
 1. [Labels](../data_input) - Field labels can be aligned to the left or top of the field depending on the layout of your page and the amount of space you have to work with. Indicate all required text and input fields with a red asterisk. Learn more about field labels in the [text and data input design guidelines](../data_input).
 
-    *Required field*
-    <img src= "img/required-field.png" width="300" height="auto" title="Required field">
+*Required field*
 
-  *Vertical alignment*
-  <img src= "img/vertical-alignment.png" width="300" height="auto" title="Vertical alignment">
+<img src= "img/required-field.png" width="300" height="auto" title="Required field">
 
-  *Left alignment*
-  <img src= "img/left-alignment.png" width="300" height="auto" title="Left alignment">
+
+*Top alignment*
+
+<img src= "img/top-alignment.png" width="300" height="auto" title="Top alignment">
+
+
+*Left alignment*
+
+<img src= "img/left-alignment.png" width="300" height="auto" title="Left alignment">
+
 
 2. [Text field](../data_input) - provides an area for users to input free-form text.
-3. [Data input](../data_input) - provides a way for users to submit any information that is not free-form text. Input components are designed for specific use cases.
+3. [Data input](../data_input) - provides a way for users to submit any information that is not free-form text. For example, you might use a check box to enable users to select from multiple predetermined values. Input components are designed for specific use cases.
 4. [Help](#Provide-the-right-kind-of-help) - provides assistance in any area where the user might need additional information or context to provide the right input
     * Field level help - provides content in a popover.
     * Input help - provides help in or directly below a field.
@@ -76,7 +84,7 @@ Helper text is text below a form field that helps a user provide the right infor
 :thumbsup: **DO**
 <span style="color:green"> - - - - </span>
 * Keep helper text concise while providing enough information to enable a user to complete their task.
-* Use helper text to provide critical information that is secondary to the field label. 
+* Use helper text to provide critical information that is secondary to the field label.
 * Limit the use of helper text to avoid overwhelming the user.
 
 :thumbsdown: **DON'T**
@@ -88,7 +96,11 @@ Helper text is text below a form field that helps a user provide the right infor
 
 <img src= "img/syntax-hint.png" width="300" height="auto" title="Syntax hint">
 
-A syntax hint provides an example of the required or recommended format for data input. Use syntax hints when the requested data type might be unfamiliar, or the field requires the user to provide data in a specific format.
+A syntax hint provides an example of the required or recommended format for data input.
+
+For example, a syntax hint for a date might be _DD/MM/YYYY_.
+
+Use syntax hints when the requested data type might be unfamiliar, or the field requires the user to provide data in a specific format.
 
 :thumbsup: **DO**
 <span style="color:green"> - - - - </span>
@@ -103,7 +115,7 @@ A syntax hint provides an example of the required or recommended format for data
 * **Never** use syntax hints as a replacement for form field labels.
 
 ### Provide validation and errors
-Let users know whenever a form field submission results in an error. Always present error states on the form, and use inline errors whenever possible. The error state you use will depend on whether the validation happens on the client or the server.
+What you want to Let users know whenever a form field submission results in an error. Always present error states on the form, and use inline errors whenever possible. The error state you use will depend on whether the validation happens on the client or the server.
 
 **Client-side validation**
 Client-side validation can be performed as soon as a field loses focus, and allows you to use inline validation to alert users of errors or issues immediately. This type of validation allows users to quickly see and address issues, but can become frustrating or overwhelming if overused.
@@ -113,14 +125,14 @@ Some common use cases include:
 * A user leaving a required field blank
 * A user leaving a required field incomplete
 
-> Note: Inline error messages will replace helper text.
+> Note: Inline error messages replace any existing helper text.
 
 **Server-side validation**
 Server-side validation is performed when the user attempts to submit a form. In this scenario, the user completes the form in its entirety and the page is reloaded with any errors detected.
 
 For server-side validation, use an inline notification along with inline errors wherever possible to make it simple for the user to quickly identify areas that need to be fixed.
 
-Notification messages should describe the error and help users solve the problem. Once form errors are resolved and submitted, the notification should be replaced with a confirmation message.
+Notification messages should describe the error and help users solve the problem.
 
 <img src= "img/validation.png" width="300" height="auto" title="validation">
 
