@@ -29,4 +29,32 @@ With the partial selection component, the bulk selector checkbox fill can reflec
 
 This component is often used to select multiple items and perform an action on them. Note that after an action is completed, the selection state remains as is until the user changes the selection.
 
+## “Select all” States
+When clicking the bulk selector, an additional indication row will appear down below the toolbar to ask if the user wants to select all items in current page or all pages. When the bulk selector is unchecked, the indication row will disappear itself.
+
+
+ 1. The selection state on current page
+ 2. To select all items cross all pages
+ 3. The number of items cross all pages that are selected
+ 4. Deselect all to clear the selection cross pages
+
+
+ ![Bulk Selector](img/BulkSelector-SelectAll-State.png)
+
+
+## Mixed States
+When the user has selected all items on current page or cross all pages, but unchecked one or more items at the same time, it will show the "checked items" of "all selected items" in the indication.
+
+
+1. Checked item number of total item number on this page
+2. Checked item number of total item number cross all pages
+
+
+![Bulk Selector](img/BulkSelector-Mixed-State.png)
+
+
+
+
+
+
 See [list view](http://www.patternfly.org/pattern-library/content-views/list-view/) for more on list behavior and visual treatment.
