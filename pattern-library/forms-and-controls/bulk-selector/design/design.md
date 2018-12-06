@@ -39,19 +39,18 @@ When clicking the bulk selector, an additional indication row will appear down b
  4. Deselect all to clear the selection cross pages
 
 
- ![Bulk Selector](img/BulkSelector-SelectAll-State.png)
+ ![Bulk Selector](img/BulkSelector-SelectAll_state.png)
 
 
 ## Mixed States
-When the user has selected all items on current page or cross all pages, but unchecked one or more items at the same time, it will show the "checked items" of "all selected items" in the indication.
+When the user has selected all items on the current page or across all pages and then unchecks one or more items, the message will be updated as shown.
+
+1. The checkbox changes to the intermediate state
+2. Checked item number of total item number on this page
+3. Checked item number of total item number cross all pages
 
 
-1. Checked item number of total item number on this page
-2. Checked item number of total item number cross all pages
-
-
-![Bulk Selector](img/BulkSelector-Mixed-State.png)
-
+![Bulk Selector](img/BulkSelector-Mixed_state.png)
 
 
 
