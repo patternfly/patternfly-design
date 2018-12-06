@@ -34,9 +34,9 @@ When clicking the bulk selector, an additional indication row will appear down b
 
 
  1. The selection state on current page
- 2. To select all items cross all pages
- 3. The number of items cross all pages that are selected
- 4. Deselect all to clear the selection cross pages
+ 2. To select all items across all pages
+ 3. The number of items across all pages that are selected
+ 4. Deselect all to clear the selection across pages
 
 
  ![Bulk Selector](img/BulkSelector-SelectAll_state.png)
@@ -47,7 +47,7 @@ When the user has selected all items on the current page or across all pages and
 
 1. The checkbox changes to the intermediate state
 2. Checked item number of total item number on this page
-3. Checked item number of total item number cross all pages
+3. Checked item number of total item number across all pages
 
 
 ![Bulk Selector](img/BulkSelector-Mixed_state.png)
