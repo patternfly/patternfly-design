@@ -50,7 +50,7 @@ When the user has selected all items on the current page or across all pages and
 3. Checked item number of total item number across all pages
 
 
-![Bulk Selector](img/BulkSelector-Mixed_state.png)
+![Bulk Selector](img/BulkSelector-Mixed_State.png)
 
 
 
