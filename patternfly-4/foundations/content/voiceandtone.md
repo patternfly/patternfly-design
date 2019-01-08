@@ -6,10 +6,11 @@ To quote Red Hat’s brand standards, “The more you write, the less they’ll 
 * [Be clear and concise](#be-clear-and-concise)
 * [Be useful](#be-useful)
 * [Be conversational](#be-conversational)
+* [Be consistent](#be-consistent)
 * [Write for all audiences](#write-for-all-audiences)
 
 ## Be clear and concise
-Very simply, use plain language.
+Very simply, use plain language. Chunk content into short, related sections, and avoid long paragraphs or strings of text.
 
 **Focus on characters and actions**
 When constructing a sentence, focus on characters and the actions they are performing.
@@ -36,7 +37,7 @@ Then, we can revise again for concision.
 Jargon can confuse novice users and generally makes content more difficult to understand.
 
 **Use simple verbs and tenses**
-No, it is not a good time to use the future perfect tense, as nice as it might sound. Keep it simple.
+As nice as it might sound, avoid the future-perfect tense (and all of its complicated siblings.) Keep it simple.
 
 ![Simple verbs and tenses example](/img/simple-verbs.png)
 
@@ -83,6 +84,9 @@ No one wants to talk to a robot. Don't be afraid to use contractions! And don't 
 **Use second person**
 Use “you” and “your” to help users focus on what they can accomplish.
 
+## Be consistent
+Use the same terminology to describe actions and objects across the entire user experience. If you refer to something as a sandwich on page 1, do not refer to it as a hoagie on page 2. Even when two different terms could technically mean the same thing, it is important to choose one and stick with it.  
+
 ## Write for all audiences
 **Be conscious of internationalization and translation**
 If you’re writing for something that might be translated into different languages, you need to consider how your content will translate when making choices.
@@ -92,4 +96,13 @@ If you’re writing for something that might be translated into different langua
 * Translated text can be a drastically different length than the text you originally provide. Ensure the text you use can be 50% shorter or 50% longer with no negative impact on design.
 
 **Write for accessibility**
-Consider how your content will be consumed by users with different needs. For example, instructive text that uses directional language like, _Use the button to the left..._ will not help a user who is working with a screen reader. Learn more about our approach to accessibility in our [Accessibility Guide](url).
+Consider how your content will be consumed by users with different needs.
+* Avoid directional language like, _Use the button to the left..._ It will not help a user who is working with a screen reader.
+* Use proper heading levels (like H1, H2, etc.) to articulate the organization of the content on a page.
+* Use the following guidelines when writing text that is only visible to a screen reader, like an aria-label that describes an icon button:
+  * Avoid redundancy. Screen readers will announce the name of the component or element as well as associated property and state when the HTML is defined correctly.
+  * Ensure labels for elements like buttons or links make sense when pulled out of the context.
+  * When you define an aria-label for an element that also has associated visible text in the UI, ensure the aria-label begins with the same text that appears in the UI to avoid confusion with screen reader users who have vision.
+  * Avoid unnecessary capitalization.
+  * Avoid _leet speak_ that uses numbers or special characters in place of letters (like "a11y" for accessibility).
+Learn more about our approach to accessibility in our [Accessibility Guide](url).
