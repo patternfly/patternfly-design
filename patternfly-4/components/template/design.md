@@ -1,5 +1,13 @@
-# Component Name
+# Design Guideline Name
+
+## About
 _Include a short (1-2 sentence) description of the component here and fill out the following sections as needed_
+
+## Elements
+_Provide a list of elements that can be used or included in this design pattern and a short description of each element. If possible, include an image with each element clearly called out. For example, a form is made up of several elements including field labels, data input, buttons, etc._
+
+## Components used
+_Provide a list of every PatternFly component that can be used or included in this design pattern._ 
 
 ## Usage
 _(Required)
