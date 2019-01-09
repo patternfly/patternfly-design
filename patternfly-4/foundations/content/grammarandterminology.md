@@ -69,7 +69,6 @@ When referring to time zones, use [http://www.timeanddate.com/time/zones/](http:
 
 ### Sentence style
 Use sentence-style capitalization for all text elements, **except:**
-* Column headers in tables
 * Product Names
 
 Sentence style capitalizes only the first word of each sentence and proper nouns, like names.
