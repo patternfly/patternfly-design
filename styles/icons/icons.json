@@ -626,18 +626,18 @@
       "usage": "VM or other object is paused. (The processor execution is stopped at whatever point the process was in)"
     },
     {
-      "name": "pficon-pending-o",
+      "name": "pficon-pending",
       "content": "e930",
       "definition": "Pending",
       "type": "Status",
-      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending-o)"
+      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending-2)"
     },
     {
-      "name": "pficon-pending",
+      "name": "pficon-pending-2",
       "content": "f252",
       "definition": "Pending",
       "type": "Status",
-      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending-o)"
+      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending)"
     },
     {
       "name": "pficon-plugged",
