@@ -66,9 +66,23 @@
     {
       "name": "fa-bell",
       "content": "f0f3",
-      "definition": "Notification",
-      "type": "Object",
-      "usage": "Used in masthead for Notification Drawer alerts/notifications"
+      "definition": "Notification/Firing",
+      "type": "Object/Status",
+      "usage": "Used in masthead for Notification Drawer alerts/notifications. Alternatively, indicates that an alert is currently firing"
+    },
+    {
+      "name": "fa-bell-o",
+      "content": "f0a2",
+      "definition": "Impending",
+      "type": "Status",
+      "usage": "Alert will fire soon"
+    },
+    {
+      "name": "fa-bell-slash",
+      "content": "f1f6",
+      "definition": "Silenced",
+      "type": "Status",
+      "usage": "Alert is silenced and will not fire"
     },
     {
       "name": "fa-bug",
