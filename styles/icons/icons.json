@@ -60,8 +60,8 @@
       "name": "fa-ban",
       "content": "f05e",
       "definition": " ",
-      "type": " ",
-      "usage": " "
+      "type": "Status",
+      "usage": "Used when objects are in a cancelled, terminated, or otherwise not ready or disabled state"
     },
     {
       "name": "fa-bell",
@@ -630,7 +630,14 @@
       "content": "e930",
       "definition": "Pending",
       "type": "Status",
-      "usage": "x is pending; currently waiting on contingencies"
+      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending-2)"
+    },
+    {
+      "name": "pficon-pending-2",
+      "content": "f252",
+      "definition": "Pending",
+      "type": "Status",
+      "usage": "x is pending; currently waiting on contingencies (alternative to pficon-pending)"
     },
     {
       "name": "pficon-plugged",
