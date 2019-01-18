@@ -171,9 +171,9 @@
     {
       "name": "fa-refresh",
       "content": "f021",
-      "definition": "Sync/Active",
-      "type": "Action/Status",
-      "usage": "Indicates that the action to sync may be performed. Alternatively indicates that something is Running or Working; can be used as an alternative to pficon-on-running."
+      "definition": "Sync",
+      "type": "Action",
+      "usage": "Indicates that the action to sync may be performed"
     },
     {
       "name": "fa-sort-alpha-asc",
