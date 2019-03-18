@@ -24,5 +24,6 @@ Classification banner is used to display classification level on the top and bot
 ![](img/black.png)
 
 * Cancellable banner
+
 Use when users of some screens/webpages are allowed to cancel out the classification banner.
 ![](img/red_close.png)
