@@ -1,9 +1,5 @@
-This template should provide detailed design solutions and the interactions and behaviors for each solution. Brief, concise explanations of steps to complete an interaction and any rules of engagement for the UI, should be specified.
+Classification banner is used to display classification level on the top and bottom parts of the display screens/webpages. When an information system is deployed into the U.S. Government, it must be approved of what type of data to process, such is data classification. Classification banner communicates what type of data users are working with. 
 
-Templates to generate mock ups or wireframes can be found here;  https://github.com/patternfly/patternfly-design/tree/master/resources/templates   
-These are not final visual implementations of the design solutions, and should focus on communicating flow and interactive behaviors.
-
-Provide a bulleted list of the variations on the pattern.
 
 Patterns Available:
 * Classified Banner
