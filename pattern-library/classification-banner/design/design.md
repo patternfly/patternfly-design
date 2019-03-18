@@ -11,14 +11,14 @@ Classification banner is used to display classification level on the top and bot
 ### Variations
 
 * Banner showing varied classification levels
-- Classified banner
-![](img/green.png)
+  - Classified banner
+  ![](img/green.png)
 
-- Unclassified banner
-![](img/red.png)
+  - Unclassified banner
+  ![](img/red.png)
 
-- Proprietary Level
-![](img/blue.png)
+  - Proprietary Level
+  ![](img/blue.png)
 
 * Without bottom banner
 ![](img/black.png)
