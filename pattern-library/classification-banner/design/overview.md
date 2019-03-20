@@ -12,6 +12,11 @@
 Data classification banners can be used in any screen/webpage, or enabled in Masthead and Navigation elements.
 
 ## Variations
+* Banner with bottom banner
+
+Use when the screen/webpage extends in length vertically to make it easier for users to track classification level.
+
+![](img/green.png)
 
 * Banner showing varied classification levels
   - Classified banner
@@ -24,9 +29,10 @@ Data classification banners can be used in any screen/webpage, or enabled in Mas
   ![](img/blue.png)
 
 * Without bottom banner
+
 ![](img/black.png)
 
 * Cancellable banner
 
-Use when users of some screens/webpages are allowed to cancel out the classification banner.
+Use when we want users to be allowed to cancel out the classification banner.
 ![](img/red_close.png)
