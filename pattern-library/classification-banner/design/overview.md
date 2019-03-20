@@ -35,4 +35,4 @@ Use when the screen/webpage extends in length vertically to make it easier for u
 * Cancellable banner
 
 Use when we want users to be allowed to cancel out the classification banner.
-![](img/red_close.png)
+![](img/red_close_clean.png)
