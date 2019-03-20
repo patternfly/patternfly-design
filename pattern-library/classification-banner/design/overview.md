@@ -23,14 +23,14 @@ Use when the screen/webpage extends in length vertically to make it easier for u
   ![](img/green.png)
 
   - Unclassified banner
-  ![](img/red.png)
+  ![](img/red_screen.png)
 
   - Proprietary Level
   ![](img/blue.png)
 
 * Without bottom banner
 
-![](img/black.png)
+![](img/without_bottom.png)
 
 * Cancellable banner
 
