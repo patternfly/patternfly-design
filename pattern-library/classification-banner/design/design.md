@@ -6,10 +6,10 @@ Classification banner is used to display classification level on the top and bot
 
 ![](img/black.png)
 
-1. **Top Banner:** Body of the banner. Background color of banner can vary with Classification Level, or configured with Hex Color Code/ Color name/ RGB Color Code.
-2. **Host Name:** Host Name is shown in a box at one optional side of banner. Display of Host Name is optional.
+1. **Top Banner:** Body of the banner. Background color of banner can vary with Classification Level, or configured with Hex Color Code, Color name, or RGB Color Code.
+2. **Host Name:** Host Name is shown in a box at one side of the banner. The Host Name box can be configured for the left or the right side of the banner. Display of Host Name is optional.
 3. **Classification Level:** The classification level title centered on banner indicates the screen/webpage as classified, unclassified or of any prietary level (Prietary Level I, Prietary Level II).
-4. **User Name:** User Name is shown in a box at one optional side of banner, next to Host Name. Display of User Name is optional. 
+4. **User Name:** User Name is shown in a box at one side of banner next to the Host Name box. The User Name box can be configured for the left or the right side of the banner. Display of User Name is optional.
 
 ![](img/red_close.png)
 
