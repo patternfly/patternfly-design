@@ -13,7 +13,7 @@ Classification banner is used to display classification level on the top and bot
 
 ![](img/red_close.png)
 
-5. **Cancel Button:** In cancellable variation of this component, Cancel Button is shown at the right of banner, allowing users to hide classification banner at any time. Cancel button is optional.
+5. **Close Button:** In cancellable variation of this component, Cancel Button is shown at the right of banner, allowing users to hide classification banner at any time. Cancel button is optional.
 
 6. **Bottom Banner:** Bottom Banner helps users to see classification level at bottom of screens/webpages. Main color of Bottom Banner matches that of Top Banner. Host Name and User Name are not shown in Bottom Banner. Bottom Banner is optional.
 
