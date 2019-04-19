@@ -1,11 +1,8 @@
 # Classification Banner
 
+Classification banner is used to display classification level on display screens/webpages. When an information system is deployed into the U.S. Government, it must be approved of what type of data to process, such is data classification. Classification banner communicates what type of data users are working with. 
 
-## Overview
-
-* Classification banner is used to display classification level on display screens/webpages. When an information system is deployed into the U.S. Government, it must be approved of what type of data to process, such is data classification. Classification banner communicates what type of data users are working with. 
-
-    ![](img/green.png)
+![](img/green.png)
 
 ## Use Cases
 
@@ -20,13 +17,17 @@ Use when the screen/webpage extends in length vertically to make it easier for u
 ![](img/green.png)
 
 ### Banner showing varied classification levels
+
 1. Classified banner
+
 ![](img/green.png)
 
 2. Unclassified banner
+
 ![](img/red_screen.png)
 
 3. Proprietary Level
+
 ![](img/blue.png)
 
 ### Without bottom banner
