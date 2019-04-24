@@ -18,11 +18,11 @@ Use when the screen/webpage extends in length vertically to make it easier for u
 
 ### Banner showing varied classification levels
 
-1. Classified banner
+1. Unclassified banner
 
 ![](img/green.png)
 
-2. Unclassified banner
+2. Classified banner
 
 ![](img/red_screen.png)
 
