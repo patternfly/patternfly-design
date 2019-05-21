@@ -1,6 +1,6 @@
 # About Modal
 
-![About modal with callouts](img/about-modal-callouts.png)
+![About modal with callouts](./img/about-modal-callouts.png)
 
 1. **Modal:** The About Modal leverages the existing [modal](http://www.patternfly.org/pattern-library/widgets/#modal) in PatternFly. Upon opening the modal, the background behind it should “dim” in order to provide a focused view, reducing confusion. The modal should use the default position; top and centered on the screen.
 1. **Close Button:** Clicking the close button (pficon-close) will dismiss the modal and return the background to it’s original state.

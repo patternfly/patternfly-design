@@ -6,7 +6,7 @@ Jump to [Standard List View](#standard-list-view), [List View with Expanding Row
 
 ## Standard List View
 
-![List view](img/standard-list-view.png)
+![List view](./img/standard-list-view.png)
 
 [View full page example](https://www.patternfly.org/pattern-library/content-views/list-view/list-view.html#_)
 
@@ -19,22 +19,22 @@ Use a List View with expanding rows when you want to display details in place wi
 
 Simple expansion supports a single expansion state to expose more detail for a selected row.
 
-![List view with an expanded row](img/list-view-simple-expansion.png)
+![List view with an expanded row](./img/list-view-simple-expansion.png)
 
 ### Compound Expansion
 
 Compound expansion supports multiple expansion panels to examine multiple attributes of the selected row.
 
-![List view with compound row expansion](img/list-view-compound-expansion.png)
+![List view with compound row expansion](./img/list-view-compound-expansion.png)
 
 ## List View with Draggable Rows
 
 Provide customizable sorting capabilities to users by applying the [Drag and Drop](https://www.patternfly.org/pattern-library/forms-and-controls/drag-and-drop/#/api) pattern to a standard List View. Drag and Drop allows users to dynamically reorder items in the list.
 
-![List view with draggable rows](img/list-view-drag-and-drop.png)
+![List view with draggable rows](./img/list-view-drag-and-drop.png)
 
 ## Row Variation Examples
 
 The following row variations provide some examples of how you might visualize content within a row. You are not limited to these layouts. You may need to adjust the visualizations to best fit your application’s needs. Each row within a List Vsiew should have a consistent layout. Do not mix and match.
 
-![List view row variations](img/list-view-variations.png)
+![List view row variations](./img/list-view-variations.png)

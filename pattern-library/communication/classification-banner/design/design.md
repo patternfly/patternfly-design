@@ -4,7 +4,7 @@ Classification banner is used to display classification level on the top and bot
 
 ## Classified Banner
 
-![](img/black.png)
+![](./img/black.png)
 
 1. **Top Banner:** Body of the banner. Background color of banner can vary with Classification Level, or configured with Hex Color Code, Color name, or RGB Color Code.
 
@@ -23,11 +23,11 @@ Classification banner is used to display classification level on the top and bot
 
 4. **User Name (Optional):** User Name is shown in a box at one side of banner next to the Host Name box. The User Name box can be configured for the left or the right side of the banner. Display of User Name is optional. It is recommended to disable User Name when it is already shown in Masthead.
 
-    ![](img/red_close.png)
+    ![](./img/red_close.png)
 
 5. **Close Button (Optional):** Close Button is shown at the right of banner, allowing users to hide classification banner at any time. Close button is optional.
 
 6. **Bottom Banner (Optional):** Bottom Banner helps users to see classification level at bottom of screens/webpages. Main color of Bottom Banner matches that of Top Banner. Host Name and User Name are not shown in Bottom Banner. Bottom Banner is optional.
 
-    ![](img/green.png)
+    ![](./img/green.png)
 

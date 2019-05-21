@@ -8,7 +8,7 @@ Use a textbox filter when…
 - If the user is not familiar with the dataset or looking for items that have specific traits from a list of discrete categories, use a [checkbox filter](http://www.patternfly.org/pattern-library/forms-and-controls/checkbox-filter/) instead.
 
 A single-attribute textbox filter
-![](img/single-textbox-filter.png)
+![](./img/single-textbox-filter.png)
 
 A multi-attribute textbox filter
-![](img/multi-textbox-filter.png)
+![](./img/multi-textbox-filter.png)

@@ -2,7 +2,7 @@
 
 ## Description
 
-![Empty State with Callouts](img/empty-state-new.png)
+![Empty State with Callouts](./img/empty-state-new.png)
 
 1. **Icon** (optional): If an object icon is associated with this view, it can be displayed here.
 1. **Empty State Title:** Give it a name.
@@ -12,7 +12,7 @@
 
 
   - In the case of differing action label lengths, set a consistent button width based on the longest action label.
-  ![multiple secondary button style](img/secondary-button-style.png)
+  ![multiple secondary button style](./img/secondary-button-style.png)
 
   - If there are more than 3 secondary actions, we recommend using text links in place of buttons.
-  ![multiple textlink button style](img/textlink-button-style.png)
+  ![multiple textlink button style](./img/textlink-button-style.png)

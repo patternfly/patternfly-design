@@ -24,7 +24,7 @@ See [Inline Notifications](http://www.patternfly.org/pattern-library/communicati
   * When the error message is presented, content below will automatically get moved down to accommodate it.
 * An (optional) inline notification might be presented as well, depending on the use case. See “Server-side validation”.
 
-![Error and Validation](img/error-and-validation.png)
+![Error and Validation](./img/error-and-validation.png)
 
 ### When to perform validation
 For server-side validation, the error message always appears after user submitted and the entire page was reloaded. For client-side validation, there are several scenarios:

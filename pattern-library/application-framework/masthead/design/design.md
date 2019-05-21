@@ -2,7 +2,7 @@
 
 While there are two options for the masthead design, the order of information remains consistent regardless of whether you are using the tall or the short masthead design.
 
-![Image of masthead details](img/masthead@2x.png)
+![Image of masthead details](./img/masthead@2x.png)
 
 The masthead contains the following items from left to right:
 ### Hamburger Menu
@@ -40,7 +40,7 @@ The masthead contains the following items from left to right:
 ## General Considerations
 ### Badges
 In some cases, badges may be used with the icons in the masthead to provide the user with additional information.
-![Image of masthead details](img/masthead-badge@2x.png)
+![Image of masthead details](./img/masthead-badge@2x.png)
   - Some examples include showing new notifications are available, or showing the number of items currently in a shopping cart.
   - In responsive states, most masthead icons will be collapsed into the responsive state, but any icons that use badges should remain in the masthead for easier access.
 
@@ -49,7 +49,7 @@ In smaller viewport sizes, the hamburger menu should list all primary navigation
 
 Masthead items should be listed based on their order in the masthead from left to right. For instance, based on the example images, the hamburger menu would be the following from top to bottom: Category 1, Category 2, Category 3, Help, User. Where Category 1, Category 2, and Category 3 are items from the primary navigation of the application.
 
-![Image of masthead details](img/masthead-humburger@2x.png)
+![Image of masthead details](./img/masthead-humburger@2x.png)
 
 Any masthead options that have a dropdown should be displayed in the hamburger menu as fly-outs just as for other secondary pages.
 
@@ -59,24 +59,24 @@ Any masthead options that have a dropdown should be displayed in the hamburger m
 #### Icon only
 If the item is a plain icon or icon with badge, use an image only. Do not use a caret next to an image, do not use a single image and a image with caret together on masthead.
 
-![Image of masthead details](img/masthead-menu2@2x.png)
+![Image of masthead details](./img/masthead-menu2@2x.png)
 
 #### Text
 If the item is a text or a button, use a caret on the right side of the text. Do not use text only.
 
-![Image of masthead details](img/masthead-menu3@2x.png)
+![Image of masthead details](./img/masthead-menu3@2x.png)
 
 #### Icon with text
 If the item is an icon with text, use a caret on the right side of the icon.
 
-![Image of masthead details](img/masthead-menu4@2x.png)
+![Image of masthead details](./img/masthead-menu4@2x.png)
 
 #### Location
 Menus appears under the masthead bottom edge. The menu box should be right aligned with the  light gray background selected state.
 
-![Image of masthead details](img/masthead-menu5@2x.png)
+![Image of masthead details](./img/masthead-menu5@2x.png)
 
 #### Action
 When the user clicks the menu item, the item and the background selected state will be highlighted to visually indicate when a user hovers or selects a menu label from the Masthead. This will help the user focusing on the current context.
 
-![Image of masthead details](img/masthead-menu6@2x.png)
+![Image of masthead details](./img/masthead-menu6@2x.png)

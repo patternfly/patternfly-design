@@ -1,6 +1,6 @@
 # Sparkline
 
-![Sparkline](img/sparkline-callout.png)
+![Sparkline](./img/sparkline-callout.png)
 
   1. **Sparkline:** The sparkline is blue with a light blue fill, which helps to visually define the x axis.
 

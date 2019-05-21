@@ -1,6 +1,6 @@
 # Slider
 
-![Image of Slider 1](img/Slider-01.png)
+![Image of Slider 1](./img/Slider-01.png)
 
 1. **Label:** There should be a slider label to the left of the slider, indicating what the slider values represent. A text string or an icon may be used in the label position.
 
@@ -24,10 +24,10 @@
 7. **Unit Dropdown** (optional): A dropdown may be provided in conjunction with the field input if various units are available for selection.
 
 ## Slider Examples
-![Image of Slider 3](img/Slider-03.png)
+![Image of Slider 3](./img/Slider-03.png)
 
 ## Slider Example In Context
-![Image of Slider 3](img/Slider-02.png)
+![Image of Slider 3](./img/Slider-02.png)
 
 #### Future Considerations
 - Sliders with two draggable handles, allowing users to set a range

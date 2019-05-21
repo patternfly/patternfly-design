@@ -4,7 +4,7 @@ SSO (single sign-on) will allow a user to sign on once and access multiple appli
 - [Login Page](https://www.patternfly.org/pattern-library/application-framework/login-page/#)
 - [Multi-Factor Login](https://www.patternfly.org/pattern-library/application-framework/multi-factor-login/#)
 
-![Image of sso login](img/SSO-1.png)
+![Image of sso login](./img/SSO-1.png)
 
 The application icons used here are only intended as placeholders. Please refer to the appropriate branding guidelines when using third party logos for this page. The following are examples of some of the more frequently used third party applications, but you may use others as your needs require.
 

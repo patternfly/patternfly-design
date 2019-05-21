@@ -8,8 +8,8 @@ The canvas can be viewed as a single receptacle onto which toolbox items can be 
 In some cases, items on the canvas can be ordered or connected to represent a particular flow or interaction. All tools associated with the items can be found above the canvas in the Editor Toolbar.
 
 ## Layout
-![Canvas Layout](img/Canvas-01.png)
+![Canvas Layout](./img/Canvas-01.png)
 
 ## Example with Left-aligned Toolbox
 The Canvas View is typically embedded into a page that has breadcrumbs and some navigation framework.
-![Canvas Layout](img/Canvas-02@2x.png)
+![Canvas Layout](./img/Canvas-02@2x.png)

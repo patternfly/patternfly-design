@@ -9,18 +9,18 @@ Possible View Selector icons are listed below and may be used in any combination
 5. **Topology View** - pficon-topology
 
 
-![Image of View Selector Details](img/view-selector-detail.png)
+![Image of View Selector Details](./img/view-selector-detail.png)
 
 
 ### View Selector in Toolbar ###
 View Selector icons are always placed in the top right corner. Example with three icons.
 
-![Image of Toolbar View Selector](img/toolbar-viewselector.png)
+![Image of Toolbar View Selector](./img/toolbar-viewselector.png)
 
 Example with all five icons.
 
-![Image of Toolbar View Selector2](img/toolbar-viewselector2.png)
+![Image of Toolbar View Selector2](./img/toolbar-viewselector2.png)
 
 ### View Selector in Breadcrumb ###
 
-![Image of Toolbar View Selector2](img/breadcrumb-viewselector.png)
+![Image of Toolbar View Selector2](./img/breadcrumb-viewselector.png)

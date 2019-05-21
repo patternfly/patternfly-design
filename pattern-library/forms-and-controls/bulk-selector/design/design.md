@@ -1,8 +1,8 @@
 # Bulk Selector
 
-![Bulk Selector](img/BulkSelector-Callout1.png)
+![Bulk Selector](./img/BulkSelector-Callout1.png)
 
-![Bulk Selector](img/BulkSelector-Callout2.png)
+![Bulk Selector](./img/BulkSelector-Callout2.png)
 
 1. **Bulk Selector Checkbox**: Enables a user to quickly select or deselect all elements on the current page of the related component.
  * Clicking the bulk selector when **some** items in the related component are selected will select all items.
@@ -24,7 +24,7 @@ With the partial selection component, the bulk selector checkbox fill can reflec
  3. No Items Selected
 
 
- ![Bulk Selector](img/BulkSelector-SelectionStates-All.png)
+ ![Bulk Selector](./img/BulkSelector-SelectionStates-All.png)
 
 
 This component is often used to select multiple items and perform an action on them. Note that after an action is completed, the selection state remains as is until the user changes the selection.
@@ -39,7 +39,7 @@ When clicking the bulk selector, an additional indication row will appear down b
  4. Deselect all to clear the selection across pages
 
 
- ![Bulk Selector](img/BulkSelector-SelectAll_state.png)
+ ![Bulk Selector](./img/BulkSelector-SelectAll_state.png)
 
 
 ## Mixed States
@@ -50,7 +50,7 @@ When the user has selected all items on the current page or across all pages and
 3. Checked item number of total item number across all pages
 
 
-![Bulk Selector](img/BulkSelector-Mixed_state.png)
+![Bulk Selector](./img/BulkSelector-Mixed_state.png)
 
 
 

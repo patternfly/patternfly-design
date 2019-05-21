@@ -1,6 +1,6 @@
 # Utilization Bar Card
 
-![Title of image](img/utilization-bar-callout.png)
+![Title of image](./img/utilization-bar-callout.png)
 
   1. **Title:** Define a title for the card.
 

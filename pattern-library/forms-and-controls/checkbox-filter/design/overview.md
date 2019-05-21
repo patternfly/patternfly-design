@@ -9,7 +9,7 @@ Use a checkbox filter when...
 Checkbox filters can be presented either as a dropdown in the toolbar or as a dedicated column on a content view.
 
 Checkbox filter in a dropdown
-![checkbox filter in a dropdown](img/checkbox-filter-example.png)
+![checkbox filter in a dropdown](./img/checkbox-filter-example.png)
 
 A checkbox filter in a sidebar
-![checkbox filter in a sidebar](img/checkbox-filter-sidebar.png)
+![checkbox filter in a sidebar](./img/checkbox-filter-sidebar.png)

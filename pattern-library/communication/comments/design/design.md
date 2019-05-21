@@ -2,7 +2,7 @@
 
 ## Creating and Viewing Comments
 
-![Comment Basics](img/Commenting_01.png)
+![Comment Basics](./img/Commenting_01.png)
 
 1. **Header:** The Comments header tallies the total comments. There is no known limit to the number of comments.
 2. **Commenting Entry Field:** Placeholder text in the comment field will instruct the user on entering comments into the field.
@@ -16,7 +16,7 @@
 
 ## Interactions and Behaviors for Entering a Comment
 
-![Interactions](img/Commenting_02.png)
+![Interactions](./img/Commenting_02.png)
 
 1. **Focus:** Once the comment field has focus:
     - The Cancel and Post buttons will display and the placeholder text will clear, displaying a blinking cursor.
@@ -32,7 +32,7 @@
 
 ## Edit and Delete Comments
 
-![Edit and Delete](img/Commenting_03.png)
+![Edit and Delete](./img/Commenting_03.png)
 
 1. **Menu Commands:** The kebab menu will house the commands for the comment (e.g., Edit and Delete).
 2. **Delete Command:** Selecting the Delete command prompts the user with a confirmation dialog.
@@ -44,7 +44,7 @@
 
 ## Delete Comment Confirmation Dialog
 
-![Delete Comment Dialog](img/Commenting_04.png)
+![Delete Comment Dialog](./img/Commenting_04.png)
 
 1. **Displays When:** The Delete dialog displays after the Delete command has been selected.
 2. **Cancel Actions:** The Cancel button and "X" will  close the dialog and dismiss any changes.

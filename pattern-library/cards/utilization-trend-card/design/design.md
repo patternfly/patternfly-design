@@ -1,7 +1,7 @@
 # Utilization Trend Card
 
 ## Card with a Single Metric
-![Single Metric Card](img/single-metric-utilization-card2.png)
+![Single Metric Card](./img/single-metric-utilization-card2.png)
 
   1. **Metric Title:** Display the metric name.
 
@@ -22,7 +22,7 @@
   1. **Time Frame** (optional): The time frame is indicated under the sparkline by small text and is left aligned.
 
 ## Card with Multiple Metrics
-![Multiple Metrics Card](img/multi-metric-utilization-card-callout1.png)
+![Multiple Metrics Card](./img/multi-metric-utilization-card-callout1.png)
 
   1. **Card Title:** Use a card title if multiple metrics are shown in one card.
 

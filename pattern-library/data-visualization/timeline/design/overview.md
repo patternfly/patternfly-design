@@ -5,4 +5,4 @@ A timeline is a visualization of events over time.  Event types are shown as ind
 The most common use case for a timeline is to show a timeline of events associated with a specific object.
 
 ## Standard Timeline
-![Image of card title](img/timeline.png)
+![Image of card title](./img/timeline.png)

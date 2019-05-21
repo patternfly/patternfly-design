@@ -2,7 +2,7 @@
 
 ## Standard List View
 
-![List view](img/list-view-callout.png)
+![List view](./img/list-view-callout.png)
 
 1. **Toolbar:** The [Toolbar](https://www.patternfly.org/pattern-library/forms-and-controls/toolbar) pattern may include Filter, Sort, Actions, Find, and Change View.
 1. **Row:**
@@ -21,7 +21,7 @@
 
 ## List View with Simple Expansion
 
-![List view with an expanded row](img/list-view-simple-expansion-callout.png)
+![List view with an expanded row](./img/list-view-simple-expansion-callout.png)
 
 1. **Icon:** Placing the caret at the front of the row signifies that this row is expandable. The caret icon points to the right when it is closed and down when it is expanded.
 1. **Interaction:**
@@ -32,7 +32,7 @@
 
 
 ## List View with Compound Expansion
-![List view with compound expansion](img/list-view-compound-expansion-callout.png)
+![List view with compound expansion](./img/list-view-compound-expansion-callout.png)
 
 1. **Icon:** When the list supports compound expansion, the caret is placed in front of each attribute that is expandable.
 1. **Expandable Attribute:**

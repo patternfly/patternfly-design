@@ -15,28 +15,28 @@ There are number of variation of the date and Time picker. We recommend using ap
 The DatePicker allows a user to select a single date.
 
 
-![DatePicker](img/datepickernew.png)
+![DatePicker](./img/datepickernew.png)
 
 ## TimePicker
 The TimePicker allows a user to select a single Time.
 
 
-![TimePicker](img/timepicker.png)
+![TimePicker](./img/timepicker.png)
 
 ## DateTimePicker
 The DateTimePicker allows a user to select a date with a time.
 
 
-![DateTimePicker](img/datetime-picker.png)
+![DateTimePicker](./img/datetime-picker.png)
 
 ## DateRangePicker
 The DateRangePicker allows a user to select a range of date.
 
 
-![DateRangePicker](img/daterange.png)
+![DateRangePicker](./img/daterange.png)
 
 ## DateTimeRangePicker
 The DateTimeRangPicker allows a user to select a range of date with time.
 
 
-![DateTimeRangePicker](img/datetime-range.png)
+![DateTimeRangePicker](./img/datetime-range.png)

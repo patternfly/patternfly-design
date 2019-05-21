@@ -2,7 +2,7 @@
 
 ## Standard Tree List View
 
-![Standard Tree List View](img/tree-list-view-design.png)
+![Standard Tree List View](./img/tree-list-view-design.png)
 
 1. **Show/Hide Child Elements:**
   - Click the element's caret to expand the closed element and show any child elements.
@@ -23,18 +23,18 @@
 4. **Hovering Rows:**
   - Hovering over any row will highlight it. Clicking the caret will open the next set of child elements, while keeping previously opened parent elements open.
 
-![Tree List View Hover](img/tree-list-view-hover-design.png)
+![Tree List View Hover](./img/tree-list-view-hover-design.png)
 
 ## Tree List View with Single Child Expansion
 
-![Tree List View with Single Child Expansion](img/tree-list-view-single-expansion-design.png)
+![Tree List View with Single Child Expansion](./img/tree-list-view-single-expansion-design.png)
 
 1. **Show Child Elements:**
   - Hovering over the row highlights it.
   - Clicking on either the caret icon or row body will show all of the child elements associated with that particular row. Once a row is opened, clicking on the caret or row body will close that element.
 
 ## Tree List View with Multi-Child Expansion
-![List view with compound expansion](img/tree-list-view-multi-expansion-design.png)
+![List view with compound expansion](./img/tree-list-view-multi-expansion-design.png)
 
 The Tree List View with Multi-Child Expansion performs similarly to the Single Child Tree List View.
 
@@ -45,12 +45,12 @@ The Tree List View with Multi-Child Expansion performs similarly to the Single C
   - If an element has already been expanded, clicking the caret on the child element will open the next set of child elements, while keeping previously opened elements (now parents) open with their highlight and active border.
 
 ## Optional: Tree List View with Checkboxes
-![Tree List View with checkbox](img/tree-list-view-checkbox-design.png)
+![Tree List View with checkbox](./img/tree-list-view-checkbox-design.png)
 
 1. **Checkbox:**
   - If desired, checkboxes can be added to the Tree List View. They will be placed between the expansion caret and the pipe, and will allow for multi-selections in accordance with the toolbar.
 
-![Tree List View with checkbox selected](img/tree-list-view-checkbox-selected-design.png)
+![Tree List View with checkbox selected](./img/tree-list-view-checkbox-selected-design.png)
 
 1. **Select Row(s):**
   - Click on the checkbox to select multiple rows in order to perform bulk actions on those rows simultaneously. Selecting a checkbox activates and highlights the row.

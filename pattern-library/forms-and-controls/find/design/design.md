@@ -2,7 +2,7 @@
 
 ## Find Field
 
-![Find field](img/find-callout.png)
+![Find field](./img/find-callout.png)
 
 1. **Icon:** Clicking on the icon triggers the entire Find tool to dropdown.
 
@@ -16,7 +16,7 @@
 
 ## Find Results
 
-![Find results](img/find-callout2.png)
+![Find results](./img/find-callout2.png)
 
 1. **Found Objects:** All objects that match the user’s query are shaded to differentiate them from non-matching objects.
 

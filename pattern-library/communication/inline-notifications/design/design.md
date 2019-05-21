@@ -1,6 +1,6 @@
 # Inline Notifications
 
-![Inline Notifications with callouts](img/inline-notifications-callout.png)
+![Inline Notifications with callouts](./img/inline-notifications-callout.png)
 
 1. **Background:** The notification should occupy the full width of the main content area. See the [In Context](https://www.patternfly.org/pattern-library/communication/inline-notifications) example.
 

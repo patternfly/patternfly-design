@@ -2,7 +2,7 @@
 
 ## Description
 
-![Card View](img/card-view-callout.png)
+![Card View](./img/card-view-callout.png)
 
 1. **Toolbar:** The [Toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) pattern may include Filter, Sort, Actions, Find and Change View. If the user can add new objects that will appear in the view, and Add action should be included here.
 1. **Card:** The card is a container for displaying content about an object. At a minimum each card should be uniquely identified with the name of the object that it represents.

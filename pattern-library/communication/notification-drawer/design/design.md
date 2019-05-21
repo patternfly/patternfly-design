@@ -2,12 +2,12 @@
 Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notification-drawer), [Expand Behavior](#expand-behavior-|-optional), or [Notification Drawer | Responsive State](#notification-drawer-|-responsive-state)
 
 ## Toast Notification
-![Image of standard Toast Notification](img/toast.png)
+![Image of standard Toast Notification](./img/toast.png)
 
 - **Toast Notification:** The drawer should utilize the current [Toast Notification](https://www.patternfly.org/pattern-library/communication/toast-notifications/#/api). The notification shows the title and an optional content-relevant icon.
 
 ## Notification Drawer
-![Image of standard Notification Drawer](img/PF-ND-01.png)
+![Image of standard Notification Drawer](./img/PF-ND-01.png)
 
 1. **Icon:**
   - The fa-bell icon should be used to represent the notification drawer.
@@ -34,18 +34,18 @@ Jump to [Toast Notification](#toast-notification), [Notification Drawer](#notifi
 The notification drawer has the ability to expand in order to view additional details regarding an event. The expand drawer functionality is optional. Use of this feature will depend on the amount of information available.
 
 ### Collapsed Drawer
-![Image of Collapsed Notification Drawer](img/PF-ND-02.png)
+![Image of Collapsed Notification Drawer](./img/PF-ND-02.png)
 
 - **Collapsed Drawer:** The expand icon is in the top left corner of the notification drawer and is shown as a link to expand the drawer.
 
 ### Expanded Drawer
-![Image of Expanded Notification Drawer](img/PF-ND-03.png)
+![Image of Expanded Notification Drawer](./img/PF-ND-03.png)
 
 - **Expanded Drawer:** Individual rows may include additional information when in the expanded state. The collapse icon is in the top left corner of the notification drawer and is shown as a link. All other notification drawer features should remain the same as the collapsed view.
 
 ## Notification Drawer | Responsive State
 This is how the notification drawer looks on small screens. The icon of notification drawer is exposed on the navigation bar and the drawer will take over the whole screen width.
-![navigation-vertical-notifications-responsive-callout](img/PF-ND-07.png)
+![navigation-vertical-notifications-responsive-callout](./img/PF-ND-07.png)
 1. **Bell Icon:** The bell remains in the banner, allowing the user to toggle the visibility of the notification drawer.
 2. **Hamburger Icon:** Since navigation is hidden under “hamburger” icon, clicking on the hamburger menu should first collapse the notification drawer (if visible), and then display the navigation menu.
 3. **Accordion:** All notification tab accordions are collapsed by default. When there are unread notifications, only that tab, or the first tab in a list of tabs with unread notifications, will be open.

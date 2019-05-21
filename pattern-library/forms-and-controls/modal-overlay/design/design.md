@@ -1,6 +1,6 @@
 # Modal Overlay
 
-![Image of Overlay 3](img/Overlay-02.png)
+![Image of Overlay 3](./img/Overlay-02.png)
 
 1. **Title** (optional): There should be a title bar spanning the top of the modal with a title in the top left corner. The title should be descriptive enough to convey the purpose of the modal while remaining concise. The title may match the action button or link that prompted the overlay modal to appear.
 
@@ -20,7 +20,7 @@
 5. **Background:** When the modal overlay appears, the background should darken to bring attention to the primary content. While the rest of the page is no longer accessible, the background should still be legible to remain in context for the user.
 
 ## Short Example
-![Image of Overlay 2](img/Overlay-01@2x.png)
+![Image of Overlay 2](./img/Overlay-01@2x.png)
 
 ## Long Example
-![Image of Overlay 3](img/Overlay-03@2x.png)
+![Image of Overlay 3](./img/Overlay-03@2x.png)

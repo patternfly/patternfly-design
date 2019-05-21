@@ -6,7 +6,7 @@ Jump to [Top Left Description and Top Right Label](#top-left-description-and-top
 
 
 ### Top Left Description and Top Right Label
-![Top Left Description and Top Right Label](img/utilization-bar-card-example-1.png)
+![Top Left Description and Top Right Label](./img/utilization-bar-card-example-1.png)
 
 ### Left Description and Right Label
-![Left Description and Right Label](img/utilization-bar-card-example-2.png)
+![Left Description and Right Label](./img/utilization-bar-card-example-2.png)

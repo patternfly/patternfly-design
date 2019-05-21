@@ -1,6 +1,6 @@
 # Area Chart
 
-![#callout-1](img/single-area-chart-callout.png)
+![#callout-1](./img/single-area-chart-callout.png)
 
   1. **Axis Lines:**
     - The “x” axis is commonly used for time values, and the “y” axis is used for metric values.

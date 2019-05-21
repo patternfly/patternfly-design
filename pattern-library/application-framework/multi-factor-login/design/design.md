@@ -1,7 +1,7 @@
 # Multi-Factor Login
 
 ## Identity First
-![Image of identity first](img/login-page-2.png)
+![Image of identity first](./img/login-page-2.png)
 1. **Logotype**: The product logo is placed at the top.
 2. **Description** (optional): Description of the website can be placed here.
 3. **Title**: The title is located at the top of the login card. "Your Account" can be replaced by the product name or any other term that makes sense for your application.
@@ -12,7 +12,7 @@
 8. **Sign up** (optional): The page will jump to the sign up flow after clicking the “Sign up” link.
 9. **Links** (optional): You may add any additional links to pages where the user can get more information or help.
 
-![Image of identity first](img/login-page-3.png)
+![Image of identity first](./img/login-page-3.png)
 1. **Avatar** (optional): If the user has logged in this device before, his avatar will be displayed after the username is confirmed.
 2. **Validated Username**: After successful verification, the username should change to read-only mode in this page.
 3. **Return Link**: Users can change username by clicking the "Not you?" link on the far right. After clicking the link, the card will return to the text field mode as the previous page.
@@ -21,5 +21,5 @@
 6. **Login Button**: If there are more steps for authentication, the button should be called “Next” instead of “Log In”.
 
 ## Multi-Factor Login Example
-![Image of other login methods](img/Example.png)
+![Image of other login methods](./img/Example.png)
 1. **More Verification Options** (optional): When there are additional verification options, users can switch between them through this link if they can’t finish the current one. The link will lead to followed step.

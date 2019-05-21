@@ -11,12 +11,12 @@ Jump to [Find in a List View](#find-in-a-list-view), [Find in a Table View](#fin
 
 ## Find in a List View
 
-![find in a list view](img/find-list-view.png)
+![find in a list view](./img/find-list-view.png)
 
 ## Find in a Table View
 
-![find in a table view](img/find-table-view.png)
+![find in a table view](./img/find-table-view.png)
 
 ## Find in a Card View
 
-![find in a card view](img/find-card-view.png)
+![find in a card view](./img/find-card-view.png)

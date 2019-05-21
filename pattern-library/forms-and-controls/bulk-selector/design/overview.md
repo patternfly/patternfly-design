@@ -10,7 +10,7 @@ This pattern should NOT be used:
 * When information is displayed in a [table view](http://www.patternfly.org/pattern-library/content-views/table-view/). The table view component includes a bulk selector in its toolbar.
 
 ## All Items Selected
-![All Selected](img/BulkSelector-AllSelected.png)
+![All Selected](./img/BulkSelector-AllSelected.png)
 
 ## No Items Selected
-![None Selected](img/BulkSelector-NoneSelected-Default.png)
+![None Selected](./img/BulkSelector-NoneSelected-Default.png)

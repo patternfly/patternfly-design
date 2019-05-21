@@ -16,21 +16,21 @@ Jump to [Masthead Design](#masthead-design), [Standard Horizontal Navigation](#s
 ## Masthead Design
 The horizontal navigation is recommended to use the the short masthead in order to reduce the vertical real estate.
 
-![Masthead](img/masthead-horizontal@2x.png)
+![Masthead](./img/masthead-horizontal@2x.png)
 
 ## Standard Horizontal Navigation
-![Standard Horizontal Navigation](img/standard-horizontal-navigation.png)
+![Standard Horizontal Navigation](./img/standard-horizontal-navigation.png)
 
 [View full page example](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/horizontal-navigation.html)
 
 ## Navbar Variations
 
 ### Single-Level Menu Bar
-![Single Level Menu Bar](img/masthead-horizontal@2x.png)
+![Single Level Menu Bar](./img/masthead-horizontal@2x.png)
 
 ### Two-Level Menu Bar
-![Two Level Menu Bar](img/menu-bar-two-level@2x.png)
+![Two Level Menu Bar](./img/menu-bar-two-level@2x.png)
 
 
 ### Menu Bar with Dropdowns
-![Menu Bar with dropdowns](img/menu-bar-drop-downs.png)
+![Menu Bar with dropdowns](./img/menu-bar-drop-downs.png)

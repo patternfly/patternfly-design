@@ -10,10 +10,10 @@ This pattern includes three examples:
 
 
 ### Single Level Conditional Fields <a id="single_level"></a>
-![Image of single level conditional fields](img/progressive-disclosure-example1.png)
+![Image of single level conditional fields](./img/progressive-disclosure-example1.png)
 
 ### Multi Level Conditional Fields <a id="dropdown"></a>
-![Image of multi level conditional fields](img/progressive-disclosure-example2.png)
+![Image of multi level conditional fields](./img/progressive-disclosure-example2.png)
 
 ### Conditional Fields with Dropdown Menu <a id="multi_level"></a>
-![Image of conditional fields with dropdown menu](img/progressive-disclosure-example3.png)
+![Image of conditional fields with dropdown menu](./img/progressive-disclosure-example3.png)

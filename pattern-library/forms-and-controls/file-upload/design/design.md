@@ -9,13 +9,13 @@ Patterns Available:
 ## Multiple File Upload
 Use this component when you need to upload one or more files without previewing the contents of the file.
 
-![Multiple File](img/Mul1.png)
+![Multiple File](./img/Mul1.png)
 
-![Multiple File](img/Mul2.png)
+![Multiple File](./img/Mul2.png)
 
-![Multiple File](img/Mul3.png)
+![Multiple File](./img/Mul3.png)
 
-![Multiple File](img/Mul4.png)
+![Multiple File](./img/Mul4.png)
 
 1. **Header** (optional): Optionally use a title to give users context around the drag and drop component.
 2. **Drag and drop area**: Users may drag and drop files anywhere in this box or click “browse” to open a file directory and search for files.
@@ -33,9 +33,9 @@ Use this component when you need to upload one or more files without previewing 
 ### Read-Only Preview
 Use this component when you need to upload one file with a read-only preview.
 
-![Single File](img/SingleRead1.png)
+![Single File](./img/SingleRead1.png)
 
-![Single File](img/SingleRead3.png)
+![Single File](./img/SingleRead3.png)
 
 1. **Header** (optional): Optionally use a title to give users context around the drag and drop component.
 2. **Drag and drop area**: Users may drag and drop files anywhere in this box or click “browse” to open a file directory and search for files.
@@ -47,9 +47,9 @@ Use this component when you need to upload one file with a read-only preview.
 ### Editable Preview
 Use this component when you need to upload one file with an editable preview.
 
-![Single File](img/SingleEdit1.png)
+![Single File](./img/SingleEdit1.png)
 
-![Single File](img/SingleEdit3.png)
+![Single File](./img/SingleEdit3.png)
 
 1. **Header** (optional): Optionally use a title to give users context around the drag and drop component.
 2. **Drag and drop area**: Users may drag and drop a file anywhere in this box, click “browse” to open a file directory and search for files, or type or paste text directly into the box.

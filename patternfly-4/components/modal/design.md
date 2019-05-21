@@ -2,7 +2,7 @@
 Modals load and display important information without navigating away from the current page.
 
 ## Elements of a modal
-![Modal](img/general-modal.png)
+![Modal](./img/general-modal.png)
 1. **Backdrop**
 2. **Modal box**
 3. **Title:** Concisely convey the purpose of the modal.

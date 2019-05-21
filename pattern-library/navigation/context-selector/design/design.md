@@ -1,7 +1,7 @@
 # Context Selector
 
 ## Dropdown Details
-![Context Selector Search](img/context-selector-dropdown-detail.png)
+![Context Selector Search](./img/context-selector-dropdown-detail.png)
 
 
 1. If there is a search bar, it should be at the very top of the menu.
@@ -9,7 +9,7 @@
 
 
 ### Responsive Behavior
-![Context Selector Mobile](img/context-selector-mobile.png)
+![Context Selector Mobile](./img/context-selector-mobile.png)
 
 - Because the context identifies what is in the UI, the Context Selector should remain visible at smaller viewports.
 - Product branding should be dropped in favor of keeping the context visible.

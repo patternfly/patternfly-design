@@ -8,4 +8,4 @@ Use cases for sliders can vary a great deal, but some examples include:
   - Setting price ranges or other filters
 
 ## Slider Example
-![Image of Slider](img/Slider-02.png)
+![Image of Slider](./img/Slider-02.png)

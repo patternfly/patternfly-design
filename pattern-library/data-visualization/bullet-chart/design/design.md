@@ -3,7 +3,7 @@
 Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Measure](#segmented-primary-measure), [Negative Primary Measure](#negative-primary-measure), [Reversed Ranges](#reversed-ranges), [Scale Greater Than Zero](#scale-greater-than-zero), [Measure Greater Than Max Range](#measure-greater-than-max-range), [Horizontal Group](#horizontal-group), or [Vertical Group](#vertical-group)
 
 ## Standard Bullet Chart
-![Image of standard bullet chart](img/bullet-chart-callout.png)
+![Image of standard bullet chart](./img/bullet-chart-callout.png)
 
 1. **Featured Measure Bar:** Use a visually prominent fill color for the featured measure bar. See the [color palette](https://www.patternfly.org/styles/color-palette/) for color recommendations.
 
@@ -32,13 +32,13 @@ Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Meas
 
 ### Segmented Primary Measure
 
-![Image of bullet chart segmented callout](img/segmented-primary-bullet-chart-callout.png)
+![Image of bullet chart segmented callout](./img/segmented-primary-bullet-chart-callout.png)
 
 1. **Segmented Primary Measure Bar:** Display a segmented primary measure to call out actual and projected primary measures.
 
 ### Negative Primary Measure
 
-![Image of bullet chart primary measure callout](img/negative-primary-measure-bullet-chart-callout.png)
+![Image of bullet chart primary measure callout](./img/negative-primary-measure-bullet-chart-callout.png)
 
 1. **Negative Primary Measure:** Use of a red fill color for the primary measure bar is recommended to emphasize values considered to be bad when they are low.
 
@@ -46,19 +46,19 @@ Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Meas
 
 ### Reversed Ranges
 
-![Image of bullet chart reversed ranges callout](img/reversed-ranges-callout.png)
+![Image of bullet chart reversed ranges callout](./img/reversed-ranges-callout.png)
 
 1. **Reversed Qualitative Ranges:** Show reversed qualitative ranges for graphs containing measures	considered to be good when they are low.
 
 ### Scale Greater Than Zero
 
-![Image of bullet chart scale callout](img/greater-than-bullet-chart-callout.png)
+![Image of bullet chart scale callout](./img/greater-than-bullet-chart-callout.png)
 
 1. **Primary Measure Dot:** Display the primary measure as a dot when the scale starts at a value greater than zero.
 
 ### Measure Greater Than Max Range
 
-![Image of bullet chart greater than max callout](img/greater-than-max-callout.png)
+![Image of bullet chart greater than max callout](./img/greater-than-max-callout.png)
 
 1. **Single Qualitative Range Bar:** Display the range bar, which represents the min and max values.
 
@@ -66,7 +66,7 @@ Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Meas
 
 ## Horizontal Group
 
-![Image of bullet chart horizontal group callout](img/grouped-horizontal-bullet-chart-callout.png)
+![Image of bullet chart horizontal group callout](./img/grouped-horizontal-bullet-chart-callout.png)
 
 1. **Group Label** (optional): Include a center-aligned text label above horizontally-oriented graphs.
 
@@ -80,7 +80,7 @@ Jump to [Standard Bullet Chart](#standard-bullet-chart), [Segmented Primary Meas
 
 ## Vertical Group
 
-![Image of bullet chart vertical group callout](img/grouped-vertical-bullet-chart-callout.png)
+![Image of bullet chart vertical group callout](./img/grouped-vertical-bullet-chart-callout.png)
 
 1. **Group Label** (optional):
   * Include a group label above vertical graph groups.

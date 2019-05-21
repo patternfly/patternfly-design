@@ -15,7 +15,7 @@ This pattern should NOT be used when:
 - Compensating for bad design and relying on it to explain a graphic or word choice.
 - The information displayed by the popover is necessary to read.
 
-![Field level help](img/field-level-help.png)
+![Field level help](./img/field-level-help.png)
 
 ## Syntax Hints
 Syntax hints help users successfully complete forms by displaying an example of the required or recommended format for the input data. Syntax hints are useful when users are asked to provide unfamiliar data and there is a specific format the data should follow.
@@ -31,7 +31,7 @@ This pattern should NOT be used:
 - As a replacement for form field labels. For more information, see [Field Labeling](http://www.patternfly.org/pattern-library/forms-and-controls/field-labeling/).
 
 ### Default state
-![Syntax help without errors](img/syntax_without_errors.png)
+![Syntax help without errors](./img/syntax_without_errors.png)
 
 ### Page with errors
-![Syntax with errors](img/syntax_with_errors.png)
+![Syntax with errors](./img/syntax_with_errors.png)

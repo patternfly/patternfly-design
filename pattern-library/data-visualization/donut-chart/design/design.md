@@ -1,7 +1,7 @@
 # Donut Chart
 
 ## Utilization
-![#donut-chart-callout-1](img/utilization-donut-chart-callout.png)
+![#donut-chart-callout-1](./img/utilization-donut-chart-callout.png)
 
   1. **Donut Chart Fill:**
     - The background color is grey (#d1d1d1)
@@ -26,7 +26,7 @@
   5. **Error Threshold Indicator** (optional): If an error threshold exists, that may be visually indicated on the chart. 90% is the typical default value for an error threshold but some products may have configurable thresholds (design not currently shown, visuals are still TBD).
 
 ## Relationship of a Set of Values to a Whole
-![#donut-chart-callout-2](img/set-of-values-donut-chart-callout.png)
+![#donut-chart-callout-2](./img/set-of-values-donut-chart-callout.png)
 
   1. **Donut Chart Fill:**
     - **Interaction** (optional):

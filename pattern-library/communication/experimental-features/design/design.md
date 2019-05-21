@@ -2,7 +2,7 @@
 
 ## Entry Screen
 
-![Experimental Features with Callouts](img/experimental-features-callouts.png)
+![Experimental Features with Callouts](./img/experimental-features-callouts.png)
 
 1. **Icon:** We utilize the flask icon from Font Awesome (fa-flask) to represent an experiment. This same icon can be used to indicate that a page or a feature is experimental.
 2. **Title:** The title is given as "Experimental Features", but can be changed depending upon project requirements.
@@ -10,20 +10,20 @@
 4. **Agreement Checkbox:** An opt-in checkbox with text that states the user agrees to use the experimental feature, with guidelines and/or warnings as stated in the above paragraph.
 5. **Primary Action Button:** The primary action is displayed in a disabled state until the user accepts the agreement for using an experimental feature. Once that checkbox has been checked, the button transitions to a green button with white text.
 
-![Experimental Features with Callouts](img/experimental-features-checked-callouts.png)
+![Experimental Features with Callouts](./img/experimental-features-checked-callouts.png)
 
 ## Entry Screen in Context
 
-![Experimental Feature in context](img/experimental-feature-in-context-design.png)
+![Experimental Feature in context](./img/experimental-feature-in-context-design.png)
 
 1. **Placement:** The experimental feature bar and border are placed around the content of the screen, even after the user has activated the particular experimental feature. It is designed to clearly delineate the differences between an experimental and non-experimental feature.
     - Any navigational items are still displayed so that a user can leave the experimental features screen without having to accept the terms agreement.
 
 ## Experimental Features Action Bar
 
-![Experimental Feature in context](img/experimental-feature-bar-design.png)
+![Experimental Feature in context](./img/experimental-feature-bar-design.png)
 
-![Experimental Feature in context](img/experimental-feature-bar-minimized-design.png)
+![Experimental Feature in context](./img/experimental-feature-bar-minimized-design.png)
 
 The Action Bar is made up of two action items: "Got it!" and "More info".
 

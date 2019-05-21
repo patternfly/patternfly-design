@@ -21,7 +21,7 @@ You should use Checkboxes when users need to select one or more items from a lis
 
 If necessary, you can nest other controls within a Checkbox item. Enable and disable nested options when the user selects or unselects a check box.
 
-![Checkbox Usage](img/data-input-checkboxes.png)
+![Checkbox Usage](./img/data-input-checkboxes.png)
 1. Checkboxes arranged in a two-column grid to conserve vertical space
 2. Checkboxes with nested controls
 
@@ -36,7 +36,7 @@ Like Checkboxes, you can use Radio Buttons to nest other controls , following th
 
 As a general rule, you shouldn't use Radio Buttons when more than two to five options are available or if there are space constraints. In these cases, try using a [Select List](#select-lists) instead.
 
-![Radio button Usage](img/data-input-radio-buttons.png)
+![Radio button Usage](./img/data-input-radio-buttons.png)
 1. A horizontal group of Radio Buttons
 2. A vertical group of Radio Buttons with nested controls
 
@@ -47,7 +47,7 @@ Since the Switch pattern is only used to enable or disable an attribute, you can
 
 Just like Radio Buttons and Checkboxes, Switches can be used to enable or disable a set of nested controls.
 
-![Switch Usage](img/data-input-switch.png)
+![Switch Usage](./img/data-input-switch.png)
 
 
 #### Select Lists
@@ -59,14 +59,14 @@ PatternFly offers two types of select controls, Bootstrap Single Select and Boot
 
 When fewer than five options exist, you should use [Radio Buttons](#radio-buttons) or [Checkboxes](#checkboxes) to display all options to the user simultaneously.
 
-![Bootstrap Single Select](img/bootstrap-single-multi-select.png)
+![Bootstrap Single Select](./img/bootstrap-single-multi-select.png)
 
 #### Comboboxes
 A combobox allows users to type a value into the field *or* select a predefined option from the dropdown list. Comboboxes also support type-ahead features, where a filtered list of options is displayed as the user types. This makes it easier to select a preferred option when there are too many options to quickly scan the full list.
 
 You should use a combobox in place of a single Select List when there are more than ten options.
 
-![Bootstrap Combobox](img/bootstrap-combobox.png)
+![Bootstrap Combobox](./img/bootstrap-combobox.png)
 
 
 ## Data Entry Controls
@@ -81,7 +81,7 @@ When implementing these patterns, you should take notice of the alignment of dat
 
 #### Text Entry
 
-![Right Aligned Labels](img/right-aligned-labels.png)
+![Right Aligned Labels](./img/right-aligned-labels.png)
 
 Text Fields are common, simple inputs for allowing a user to enter a string of characters from the keyboard. When using text fields in forms, the following are some factors to keep in mind.
 
@@ -102,7 +102,7 @@ If users must enter specifically-formatted data into the Text Field, use syntax 
 #### Bound-Entry Controls
 Use bound-entry controls should be used to enter special data types, such as dates, times, and other numeric data. Bound-entry Controls constrain user input and combine keyboard and mouse interaction. These controls are designed to only allow valid inputs. As a result, field validation is unnecessary. See the [Datepicker](http://www.patternfly.org/pattern-library/forms-and-controls/datepicker/), [Timepicker](http://www.patternfly.org/pattern-library/forms-and-controls/timepicker/), and [Bootstrap Touchspin](http://www.patternfly.org/pattern-library/widgets/#bootstrap-touchspin) components for details.
 
-![Bound Data Input](img/data-input-bound-controls.png)
+![Bound Data Input](./img/data-input-bound-controls.png)
 
 The dialog box above uses bounded data entry controls to prevent user errors. A Datepicker, Timepicker, Touchspin control, and Select List are used to input properly-formatted data into the form.
 
@@ -113,16 +113,16 @@ On large-screen devices, the Touchspin control with *stacked buttons* is the rec
 
 When using the Touchspin control with *unstacked buttons*, the width of the field will have a significant influence on the user experience. A field that is too wide will frustrate users who need to move between the buttons. To avoid this, adjust the width of the input fields to match the length of the expected input value.
 
-![Bootstrap Touchspin Width](img/data-input-bootstrap-touchspin-width.png)
+![Bootstrap Touchspin Width](./img/data-input-bootstrap-touchspin-width.png)
 
-![Data Input Dashboard](img/data-input-dashboard.png)
+![Data Input Dashboard](./img/data-input-dashboard.png)
 
 #### Bootstrap Select
 [Bootstrap Select]( http://www.patternfly.org/pattern-library/widgets/#bootstrap-select) can also be used to enter numeric data. This pattern helps users select a value quickly and accurately, preventing user input errors. This is especially true in the usage scenarios for selecting data from some special data group (eg. -20 / -10 / -5 / 0 / 5 / 10 / 20).
 
 When using a Select List, options should be less than twenty. Long Lists that require scrolling are not easy to operate on mobile devices.
 
-![Select List](img/data-input-select-list.png)
+![Select List](./img/data-input-select-list.png)
 
 #### Left-Alignment or Right-Alignment
 When you're deciding to left- or right-align data in an entry control, consider the context of the data, the type of data, and the type of input.
@@ -130,13 +130,13 @@ When you're deciding to left- or right-align data in an entry control, consider 
 ##### Left Alignment
 Users generally scan information from left to right, moving from the top of a section to the bottom. Left-aligning information can make it easier for users to move their eyes from one line of data to the next by providing a consistent starting point for each line.
 
-![Left alignment](img/left-alignment.png)
+![Left alignment](./img/left-alignment.png)
 
 ##### Right Alignment
 Right-aligning integer strings allows the numbers to be easily compared, as decimals and comma separators are aligned. This increases contrast between lines of data.
 
 Right-alignment is most useful for displaying pure numeric values and decimal values, because users can easily scan the values from top to bottom. Right-aligned data also supports increased number legibility in table layouts.
 
-![Right alignment](img/right-alignment.png)
+![Right alignment](./img/right-alignment.png)
 
 You should keep in mind that right-aligned numeric text entry fields may be difficult to edit once the user has inputted a value. The user would be forced to click within the small space between the end of the number value and the right end of the field to add digits to the value. This is even more difficult on touchscreen interfaces.

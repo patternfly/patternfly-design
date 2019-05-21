@@ -4,8 +4,8 @@ The goal of the Loading State pattern is to provide a visual clue that content i
 
 
 
-![Loading State pattern](img/loading.png)
+![Loading State pattern](./img/loading.png)
 
 The empty state pattern is most often used in conjunction with one of the content views (e.g. [List View](http://www.patternfly.org/pattern-library/content-views/list-view/), [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/), and [Card View](http://www.patternfly.org/pattern-library/content-views/card-view/)).  
 
-![Empty State in context](img/card-view-loading.png)
+![Empty State in context](./img/card-view-loading.png)

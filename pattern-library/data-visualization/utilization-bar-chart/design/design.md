@@ -1,6 +1,6 @@
 # Utilization Bar Chart
 
-![#callout-1](img/utilization-bar-chart-callout.png)
+![#callout-1](./img/utilization-bar-chart-callout.png)
 
 1. **Used Value:** The used value bar shows the percentage (out of 100%) that has been consumed. The width and color of this bar can change according to the data.
     - **Chart Fill:** The default used value fill color is blue (#39a5dc).
@@ -12,11 +12,11 @@
 ## **Threshold Examples**
 
 ### **Warning Threshold**
-![Utilization Bar Chart Example](img/utilization-bar-chart-warning-threshold.png)
+![Utilization Bar Chart Example](./img/utilization-bar-chart-warning-threshold.png)
 
 This chart provides for a warning threshold that may be used when applicable. When there is a warning threshold, the chart fill is orange (#ec7a08) once the value exceeds the warning threshold. 75% is the typical default value for a warning threshold, but you may configure this threshold to a custom value.
 
 ### **Error Threshold**
-![Utilization Bar Chart Example](img/utilization-bar-chart-error-threshold.png)
+![Utilization Bar Chart Example](./img/utilization-bar-chart-error-threshold.png)
 
 This chart provides for an error threshold that may be used when applicable. When there is an error threshold, the chart fill is red (#cc0000) once the value exceeds the error threshold. 90% is the typical default value for an error threshold, but you may configure this threshold to a custom value.

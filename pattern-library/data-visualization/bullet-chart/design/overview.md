@@ -6,10 +6,10 @@ Jump to [Horizontal Chart](#horizontal-chart), [Vertical Chart](#vertical-chart)
 
 
 ## Horizontal Chart
-![Image of Horizontal Chart](img/grouped-horizontal-bullet-chart.png)
+![Image of Horizontal Chart](./img/grouped-horizontal-bullet-chart.png)
 
 ## Vertical Chart
-![Image of Vertical Chart](img/grouped-vertical-bullet-chart.png)
+![Image of Vertical Chart](./img/grouped-vertical-bullet-chart.png)
 
 ## Alternative Variations
-![Image of Alternative Chart](img/grouped-alternative-bullet-chart.png)
+![Image of Alternative Chart](./img/grouped-alternative-bullet-chart.png)

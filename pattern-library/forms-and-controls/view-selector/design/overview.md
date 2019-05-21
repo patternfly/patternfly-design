@@ -12,4 +12,4 @@ The following is a list of recommended view types which can be utilized as neede
 
 
 ### View Selector Detail
-![View Selector Detail](img/view-selector-overview.png)
+![View Selector Detail](./img/view-selector-overview.png)

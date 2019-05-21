@@ -5,7 +5,7 @@ A trend card displays a trend of one or more metrics. The most common use case f
 Jump to [Small Cards](#small-cards) or [Large Cards](#large-cards)
 
 ## Small Cards
-![Small Cards](img/trend-card-small-example.png)
+![Small Cards](./img/trend-card-small-example.png)
 
 ## Large Cards
-![Large Cards](img/trend-card-large-example.png)
+![Large Cards](./img/trend-card-large-example.png)

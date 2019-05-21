@@ -2,7 +2,7 @@
 The About Modal stores the version number(s) of the application as well as any appropriate legal text.
 
 ## Elements of an About Modal
-![Modal](img/about-modal.png)
+![Modal](./img/about-modal.png)
 1. Backdrop
 2. Modal box
 3. Branding box: Use this area to provide logo and branding for the product. Substitute your own logotype by providing an SVG that can be scaled proportionately to fit the space.

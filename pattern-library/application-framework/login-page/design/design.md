@@ -5,7 +5,7 @@ Jump to [Login Pages](#login-pages), [Login Pages \| Responsive State](#login-pa
 ## Login Pages
 
 ### Basic Login Page
-![Image of basic login page](img/login-page-1.png)
+![Image of basic login page](./img/login-page-1.png)
 1. **Logotype**: The product logo is placed at the top.
 2. **Description** (optional): Description of the website can be placed here.
 3. **Title**: The title is located at the top of the login card. "Your Account" can be replaced by the product name or any other term that makes sense for your application.
@@ -19,16 +19,16 @@ Try to limit the total number of fields to less than five. Also, you may use pro
 10. **Links** (optional): You may add any additional links to pages where the user can get more information or help.
 
 ### Social Login
-![Image of social login](img/login-page-4.png)
+![Image of social login](./img/login-page-4.png)
 1. **Social Media Buttons**: When the number of buttons is four or less, display all buttons in one column. Otherwise, use a two-column layout. All the buttons should be listed in the order of their mostly likely usage, that is, the most frequently used items should show at or near the top of the list.
 2. **More Link**: When there are more than 8 buttons, a "More" link will show below the button grid. Clicking this link will expand the grid and the link will change to "Less" to allow the user to collapse the grid.
 
-![Image of social login](img/login-page-5.png)
+![Image of social login](./img/login-page-5.png)
 
 ## Login Pages | Responsive State
 This section describes how the login pages should look on small screens.
 
-![Image of responsive state](img/responsive.png)
+![Image of responsive state](./img/responsive.png)
 1. When the screen gets smaller, the help link will automatically move to the next line if there isn’t enough space for the checkbox and the help link to be placed in the same line.
 2. In the responsive state, all the social media buttons stack in a single column.
 
@@ -41,7 +41,7 @@ Jump to [Client-side Errors](#client-side-errors) or [Server-side Errors](#serve
 In most cases, client-side validations are performed as inline validations for each field. Some common conditions are as follows.
 
 #### Field(s) is empty
-![Image of empty fields](img/Message-1.png)
+![Image of empty fields](./img/Message-1.png)
 1. **When to Show**: When the user clicks the action button (Log In/Next), the errors must be corrected before the form can be submitted, and an error message will be displayed below any empty field.
 2. **When to Hide**: When the user fills the empty field, the error message will disappear when the field loses focus.
 3. **Recommended Message**:
@@ -49,7 +49,7 @@ In most cases, client-side validations are performed as inline validations for e
   - When the password field is empty, we recommend to show “Enter your password” if a password is needed.
 
 #### Invalid Characters
-![Image of invalid characters](img/Message-2.png)
+![Image of invalid characters](./img/Message-2.png)
 1. **When to Show**: When user clicks the action button (Log in/Next), the login form can’t be submitted and error message will show (below the username field) if there are invalid characters in username.
 2. **When to Hide**: After user modified the field, the error message will disappear when the field loses focus.
 3. **Recommended Message**:
@@ -58,7 +58,7 @@ In most cases, client-side validations are performed as inline validations for e
 	- If the username can also be customized, when there are invalid characters, show “Invalid characters”.
 
 #### Caps lock is on
-![Image of caps lock](img/Message-3.png)
+![Image of caps lock](./img/Message-3.png)
 1. **When to Show**: When the password field gets focus as well as caps lock is on, an error message will show up to warn users to avoid making mistake.
 2. **When to Hide**: Once the caps lock turns off, the warning message should disappear.
 3. **Recommended Message**: "Caps lock is currently on. This may cause you to type an incorrect password."
@@ -70,18 +70,18 @@ When users submit the form, the entire page is reloaded if there are validation 
 If the user input a wrong account name which do not exist or if the user input a wrong password, we provide two solutions to show error messages:
 
 1. Directly tell the user that the account doesn’t exist or the password is wrong. Although this approach is useful and clear for user, it's not recommended if protecting identity of valid users is important.
-![Image of account or password errors](img/server-1.png)
+![Image of account or password errors](./img/server-1.png)
  - When username is wrong (doesn’t exist), we recommend to show “The account does not exist. Try again or sign up”. The “sign up” should be a link to help users creating a new account much easier. It will only be available for applications that support self-registration.
  - When password is wrong, we recommend to show “Incorrect password, try again.” If the user inputs an old password (they may have changed the password recently), we can show an error message alerting them that the password has changed instead of stating “the password is wrong” only.
- ![Image of old password error](img/Server-3.png)
+ ![Image of old password error](./img/Server-3.png)
 
 2. For security reasons, just tell user that the username and the password don’t match.
-![Image of account or password errors](img/Server-2.png)
+![Image of account or password errors](./img/Server-2.png)
 
 #### Other Examples of Error Messages
-![Image of other error messages](img/Server-4.png)
+![Image of other error messages](./img/Server-4.png)
 
 ## Notifications
 Except for error messages, notifications can also be warning messages. A warning message can be triggered by system level events or triggered if the user is timed out of the application. The user can dismiss the notification by clicking on the close icon.
 
-![Image of notifications](img/Notification.png)
+![Image of notifications](./img/Notification.png)

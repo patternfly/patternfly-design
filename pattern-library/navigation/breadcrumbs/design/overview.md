@@ -8,4 +8,4 @@ Breadcrumbs are recommended when the primary and secondary navigation items are 
 
 Breadcrumbs are NOT meant to be an alternative to displaying [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/#_) or [Horizontal Navigation](http://www.patternfly.org/pattern-library/navigation/horizontal-navigation/#_).
 
-![Breadcrumbs](img/Breadcrumbs-01.png)
+![Breadcrumbs](./img/Breadcrumbs-01.png)

@@ -3,7 +3,7 @@
 
 ## Right-Aligned Labels
 
-![right-aligned labels call out](img/right-aligned-labels-callout.png)
+![right-aligned labels call out](./img/right-aligned-labels-callout.png)
 
 1. **Message:** There should be a message to let the user know what the required field indicator means
 1. **Label Alignment:** The right-most edge of the field label’s text should be vertically aligned with the right-most edge of the field label text (or if applicable, the field level help icon) above and/or below itself.
@@ -13,7 +13,7 @@
 
 ## Top-Aligned Labels
 
-![top-aligned labels call out](img/top-aligned-labels-callout.png)
+![top-aligned labels call out](./img/top-aligned-labels-callout.png)
 
 1. **Message:** There should be a message to let the user know what the required field indicator means
 1. **Label Alignment:** The left-most edge of the field label should be vertically aligned with the left edge of its corresponding field component below it.  If there is a required field indicator, it becomes the “left-most edge” of the field label and should be vertically aligned the same.
@@ -23,7 +23,7 @@
 
 ## Left-Aligned Labels
 
-![left-aligned labels call out](img/left-aligned-labels-callout.png)
+![left-aligned labels call out](./img/left-aligned-labels-callout.png)
 
 1. **Message:** There should be a message to let the user know what the required field indicator means.
 1. **Label Alignment:** The left-most edge of the field label should be vertically aligned with the left-most edge of the field label below it.  If there is a required field indicator, the field labels text should be aligned with one another.
