@@ -8,7 +8,7 @@ A button should represent an action a user can take, like submitting a form, can
 ### Button Types
 Use different button types to build hierarchy in an application layout.
 
-![Buttons Grid](img/buttons.png)
+![Buttons Grid](./img/buttons.png)
 
 #### Primary
 Use primary buttons for the main action you want a user to take on a page. In general, try to limit primary buttons to one per page.
@@ -38,14 +38,14 @@ Use the disabled state when a button is inactive and a user cannot interact with
 * Place the primary button to the left of the cancel button.
 * Align submit buttons with left-edge of input fields.
 
-![Buttons on modals](img/button_on_form.png)
+![Buttons on modals](./img/button_on_form.png)
 
 #### Buttons on modals
 * Align submit buttons to the bottom right of the modal.
 * Place the primary button to the right of the cancel button.
 * Align submit buttons with right-edge of input fields.
 
-![Buttons on modals](img/button_on_modal.png)
+![Buttons on modals](./img/button_on_modal.png)
 
 ## Content Guidelines
 * Button labels should tell the user what will happen with they click a button.

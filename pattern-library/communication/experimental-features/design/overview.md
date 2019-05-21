@@ -7,17 +7,17 @@ This pattern should NOT be used when:
 - You do not plan to ever remove the feature flag. Experimental Features are items that you are either experimenting with that will eventually become full features of your application, or items that will be removed from the system if they are proven to not work well.
 - As a permission model. This pattern should not be used as a way to separate areas of the UI that might have limited permissions for the user.
 
-![Experimental Feature layout](img/experimental-feature-layout.png)
+![Experimental Feature layout](./img/experimental-feature-layout.png)
 
 ### The experimental feature pattern can be utilized in three different manners:
 
 ##### Application Level:
-![Experimental Feature in context](img/experimental-feature-application.png)
+![Experimental Feature in context](./img/experimental-feature-application.png)
 
 ##### Tab Level:
 
-![Experimental Feature in context](img/experimental-feature-tab.png)
+![Experimental Feature in context](./img/experimental-feature-tab.png)
 
 ##### Component Level:
 
-![Experimental Feature in context](img/experimental-feature-component.png)
+![Experimental Feature in context](./img/experimental-feature-component.png)

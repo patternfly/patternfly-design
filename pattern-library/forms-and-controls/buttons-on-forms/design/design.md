@@ -9,7 +9,7 @@
     1. Large.
     1. Extra Small.
 
-![Button Sizing](img/button-sizing-annotated.png)
+![Button Sizing](./img/button-sizing-annotated.png)
 
 ## Color
 
@@ -18,7 +18,7 @@
     1. **Secondary Button:** Secondary buttons are gray. These will be the majority of the buttons used in an application. Any button that exists on a page that isn't a primary call to action should use this color.
     1. **Destructive Button:** The destructive button is red. This color should be reserved for highly destructive actions only. Most simple "Delete" or "Cancel" functions are not highly destructive. Evaluation should be done to agree that a button meets the highly destructive criteria. One example of a highly destructive action would be allowing the user to delete all hosts that a system is dependent on to run.
 
-![Button Colors](img/button-colors-annotated.png)
+![Button Colors](./img/button-colors-annotated.png)
 
 ## State
 

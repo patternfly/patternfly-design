@@ -10,4 +10,4 @@ Currently, PatternFly has not collected user research data on this pattern. If y
 
 
 ## Utilization Bar Chart Example
-![Utilization Bar Chart Example](img/utilization-bar-chart.png)
+![Utilization Bar Chart Example](./img/utilization-bar-chart.png)

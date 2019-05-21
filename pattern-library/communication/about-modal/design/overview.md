@@ -6,8 +6,8 @@ Jump to [Multi-Line](#multiple-line) or [One-Line](#one-line)
 
 ## Multiple Line
 
-![Multiple Line](img/multi-line-about-modal.jpg)
+![Multiple Line](./img/multi-line-about-modal.jpg)
 
 ## One Line
 
-![One Line](img/one-line-about-modal.jpg)
+![One Line](./img/one-line-about-modal.jpg)

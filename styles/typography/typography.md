@@ -2,7 +2,7 @@
 
 PatternFly uses Open Sans, an open-licensed, sans serif, typeface designed by Steve Matteson. The type family includes a complete 897 character set, along with Cyrillic character sets. There are ten type-face variants available with this font. Use the CSS rule “@font-face” to include these fonts in your application styles. For more information, check out [Mozilla Developer Network's @font-face Summary](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face).
 
-![#open-sans-image](img/open-sans-image.png)
+![#open-sans-image](./img/open-sans-image.png)
 ___
 
 ## Typographic Styles

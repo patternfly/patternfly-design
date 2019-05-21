@@ -8,7 +8,7 @@ Jump to [Line Chart](#line-chart-example) or [Single Line Chart](#single-line-ch
 
 
 ## Line Chart
-![#example1](img/line-chart.png)
+![#example1](./img/line-chart.png)
 
 ## Single Line Chart
-![#example-2](img/single-line-chart.png)
+![#example-2](./img/single-line-chart.png)

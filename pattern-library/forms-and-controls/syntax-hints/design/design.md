@@ -1,6 +1,6 @@
 # Syntax Hints
 
-![Syntax Hints All States Callout](img/Syntax-Hints-all-states-callout.png)
+![Syntax Hints All States Callout](./img/Syntax-Hints-all-states-callout.png)
 
   1. **Syntax Hint:** In a default state, the hint is located inside the text field as a placeholder.
   1. **Hover State:** On hover, the mouse cursor appears over the placeholder hint.

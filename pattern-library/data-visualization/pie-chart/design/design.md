@@ -1,6 +1,6 @@
 # Pie Chart
 
-![#callout-1](img/pie-chart-callout.png)
+![#callout-1](./img/pie-chart-callout.png)
 
   1. **Pie Chart Fill:**
     - Fill colors should be based on the [PatternFly Color Palette](https://www.patternfly.org/styles/color-palette/).

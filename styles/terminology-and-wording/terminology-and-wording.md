@@ -149,14 +149,14 @@ Links that direct users to an external site should be followed by the [fa-extern
 
 - Whenever the string overflows the container and you don't want the text to overflow to multiples lines. For example:
     - Page titles that show object/host names.
-    ![#truncation1](img/truncation1@2x.jpg)
+    ![#truncation1](./img/truncation1@2x.jpg)
     - Table or list view cells that contain long strings or lots of data, and that have some method to view the full text.
-    ![#truncation2](img/truncation2@2x.jpg)
+    ![#truncation2](./img/truncation2@2x.jpg)
 
 ### Whether to design for truncating strings at the beginning, end, or in the middle requires a bit of research
 
 - Does the product you are designing for have a default truncation scheme? For example, if your product has a default setting for how to truncate host names, but also a user preference if users want to change it to suit their naming scheme, you should follow that scheme along with the guidelines here.
-  ![#truncation3](img/truncation3@2x.jpg)
+  ![#truncation3](./img/truncation3@2x.jpg)
 
 - If the product doesn't have a default truncation choice, think about how the product's users are apt to name objects. Is it more likely that the unique part of the name will be at the beginning or end of the string? Based on the answer, we recommend either truncating at the end of the string (i.e., abcdef...) or truncating in the middle of the string (i.e., abc...ghi). The method you choose should be based on which part of the string that is not truncated is more likely to differentiate the item.
 
@@ -164,21 +164,21 @@ Links that direct users to an external site should be followed by the [fa-extern
 
 - Avoid abbreviations or truncated text in navigation items (i.e., all levels of navigation in the masthead and left navigation).
 
-  ![#truncation4](img/truncation4@2x.jpg)
+  ![#truncation4](./img/truncation4@2x.jpg)
 
 - In any container holding a string, if there is not sufficient room for the full spelling or hyphenated word, consider abbreviating the text. See [Common Abbreviations](ecommon-abbreviations) for examples, or reference the [Chicago Manual of Style](http://www.chicagomanualofstyle.org/16/ch10/ch10_toc.html). Do not truncate text in column headings.
 
-  ![#truncation5](img/truncation5@2x.jpg)
+  ![#truncation5](./img/truncation5@2x.jpg)
 
 - Indicate truncated text with an ellipsis (…).  If the text is part of a link, the ellipsis should be part of the link as well.
 
-  ![#truncation6](img/truncation6@2x.jpg)
+  ![#truncation6](./img/truncation6@2x.jpg)
 
 - Leave no fewer than 4 characters when truncating text, and preferably leave enough characters to give a fair idea of what the string says (i.e., don't truncate demo1.internal-el6.satellite to de...).
 
 - Ensure that there is at least one method for the user to view the entire string.  We recommend the use of a [tooltip](https://www.patternfly.org/pattern-library/widgets/#tooltip) (useful for less than 150 characters or so). Other options include expanding rows and overlays.
 
-  ![#truncation7](img/truncation7@2x.jpg)
+  ![#truncation7](./img/truncation7@2x.jpg)
 
 - For UI text (as opposed to user-generated text), keep in mind that some truncation could cause awkward words (e.g., "associate" truncating to "ass..."). Avoid these scenarios whenever possible.
 
@@ -187,7 +187,7 @@ Links that direct users to an external site should be followed by the [fa-extern
 - If a table column is resizable, the truncated text should adjust accordingly and follow the preceding guidelines.
 
   Large size:
-  ![#truncation8](img/truncation8@2x.jpg)
+  ![#truncation8](./img/truncation8@2x.jpg)
 
   Small size:
-  ![#truncation9](img/truncation9@2x.jpg)
+  ![#truncation9](./img/truncation9@2x.jpg)

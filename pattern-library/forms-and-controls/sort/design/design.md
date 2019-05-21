@@ -1,6 +1,6 @@
 # Sort
 
-![Image highlighting attribute selector](img/sort_expand2.png)
+![Image highlighting attribute selector](./img/sort_expand2.png)
 
   1. **Sort Selector:** Contains a list of the possible attributes by which to sort. Objects may be sorted by any attribute, including properties that are not displayed in the current view. (e.g. attributes in hidden columns, or those that are not displayed in a tile). When the user opens this view, the default sort order should be shown selected in the list (for example,"Name").
 

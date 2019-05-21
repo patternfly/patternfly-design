@@ -12,17 +12,17 @@ Jump to [Pie Chart with Bottom Legend](#pie-chart-with-bottom-legend), [Pie Char
 
 
 ## Pie Chart with Bottom Legend
-![Pie Chart with Bottom Legend](img/bottom-legend-pie-chart.png)
+![Pie Chart with Bottom Legend](./img/bottom-legend-pie-chart.png)
 
 ## Pie Chart with Right Legend
-![Pie Chart with Right Legend](img/right-legend-pie-chart.png)
+![Pie Chart with Right Legend](./img/right-legend-pie-chart.png)
 
 ## Pie Chart with No Legend
 It would be appropriate to use a Pie Chart with no legend in situations where color makes a clear visual association to the data. However, you should consider the impact this will have on visually-impaired or colorblind users.
 
-![Pie Chart with No Legend](img/no-legend-pie-chart.png)
+![Pie Chart with No Legend](./img/no-legend-pie-chart.png)
 
 ## Small Pie Chart with Label
 The small pie chart can be used to conserve space in appropriate situations, but avoid reducing the size of the chart to the point that the segments are difficult to compare.
 
-![Small Pie Chart with Label](img/small-pie-chart.png)
+![Small Pie Chart with Label](./img/small-pie-chart.png)

@@ -8,15 +8,15 @@ This pattern has two main ways to interact with it: browsing for a file within a
 
 
 ## Multiple File Upload
-![File Upload](img/overview-mul.png)
+![File Upload](./img/overview-mul.png)
 
 ## Single File Upload
 
 ### Read-Only Preview
-![File Upload](img/overview-read.png)
+![File Upload](./img/overview-read.png)
 
 ### Editable Preview
-![File Upload](img/overview-edit.png)
+![File Upload](./img/overview-edit.png)
 
 
 #### Use Cases

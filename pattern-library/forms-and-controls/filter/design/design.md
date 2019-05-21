@@ -7,7 +7,7 @@ Possible filter triggers include:
 - [Checkbox filter](http://www.patternfly.org/pattern-library/forms-and-controls/checkbox-filter/)
 
 ## Active Filters Bar
-![Filter bars with callouts](img/filter-callout.png)
+![Filter bars with callouts](./img/filter-callout.png)
 1. **Filter Chips**: Filters are labeled with the attribute and value used to create them. Clicking the X in the chip will remove the filter. New filters appear to the right of existing filters. If no active filters exist, the active filters bar may be hidden.
 1. **Grouped Filter Chips** (optional): In some cases, filters may have more than one value for a given attribute. When this happens, the values are shown grouped together . They may be removed separately by clicking on their respective Xs.
 1. **Clear All Filters**: Clicking this action removes all currently active filters.
@@ -15,7 +15,7 @@ Possible filter triggers include:
 1. **Inline Active Filters** (optional): If filtering is used without any of the other elements of the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/), active filters can be displayed inline to save vertical space
 
 ## Filter Behavior
-![filter behavior](img/filter-behavior.png)
+![filter behavior](./img/filter-behavior.png)
 1. Filters between attribute categories should be combined with a boolean AND operator
   - **Example** an item must be both a car AND blue to be shown in the list of results
 1. Filters within a category are shown grouped together and should be combined with a boolean OR operator
@@ -26,7 +26,7 @@ Possible filter triggers include:
 ## Displaying a Null Result Set
 If the current set of active filters returns 0 results, an empty state message will appear within the current view.
 
-![filtered view with a null results set](img/filter-null-callout.png)
+![filtered view with a null results set](./img/filter-null-callout.png)
 
 The style of null results is similar with [Empty State](http://www.patternfly.org/pattern-library/communication/empty-state/#code).
 1. **Message**: Alert user that there are 0 results based on the filter criteria
@@ -38,4 +38,4 @@ This message will always be displayed within the current view and the Toolbar wi
 
 Null Result Set in [Card](http://www.patternfly.org/pattern-library/content-views/card-view/) , [List View](http://www.patternfly.org/pattern-library/content-views/list-view/) and [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/)
 
-![card view with a null results set](img/filter-null-card.png)
+![card view with a null results set](./img/filter-null-card.png)

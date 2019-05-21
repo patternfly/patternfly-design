@@ -1,6 +1,6 @@
 # Modeless Overlay
 
-![Image of Modeless Overlay Empty State Callout](img/modeless-overlay-empty-state-callout.png)
+![Image of Modeless Overlay Empty State Callout](./img/modeless-overlay-empty-state-callout.png)
 
 **Usage Scenario** The modeless overlay is a pattern that can be used as a replacement for a traditional modal. The modeless overlay can be used in scenarios in which a user may have to access secondary actions or information in order to complete a task. The information and actions on the modeless overlay are directly connected to the main underlying UI and allow the user to still interact with this underlying UI even when the modeless overlay is expanded.
 
@@ -18,7 +18,7 @@
 
 5. **View Full Page:** If a user needs to view the details featured on the panel in a larger environment, the user can extend the panel to be a full page. Once the full page has been activated, the user can get back to the standard view of the overlay panel by clicking on a button entitled "View Standard Page". This will return the modeless overlay back to its original state.
 
-![Image of Modeless Overlay Panel](img/modeless-overlay-panel-callout.png)
+![Image of Modeless Overlay Panel](./img/modeless-overlay-panel-callout.png)
 
 1. **Content Body:** The overlay panel may be used with a variety of different views such as list, table, or card view. When using the overlay panel in different types of content views, the user still has the ability to interact with the page underneath of the panel and can adjust the content of the panel by selecting a different object from the underlying page.
 
@@ -30,7 +30,7 @@ Horizontal Scrollbar: In the case of the modeless overlay panel, a horizontal sc
 
 # Modeless Overlay- Mobile
 
-![Image of Modeless Overlay Mobile](img/modeless-overlay-mobile-callout.png)
+![Image of Modeless Overlay Mobile](./img/modeless-overlay-mobile-callout.png)
 
 **Overlay Panel Behavior:** On mobile, the overlay panel would extend out to be full screen. The overlay panel should act as an extension of the underlying UI. It presents more detailed information about an object that was featured in the underlying UI. When the overlay panel is open, it should be the only element that the user can interact with. In order to access the underlying UI, the user must exit the overlay panel.
 

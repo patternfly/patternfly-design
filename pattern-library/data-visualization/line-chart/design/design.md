@@ -1,6 +1,6 @@
 # Line Chart
 
-![#callout-1](img/line-chart-callout.png)
+![#callout-1](./img/line-chart-callout.png)
 
   1. **Horizontal Axis Labels:** When visualizing data over a period of time, the horizontal axis labels display time
   1. **Vertical Axis Labels:** When visualizing data over a period of time, the vertical axis labels display values.

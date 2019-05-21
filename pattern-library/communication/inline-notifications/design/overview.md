@@ -6,12 +6,12 @@ Jump to [Standard](#standard), [Variations](#variations) or [In Context](in-cont
 
 ## Standard
 
-![Inline Notification examples](img/inline-notifications.png)
+![Inline Notification examples](./img/inline-notifications.png)
 
 ## Variations
 
-![Inline Notification variation examples](img/inline-notifications2.png)
+![Inline Notification variation examples](./img/inline-notifications2.png)
 
 ## In Context
 
-![Inline Notification below a primary navigation bar](img/inline-notifications-in-context.png)
+![Inline Notification below a primary navigation bar](./img/inline-notifications-in-context.png)

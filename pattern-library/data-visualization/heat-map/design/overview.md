@@ -12,7 +12,7 @@ The most common use cases for the Heat Map are:
 
 
 ## Heat Map
-![Image of card title](img/heat-map.png)
+![Image of card title](./img/heat-map.png)
 
 ## Heat Map Variations
-![Image of card title](img/heat-map-hover.png)
+![Image of card title](./img/heat-map-hover.png)

@@ -9,13 +9,13 @@ Use a filter when:
 Filter is often displayed as a component of the [toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/), and can be paired with one of several filter triggers
 
 Textbox filter (single attribute)
-![textbox filter with a single attribute](img/filter-example1.png)
+![textbox filter with a single attribute](./img/filter-example1.png)
 
 Textbox filter (multiple attributes)
-![textbox filter with multiple attributes](img/filter-example2.png)
+![textbox filter with multiple attributes](./img/filter-example2.png)
 
 Checkbox filter
-![checkbox filter](img/filter-example3.png)
+![checkbox filter](./img/filter-example3.png)
 
 Filter with inline active filters
-![a filter with inline active filters](img/filter-example4.png)
+![a filter with inline active filters](./img/filter-example4.png)

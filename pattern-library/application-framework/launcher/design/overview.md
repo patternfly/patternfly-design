@@ -8,8 +8,8 @@ The Launcher pattern is NOT meant to be an alternative to displaying [Vertical N
 
 The Launcher Menu should be accessible from the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) using the Launcher icon detailed in the [Design tab](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design).
 
-![Application Launcher Dropdown](img/launcher-dropdown1@2x.png)
+![Application Launcher Dropdown](./img/launcher-dropdown1@2x.png)
 
 The Launcher Home should be accessible from the Launcher Menu under the "Home" button.
 
-![Application Launcher Icon](img/LauncherHome.png)
+![Application Launcher Icon](./img/LauncherHome.png)

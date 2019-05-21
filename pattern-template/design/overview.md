@@ -23,7 +23,7 @@ This information should help the user understand when and why this pattern shoul
 
 
 ## Pattern Example Name Here
-![Title of image](img/image-name-goes-here.jpg)
+![Title of image](./img/image-name-goes-here.jpg)
 
 ## Pattern Variation Example Name Here
-![Title of image 2](img/image-name-goes-here-2.jpg)
+![Title of image 2](./img/image-name-goes-here-2.jpg)

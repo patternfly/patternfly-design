@@ -2,9 +2,9 @@
 
 ## Top Accent, Object Name, and Icon
 ### Standard Card
-![Header Callout 1](img/aggregate-status-card-header-callout-1.png)
+![Header Callout 1](./img/aggregate-status-card-header-callout-1.png)
 ### Mini Card Alternate
-![Header Callout 2](img/aggregate-status-card-header-callout-2.png)
+![Header Callout 2](./img/aggregate-status-card-header-callout-2.png)
 
   1. **Top Accent** (optional):
     If the aggregate status card is located at the top of a dashboard view, you may opt to add the the blue stripe to the top of the card. If the card is located somewhere other than a dashboard, there is no blue stripe.
@@ -21,9 +21,9 @@
 
 ## Aggregate Status and Actions
 ### Standard Card
-![Content Callout 1](img/aggregate-status-card-content.png)
+![Content Callout 1](./img/aggregate-status-card-content.png)
 ### Mini Card Alternate
-![Content Callout 2](img/aggregate-status-card-content-callout-2.png)
+![Content Callout 2](./img/aggregate-status-card-content-callout-2.png)
 
   1. **Status Icon(s):**
     This represents the status of the objects in the card. If everything is OK, one status icon for OK should be shown. Otherwise, multiple status icons can be shown to represent each status. Note: In the case of the mini card alternate, it is recommended to limit this to one status icon due to space restrictions.

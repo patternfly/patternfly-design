@@ -5,7 +5,7 @@ There are two options for the [Masthead](https://www.patternfly.org/pattern-libr
 
 ## Single-Level Menu Bar
 
-![Horizontal Navbar with Single-Level](img/design-single-level-navigation@2x.png)
+![Horizontal Navbar with Single-Level](./img/design-single-level-navigation@2x.png)
 
 The Single-Level Menu Bar is the default navbar, all other options are added to this basic pattern.
 
@@ -14,7 +14,7 @@ The Single-Level Menu Bar is the default navbar, all other options are added to 
 
 ## Two-Level Menu Bar
 
-![Horizontal Navbar with Two-Level](img/design-two-level-navigation@2x.png)
+![Horizontal Navbar with Two-Level](./img/design-two-level-navigation@2x.png)
 
 When a second level of persistent navigation is needed, add a second tier of links.
 
@@ -24,7 +24,7 @@ When a second level of persistent navigation is needed, add a second tier of lin
 
 ## Menu Bar with Dropdowns
 
-![Horizontal Navbar with Dropdown](img/design-drop-downs-navigation@2x.png)
+![Horizontal Navbar with Dropdown](./img/design-drop-downs-navigation@2x.png)
 
 Add a dropdown menu to a single menu bar to expose a vertical list of sub-categories that the user can select from. Note that when dropdown menus are used, all categories are not required to have secondary navigation. The dropdown menus only support up to two levels of navigation. If you need the tertiary navigation, [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/) is the preferred choice over horizontal navigation.
 

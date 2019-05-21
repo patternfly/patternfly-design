@@ -5,7 +5,7 @@ A form is a group of elements used to collect information from a user. Forms can
 ## Elements of a form
 While every form will require a different combination of components depending on the use-case, most forms will contain the following basic elements:
 
-![Elements of a form](img/form-elements.png)
+![Elements of a form](./img/form-elements.png)
 
 1. [Labels](../data_input) - Field labels can be aligned to the left or top of the field depending on the layout of your page and the amount of space you have to work with. Indicate all required text and input fields with a red asterisk. Learn more about field labels in the [text and data input design guidelines](../data_input).
 
@@ -139,7 +139,7 @@ Notification messages should describe the error and help users solve the problem
 
 ### Using forms in your designs
 **Full page**
-![Full page form](img/full-page-example.png)
+![Full page form](./img/full-page-example.png)
 
 **In a modal**
 <img src= "img/modal-example.png" width="300" height="auto" title="Modal form">
@@ -147,7 +147,7 @@ Notification messages should describe the error and help users solve the problem
 > Note: When using forms in a modal, button placement is different. Buttons are aligned to the right edge of the input field. The primary button is on the far right and the secondary button is to the left.
 
 **As a wizard**
-![Wizard](img/wizard-example.png)
+![Wizard](./img/wizard-example.png)
 
 > Note: For buttons on wizards, follow modal standards. Buttons are aligned to the right edge of the input field. Place the primary button on the far right and the secondary button is to the left.
 

@@ -7,8 +7,8 @@ This pattern should NOT be used when:
 - Selected filters cause an empty result. See [Filter](http://www.patternfly.org/pattern-library/forms-and-controls/filter/) for guidance on this use case.
 - There is a connectivity issue and the data set cannot be obtained.
 
-![Empty State pattern](img/empty-state-html.png)
+![Empty State pattern](./img/empty-state-html.png)
 
 The empty state pattern is most often used in conjunction with one of the content views (e.g. [List View](http://www.patternfly.org/pattern-library/content-views/list-view/), [Table View](http://www.patternfly.org/pattern-library/content-views/table-view/), and [Card View](http://www.patternfly.org/pattern-library/content-views/card-view/)).  
 
-![Empty State in context](img/card-view-empty.png)
+![Empty State in context](./img/card-view-empty.png)

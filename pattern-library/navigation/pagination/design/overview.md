@@ -12,12 +12,12 @@ This pattern defines how pagination behaves within content views. When present, 
 
 ## Pagination - Table View
 
-![Pagination Overview](img/pagination_overview_1.png)
+![Pagination Overview](./img/pagination_overview_1.png)
 
 ## Pagination - List View
 
-![Pagination Overview](img/pagination_overview_2.png)
+![Pagination Overview](./img/pagination_overview_2.png)
 
 ## Pagination - Card View
 
-![Pagination Overview](img/pagination_overview_3.png)
+![Pagination Overview](./img/pagination_overview_3.png)

@@ -9,10 +9,10 @@ The content to be copied should be displayed in a text box with the copy icon on
 
 
 ## Basic Example
-![Basic Example](img/overview-basic.png)
+![Basic Example](./img/overview-basic.png)
 
 ## Long String Inline Example
-![Inline Example](img/overview-inline.png)
+![Inline Example](./img/overview-inline.png)
 
 ## Long String Block Example
-![Block Example](img/overview-block.png)
+![Block Example](./img/overview-block.png)

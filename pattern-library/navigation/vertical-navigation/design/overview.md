@@ -17,9 +17,9 @@ Jump to [Masthead Design](#masthead-design), [Primary Nav with Icons](#with-prim
 Since vertical navigation does not compromise vertical real estate, the [Masthead](https://www.patternfly.org/pattern-library/application-framework/masthead/#_) is taller than the masthead for products that use horizontal navigation. The taller design allows for a product icon and the option of utilizing a burger bar menu.
 
 ## With Primary Menu Icons
-![with-primary-menu-icons](img/navigation-vertical-icons.png)
+![with-primary-menu-icons](./img/navigation-vertical-icons.png)
 [View full page example](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/vertical-navigation.html#_)
 
 ## Without Primary Menu Icons
-![without-primary-menu-icons](img/navigation-vertical-no-icons.png)
+![without-primary-menu-icons](./img/navigation-vertical-no-icons.png)
 [View full page example](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/vertical-navigation-without-icons.html#_)

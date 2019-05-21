@@ -1,6 +1,6 @@
 # Bar Chart
 
-![#vertical-bar-chart-callout-1](img/vertical-bar-chart-callout.png)
+![#vertical-bar-chart-callout-1](./img/vertical-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:**
       - Horizontal axis labels display the series names and are recommended, but can be omitted if necessary due to space constraints and responsiveness. If omitted a legend must be available.
@@ -20,7 +20,7 @@
       - **Interactive Legend** (optional): Clicking on a series in the legend should toggle the visibility of the series in the chart.
   1. **Stacked Bar** (optional): The first series name is represented by the topmost stacked bar, and the last series name is represented by the bottommost stacked bar. This order should not be reversed.
 
-![#horizontal-bar-chart-callout-1](img/horizontal-bar-chart-callout.png)
+![#horizontal-bar-chart-callout-1](./img/horizontal-bar-chart-callout.png)
 
   1. **Horizontal Axis Labels:** Horizontal axis labels display values.
   1. **Vertical Axis Labels:** Vertical axis labels display the series names and are recommended, but can be omitted if necessary due to space constraints and responsiveness. If omitted a legend must be available.

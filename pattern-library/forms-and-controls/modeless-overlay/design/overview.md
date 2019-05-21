@@ -21,4 +21,4 @@ Notes about the behavior of the modeless overlay panel:
 - The user can still access the UI layer underneath of the overlay panel when the panel is extended.
 
 ## Modeless Overlay Example
-![Image of Modeless Overlay](img/modeless-overlay-panel.png)
+![Image of Modeless Overlay](./img/modeless-overlay-panel.png)

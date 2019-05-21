@@ -3,7 +3,7 @@
 Jump to [Standard Heat Map](#standard-heat-map) or [Hover Behavior](#hover-behavior)
 
 ## Standard Heat Map
-![Image of standard heat map](img/heat-map-callout.png)
+![Image of standard heat map](./img/heat-map-callout.png)
 
 1. **Block:**
     - Each block is a square that represents an object in the a data set.  
@@ -28,7 +28,7 @@ Jump to [Standard Heat Map](#standard-heat-map) or [Hover Behavior](#hover-behav
 ## Hover Behavior
 There are two variations of hover dependent on the block size. These variations include a hover state for a single block and a hover state for a collection of blocks.
 
-![Image of heat map hover callout](img/heat-map-hover-callout.png)
+![Image of heat map hover callout](./img/heat-map-hover-callout.png)
 
 1. **Large Block Size:** If the block size is at least 16 x 16px, hovering over a block will dim ALL blocks other than that single block. The tooltip is specific to the object represented by that block. Recommended maximum block size is 50 x 50px
 

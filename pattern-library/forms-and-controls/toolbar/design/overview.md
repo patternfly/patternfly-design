@@ -14,28 +14,28 @@ These controls may be used either together or individually, and may be substitut
 
 ### Toolbar With All Components
 
-![Toolbar with active filters](img/toolbar-all.png)
+![Toolbar with active filters](./img/toolbar-all.png)
 
 ### With pagination
 
-![Toolbar with pagination](img/toolbar-w-pagination.png)
+![Toolbar with pagination](./img/toolbar-w-pagination.png)
 
 ### With Alternate Filter
 
-![Toolbar pattern with callouts](img/toolbar-alternate-filter.png)
+![Toolbar pattern with callouts](./img/toolbar-alternate-filter.png)
 
 ### Without Bulk Selector
 
-![Toolbar pattern with callouts](img/toolbar-wo-bulk-selector.png)
+![Toolbar pattern with callouts](./img/toolbar-wo-bulk-selector.png)
 
 ### Without Find and View Selector
 
-![Toolbar pattern with callouts](img/toolbar-wo-find-and-view.png)
+![Toolbar pattern with callouts](./img/toolbar-wo-find-and-view.png)
 
 ### Without View Selector
 
-![Toolbar pattern with callouts](img/toolbar-wo-view-selector.png)
+![Toolbar pattern with callouts](./img/toolbar-wo-view-selector.png)
 
 ### Without Filter
 
-![Toolbar pattern with callouts](img/toolbar-wo-filter.png)
+![Toolbar pattern with callouts](./img/toolbar-wo-filter.png)

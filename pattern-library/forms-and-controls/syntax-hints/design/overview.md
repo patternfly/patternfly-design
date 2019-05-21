@@ -14,4 +14,4 @@ This pattern should NOT be used:
 * As a replacement for form field labels. For more information, see [Form Field Layouts](http://www.patternfly.org/pattern-library/forms-and-controls/form-field-layouts/#/api) Form Field Labels.
 
 ## Default state
-![Syntax Hints Default](img/Syntax-Hints-Default.png)
+![Syntax Hints Default](./img/Syntax-Hints-Default.png)

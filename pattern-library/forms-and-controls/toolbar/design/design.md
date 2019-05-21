@@ -1,6 +1,6 @@
 # Toolbar
 
-![Toolbar pattern with callouts](img/toolbar-callouts.png)
+![Toolbar pattern with callouts](./img/toolbar-callouts.png)
   1. **Bulk Selector:**
   Enables a user to quickly select or unselect all elements on the current page by clicking the checkbox.  Optionally allows a user to quickly select or unselect all elements associated with a specific state, if supported.
 
@@ -30,9 +30,9 @@
 
 The Toolbar can take different shapes depending on which content controls are included.
 
-![Toolbar pattern with callouts](img/toolbar-layout1.png)
+![Toolbar pattern with callouts](./img/toolbar-layout1.png)
 
-![Toolbar pattern with callouts](img/toolbar-layout2.png)
+![Toolbar pattern with callouts](./img/toolbar-layout2.png)
 
 The content controls should be arranged according to the above templates. If one or more component patterns are not needed, the remaining patterns should align to the edge of the toolbar rather than leaving an empty space for the missing pattern.
 

@@ -9,7 +9,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 ## DatePicker
 
-![DatePicker](img/datepicker-guidance.png)
+![DatePicker](./img/datepicker-guidance.png)
 
 1. **Input Field:** The datepicker field is read only due to the limitations of the input validation.
 
@@ -27,7 +27,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 ## TimePicker
 
-![TimePicker](img/timepicker-guidance.png)
+![TimePicker](./img/timepicker-guidance.png)
 
 1. **Input Field:** The Timepicker field is read only due to the limitations of the input validation.
 
@@ -45,7 +45,7 @@ Date and Time picker has a number of variations, jump to a section below for app
 
 ### DateTimePicker
 
-![DateTimePicker](img/datetime-guidance.png)
+![DateTimePicker](./img/datetime-guidance.png)
 
 DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [DatePicker](#datepicker) and [TimePicker](#timepicker) for more details about design guidance.
 
@@ -57,7 +57,7 @@ DateTimePicker is a combination of DatePicker and TimePicker. Refer to the [Date
 
 ### DateRangePicker
 
-![DateRange](img/daterange-guidance.png)
+![DateRange](./img/daterange-guidance.png)
 
 DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#datepicker) for more details about design guidance.
 1. **StartDate Input Field:** When the user clicks on the StartDate Input Field, the calendar is display for selecting a StartDate.
@@ -67,7 +67,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 
 ### Selecting Predefined Ranges
 
-![Predefined Ranges](img/daterange-flexble.png)
+![Predefined Ranges](./img/daterange-flexble.png)
 
 1. **Predefined Range (optional):** This action allow user to quickly select some predefined ranges, such as : 7 days, 15 days, 30 days... The Options available in the  dropdown menu may be any number of days.
 
@@ -79,7 +79,7 @@ DateRangePicker is a combination of two DatePickers. Refer to the [DatePicker](#
 
 ### DateTimeRangePicker
 
-![DateTimeRangPicker](img/datetimerange-guidance.png)
+![DateTimeRangPicker](./img/datetimerange-guidance.png)
 
 DateTimeRangePicker is a combination of Two DateTimePickers. Refer to the [DateTimePicker](#datetimepicker) for more details about design guidance.
 

@@ -1,7 +1,7 @@
 # Trend Card
 
 ## Card with a Single Trend
-![Card Callout](img/trend-card-callout.png)
+![Card Callout](./img/trend-card-callout.png)
 
 
   1. **Title:**
@@ -41,7 +41,7 @@
 
 ## Card with Multiple Trends
 
-![Card with Multiple Trends](img/trend-card-multi-callout.png)
+![Card with Multiple Trends](./img/trend-card-multi-callout.png)
 
   1. **Title:**
     Identify the name of the group or category of the trends being displayed. For a card with multiple trends, the title is always located at the top left.

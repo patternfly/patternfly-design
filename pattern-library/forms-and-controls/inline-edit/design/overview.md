@@ -10,16 +10,16 @@ Inline Edit allow the user to create or edit an item without navigating to anoth
 
 ## Inline Edit for List View
 
-![Image of List View](img/List_Edit_00.png)
+![Image of List View](./img/List_Edit_00.png)
 
 ## Inline Edit for Table View
 
-![Image of List View](img/Table_00.png)
+![Image of List View](./img/Table_00.png)
 
 ## Inline Edit for Form
 The pattern enables users to edit the form text directly on the same page instead of navigating them to another page for editing the text. This is useful when the user may want to make a single edit without the need to refresh the entire form to make it editable. It could help user to improve the operation efficiency and reduce mistakes.
 
-![Image of List View](img/Form_Edit.png)
+![Image of List View](./img/Form_Edit.png)
 
 ## Restrictions
 

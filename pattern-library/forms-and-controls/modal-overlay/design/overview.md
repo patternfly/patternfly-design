@@ -10,4 +10,4 @@ The Modal Overlay pattern provides a way to quickly load and display important i
 For specialized examples of the Modal Overlay, jump to the [Wizard](http://www.patternfly.org/pattern-library/communication/wizard/) or the [About Modal](http://www.patternfly.org/pattern-library/communication/about-modal/) patterns. For use cases that do not require a user's full attention, consider using the [Modeless Overlay](http://www.patternfly.org/pattern-library/forms-and-controls/modeless-overlay/) pattern. With the Modeless Overlay, the background is still accessible so users can interact with the rest of the page.
 
 ## Modal Overlay Example
-![Image of Overlay](img/Overlay-01@2x.png)
+![Image of Overlay](./img/Overlay-01@2x.png)

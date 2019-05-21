@@ -2,14 +2,14 @@
 
 Pagination should be located above and below the relevant content view whenever pagination is supported.
 
-![Pagination Callouts](img/pagination_callouts_2.png)
+![Pagination Callouts](./img/pagination_callouts_2.png)
 
 1. **Upper Pagination Control:** A pagination control is included in the toolbar above the list.
 2. **Pagniation Footer:** The pagination footer contains Items per Page and Pagination controls and is appended to the bottom of the view.
 
 ## Pagination Footer
 
-![Pagination Callouts](img/pagination_callouts.png)
+![Pagination Callouts](./img/pagination_callouts.png)
 
 1. **Items per Page:** This control displays the number of items on a page.
   * It includes an option to modify the number of items displayed. It is recommended that the default number be less than 25 in order to minimize scrolling.
@@ -26,14 +26,14 @@ Pagination should be located above and below the relevant content view whenever 
 
 
 ## Pagination - Content Below
-![Pagination Content Below](img/pagination_content_below.png)
+![Pagination Content Below](./img/pagination_content_below.png)
 
 1. **Content Below:** A sticky footer is not recommended for views with content *below* pagination.
 2. **Items per Page:** It is recommended that the default number of items displayed be less than 25 in order to minimize scrolling.
   * Allowing users to change the default number should be optional.
 
 ## Pagination - No Data
-![Pagination Select 7](img/pagination_no_data.png)
+![Pagination Select 7](./img/pagination_no_data.png)
 
 * **No Data:** Pagination is not displayed when there is no data to page.
 

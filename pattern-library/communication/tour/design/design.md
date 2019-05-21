@@ -3,7 +3,7 @@
 - Tours can include any number of steps, but the recommendation is to stay between 3-15 steps.
 - Every step displays a bubble with the step number, name, description of highlighted area, and button bar.
 
-![tour bubble](img/Tour-00.png)
+![tour bubble](./img/Tour-00.png)
 
 1. **Top Bar:** A light grey bar sits across the top of the tour bubble and includes the following items vertically aligned:  
   - **Step Number:** Denotes where the user currently is along the tour.
@@ -18,13 +18,13 @@
 ## Tour Example
 
 Provide a way for new users to start a tour of the UI:
-  ![template](img/Tour-01.png)
+  ![template](./img/Tour-01.png)
 
 Click Next to move on to the next step in the tour:
-  ![template](img/Tour-02.png)
+  ![template](./img/Tour-02.png)
 
 Click Back or Next to continue through the tour:
-  ![template](img/Tour-03.png)
+  ![template](./img/Tour-03.png)
 
 
 ## Additional Considerations
@@ -34,4 +34,4 @@ Click Back or Next to continue through the tour:
 - Step numbers are dynamic. In some cases, users may not have access to view all steps or all areas of the UI, so the numbers should update accordingly for each tour instance.
 - Add guided tours to the Help menu in the [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/) when available.
 
-  ![template](img/Navbar-1B.png)
+  ![template](./img/Navbar-1B.png)

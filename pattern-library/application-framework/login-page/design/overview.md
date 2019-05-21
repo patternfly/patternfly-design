@@ -18,7 +18,7 @@ Usage scenarios related to the login page include:
 ## Basic Login Page
 This is a general layout of a common login screen. A user can input the username and the password together to log in.
 
-![Image of basic login page](img/basic-login-screen.png)
+![Image of basic login page](./img/basic-login-screen.png)
 
 ## Social Login
 Social login will allow a user to sign in with their social networks or IdPs accounts.
@@ -36,4 +36,4 @@ Please refer to branding guidelines when using logos for social login page. The 
 - [Instagram brand guidelines](https://en.instagram-brand.com)
 
 
-![Image of social login](img/social-account.png)
+![Image of social login](./img/social-account.png)
