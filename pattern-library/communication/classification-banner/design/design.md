@@ -16,8 +16,8 @@ Classification banner is used to display classification level on the top and bot
 
     | Banner Color | Classification Level |
     | --- | --- |
-    | Green | Classified |
-    | Red | Unclassified |
+    | Green | Unclassified |
+    | Red | Classified |
     | Blue | Proprietary Level |
 
 
