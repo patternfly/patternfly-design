@@ -7,7 +7,7 @@ ___
 
 ## Typographic Styles
 
-The below style samples represent commonly-used typographic layouts. Check out more samples including `<dd>/<dl>` description lists, alignment classes, unstyled lists, and inline lists, here: [PatternFly Typography test page](https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/typography-2.html).
+The below style samples represent commonly-used typographic layouts. Check out more samples including `<dd>/<dl>` description lists, alignment classes, unstyled lists, and inline lists, here: [PatternFly Typography test page](http://patternfly.github.io/patternfly-3/tests/typography-2.html).
 
 
 # Application Heading h1

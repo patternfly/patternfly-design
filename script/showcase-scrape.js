@@ -170,7 +170,7 @@ const apfDiff$ = Rx.Observable.forkJoin(
 });
 
 const pfDiff$ = Rx.Observable.forkJoin(
-  getHtml('https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/index.html')
+  getHtml('http://patternfly.github.io/patternfly-3/tests/index.html')
     .map(html => parseShowcase(html).filter(url => ! url.hostname)),
   siteFrontMatter$
     .map(fm => fm.impl_jquery)
