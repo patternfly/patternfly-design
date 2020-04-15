@@ -4,6 +4,6 @@ layout: page-pattern
 overview: pattern-library/forms-and-controls/slider/design/overview.md
 design: pattern-library/forms-and-controls/slider/design/design.md
 code_html: code/forms-and-controls/slider/code.md
-impl_jquery: https://rawgit.com/patternfly/patternfly/master-dist/dist/tests/bootstrap-slider.html
-impl_react: https://rawgit.com/patternfly/patternfly-react/gh-pages/patternfly-3/index.html?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSlider&selectedStory=Slider
+impl_jquery: https://patternfly.github.io/patternfly-3/tests/bootstrap-slider.html
+impl_react: https://patternfly-react-pf3.surge.sh/?selectedKind=patternfly-react%2FForms%20and%20Controls%2FSlider&selectedStory=Slider
 ---
