@@ -1,5 +1,9 @@
-
-## Requesting new features, enhancements, or design changes to PatternFly 
+---
+name: Enhancement request
+about: Requesting new features, enhancements, or design changes to PatternFly
+labels: needs triage
+---
+## Requesting new features, enhancements, or design changes to PatternFly
 - Describe the use cases and requirements of the new feature or enhancement you are requesting.
 - Explain *why* this feature is needed and/or why these requirements cannot be met using existing components.
 - If this is for specific applications, list them here along with any dates that you need this for.
